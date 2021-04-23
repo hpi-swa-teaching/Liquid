@@ -1,0 +1,5 @@
+OrderedDictionary {
+	'BaselineOfLiquid.package' : #SquotCypressCodeSerializer,
+	'Liquid-Tests.package' : #SquotCypressCodeSerializer,
+	'Liquid-Core.package' : #SquotCypressCodeSerializer
+}

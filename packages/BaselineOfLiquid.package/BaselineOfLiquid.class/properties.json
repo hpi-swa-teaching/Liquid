@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfLiquid",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfLiquid",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
