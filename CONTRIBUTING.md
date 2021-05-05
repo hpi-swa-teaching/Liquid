@@ -15,7 +15,7 @@ Every meeting is accompanied by an issue containing agenda and potential decisio
 
 ### Pre-Prototype: Throw-Away Code for Problem Exploration
 
-We aim to get a working prototype out as fast as possible (aiming for May 12th).
+We aim to get a working prototype out as fast as possible (aiming for May 19th).
 Its goal is to discover unexpected difficulties in our problem domain as fast as possible and get a grasp of how an architecture could look like.
 
 Code Quality is not a big concern until then, so we'll neglect friction-building processes like a PR-flow and formal Code Reviews and go for a trunk-based approach.
