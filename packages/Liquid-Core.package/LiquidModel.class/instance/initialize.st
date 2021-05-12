@@ -1,7 +1,6 @@
-as yet unclassified
+initialize
 initialize
 
 super initialize.
-self answerList: OrderedCollection new.
-self question: String new.
-self question: 'eine Frage'.
+self answerList: OrderedCollection new;
+	questionList: OrderedCollection new.

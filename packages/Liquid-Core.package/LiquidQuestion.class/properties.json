@@ -7,13 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"answerList",
-		"questionList",
-		"currentQuestionInput",
-		"currentAnswerInput",
-		"selectedItemQuestion",
-		"selectedItemAnswer" ],
-	"name" : "LiquidModel",
+		"questionTitle",
+		"answerType" ],
+	"name" : "LiquidQuestion",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }
