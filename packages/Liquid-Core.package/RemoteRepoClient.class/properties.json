@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"items" ],
-	"name" : "RPCRepo",
+		"url" ],
+	"name" : "RemoteRepoClient",
 	"pools" : [
 		 ],
-	"super" : "WebServer",
+	"super" : "ObjectRepo",
 	"type" : "normal" }

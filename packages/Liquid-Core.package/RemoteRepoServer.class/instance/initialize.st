@@ -2,6 +2,6 @@ as yet unclassified
 initialize
 	super initialize.
 	
-	items := Dictionary new.
+	objectRepo := LocalObjectRepo new.
 	
 	self addService: '/' action: [:req | self onRequest: req] methods: #('POST' 'PUT' 'GET')
