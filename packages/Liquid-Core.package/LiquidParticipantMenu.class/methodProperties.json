@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"open" : "NM 5/13/2021 14:33" },
+	"instance" : {
+		"answerList" : "NM 5/13/2021 14:43",
+		"answerList:" : "NM 5/13/2021 14:43",
+		"buildAnswerListWith:" : "NM 5/13/2021 14:39",
+		"buildMockUpPoll" : "NM 5/13/2021 15:22",
+		"buildQuestionListWith:" : "NM 5/13/2021 14:39",
+		"buildSaveAnswerButtonWith:" : "NM 5/13/2021 14:40",
+		"buildSelectedAnswerListWith:" : "NM 5/13/2021 14:41",
+		"buildWith:" : "NM 5/13/2021 14:38",
+		"initialize" : "NM 5/13/2021 15:18",
+		"mockUpPoll" : "NM 5/13/2021 15:09",
+		"mockUpPoll:" : "NM 5/13/2021 15:09",
+		"questionList" : "NM 5/13/2021 14:43",
+		"questionList:" : "NM 5/13/2021 14:43",
+		"saveSelectedAnswer" : "NM 5/13/2021 15:30",
+		"selectedAnswerList" : "NM 5/13/2021 14:43",
+		"selectedAnswerList:" : "NM 5/13/2021 14:43",
+		"selectedItemAnswer" : "NM 5/13/2021 14:43",
+		"selectedItemAnswer:" : "NM 5/13/2021 15:19",
+		"selectedItemQuestion" : "NM 5/13/2021 14:43",
+		"selectedItemQuestion:" : "NM 5/13/2021 15:22" } }

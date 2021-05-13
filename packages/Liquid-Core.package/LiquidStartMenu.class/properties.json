@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"questionList" ],
-	"name" : "LiquidSurvey",
+		 ],
+	"name" : "LiquidStartMenu",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LiquidModel",
 	"type" : "normal" }

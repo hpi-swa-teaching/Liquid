@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"open" : "NM 5/13/2021 14:13" },
+	"instance" : {
+		"buildEnterHostButtonWith:" : "NM 5/13/2021 14:16",
+		"buildEnterParticipantButtonWith:" : "NM 5/13/2021 14:41",
+		"buildWith:" : "NM 5/13/2021 15:17",
+		"enterHostMode" : "NM 5/13/2021 14:26",
+		"enterParticipantMode" : "NM 5/13/2021 14:40" } }

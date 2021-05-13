@@ -1,13 +1,14 @@
 input fields
-buildQuestionInputWith: aBuilder
+buildPollTitleInputWith: aBuilder
 
 ^ aBuilder pluggableTextSpec new
 	model: self;
-	editText: #currentQuestionInput: ;
+	editText: #currentPollTitleInput: ;
+	indicateUnacceptedChanges: false;
 	frame: (LayoutFrame new
 				topFraction: 0;
 				bottomFraction: 0.2;
-				leftFraction: 0;
-				rightFraction: 0.4;
+				leftFraction: 0.4;
+				rightFraction: 0.6;
 				yourself);
 	yourself.

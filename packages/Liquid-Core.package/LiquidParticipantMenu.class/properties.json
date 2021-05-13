@@ -6,12 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"questionList",
 		"answerList",
 		"selectedAnswerList",
-		"questionTitle",
-		"answerType" ],
-	"name" : "LiquidQuestion",
+		"selectedItemQuestion",
+		"selectedItemAnswer",
+		"mockUpPoll" ],
+	"name" : "LiquidParticipantMenu",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LiquidModel",
 	"type" : "normal" }
