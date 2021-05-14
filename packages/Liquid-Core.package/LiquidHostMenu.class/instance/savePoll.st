@@ -6,7 +6,7 @@ savePoll
 	newPoll := LiquidSurvey new.
 	newPoll title: self currentPollTitleInput.
 	newPoll questionList: self questionList.
-	self availablePolls: newPoll.
-	ToolBuilder open: LiquidStartMenu new. "created poll is not saved"
+	newPoll startSurveyWithId: self currentPollTitleInput asString.
+	ToolBuilder open: LiquidStartMenu new.
 	self dependents do: [:curr | curr delete].
 ]
