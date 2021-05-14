@@ -1,13 +1,13 @@
 {
 	"category" : "Liquid-Core",
 	"classinstvars" : [
-		"current" ],
+		"drafts" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ObjectRepo",
+	"name" : "DraftStore",
 	"pools" : [
 		 ],
 	"super" : "Object",
