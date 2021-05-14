@@ -1,4 +1,4 @@
-initialize
+buttons
 savePoll
 |newPoll|
 
