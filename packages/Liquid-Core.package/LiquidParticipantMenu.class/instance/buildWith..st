@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 buildWith: aBuilder 
 
 ^ aBuilder build: (aBuilder pluggableWindowSpec new

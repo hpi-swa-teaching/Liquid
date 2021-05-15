@@ -1,4 +1,4 @@
-as yet unclassified
+buttons
 buildEnterParticipantButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new

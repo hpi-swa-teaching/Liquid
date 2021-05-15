@@ -1,12 +1,19 @@
-as yet unclassified
+modes
 enterParticipantMode
 |SurveyId menu|
 
-SurveyId := FillInTheBlank request: 'What''s your SurveyID?'.
+SurveyId := FillInTheBlank request: 'What''s your Survey ID?'.
 SurveyId ifEmpty: [^ self].
-"ToDo: ^ self if SurveyId does not exist"
+
 menu := LiquidParticipantMenu new.
-ToolBuilder open: menu.
 (SurveyId = 'mockup') ifFalse: [
-	menu importSurveyWithId: SurveyId.].
-self dependents do: [:curr | curr delete].
+	(menu importSurveyWithId: SurveyId) 
+	ifNotNil: [
+		ToolBuilder open: menu.
+		self dependents do: [:curr | curr delete].
+		]
+	ifNil: [
+		self showDialogWithTitle: 'Invalid ID' andMessage: 'Please enter a valid Survey ID'.
+		self enterParticipantMode.
+		]
+	].

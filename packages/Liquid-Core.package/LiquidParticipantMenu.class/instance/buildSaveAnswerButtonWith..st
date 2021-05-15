@@ -1,4 +1,4 @@
-as yet unclassified
+buttons
 buildSaveAnswerButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new

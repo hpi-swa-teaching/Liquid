@@ -9,7 +9,6 @@
 		"answerList",
 		"questionList",
 		"currentQuestionInput",
-		"currentPollTitleInput",
 		"currentAnswerInput",
 		"selectedItemQuestion",
 		"selectedItemAnswer",

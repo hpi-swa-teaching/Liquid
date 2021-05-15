@@ -1,7 +1,9 @@
-as yet unclassified
+initialize
 importSurveyWithId: aString
-
-	self mockUpPoll: (ObjectRepo current at: aString).
+|importedPoll|
+	importedPoll := ObjectRepo current at: aString.
+	importedPoll ifNil: [^ nil].
+	self mockUpPoll: importedPoll.
 	self questionList: self mockUpPoll questionList.
 	self changed: #mockUpPoll.
 	self changed: #questionList.

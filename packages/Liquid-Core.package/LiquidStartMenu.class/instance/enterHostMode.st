@@ -1,4 +1,4 @@
-as yet unclassified
+modes
 enterHostMode
 
 ToolBuilder open: LiquidHostMenu new.
