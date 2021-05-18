@@ -12,7 +12,8 @@
 		"currentAnswerInput",
 		"selectedItemQuestion",
 		"selectedItemAnswer",
-		"answerInputField" ],
+		"answerInputField",
+		"downloadedPoll" ],
 	"name" : "LiquidHostMenu",
 	"pools" : [
 		 ],
