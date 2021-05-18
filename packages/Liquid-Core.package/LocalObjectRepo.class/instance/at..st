@@ -1,3 +1,3 @@
 as yet unclassified
 at: key
-	^ items at: key ifAbsent: nil
+	^ STON fromString: (STON toString: (items at: key ifAbsent: nil))
