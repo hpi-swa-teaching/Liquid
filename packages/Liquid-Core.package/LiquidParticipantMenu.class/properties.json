@@ -7,11 +7,12 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"questionList",
-		"answerList",
-		"selectedAnswerList",
+		"votedChoiceList",
 		"selectedItemQuestion",
-		"selectedItemAnswer",
-		"mockUpPoll" ],
+		"selectedItemChoice",
+		"mockUpPoll",
+		"choiceList",
+		"pollAnswer" ],
 	"name" : "LiquidParticipantMenu",
 	"pools" : [
 		 ],

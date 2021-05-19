@@ -1,4 +1,0 @@
-accessing
-answerList
-
-	^ answerList

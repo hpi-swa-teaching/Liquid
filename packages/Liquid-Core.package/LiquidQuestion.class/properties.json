@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"answerList",
-		"selectedAnswerList",
-		"questionTitle",
-		"answerType" ],
+		"id",
+		"title" ],
 	"name" : "LiquidQuestion",
 	"pools" : [
 		 ],

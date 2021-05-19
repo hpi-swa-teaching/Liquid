@@ -2,17 +2,17 @@ initialize
 buildMockUpPoll
 |question|
 
-self mockUpPoll: LiquidSurvey new.
+self mockUpPoll: LiquidPollDraft new.
 self mockUpPoll questionList: OrderedCollection new.
 
-question := LiquidQuestion new.
-question questionTitle: 'Do you like Liquid?'.
-question answerList add: 'Yes'.
-question answerList add: 'No'.
+question := LiquidSingleChoiceQuestion new.
+question title: 'Do you like Liquid?'.
+question choiceList add: 'Yes'.
+question choiceList add: 'No'.
 self mockUpPoll questionList addLast: question.
 
-question := LiquidQuestion new.
-question questionTitle: 'Do you like SW(A)T?'.
-question answerList add: 'Sure'.
-question answerList add: 'Of course!'.
+question := LiquidSingleChoiceQuestion new.
+question title: 'Do you like SW(A)T?'.
+question choiceList add: 'Sure'.
+question choiceList add: 'Of course!'.
 self mockUpPoll questionList addLast: question.

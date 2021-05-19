@@ -6,8 +6,8 @@ buildWith: aBuilder
 	label: 'Liquid - Participant';
 	extent: 500@400;
 	children: { self buildQuestionListWith: aBuilder.
-					self buildAnswerListWith: aBuilder.
-					self buildSelectedAnswerListWith: aBuilder.
-					self buildSaveAnswerButtonWith: aBuilder.
+					self buildChoiceListWith: aBuilder.
+					self buildVotedChoiceListWith: aBuilder.
+					self buildVoteChoiceButtonWith: aBuilder.
 					};
 	yourself)

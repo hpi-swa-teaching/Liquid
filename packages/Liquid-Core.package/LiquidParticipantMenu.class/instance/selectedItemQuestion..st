@@ -1,11 +1,20 @@
 accessing
-selectedItemQuestion: aQuestionName
+selectedItemQuestion: aQuestion
 
-	selectedItemQuestion := aQuestionName.
+	| answer |
+	
+	self votedChoiceList: OrderedCollection new.
+	"ifAbsent to surpress expected KeyNotFoundError"
+	answer := (pollAnswer answers at: (aQuestion id) ifAbsent: []).
+
+	answer ifNotNil: [
+		self votedChoiceList add: answer votedChoice.
+	].
+
+	selectedItemQuestion := aQuestion.
 	self changed: #selectedItemQuestion.
-	(aQuestionName notNil) ifTrue: [
-			self answerList: (self questionList at: (self dependents at: 2) getCurrentSelectionIndex) answerList.
-			self changed: #answerList.
-			self selectedAnswerList: (self questionList at: (self dependents at: 2) getCurrentSelectionIndex) selectedAnswerList.
-			self changed: #selectedAnswerList.
+	(aQuestion notNil) ifTrue: [
+			self choiceList: aQuestion choiceList.
+			self changed: #choiceList.
+			self changed: #votedChoiceList.
 	]

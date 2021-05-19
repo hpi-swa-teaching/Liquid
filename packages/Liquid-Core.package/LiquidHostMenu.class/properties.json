@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"answerList",
+		"choiceList",
 		"questionList",
 		"currentQuestionInput",
-		"currentAnswerInput",
+		"currentChoiceInput",
 		"selectedItemQuestion",
-		"selectedItemAnswer",
-		"answerInputField",
+		"selectedItemChoice",
+		"choiceInputField",
 		"downloadedPoll" ],
 	"name" : "LiquidHostMenu",
 	"pools" : [

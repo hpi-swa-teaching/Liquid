@@ -10,7 +10,7 @@ menu := LiquidParticipantMenu new.
 	ToolBuilder open: menu.
 	self dependents do: [:curr | curr delete].
 ] ifFalse: [
-	(menu importSurveyWithId: SurveyId) 
+	(menu importPollDraftWithId: SurveyId) 
 	ifNotNil: [
 		ToolBuilder open: menu.
 		self dependents do: [:curr | curr delete].

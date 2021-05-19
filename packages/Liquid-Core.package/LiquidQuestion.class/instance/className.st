@@ -1,3 +1,3 @@
 accessing
 className
-	^ self questionTitle
+	^ self title

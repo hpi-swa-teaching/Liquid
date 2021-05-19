@@ -16,6 +16,6 @@ pollNameInput := FillInTheBlank request: 'Enter Poll ID'.
 			self downloadedPoll: (ObjectRepo current at: pollNameInput);
 			questionList: self downloadedPoll questionList. 
 			self changed: #questionList.
-			self answerList: OrderedCollection new.
-			self changed: #answerList.]
+			self choiceList: OrderedCollection new.
+			self changed: #choiceList.]
 ].

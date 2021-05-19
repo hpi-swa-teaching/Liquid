@@ -13,7 +13,7 @@ pollNameInput := FillInTheBlank request: 'Name your Poll'.
 		UserDialogBoxMorph inform: 'This poll name is already taken. Choose another name' title: 'Naming error'.
 		self savePoll. ] 
 		ifTrue: [ 
-			newPoll := LiquidSurvey new.
+			newPoll := LiquidPollDraft new.
 			newPoll title: pollNameInput.
 			newPoll questionList: self questionList.
 			newPoll startSurveyWithId: pollNameInput.

@@ -2,5 +2,5 @@ initialize
 initialize
 
 super initialize.
-self answerList: OrderedCollection new;
+self choiceList: OrderedCollection new;
 	questionList: OrderedCollection new.

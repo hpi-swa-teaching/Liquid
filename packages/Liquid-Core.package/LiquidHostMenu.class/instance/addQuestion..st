@@ -1,8 +1,8 @@
 input fields
 addQuestion: aString
 |newQ|
-	newQ := LiquidQuestion new.
-	newQ questionTitle: aString.
+	newQ := LiquidSingleChoiceQuestion new.
+	newQ title: aString.
 	self questionList addLast: newQ.	
 	self changed: #questionList.
 	

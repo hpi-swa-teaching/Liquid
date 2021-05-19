@@ -1,8 +1,10 @@
 initialize
 initialize
 
-self answerList: OrderedCollection new;
+self choiceList: OrderedCollection new;
 	questionList: OrderedCollection new;
-	selectedAnswerList: OrderedCollection new.
+	votedChoiceList: OrderedCollection new.
 	self buildMockUpPoll.
+	self pollAnswer: LiquidPollAnswer new.
+	self pollAnswer pollId: self mockUpPoll id.
 	self questionList: self mockUpPoll questionList.
