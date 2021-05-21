@@ -1,7 +1,7 @@
 initialize
 importPollDraftWithId: aString
 |importedPoll|
-	importedPoll := ObjectRepo current at: aString.
+	importedPoll := PollRepo default at: aString.
 	importedPoll ifNil: [^ nil].
 	self mockUpPoll: importedPoll.
 	self questionList: self mockUpPoll questionList.

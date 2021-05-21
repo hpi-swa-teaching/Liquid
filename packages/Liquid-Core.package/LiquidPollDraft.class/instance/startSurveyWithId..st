@@ -1,4 +1,4 @@
 accessing
 startSurveyWithId: aString
-	ObjectRepo current at: aString put: self.
+	PollRepo default at: aString put: self.
 	

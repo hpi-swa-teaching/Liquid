@@ -1,13 +1,13 @@
 {
 	"category" : "Liquid-Core",
 	"classinstvars" : [
-		 ],
+		"default" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ObjectRepo",
+	"name" : "PollRepo",
 	"pools" : [
 		 ],
 	"super" : "Object",
