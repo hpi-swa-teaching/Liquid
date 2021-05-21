@@ -1,3 +1,3 @@
 as yet unclassified
 at: key
-	self subclassResponsibility.
+	^ self at: key ifAbsent: nil.
