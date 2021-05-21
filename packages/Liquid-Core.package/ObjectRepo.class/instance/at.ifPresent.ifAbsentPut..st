@@ -1,3 +1,3 @@
 as yet unclassified
-at: key put: object
+at: key ifPresent: do ifAbsentPut: object
 	self subclassResponsibility.

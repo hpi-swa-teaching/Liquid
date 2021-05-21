@@ -2,5 +2,10 @@ as yet unclassified
 httpPut: req 
 	self objectRepo
 		at: (req fields at: 'id')
-		put: (STON fromString: req content).
+		ifPresent: [^ req
+				sendResponseCode: 409
+				content: ''
+				type: 'application/ston'
+				close: true]
+		ifAbsentPut: (STON fromString: req content).
 	req send200Response: 'OK'
