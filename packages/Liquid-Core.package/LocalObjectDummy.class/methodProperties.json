@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"emulateNetwork" : "SK 5/21/2021 09:14",
+		"on:withId:" : "SK 5/12/2021 17:44" },
+	"instance" : {
+		"doesNotUnderstand:" : "SK 5/21/2021 09:14",
+		"initializeOn:" : "SK 5/21/2021 09:09" } }
