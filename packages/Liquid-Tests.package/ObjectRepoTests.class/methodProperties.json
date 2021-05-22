@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testCallbacks" : "SK 5/22/2021 15:12",
+		"localhostUrl" : "SK 5/22/2021 17:15",
+		"port" : "SK 5/22/2021 17:14",
+		"testCallbacks" : "SK 5/22/2021 17:36",
 		"testMessagePassing" : "SK 5/21/2021 15:04" } }

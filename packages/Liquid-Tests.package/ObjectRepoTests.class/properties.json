@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"port" ],
 	"name" : "ObjectRepoTests",
 	"pools" : [
 		 ],
