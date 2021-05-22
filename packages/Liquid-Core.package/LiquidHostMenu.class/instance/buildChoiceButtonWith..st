@@ -1,4 +1,4 @@
-buttons
+initialize
 buildChoiceButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new

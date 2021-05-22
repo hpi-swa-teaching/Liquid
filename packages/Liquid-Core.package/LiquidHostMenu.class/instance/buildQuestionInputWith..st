@@ -1,4 +1,4 @@
-input fields
+initialize
 buildQuestionInputWith: aBuilder
 
 ^ aBuilder pluggableTextSpec new

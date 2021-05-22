@@ -1,4 +1,4 @@
-buttons
+initialize
 buildSavePollButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new

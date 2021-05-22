@@ -1,4 +1,4 @@
-lists
+initialize
 buildChoiceListWith: aBuilder
 
 ^ aBuilder pluggableListSpec new

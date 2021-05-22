@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self survey: LiquidSurvey new
+	self survey: LiquidPollDraft new

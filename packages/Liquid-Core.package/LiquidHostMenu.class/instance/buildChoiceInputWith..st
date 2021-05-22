@@ -1,4 +1,4 @@
-input fields
+initialize
 buildChoiceInputWith: aBuilder
 
 ^ (aBuilder pluggableTextSpec new

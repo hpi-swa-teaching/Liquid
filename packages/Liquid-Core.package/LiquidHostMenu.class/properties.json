@@ -12,8 +12,9 @@
 		"currentChoiceInput",
 		"selectedItemQuestion",
 		"selectedItemChoice",
+		"downloadedPoll",
 		"choiceInputField",
-		"downloadedPoll" ],
+		"addQuestionButton" ],
 	"name" : "LiquidHostMenu",
 	"pools" : [
 		 ],

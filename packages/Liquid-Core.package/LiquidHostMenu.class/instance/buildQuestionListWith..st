@@ -1,4 +1,4 @@
-lists
+initialize
 buildQuestionListWith: aBuilder
 
 ^ aBuilder pluggableListSpec new
