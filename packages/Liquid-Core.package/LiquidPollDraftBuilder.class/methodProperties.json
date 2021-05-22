@@ -2,7 +2,13 @@
 	"class" : {
 		"openOn:" : "SK 5/22/2021 12:39" },
 	"instance" : {
-		"buildWith:" : "SK 5/22/2021 13:42",
+		"addQuestionWith:" : "SK 5/22/2021 14:33",
+		"buildAddQuestionButtonWith:" : "SK 5/22/2021 14:19",
+		"buildQuestion:at:with:" : "SK 5/22/2021 14:32",
+		"buildQuestionListWith:" : "SK 5/22/2021 14:27",
+		"buildRunPollButtonWith:" : "SK 5/22/2021 14:18",
+		"buildTitleInputWith:" : "SK 5/22/2021 14:15",
+		"buildWith:" : "SK 5/22/2021 14:18",
 		"pollDraft" : "SK 5/22/2021 12:35",
 		"pollDraft:" : "SK 5/22/2021 12:35",
 		"title" : "SK 5/22/2021 12:36",
