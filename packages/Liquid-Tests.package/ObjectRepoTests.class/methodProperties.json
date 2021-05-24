@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"localhostUrl" : "SK 5/22/2021 17:15",
-		"port" : "SK 5/22/2021 17:14",
-		"testCallbacks" : "SK 5/22/2021 17:36",
-		"testMessagePassing" : "SK 5/21/2021 15:04" } }
+		"testCallbacks" : "SK 5/24/2021 11:45",
+		"testMessagePassing" : "SK 5/24/2021 11:35",
+		"testWithServer:" : "SK 5/24/2021 11:34" } }
