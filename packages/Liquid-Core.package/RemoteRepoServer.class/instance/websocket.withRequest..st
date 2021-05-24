@@ -8,10 +8,9 @@ websocket: sws withRequest: req
 	args := STON
 				fromString: (req fields at: 'args').
 	isDead := false.
-	sws onClose: [ isDead := true ].
+	sws onClose: [ :reason | isDead := true ].
 	args
 		replaceAll: #sse
 		with: [:value | isDead ifFalse: [ sws send: (STON toString: value)] ].
 	response := item perform: message asSymbol withArguments: args.
 	sws run.
-	"sws send: (STON toString: response)"
