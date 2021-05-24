@@ -1,6 +1,6 @@
 as yet unclassified
 buildChoice: aChoice at: anIndex with: aBuilder
-	^ ((LiquidChoiceBuilder new choice: aChoice;
+	^ aBuilder build: ((LiquidChoiceBuilder new choice: aChoice;
 				 buildWith: aBuilder)
 				frame: (LayoutFrame
 						fractions: (0 @ 0 extent: 1 @ 0)
