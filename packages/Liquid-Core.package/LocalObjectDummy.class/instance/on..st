@@ -1,3 +1,3 @@
 as yet unclassified
-initializeWith: anObject
+on: anObject
 	object := anObject
