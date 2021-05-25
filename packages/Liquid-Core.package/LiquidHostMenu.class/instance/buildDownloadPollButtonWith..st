@@ -3,7 +3,7 @@ buildDownloadPollButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new
 	model: self;
-	label: 'Download Poll';
+	label: 'Show resultsl';
 	action: #downloadPoll;
 	frame: (LayoutFrame new
 				topFraction: 0.10;

@@ -11,7 +11,7 @@ pollNameInput := FillInTheBlank request: 'Enter Poll ID'.
 		"Beware that if the ObjectRepo is remote there is currently no way to check if a poll already exists, since if it does not, the RemoteObjectDummy throws a network-error instead of sending a response. Therefore, we always overwrite existing polls on the server."
 		ifTrue: [
 		UserDialogBoxMorph inform: 'This poll name does not exist.' title: 'Poll not found'.
-		self savePoll. ] 
+		self startPoll. ] 
 		ifFalse: [
 			self downloadedPoll: (PollRepo default at: pollNameInput);
 			questionList: self downloadedPoll questionList. 

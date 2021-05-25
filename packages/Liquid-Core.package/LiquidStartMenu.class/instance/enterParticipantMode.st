@@ -1,22 +1,22 @@
 modes
 enterParticipantMode
-|SurveyId menu|
+|pollId menu|
 
-SurveyId := FillInTheBlank request: 'What''s your Survey ID?' initialAnswer: 'mockup'.
-SurveyId ifEmpty: [^ self].
+pollId := FillInTheBlank request: 'What''s your Poll ID?' initialAnswer: 'mockup'.
+pollId ifEmpty: [^ self].
 
 menu := LiquidParticipantMenu new.
-(SurveyId = 'mockup') ifTrue: [
+(pollId = 'mockup') ifTrue: [
 	ToolBuilder open: menu.
 	self dependents do: [:curr | curr delete].
 ] ifFalse: [
-	(menu importPollDraftWithId: SurveyId) 
+	(menu importPollWithId: pollId) 
 	ifNotNil: [
 		ToolBuilder open: menu.
 		self dependents do: [:curr | curr delete].
 		]
 	ifNil: [
-		UserDialogBoxMorph inform: 'Please enter a valid Survey ID' title: 'Invalid ID'.
+		UserDialogBoxMorph inform: 'Please enter a valid Poll ID' title: 'Invalid ID'.
 		self enterParticipantMode.
 		]
 	]
