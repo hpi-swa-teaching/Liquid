@@ -19,6 +19,7 @@ pollNameInput := FillInTheBlank request: 'Name your Poll'.
 			newPoll := LiquidPoll newWithPollDraft: newPollDraft.
 			newPoll id: pollNameInput.
 			newPoll startWithId: pollNameInput.
+			self currentPoll: (ObjectRepo default at: newPoll id).
 			ToolBuilder open: LiquidStartMenu new.
 			self dependents do: [:curr | curr delete] ]
 ].

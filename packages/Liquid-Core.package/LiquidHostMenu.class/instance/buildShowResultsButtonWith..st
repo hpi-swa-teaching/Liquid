@@ -1,10 +1,10 @@
 buttons
-buildDownloadPollButtonWith: aBuilder
+buildShowResultsButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new
 	model: self;
 	label: 'Show resultsl';
-	action: #downloadPoll;
+	action: #showResults;
 	frame: (LayoutFrame new
 				topFraction: 0.10;
 				bottomFraction: 0.20;
