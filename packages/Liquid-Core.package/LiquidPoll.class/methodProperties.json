@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newWithPollDraft:" : "JS 5/25/2021 15:36" },
+	"instance" : {
+		"addAnswer:" : "JS 5/25/2021 16:31",
+		"answerSets" : "JS 5/25/2021 15:32",
+		"id" : "JS 5/25/2021 15:27",
+		"id:" : "JS 5/25/2021 15:27",
+		"initialize" : "JS 5/25/2021 16:52",
+		"pollDraft" : "JS 5/25/2021 15:33",
+		"pollDraft:" : "JS 5/25/2021 15:33",
+		"startTime" : "JS 5/25/2021 15:55",
+		"startTime:" : "JS 5/25/2021 15:56",
+		"startWithId:" : "JS 5/25/2021 15:56" } }

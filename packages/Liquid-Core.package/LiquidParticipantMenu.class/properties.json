@@ -10,9 +10,9 @@
 		"votedChoiceList",
 		"selectedItemQuestion",
 		"selectedItemChoice",
-		"mockUpPoll",
 		"choiceList",
-		"pollAnswer" ],
+		"pollAnswer",
+		"poll" ],
 	"name" : "LiquidParticipantMenu",
 	"pools" : [
 		 ],
