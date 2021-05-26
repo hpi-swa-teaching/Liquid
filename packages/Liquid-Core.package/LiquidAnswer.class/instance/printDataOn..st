@@ -1,3 +1,3 @@
 accessing
-printOn: aStream
+printDataOn: aStream
 	self subclassResponsibility.
