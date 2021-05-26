@@ -1,5 +1,5 @@
 lists
-buildVotedChoiceListWith: aBuilder
+buildResultTextBoxWith: aBuilder
 
 ^ aBuilder pluggableListSpec new
 	model: self;
