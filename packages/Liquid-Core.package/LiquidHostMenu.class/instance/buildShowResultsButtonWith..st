@@ -3,7 +3,7 @@ buildShowResultsButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new
 	model: self;
-	label: 'Show resultsl';
+	label: 'Show results';
 	action: #showResults;
 	frame: (LayoutFrame new
 				topFraction: 0.10;
