@@ -7,7 +7,7 @@ buildWith: aBuilder
 	extent: 500@400;
 	children: { self buildQuestionListWith: aBuilder.
 					self buildChoiceListWith: aBuilder.
-					self buildResultTextBoxWith: aBuilder.
+					self buildVotedChoiceListWith: aBuilder.
 					self buildVoteChoiceButtonWith: aBuilder.
 					self buildSendAnswerButtonWith: aBuilder.
 					};

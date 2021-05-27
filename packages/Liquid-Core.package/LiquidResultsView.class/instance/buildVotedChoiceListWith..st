@@ -1,5 +1,5 @@
 as yet unclassified
-buildResultTextBoxWith: aBuilder
+buildVotedChoiceListWith: aBuilder
 
 ^ aBuilder pluggableTextSpec new
 	model: self;

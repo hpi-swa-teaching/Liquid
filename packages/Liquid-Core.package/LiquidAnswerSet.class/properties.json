@@ -9,7 +9,7 @@
 		"id",
 		"pollId",
 		"answers" ],
-	"name" : "LiquidPollAnswer",
+	"name" : "LiquidAnswerSet",
 	"pools" : [
 		 ],
 	"super" : "Object",
