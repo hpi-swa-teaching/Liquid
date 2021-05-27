@@ -9,7 +9,8 @@
 		"pollDraft",
 		"id",
 		"startTime",
-		"answerSets" ],
+		"answerSets",
+		"open" ],
 	"name" : "LiquidPoll",
 	"pools" : [
 		 ],

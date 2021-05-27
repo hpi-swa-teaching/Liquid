@@ -2,11 +2,13 @@
 	"class" : {
 		"newWithPollDraft:" : "JS 5/25/2021 15:36" },
 	"instance" : {
-		"addAnswer:" : "JS 5/25/2021 16:31",
+		"addAnswer:" : "RS 5/27/2021 15:29",
 		"answerSets" : "JS 5/25/2021 15:32",
 		"id" : "JS 5/25/2021 15:27",
 		"id:" : "JS 5/25/2021 15:27",
-		"initialize" : "JS 5/25/2021 16:52",
+		"initialize" : "RS 5/27/2021 15:53",
+		"open" : "RS 5/27/2021 15:07",
+		"open:" : "RS 5/27/2021 15:07",
 		"pollDraft" : "JS 5/25/2021 15:33",
 		"pollDraft:" : "JS 5/25/2021 15:33",
 		"startTime" : "JS 5/25/2021 15:55",
