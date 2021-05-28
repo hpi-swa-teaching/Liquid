@@ -1,5 +1,5 @@
 modes
 enterHostMode
 
-ToolBuilder open: LiquidHostMenu new.
-self dependents do: [:curr | curr delete].
+	ToolBuilder open: LiquidHostMenu new.
+	self dependents do: [:curr | curr delete].
