@@ -1,6 +1,6 @@
 accessing
-selectedQuestion: anObject
+selectedQuestion: aQuestion
 
-	selectedQuestion := anObject.
+	selectedQuestion := aQuestion.
 	selectListener value: selectedQuestion.
 	self changed: #selectedQuestion.

@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"question",
+		"answer",
+		"selectedChoice" ],
 	"name" : "LiquidAnswerPanel",
 	"pools" : [
 		 ],

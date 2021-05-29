@@ -1,0 +1,10 @@
+accessing
+buildChoiceListWith: aBuilder
+
+^ aBuilder pluggableListSpec new
+	model: self;
+	list: #choiceList;
+	getSelected: #selectedChoice;
+	setSelected: #selectedChoice:;
+	frame: (0.6@0 corner: 1@0.5);
+	yourself.
