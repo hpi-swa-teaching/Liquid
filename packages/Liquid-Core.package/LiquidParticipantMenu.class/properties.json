@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"questionList",
+		"selectQuestionPanel",
 		"votedChoiceList",
 		"selectedItemQuestion",
 		"selectedItemChoice",

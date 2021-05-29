@@ -2,7 +2,7 @@ accessing
 selectedItemQuestion: aQuestion
 
 	| answer |
-	
+	aQuestion ifNil: [^ self].
 	self votedChoiceList: OrderedCollection new.
 	"ifAbsent to surpress expected KeyNotFoundError"
 	answer := (pollAnswer answers at: (aQuestion id) ifAbsent: []).

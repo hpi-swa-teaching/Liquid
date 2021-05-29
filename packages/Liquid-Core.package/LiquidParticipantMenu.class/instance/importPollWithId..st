@@ -7,4 +7,3 @@ importPollWithId: aString
 	self pollAnswer: LiquidAnswerSet new.
 	self pollAnswer pollId: self poll id.
 	self changed: #poll.
-	self changed: #questionList.
