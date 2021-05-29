@@ -1,6 +1,5 @@
 as yet unclassified
 printDataOn: aStream 
+	self votedChoice ifNil: [^ self].
 	aStream
-		nextPutAll: (self votedChoice
-				ifNil: ['']
-				ifNotNil: [self votedChoice])
+		nextPutAll: self votedChoice.
