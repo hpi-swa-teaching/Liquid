@@ -6,5 +6,5 @@ buildChoiceListWith: aBuilder
 	list: #choiceList;
 	getSelected: #selectedChoice;
 	setSelected: #selectedChoice:;
-	frame: (0.6@0 corner: 1@0.5);
+	frame: (0@0 corner: 1@0.5);
 	yourself.

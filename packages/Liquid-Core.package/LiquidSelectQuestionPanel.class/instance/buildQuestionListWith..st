@@ -6,5 +6,5 @@ buildQuestionListWith: aBuilder
 	list: #questionList;
 	getSelected: #selectedQuestion;
 	setSelected: #selectedQuestion:;
-	frame: (0@0 corner: 0.4@1);
+	frame: (0@0 corner: 1@1);
 	yourself.
