@@ -1,3 +1,3 @@
 accessing
-open: anObject
-	open := anObject
+open: aBolean
+	open := aBolean
