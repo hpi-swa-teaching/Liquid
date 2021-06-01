@@ -14,4 +14,4 @@ printDataOn: aStream withDelimiter: aDelimiter
 				printDataOn: aStream
 				withOrder: orderedIds
 				withDelimiter: aDelimiter.
-			aStream nextPut: Character linefeed]
+			aStream nextPut: Character cr]
