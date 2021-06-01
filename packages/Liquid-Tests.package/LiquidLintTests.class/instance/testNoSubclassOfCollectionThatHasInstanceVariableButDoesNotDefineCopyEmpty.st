@@ -1,0 +1,4 @@
+as yet unclassified
+testNoSubclassOfCollectionThatHasInstanceVariableButDoesNotDefineCopyEmpty
+
+	self assertAllZero: (self lint: #smallLintCollectionCopyEmpty)

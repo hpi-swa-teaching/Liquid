@@ -1,0 +1,4 @@
+as yet unclassified
+testNoLiteralArrayContainsSuspiciousTrueFalseOrNil
+
+	self assertAllZero: (self lint: #smallLintLiteralArrayContainsSuspiciousTrueFalseOrNil)

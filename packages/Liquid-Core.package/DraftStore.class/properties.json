@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		"drafts" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "DraftStore",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
