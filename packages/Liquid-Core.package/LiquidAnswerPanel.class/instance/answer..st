@@ -1,5 +1,5 @@
 as yet unclassified
-answer: anObject
+answer: aLiquidAnswer
 
-	answer := anObject.
-	"self changed: #votedChoiceList"
+	answer := aLiquidAnswer.
+	answer questionId: self question id.
