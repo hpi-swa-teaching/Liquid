@@ -2,5 +2,5 @@ initialize
 initialize
 
 	self buildMockUpPoll.
-	self pollAnswer: LiquidAnswerSet new.
-	self pollAnswer pollId: self poll id.
+	self answerSet: LiquidAnswerSet new.
+	self answerSet pollId: self poll id.

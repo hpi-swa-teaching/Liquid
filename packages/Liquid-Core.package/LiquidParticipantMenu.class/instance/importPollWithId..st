@@ -4,6 +4,6 @@ importPollWithId: aString
 	importedPoll := PollRepo default at: aString.
 	importedPoll ifNil: [^ nil].
 	self poll: importedPoll.
-	self pollAnswer: LiquidAnswerSet new.
-	self pollAnswer pollId: self poll id.
+	self answerSet: LiquidAnswerSet new.
+	self answerSet pollId: self poll id.
 	self changed: #poll.

@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"answerPanel",
-		"pollAnswer",
-		"poll" ],
+		"poll",
+		"answerSet" ],
 	"name" : "LiquidParticipantMenu",
 	"pools" : [
 		 ],

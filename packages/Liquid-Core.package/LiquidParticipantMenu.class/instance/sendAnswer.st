@@ -1,3 +1,3 @@
 buttons
 sendAnswer
-	self poll addAnswer: pollAnswer.
+	self poll addAnswer: answerSet.
