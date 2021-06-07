@@ -1,9 +1,10 @@
 as yet unclassified
-buildVotedChoiceListWith: aBuilder
+buildResultsTextBoxWith: aBuilder
 
 ^ aBuilder pluggableTextSpec new
 	model: self;
 	readOnly: true;
+	indicateUnacceptedChanges: false;
 	getText: #getResults;
 	frame: (LayoutFrame new
 				topFraction: 0;
