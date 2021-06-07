@@ -18,9 +18,9 @@ testClosePoll
 	a2 := LiquidAnswerSet new addAnswer: (LiquidSingleChoiceAnswer new questionId: q2 id;
 					 votedChoice: 'Q2A2';
 					 yourself); pollId: poll id; yourself.
-	poll addAnswer: a1;
+	poll addAnswerSet: a1;
 	open: false;
-	addAnswer: a2.
+	addAnswerSet: a2.
 	
 	view := LiquidResultsView newWithPoll: poll.
 	self assert: poll answerSets size equals: 1.
