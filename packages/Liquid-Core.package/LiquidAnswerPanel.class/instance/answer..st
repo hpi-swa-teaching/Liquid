@@ -1,5 +1,5 @@
-accessing
+as yet unclassified
 answer: anObject
 
 	answer := anObject.
-	self changed: #votedChoiceList
+	"self changed: #votedChoiceList"

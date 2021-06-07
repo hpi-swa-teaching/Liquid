@@ -1,5 +1,6 @@
-accessing
+as yet unclassified
 question: aQuestion
 
 	question := aQuestion.
-	self changed: #choiceList
+	selectedChoices := Set new.
+	self changed: #choiceList.

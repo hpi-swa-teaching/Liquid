@@ -1,6 +1,5 @@
-accessing
+as yet unclassified
 getChildren
-	^ {self builder build: (self buildChoiceListWith: self builder).
-		self builder build: (self buildVoteChoiceButtonWith: self builder).
-		self builder build: (self buildVotedChoiceListWith: self builder).
+	^ {self builder build: (self buildMultiChoiceListWith: self builder).
+		"buildSingleChoiceList -> dependent on 'type' of the question"
 		}
