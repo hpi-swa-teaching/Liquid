@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"pollId",
+		"answers" ],
+	"name" : "LiquidAnswerSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

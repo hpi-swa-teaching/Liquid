@@ -13,7 +13,7 @@
 		"selectedItemQuestion",
 		"selectedItemChoice",
 		"choiceInputField",
-		"downloadedPoll" ],
+		"currentPoll" ],
 	"name" : "LiquidHostMenu",
 	"pools" : [
 		 ],

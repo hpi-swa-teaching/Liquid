@@ -3,8 +3,8 @@ buildSavePollButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new
 	model: self;
-	label: 'Save Poll';
-	action: #savePoll;
+	label: 'Start Poll';
+	action: #startPoll;
 	frame: (LayoutFrame new
 				topFraction: 0.25;
 				bottomFraction: 0.35;

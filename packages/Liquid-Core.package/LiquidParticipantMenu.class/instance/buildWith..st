@@ -9,5 +9,6 @@ buildWith: aBuilder
 					self buildChoiceListWith: aBuilder.
 					self buildVotedChoiceListWith: aBuilder.
 					self buildVoteChoiceButtonWith: aBuilder.
+					self buildSendAnswerButtonWith: aBuilder.
 					};
 	yourself)
