@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testMessagePassing" : "SK 6/8/2021 11:03" } }
+		"testCallbacks" : "SK 6/8/2021 11:19",
+		"testMessagePassing" : "SK 6/8/2021 11:19",
+		"testWithServer:" : "SK 5/24/2021 11:34" } }

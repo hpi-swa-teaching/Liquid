@@ -1,13 +1,14 @@
 {
-	"category" : "Liquid-Core",
+	"category" : "Liquid-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"i" ],
-	"name" : "Counter",
+		"i",
+		"subscribers" ],
+	"name" : "ObjectRepoTestCounter",
 	"pools" : [
 		 ],
 	"super" : "Object",

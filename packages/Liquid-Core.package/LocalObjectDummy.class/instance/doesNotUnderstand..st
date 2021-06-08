@@ -1,4 +1,4 @@
 as yet unclassified
 doesNotUnderstand: aMessage
-	^ aMessage sendTo: object
+	^ self emulateNetwork: (aMessage sendTo: object)
 	
