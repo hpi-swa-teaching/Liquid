@@ -21,6 +21,7 @@ testCsvPrinting
 	poll addAnswer: a1; addAnswer: a2.
 	
 	view := LiquidResultsView newWithPoll: poll.
-	self assertString: view getResults equals: 'Question 1;Q2;
+	self assert: view getResults equals: 'Question 1;Q2;
 Q1A2;Q2A1;
-;Q2A2;'.
+;Q2A2;
+'.

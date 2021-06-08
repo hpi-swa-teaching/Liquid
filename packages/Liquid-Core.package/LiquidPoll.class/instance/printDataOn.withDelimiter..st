@@ -7,11 +7,11 @@ printDataOn: aStream withDelimiter: aDelimiter
 		do: [:aQuestion | 
 			aQuestion printOn: aStream.
 			aStream nextPutAll: aDelimiter].
-	aStream nextPut: Character linefeed.
+	aStream nextPut: Character cr.
 	self answerSets
 		do: [:answer | 
 			answer
 				printDataOn: aStream
 				withOrder: orderedIds
 				withDelimiter: aDelimiter.
-			aStream nextPut: Character linefeed]
+			aStream nextPut: Character cr]
