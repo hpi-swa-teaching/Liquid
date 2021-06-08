@@ -5,10 +5,10 @@ testMessagePassing
 	
 	clientA := RemoteRepoClient new url: 'http://localhost:18081'.
 	clientA at: 'flowers' ifPresent: nil ifAbsentPut: (Set with: 'magnolia').
-	flowersA := clientA at: 'flowers'.
+	flowersA := clientA at: 'flowers' ifAbsent: [].
 	
 	clientB := RemoteRepoClient new url: 'http://localhost:18081'.
-	flowersB := clientB at: 'flowers'.
+	flowersB := clientB at: 'flowers' ifAbsent: [].
 	
 	self assert: (flowersB includes: 'magnolia').
 	
