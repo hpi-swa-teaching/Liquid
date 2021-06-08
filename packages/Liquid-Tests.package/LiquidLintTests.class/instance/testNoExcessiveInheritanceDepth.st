@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoExcessiveInheritanceDepth
 
 	self assertAllZero: (self lint: #smallLintExcessiveInheritance)

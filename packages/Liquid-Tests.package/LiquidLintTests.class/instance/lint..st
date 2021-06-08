@@ -1,9 +1,9 @@
-as yet unclassified
+helpers
 lint: aLinterRule
 
-	|testRunner testObjects |
-	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
+	| testObjects |
 	testObjects := self findTestObjects.
+	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.
 	testRunner runOnTests: {aLinterRule} andTestObjects: testObjects.
 
 	^ (testObjects

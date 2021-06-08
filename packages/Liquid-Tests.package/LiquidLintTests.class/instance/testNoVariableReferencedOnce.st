@@ -1,4 +1,4 @@
-as yet unclassified
+unnecessary code
 testNoVariableReferencedOnce
 
 	self assertAllZero: (self lint: #smallLintVariableReferencedOnce)

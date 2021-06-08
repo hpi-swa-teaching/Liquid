@@ -1,4 +1,4 @@
-as yet unclassified
+intention revealing
 testNoWhileTrueInsteadOfToDo
 
 	self assertAllZero: (self lint: #smallLintWhileTrue)

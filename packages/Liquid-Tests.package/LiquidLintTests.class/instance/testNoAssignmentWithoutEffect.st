@@ -1,4 +1,4 @@
-as yet unclassified
+unnecessary code
 testNoAssignmentWithoutEffect
 
 	self assertAllZero: (self lint: #smallLintAssignmentWithoutEffect) 

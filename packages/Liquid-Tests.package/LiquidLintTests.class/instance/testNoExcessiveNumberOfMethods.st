@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoExcessiveNumberOfMethods
 
 	self assertAllZero: (self lint: #smallLintExcessiveMethods)

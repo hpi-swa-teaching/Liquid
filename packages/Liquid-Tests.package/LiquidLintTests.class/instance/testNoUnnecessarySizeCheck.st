@@ -1,4 +1,4 @@
-as yet unclassified
+intention revealing
 testNoUnnecessarySizeCheck
 
 	self assertAllZero: (self lint: #smallLintTemporaryVariableCapitalization)

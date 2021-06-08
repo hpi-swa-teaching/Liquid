@@ -1,4 +1,4 @@
-as yet unclassified
+pharo
 testNoPlatformDependentUserInteraction
 
 	self assertAllZero: (self lint: #smallLintPlatformDependentUserInteraction)

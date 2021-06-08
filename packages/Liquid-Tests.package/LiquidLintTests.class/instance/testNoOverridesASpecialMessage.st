@@ -1,4 +1,4 @@
-as yet unclassified
+bugs
 testNoOverridesASpecialMessage
 
 	self assertAllZero: (self lint: #smallLintOverridesSpecialMessage)

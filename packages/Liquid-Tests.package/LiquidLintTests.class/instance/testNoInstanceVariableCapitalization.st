@@ -1,4 +1,4 @@
-as yet unclassified
+intention revealing
 testNoInstanceVariableCapitalization
 
 	self assertAllFalse: (self lint: #instanceVariableCapitalizationRule:)

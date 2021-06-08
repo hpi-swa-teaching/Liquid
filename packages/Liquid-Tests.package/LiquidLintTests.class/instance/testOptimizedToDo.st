@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testOptimizedToDo
 
 	self assertAllZero: (self lint: #smallLintUnoptimizedToDo)

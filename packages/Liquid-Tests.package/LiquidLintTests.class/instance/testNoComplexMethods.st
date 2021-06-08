@@ -1,4 +1,4 @@
-as yet unclassified
+coding styles
 testNoComplexMethods
 
 	self assertAllZero: (self lint: #complexMethods:)

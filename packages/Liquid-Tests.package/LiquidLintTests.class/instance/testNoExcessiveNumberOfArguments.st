@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoExcessiveNumberOfArguments
 
 	self assertAllZero: (self lint: #smallLintExcessiveArguments)

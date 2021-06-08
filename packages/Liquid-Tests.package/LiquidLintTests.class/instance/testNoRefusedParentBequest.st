@@ -1,4 +1,4 @@
-as yet unclassified
+disharmonies
 testNoRefusedParentBequest
 
 	self assertAll: (self lint: #refusedParentBequest:) areEqualTo: false

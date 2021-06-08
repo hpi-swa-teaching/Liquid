@@ -1,4 +1,4 @@
-as yet unclassified
+possible bugs
 testNoUseResultOfAddMessage
 
 	self assertAllZero: (self lint: #smallLintUsesAdd)

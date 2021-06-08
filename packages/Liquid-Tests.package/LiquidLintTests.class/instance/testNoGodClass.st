@@ -1,4 +1,4 @@
-as yet unclassified
+disharmonies
 testNoGodClass
 
 	self assertAllFalse: (self lint: #godClass:)

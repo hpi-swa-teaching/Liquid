@@ -1,4 +1,4 @@
-as yet unclassified
+coding styles
 testLongMethodsWithoutEmptyLines
 
 	self assertAllZero: (self lint: #longMethod:)

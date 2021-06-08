@@ -1,4 +1,4 @@
-as yet unclassified
+intention revealing
 testNoToDoDoesntUseACollection
 
 	self assertAllZero: (self lint: #toDoCollectRule:)

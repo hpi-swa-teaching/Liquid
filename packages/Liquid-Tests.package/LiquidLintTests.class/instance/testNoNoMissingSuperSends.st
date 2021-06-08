@@ -1,4 +1,4 @@
-as yet unclassified
+possible bugs
 testNoNoMissingSuperSends
 
 	self assertAllZero: (self lint: #smallLintMissingSuperSends)

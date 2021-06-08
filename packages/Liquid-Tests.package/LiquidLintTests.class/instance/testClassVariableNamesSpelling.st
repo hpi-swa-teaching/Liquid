@@ -1,4 +1,4 @@
-as yet unclassified
+spelling
 testClassVariableNamesSpelling
 
 	self assertAllZero: (self lint: #smallLintClassVariableNamesSpelling)

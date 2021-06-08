@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 findTestObjects
 
 	^ testObjects ifNil: [

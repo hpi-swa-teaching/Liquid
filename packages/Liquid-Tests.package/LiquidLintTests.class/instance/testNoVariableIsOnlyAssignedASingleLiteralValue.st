@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoVariableIsOnlyAssignedASingleLiteralValue
 
 	self assertAllZero: (self lint: #smallLintVariableAssignedLiteral)

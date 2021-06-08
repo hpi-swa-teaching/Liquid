@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoRedundantClassNameInSelector
 
 	self assertAllZero: (self lint: #classNameInSelector:)

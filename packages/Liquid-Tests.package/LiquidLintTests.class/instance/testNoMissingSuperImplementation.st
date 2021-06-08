@@ -1,4 +1,4 @@
-as yet unclassified
+bugs
 testNoMissingSuperImplementation
 
 	self assertAllZero: (self lint: #smallLintMethodModifierOverride)

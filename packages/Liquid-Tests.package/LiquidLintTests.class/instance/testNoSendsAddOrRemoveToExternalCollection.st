@@ -1,4 +1,4 @@
-as yet unclassified
+intention revealing
 testNoSendsAddOrRemoveToExternalCollection
 
 	self assertAllZero: (self lint: #smallLintCollectionMessagesToExternalObject)

@@ -1,4 +1,4 @@
-as yet unclassified
+unnecessary code
 testNoSameStatementsAtEndOfIfTrueOrIfFalseBlocks
 
 	self assertAllZero: (self lint: #smallLintEndTrueFalse)

@@ -1,4 +1,4 @@
-as yet unclassified
+bugs
 testNoBooleanPrecedence
 
 	self assertAllZero: (self lint: #smallLintBooleanPrecedence)

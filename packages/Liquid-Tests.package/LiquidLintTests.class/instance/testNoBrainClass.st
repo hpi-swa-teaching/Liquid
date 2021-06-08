@@ -1,4 +1,4 @@
-as yet unclassified
+disharmonies
 testNoBrainClass
 
 	self assertAllFalse: (self lint: #brainClass:)

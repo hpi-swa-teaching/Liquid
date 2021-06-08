@@ -1,4 +1,4 @@
-as yet unclassified
+pharo
 testNoMissingTranslationInMenus
 
 	self assertAllZero: (self lint: #smallLintMethodSourceContainsLinefeeds)

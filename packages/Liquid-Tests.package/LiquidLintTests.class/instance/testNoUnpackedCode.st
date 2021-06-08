@@ -1,4 +1,4 @@
-as yet unclassified
+possible bugs
 testNoUnpackedCode
 
 	self assertAllZero: (self lint: #smallLintUnpackagedCode)

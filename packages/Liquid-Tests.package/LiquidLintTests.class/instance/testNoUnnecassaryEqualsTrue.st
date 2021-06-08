@@ -1,4 +1,4 @@
-as yet unclassified
+unnecessary code
 testNoUnnecassaryEqualsTrue
 
 	self assertAllZero: (self lint: #smallLintEqualsTrue) 

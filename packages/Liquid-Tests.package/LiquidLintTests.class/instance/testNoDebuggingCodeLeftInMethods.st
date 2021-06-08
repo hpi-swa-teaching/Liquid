@@ -1,4 +1,4 @@
-as yet unclassified
+possible bugs
 testNoDebuggingCodeLeftInMethods
 
 	self assertAllZero: (self lint: #smallLintCodeCruftLeftInMethods)

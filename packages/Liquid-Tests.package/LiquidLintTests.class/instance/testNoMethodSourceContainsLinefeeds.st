@@ -1,4 +1,4 @@
-as yet unclassified
+pharo
 testNoMethodSourceContainsLinefeeds
 
 	self assertAllZero: (self lint: #smallLintMethodSourceContainsLinefeeds)

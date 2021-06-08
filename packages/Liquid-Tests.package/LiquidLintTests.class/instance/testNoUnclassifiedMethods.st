@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoUnclassifiedMethods
 
 	self assertAllZero: (self lint: #smallLintUnclassifiedMethods)

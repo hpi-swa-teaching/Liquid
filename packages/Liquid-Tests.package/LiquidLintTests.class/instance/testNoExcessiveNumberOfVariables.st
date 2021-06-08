@@ -1,4 +1,4 @@
-as yet unclassified
+misc
 testNoExcessiveNumberOfVariables
 
 	self assertAllZero: (self lint: #smallLintExcessiveVariables)

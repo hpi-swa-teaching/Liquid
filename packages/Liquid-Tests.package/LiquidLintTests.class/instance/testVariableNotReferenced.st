@@ -1,4 +1,4 @@
-as yet unclassified
+unnecessary code
 testVariableNotReferenced
 
 	self assertAllZero: (self lint: #smallLintUnreferencedVariables)

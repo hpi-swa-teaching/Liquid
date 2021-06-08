@@ -1,4 +1,4 @@
-as yet unclassified
+bugs
 testNoVariableUsedButNotDefinedAnywhere
 
 	self assertAllZero: (self lint: #smallLintVariableNotDefined)

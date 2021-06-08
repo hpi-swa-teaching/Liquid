@@ -1,4 +1,4 @@
-as yet unclassified
+possible bugs
 testNoEqualNotUsed
 
 	self assertAllZero: (self lint: #smallLintEqualNotUsed)

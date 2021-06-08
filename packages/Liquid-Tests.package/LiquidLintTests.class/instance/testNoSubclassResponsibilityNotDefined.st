@@ -1,4 +1,4 @@
-as yet unclassified
+bugs
 testNoSubclassResponsibilityNotDefined
 
 	self assertAllZero: (self lint: #smallLintSubclassResponsibilityNotDefined)
