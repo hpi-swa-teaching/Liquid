@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithPollDraft: aPollDraft
 
 	^ self new pollDraft: aPollDraft.

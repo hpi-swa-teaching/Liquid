@@ -1,4 +1,4 @@
-as yet unclassified
+communication
 doesNotUnderstand: aMessage
 	| resp |
 	resp := WebClient httpPut: url,'/?id=',id,'&message=',(aMessage selector asString),'&args=',(STON toString: aMessage arguments) content: '' type: 'text/plain'.

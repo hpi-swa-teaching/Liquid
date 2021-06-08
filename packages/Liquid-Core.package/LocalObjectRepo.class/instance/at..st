@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 at: key
 	^ items at: key ifAbsent: nil

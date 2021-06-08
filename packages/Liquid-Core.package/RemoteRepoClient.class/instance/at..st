@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 at: key
 	^ RemoteObjectDummy on: url withId: key
