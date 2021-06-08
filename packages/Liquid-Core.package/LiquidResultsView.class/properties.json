@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"questionList",
-		"votedChoiceList",
-		"selectedItemQuestion",
-		"selectedItemChoice",
-		"choiceList",
-		"pollAnswer",
-		"poll" ],
-	"name" : "LiquidParticipantMenu",
+		"poll",
+		"textMorph" ],
+	"name" : "LiquidResultsView",
 	"pools" : [
 		 ],
 	"super" : "LiquidModel",

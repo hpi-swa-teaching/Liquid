@@ -1,13 +1,13 @@
 buttons
-buildSavePollButtonWith: aBuilder
+buildShowResultsButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new
 	model: self;
-	label: 'Start Poll';
-	action: #startPoll;
+	label: 'Show results';
+	action: #showResults;
 	frame: (LayoutFrame new
-				topFraction: 0.25;
-				bottomFraction: 0.35;
+				topFraction: 0.10;
+				bottomFraction: 0.20;
 				leftFraction: 0.4;
 				rightFraction: 0.6;
 				yourself);

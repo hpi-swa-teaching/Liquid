@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"at:" : "psi 5/26/2021 14:45",
 		"at:ifAbsent:" : "SK 5/21/2021 09:33",
 		"at:ifPresent:ifAbsentPut:" : "SK 5/21/2021 09:57",
+		"at:put:" : "psi 5/26/2021 14:46",
 		"initialize" : "SK 5/12/2021 17:35" } }

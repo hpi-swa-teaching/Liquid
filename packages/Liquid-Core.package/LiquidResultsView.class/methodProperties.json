@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"newWithPoll:" : "psi 5/26/2021 13:24",
+		"open" : "psi 5/26/2021 13:07" },
+	"instance" : {
+		"buildVotedChoiceListWith:" : "psi 5/27/2021 20:01",
+		"buildWith:" : "psi 5/27/2021 20:01",
+		"getResults" : "psi 5/26/2021 17:18",
+		"poll" : "psi 5/26/2021 13:03",
+		"poll:" : "psi 5/26/2021 13:46",
+		"updateResults" : "psi 5/26/2021 13:47" } }
