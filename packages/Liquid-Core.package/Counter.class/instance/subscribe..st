@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 subscribe: onChange
 	self halt.
 	onChange value: 10.

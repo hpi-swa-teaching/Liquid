@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 incrementBy: aNumber
 	i := i + aNumber

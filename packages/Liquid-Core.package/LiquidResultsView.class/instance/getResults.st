@@ -1,4 +1,4 @@
-as yet unclassified
+report
 getResults
 	| stream |
 	stream := WriteStream on: String new.

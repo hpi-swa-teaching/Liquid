@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 printDataOn: aStream 
 	aStream
 		nextPutAll: (self votedChoice

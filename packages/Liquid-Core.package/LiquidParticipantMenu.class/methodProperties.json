@@ -3,7 +3,6 @@
 		"open" : "NM 5/14/2021 16:17" },
 	"instance" : {
 		"buildChoiceListWith:" : "JS 5/18/2021 18:05",
-		"buildMockUpPoll" : "JS 5/25/2021 16:10",
 		"buildQuestionListWith:" : "NM 5/13/2021 14:39",
 		"buildSendAnswerButtonWith:" : "JS 5/25/2021 16:23",
 		"buildVoteChoiceButtonWith:" : "JS 5/18/2021 18:57",
@@ -12,7 +11,7 @@
 		"choiceList" : "JS 5/18/2021 18:55",
 		"choiceList:" : "JS 5/18/2021 18:56",
 		"importPollWithId:" : "psi 5/27/2021 19:51",
-		"initialize" : "psi 5/27/2021 19:51",
+		"initialize" : "psi 6/8/2021 09:48",
 		"poll" : "JS 5/25/2021 16:05",
 		"poll:" : "JS 5/25/2021 16:16",
 		"pollAnswer" : "JS 5/18/2021 19:09",

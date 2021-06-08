@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildVotedChoiceListWith: aBuilder
 
 ^ aBuilder pluggableTextSpec new
