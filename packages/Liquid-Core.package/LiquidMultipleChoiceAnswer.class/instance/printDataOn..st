@@ -3,8 +3,8 @@ printDataOn: aStream
 	self votedChoiceList
 		ifEmpty: [^ self].
 	self votedChoiceList
-		collect: [:v | 
-			aStream nextPutAll: v.
+		collect: [:votedChoice | 
+			aStream nextPutAll: votedChoice.
 			aStream nextPutAll: ',']
 		from: 1
 		to: self votedChoiceList size - 1.
