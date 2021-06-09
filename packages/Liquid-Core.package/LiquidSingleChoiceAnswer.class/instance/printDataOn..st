@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printDataOn: aStream 
 	self votedChoice
 		ifNil: [^ self].

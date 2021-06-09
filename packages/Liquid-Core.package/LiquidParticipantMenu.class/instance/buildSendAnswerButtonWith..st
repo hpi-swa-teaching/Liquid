@@ -11,4 +11,4 @@ buildSendAnswerButtonWith: aBuilder
 				leftFraction: 0.4;
 				rightFraction: 0.6;
 				yourself);
-	yourself.
+	yourself

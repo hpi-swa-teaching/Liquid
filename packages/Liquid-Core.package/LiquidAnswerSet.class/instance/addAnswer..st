@@ -1,6 +1,6 @@
-as yet unclassified
+modifying
 addAnswer: anAnswer
-	answers at: (anAnswer questionId) put: anAnswer.
+	self answers at: (anAnswer questionId) put: anAnswer.
 	
 	
 	
