@@ -5,7 +5,7 @@ selectedItemQuestion: aQuestion
 	
 	self votedChoiceList: OrderedCollection new.
 	"ifAbsent to surpress expected KeyNotFoundError"
-	answer := (pollAnswer answers at: (aQuestion id) ifAbsent: []).
+	answer := (self pollAnswer answers at: (aQuestion id) ifAbsent: []).
 
 	answer ifNotNil: [
 		self votedChoiceList add: answer votedChoice.
@@ -13,7 +13,7 @@ selectedItemQuestion: aQuestion
 
 	selectedItemQuestion := aQuestion.
 	self changed: #selectedItemQuestion.
-	(aQuestion notNil) ifTrue: [
+	aQuestion ifNotNil: [
 			self choiceList: aQuestion choiceList.
 			self changed: #choiceList.
 			self changed: #votedChoiceList.
