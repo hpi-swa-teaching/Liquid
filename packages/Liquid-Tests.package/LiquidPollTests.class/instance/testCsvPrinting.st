@@ -28,8 +28,8 @@ testCsvPrinting
 					 yourself);
 				 pollId: poll id;
 				 yourself.
-	poll addAnswer: a1;
-		 addAnswer: a2.
+	poll addAnswerSet: a1;
+		 addAnswerSet: a2.
 	view := LiquidResultsView newWithPoll: poll.
 	self assert: view getResults equals: 'Question 1;Q2;
 Q1A2;Q2A1,Q2A3;
