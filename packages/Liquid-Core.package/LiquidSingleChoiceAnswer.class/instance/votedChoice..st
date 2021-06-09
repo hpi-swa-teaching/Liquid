@@ -1,4 +1,3 @@
 as yet unclassified
-votedChoice: aChoice
-
+votedChoice: aChoice 
 	votedChoice := aChoice

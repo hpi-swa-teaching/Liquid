@@ -1,4 +1,3 @@
 accessing
-maxNumberOfChoices: aNumber
-
-	maxNumberOfChoices := aNumber.
+maxNumberOfChoices: aNumber 
+	maxNumberOfChoices := aNumber
