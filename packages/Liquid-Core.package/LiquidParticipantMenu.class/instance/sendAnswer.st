@@ -1,3 +1,3 @@
 accessing
 sendAnswer
-	self poll addAnswerSet: pollAnswer.
+	self poll addAnswerSet: pollAnswer
