@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft",
-		"id",
-		"startTime",
-		"answerSets",
-		"open" ],
-	"name" : "LiquidPoll",
+		 ],
+	"name" : "DevelopmentObjectRepo",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LocalObjectRepo",
 	"type" : "normal" }
