@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 startWithId: anId ifTaken: do
 	self id: anId;
 		startTime: DateAndTime now.

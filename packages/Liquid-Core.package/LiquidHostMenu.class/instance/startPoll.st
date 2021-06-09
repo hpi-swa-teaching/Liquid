@@ -1,4 +1,4 @@
-buttons
+change behavior
 startPoll
 	"InitialAnswer: can be a randomly generated
 	Poll-ID"

@@ -1,4 +1,4 @@
-lists
+accessing
 selectedItemChoice: aChoice
 
 	selectedItemChoice := aChoice.

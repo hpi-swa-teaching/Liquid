@@ -1,4 +1,4 @@
-buttons
+change behavior
 showResults
 	| pollNameInput foundPoll |
 	pollNameInput := FillInTheBlank request: 'Enter Poll ID'.

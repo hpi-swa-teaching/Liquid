@@ -1,4 +1,4 @@
-input fields
+poll-building
 addCurrentQuestion
 
 (self currentQuestionInput) ifNotNil: [

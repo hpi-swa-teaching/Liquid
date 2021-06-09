@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 buildVotedChoiceListWith: aBuilder
 
 ^ aBuilder pluggableTextSpec new
@@ -11,4 +11,4 @@ buildVotedChoiceListWith: aBuilder
 				leftFraction: 0;
 				rightFraction: 1;
 				yourself);
-	yourself.
+	yourself
