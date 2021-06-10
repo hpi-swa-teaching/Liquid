@@ -1,4 +1,4 @@
-initialize-release
+initialize
 initialize
 	answerSets:= OrderedCollection new.
 	self	id: UUID new;

@@ -1,4 +1,4 @@
-lists
+accessing
 selectedItemQuestion: aQuestionName
 
 	selectedItemQuestion := aQuestionName.

@@ -1,4 +1,4 @@
-input fields
+poll-building
 addQuestion: aString
 |newQ|
 	newQ := LiquidSingleChoiceQuestion new.
