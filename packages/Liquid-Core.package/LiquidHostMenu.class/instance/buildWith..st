@@ -1,8 +1,8 @@
 initialize
 buildWith: aBuilder 
-|LiquidSystemWindow|
+|liquidSystemWindow|
 
-LiquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
+liquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
 	model: self;
 	label: 'Liquid - Host';
 	extent: 500@400;
@@ -13,7 +13,8 @@ LiquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
 					self buildQuestionInputWith: aBuilder.
 					"self buildAnswerInputWith: aBuilder."
 					self buildSavePollButtonWith: aBuilder.
-					self buildDownloadPollButtonWith: aBuilder.
+					self buildClosePollButtonWith: aBuilder.
+					self buildShowResultsButtonWith: aBuilder.
 					};
 	yourself).
 	
@@ -22,14 +23,7 @@ LiquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
 	"When building additional fields using this method, take care to replace any occurances of (self dependents at: x) with the corresponding instance variable. See an example in addQuestion:"
 	self choiceInputField: (aBuilder build: (self buildChoiceInputWith: aBuilder)).
 	
-	self addQuestionButton: self buttonPrefab copy.
-	self addQuestionButton label: 'Add Question';
-		action: #addCurrentQuestion;
-		frame: (0@0.25 corner: 0.4@0.35).
-	self addQuestionButton: (self addQuestionButton buildWith: aBuilder). 
-		
-	LiquidSystemWindow addPaneMorph: self choiceInputField.
-	LiquidSystemWindow addPaneMorph: self addQuestionButton.
+	"(Dependents first) always points to the earliest Spec built with the ToolBuilder, in our case the 'Liquid - Host' SystemWindow"
+	(self dependents first) addPaneMorph: self choiceInputField.
 	
-	
-	^ LiquidSystemWindow
+	^ liquidSystemWindow

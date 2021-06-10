@@ -1,0 +1,14 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Liquid',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'tests' ],
+      #useLatestMetacello : true
+    }
+  ],
+  #testing : {
+    #classes : [ #TCTLinterTests ]
+  }
+}

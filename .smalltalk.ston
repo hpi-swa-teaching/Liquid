@@ -11,6 +11,9 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #packages : [ 'Liquid-Core' ]
-    }
-  }
+    },
+    #exclude : {
+      #classes : [ #TCTLinterTests ]
+    },
+  },
 }
