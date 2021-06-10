@@ -1,4 +1,0 @@
-accessing
-addQuestionButton
-
-	^ addQuestionButton
