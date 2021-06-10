@@ -1,4 +1,4 @@
-testing
+tests
 testMessagePassing
 	| server clientA clientB flowersA flowersB |
 	server := RemoteRepoServer new listenOn: 18081.
