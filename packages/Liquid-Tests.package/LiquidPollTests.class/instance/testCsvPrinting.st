@@ -17,13 +17,11 @@ testCsvPrinting
 					 votedChoice: 'Q1A2';
 					 yourself);
 				 addAnswer: (LiquidMultipleChoiceAnswer new questionId: q2 id;
-					
-					votedChoiceList: (OrderedCollection newFrom: #('Q2A1'  'Q2A3'));
+					votedChoiceList: (OrderedCollection newFrom: #('Q2A1' 'Q2A3'));
 					 yourself);
 				 pollId: poll id;
 				 yourself.
 	a2 := LiquidAnswerSet new addAnswer: (LiquidMultipleChoiceAnswer new questionId: q2 id;
-					
 					votedChoiceList: (OrderedCollection newFrom: #('Q2A1' 'Q2A2'));
 					 yourself);
 				 pollId: poll id;

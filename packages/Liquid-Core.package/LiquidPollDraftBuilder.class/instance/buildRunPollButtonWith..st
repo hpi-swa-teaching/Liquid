@@ -1,8 +1,8 @@
 as yet unclassified
 buildRunPollButtonWith: aBuilder 
 	^ aBuilder pluggableButtonSpec new label: 'Run Poll';
-		
-		action: [self pollDraft startSurveyWithId: 'mockup'];
+		model: self;
+		action:#runPoll;
 		
 		frame: (LayoutFrame
 				fractions: (0 @ 1 extent: 1 @ 0)
