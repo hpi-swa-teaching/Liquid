@@ -4,6 +4,7 @@ buildWith: aBuilder
 		model: self;
 		label: 'Poll results for ', self poll pollDraft title;
 		extent: 500@400;
-		children: { self buildVotedChoiceListWith: aBuilder
+		children: { self buildVotedChoiceListWith: aBuilder.
+					self buildShowResultsButtonWith: aBuilder.
 						};
 		yourself)
