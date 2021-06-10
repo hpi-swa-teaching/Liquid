@@ -1,6 +1,6 @@
 initialize
 initialize
-
-self choiceList: OrderedCollection new;
-	questionList: OrderedCollection new;
-	votedChoiceList: OrderedCollection new.
+	super initialize.
+	self choiceList: OrderedCollection new;
+		 questionList: OrderedCollection new;
+		 votedChoiceList: OrderedCollection new

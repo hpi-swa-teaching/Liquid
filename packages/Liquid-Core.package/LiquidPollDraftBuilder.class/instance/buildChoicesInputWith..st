@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildChoicesInputWith: aBuilder 
 	^ aBuilder pluggableTextSpec new model: self;
 		 getText: #choiceList;

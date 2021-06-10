@@ -10,8 +10,8 @@ testClosePoll
 				
 				choiceList: (OrderedCollection newFrom: #('Q2A1' #, 'Q2A2'));
 				 yourself.
-	poll pollDraft questionList add: q1;
-		 add: q2.
+	poll pollDraft addQuestion: q1;
+		 addQuestion: q2.
 	a1 := LiquidAnswerSet new addAnswer: (LiquidSingleChoiceAnswer new questionId: q1 id;
 					 votedChoice: 'Q1A2';
 					 yourself);

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildRunPollButtonWith: aBuilder 
 	^ aBuilder pluggableButtonSpec new label: 'Run Poll';
 		model: self;

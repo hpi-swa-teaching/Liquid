@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildTitleInputWith: aBuilder 
 	^ aBuilder pluggableTextSpec new model: self;
 		 getText: #title;

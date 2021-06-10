@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 title: aText
 	self pollDraft title: (aText asString).
 	self question title: aText asString.
-	window label: (self title).
+	self changed: #title.
