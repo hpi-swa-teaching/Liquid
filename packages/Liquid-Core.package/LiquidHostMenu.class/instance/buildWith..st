@@ -1,8 +1,8 @@
 initialize
 buildWith: aBuilder 
-|LiquidSystemWindow|
+|liquidSystemWindow|
 
-LiquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
+liquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
 	model: self;
 	label: 'Liquid - Host';
 	extent: 500@400;
@@ -23,7 +23,7 @@ LiquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
 	"When building additional fields using this method, take care to replcae any occurances of (self dependents at: x) with the corresponding instance variable. See an example in addQuestion:"
 	self choiceInputField: (aBuilder build: (self buildChoiceInputWith: aBuilder)).
 	
-	"(Dependents at: 1) always points to the earliest Spec built with the ToolBuilder, in our case the 'Liquid - Host' SystemWindow"
-	(self dependents at: 1) addPaneMorph: self choiceInputField.
+	"(Dependents first) always points to the earliest Spec built with the ToolBuilder, in our case the 'Liquid - Host' SystemWindow"
+	(self dependents first) addPaneMorph: self choiceInputField.
 	
-	^ LiquidSystemWindow
+	^ liquidSystemWindow

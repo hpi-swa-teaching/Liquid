@@ -1,11 +1,9 @@
 listening
 onRequest: req
-	| ston objectToCreate id message response item args |
+	| id message response item arguments |
 	req isPostRequest ifTrue: [
-		ston := req content.
-		objectToCreate := STON fromString: ston.
 		id := req fields at: 'id'.
-		self objectRepo at: id put: objectToCreate.
+		self objectRepo at: id put: (STON fromString: req content).
 		^ req send200Response: 'OK'.
 	].
    req isPutRequest ifTrue: [
@@ -13,9 +11,9 @@ onRequest: req
 		item := self objectRepo at: id.
 		item ifNil: [^ req send404Response].
 		message := req fields at: 'message'.
-		args := STON fromString: (req fields at: 'args').
-		args replaceAll: #sse with: [ :value | req stream nextPutAll: (STON toString: value); crlf; flush ].
-		response := item perform: (message asSymbol) withArguments: args.
+		arguments := STON fromString: (req fields at: 'args').
+		arguments replaceAll: #sse with: [ :value | req stream nextPutAll: (STON toString: value); crlf; flush ].
+		response := item perform: (message asSymbol) withArguments: arguments.
 		^ req send200Response: (STON toString: response).
 	].
 	req isGetRequest ifTrue: [
