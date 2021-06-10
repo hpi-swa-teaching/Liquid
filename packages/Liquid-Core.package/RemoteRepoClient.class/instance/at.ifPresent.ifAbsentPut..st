@@ -1,8 +1,8 @@
-as yet unclassified
-at: key ifPresent: do ifAbsentPut: anObject 
+accessing
+at: key ifPresent: aBlock ifAbsentPut: anObject 
 	| resp |
 	resp := WebClient
 				httpPut: url , '/?id=' , key
 				content: (STON toString: anObject)
 				type: 'application/ston'.
-	(resp status = 409) ifTrue: do
+	(resp status = 409) ifTrue: [aBlock value]

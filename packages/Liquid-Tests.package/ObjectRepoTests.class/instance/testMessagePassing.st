@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMessagePassing
 	| server clientA clientB flowersA flowersB |
 	server := RemoteRepoServer new listenOn: 18081.

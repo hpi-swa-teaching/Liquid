@@ -7,6 +7,6 @@ startWithId: anId ifTaken: do
 		ifPresent: do
 		ifAbsentPut: self.
 		
-	^ PollRepo at: anId ifAbsent: [].
+	^ PollRepo default at: anId ifAbsent: [].
 	
 	

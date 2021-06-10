@@ -1,4 +1,4 @@
-as yet unclassified
+request handlers
 httpPut: req 
 	self objectRepo
 		at: (req fields at: 'id')
