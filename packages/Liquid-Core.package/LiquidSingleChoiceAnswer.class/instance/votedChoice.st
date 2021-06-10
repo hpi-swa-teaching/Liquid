@@ -1,4 +1,3 @@
 accessing
 votedChoice
-
 	^ votedChoice

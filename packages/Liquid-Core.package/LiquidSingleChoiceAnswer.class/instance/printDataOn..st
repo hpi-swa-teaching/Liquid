@@ -1,6 +1,5 @@
-accessing
+printing
 printDataOn: aStream 
-	aStream
-		nextPutAll: (self votedChoice
-				ifNil: ['']
-				ifNotNil: [self votedChoice])
+	self votedChoice
+		ifNil: [^ self].
+	aStream nextPutAll: self votedChoice

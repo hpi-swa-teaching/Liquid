@@ -12,4 +12,4 @@ buildQuestionListWith: aBuilder
 				leftFraction: 0;
 				rightFraction: 0.4;
 				yourself);
-	yourself.
+	yourself

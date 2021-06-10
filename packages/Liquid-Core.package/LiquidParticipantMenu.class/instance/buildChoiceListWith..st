@@ -12,4 +12,4 @@ buildChoiceListWith: aBuilder
 				leftFraction: 0.6;
 				rightFraction: 1;
 				yourself);
-	yourself.
+	yourself

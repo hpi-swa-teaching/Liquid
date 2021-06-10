@@ -1,4 +1,3 @@
 accessing
-choiceList:  aListOfChoices
-
+choiceList: aListOfChoices 
 	choiceList := aListOfChoices
