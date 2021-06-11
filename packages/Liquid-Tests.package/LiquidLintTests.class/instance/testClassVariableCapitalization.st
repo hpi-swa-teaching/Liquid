@@ -1,4 +1,4 @@
 intention revealing
-testClassVariableCapitzlization
+testClassVariableCapitalization
 
 	self assertAllZero: (self lint: #smallLintClassVariableCapitalization)
