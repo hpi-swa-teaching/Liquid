@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 updateAnswer
 |choiceCollection|
 	choiceCollection := self selectedChoices asOrderedCollection.

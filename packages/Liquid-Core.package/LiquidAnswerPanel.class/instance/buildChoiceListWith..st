@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 buildChoiceListWith: aBuilder
 
 ^ aBuilder pluggableListSpec new

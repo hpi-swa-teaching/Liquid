@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 choiceList:  aListOfChoices
 
 	choiceList := aListOfChoices

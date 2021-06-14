@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initialize
 	items := Dictionary new.
 	

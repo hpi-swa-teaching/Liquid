@@ -1,4 +1,4 @@
 accessing
-answerPanel: anObject
+answerPanel: anAnswerPanel
 
-	answerPanel := anObject.
+	answerPanel := anAnswerPanel.

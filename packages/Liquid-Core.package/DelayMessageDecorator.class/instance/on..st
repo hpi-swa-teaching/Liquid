@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 on: anObject
 	object := anObject

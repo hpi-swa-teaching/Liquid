@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 choiceAt: anIndex put: aBoolean
 |newSelectedChoices|
 	newSelectedChoices := selectedChoices

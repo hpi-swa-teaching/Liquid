@@ -1,4 +1,4 @@
 accessing
-selectedChoices: anObject
+selectedChoices: aSet
 
-	selectedChoices := anObject.
+	selectedChoices := aSet.
