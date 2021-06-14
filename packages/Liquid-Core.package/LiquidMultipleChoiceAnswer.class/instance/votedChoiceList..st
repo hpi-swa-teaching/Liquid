@@ -1,4 +1,3 @@
-as yet unclassified
-votedChoiceList: aChoiceList
-
+accessing
+votedChoiceList: aChoiceList 
 	votedChoiceList := aChoiceList

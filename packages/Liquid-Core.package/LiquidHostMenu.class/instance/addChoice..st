@@ -1,4 +1,4 @@
-input fields
+poll-building
 addChoice: aString
 
 	self choiceList addLast: aString.

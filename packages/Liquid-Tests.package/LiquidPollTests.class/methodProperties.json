@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertString:equals:" : "psi 5/26/2021 18:43",
-		"testCsvPrinting" : "JS 6/7/2021 19:29" } }
+		"testClosePoll" : "JS 6/9/2021 10:59",
+		"testCsvPrinting" : "JS 6/9/2021 13:29" } }

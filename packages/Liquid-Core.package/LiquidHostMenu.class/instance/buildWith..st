@@ -13,6 +13,7 @@ LiquidSystemWindow := aBuilder build: (aBuilder pluggableWindowSpec new
 					self buildQuestionInputWith: aBuilder.
 					"self buildAnswerInputWith: aBuilder."
 					self buildSavePollButtonWith: aBuilder.
+					self buildClosePollButtonWith: aBuilder.
 					self buildShowResultsButtonWith: aBuilder.
 					};
 	yourself).

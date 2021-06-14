@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 initialize
 	super initialize.
-	choiceList := OrderedCollection new.
+	choiceList := OrderedCollection new

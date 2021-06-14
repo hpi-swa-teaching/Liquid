@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"choiceList",
 		"maxNumberOfChoices" ],
 	"name" : "LiquidMultipleChoiceQuestion",
 	"pools" : [

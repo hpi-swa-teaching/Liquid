@@ -1,4 +1,4 @@
-input fields
+poll-building
 addCurrentChoice
 
 (self currentChoiceInput) ifNotNil: [
