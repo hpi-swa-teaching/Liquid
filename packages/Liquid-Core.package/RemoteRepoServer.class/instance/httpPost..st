@@ -1,18 +1,16 @@
 as yet unclassified
 httpPost: req 
-	| item message args response |
+	| item message response |
 	item := self objectRepo
 				at: (req fields at: 'id')
 				ifAbsent: [^ req send404Response].
-	message := req fields at: 'message'.
-	args := STON
-				fromString: (req fields at: 'args').
-	args
+	message := STON fromString: req content.
+	message arguments
 		replaceAll: #sse
 		with: [:value | req stream
 				nextPutAll: (STON toString: value);
 				 crlf;
 				 flush].
-	response := item perform: message asSymbol withArguments: args.
+	response := message sendTo: item.
 	^ req
 		send200Response: (STON toString: response)
