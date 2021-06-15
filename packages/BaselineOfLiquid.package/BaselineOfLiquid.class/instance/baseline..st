@@ -4,7 +4,9 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec
+			spec baseline: 'SwaLint' with: [
+	                        spec
+	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 				package: 'Liquid-Core';
 				package: 'Liquid-Tests' with: [spec requires: #('default' 'SwaLint')];
 				yourself.
