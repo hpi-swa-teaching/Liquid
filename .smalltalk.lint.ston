@@ -9,6 +9,6 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #classes : [ #TCTLinterTests ]
+    #classes : [ #LiquidLintTests ]
   }
 }
