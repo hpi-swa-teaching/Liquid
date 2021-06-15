@@ -10,4 +10,4 @@ showResults
 		UserDialogBoxMorph inform: 'This poll does not exist.'
 	].
 
-	LiquidResultsView newWithPoll: foundPoll.
+	ToolBuilder open: (LiquidResultsView newWithPoll: foundPoll).
