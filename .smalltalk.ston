@@ -13,7 +13,7 @@ SmalltalkCISpec {
       #packages : [ 'Liquid-Core' ]
     },
     #exclude : {
-      #classes : [ #TCTLinterTests ]
+      #classes : [ #LiquidLintTests ]
     },
   },
 }
