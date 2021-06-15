@@ -6,7 +6,7 @@ baseline: spec
 		do: [
 			spec
 				package: 'Liquid-Core';
-				package: 'Liquid-Tests' with: [spec requires: #('default')];
+				package: 'Liquid-Tests' with: [spec requires: #('default' 'SwaLint')];
 				yourself.
 			spec
 				group: 'default' with: #('Liquid-Core');
