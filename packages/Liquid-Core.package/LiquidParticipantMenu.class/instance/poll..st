@@ -1,5 +1,4 @@
 accessing
-poll: anObject
+poll: aPoll
 
-	poll := anObject.
-	self questionList: self poll pollDraft questionList.
+	poll := aPoll.

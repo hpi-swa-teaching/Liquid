@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	votedChoiceList := OrderedCollection new
+	votedChoiceList := OrderedCollection new.

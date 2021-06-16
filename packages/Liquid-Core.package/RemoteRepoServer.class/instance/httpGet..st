@@ -1,4 +1,4 @@
-as yet unclassified
+request handlers
 httpGet: req 
 	| item |
 	item := self objectRepo

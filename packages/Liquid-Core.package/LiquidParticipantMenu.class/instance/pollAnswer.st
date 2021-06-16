@@ -1,4 +1,0 @@
-accessing
-pollAnswer
-
-	^ pollAnswer
