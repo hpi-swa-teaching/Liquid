@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"answerPanel",
 		"poll",
 		"answerSet" ],
 	"name" : "LiquidParticipantMenu",
