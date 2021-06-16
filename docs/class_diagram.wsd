@@ -1,0 +1,105 @@
+@startuml Liquid
+' class LQDraftStore
+
+package "Data Structure" {
+    class LQPoll  {
+        isOpen
+        void startWithId(id, ifTakenBlock)
+    }
+    LQPoll "1" <- "1" LQPollDraft
+    class LQPollDraft {
+        title
+    }
+    class LQAnswerSet
+    LQPoll "1" <- "*" LQAnswerSet
+    LQAnswerSet "1" <- "*" LQAnswer
+    interface LQAnswer
+    class LQMultipleChoiceAnswer {
+        votedChoiceList
+    }
+    LQAnswer <|-- LQMultipleChoiceAnswer
+    class LQSingleChoiceAnswer {
+        votedChoice
+    }
+    LQAnswer <|-- LQSingleChoiceAnswer
+
+    interface LQQuestion {
+        choiceList
+    }
+    ' I chose * instead of 1 bc datastructure is there
+    LQPollDraft "1" <- "*" LQQuestion
+    class LQSingleChoiceQuestion
+    LQSingleChoiceQuestion <|-- LQQuestion
+    class LQMultipleChoiceQuestion  {
+        maxNumberOfChoices
+    }
+    LQMultipleChoiceQuestion <|-- LQQuestion
+
+    LQQuestion .. LQAnswer
+}
+
+package Server {
+    package Local {
+        class LQLocalObjectRepo
+        class LQDevelopmentObjectRepo
+        class LQDelayMessageDecorator
+        LQDevelopmentObjectRepo <|-- LQLocalObjectRepo
+        ' LQDelayMessageDecorator -- LQLocalObjectDummy
+        LQDevelopmentObjectRepo -- LQDelayMessageDecorator
+
+    }
+    package Remote {
+        class LQRemoteRepoClient
+        class LQRemoteRepoServer
+        class LQRemoteObjectRepo
+        LQRemoteObjectRepo -- LQRemoteRepoServer
+        LQRemoteRepoServer -- LQRemoteRepoClient
+    }
+    interface LQObjectRepo {
+        LQObjectDummy at(id, ifAbsent)
+        void at(id, ifAbsent, ifPresentPut)
+    }
+    LQRemoteObjectRepo <|-- LQObjectRepo
+    LQLocalObjectRepo <|-- LQObjectRepo
+
+    class LQPollRepo {
+        default
+    }
+    LQPollRepo -- LQPoll
+    LQPollRepo -- Local
+    LQPollRepo -- Remote
+}
+
+class LQLocalObjectDummy {
+    doesNotUnderstand(aMessage)
+}
+UI -- LQRemoteObjectDummy
+LQRemoteRepoClient -- LQRemoteObjectDummy
+UI -- LQLocalObjectDummy
+LQLocalObjectRepo -- LQLocalObjectDummy
+class LQRemoteObjectDummy {
+    doesNotUnderstand(aMessage  )
+}
+
+package UI {
+    class LQModel
+    class LQHostMenu
+    LQHostMenu <|-- LQModel
+    class LQStartMenu
+    LQStartMenu <|-- LQModel
+    class LQResultsView
+    LQResultsView <|-- LQModel
+    class LQParticipantMenu
+    LQParticipantMenu <|-- LQModel
+    class LQPollDraftBuilder {
+        void runPoll()
+    }
+    LQPollDraftBuilder <|-- LQModel
+
+    LQStartMenu -- LQHostMenu
+    LQStartMenu -- LQParticipantMenu
+    LQHostMenu -- LQResultsView
+    LQHostMenu -- LQPollDraftBuilder
+}
+
+@enduml
