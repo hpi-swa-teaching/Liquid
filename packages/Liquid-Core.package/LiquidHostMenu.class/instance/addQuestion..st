@@ -1,7 +1,7 @@
 poll-building
 addQuestion: aString
 |newQ|
-	newQ := LiquidSingleChoiceQuestion new.
+	newQ := LiquidChoicesQuestion new.
 	newQ title: aString.
 	self questionList addLast: newQ.	
 	self changed: #questionList.

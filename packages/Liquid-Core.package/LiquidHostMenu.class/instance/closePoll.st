@@ -1,3 +1,3 @@
 change behavior
 closePoll
-	currentPoll open: false.
+	currentPoll isOpen: false.

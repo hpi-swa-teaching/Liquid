@@ -2,13 +2,13 @@
 	"class" : {
 		"newWithPollDraft:" : "JS 5/25/2021 15:36" },
 	"instance" : {
-		"addAnswerSet:" : "JS 6/9/2021 10:57",
+		"addAnswerSet:" : "NM 6/16/2021 14:35",
 		"answerSets" : "JS 5/25/2021 15:32",
 		"id" : "JS 5/25/2021 15:27",
 		"id:" : "JS 5/25/2021 15:27",
-		"initialize" : "NM 6/14/2021 11:16",
-		"open" : "RS 5/27/2021 15:07",
-		"open:" : "CG 5/31/2021 13:47",
+		"initialize" : "NM 6/16/2021 14:35",
+		"isOpen" : "NM 6/16/2021 14:35",
+		"isOpen:" : "NM 6/16/2021 14:35",
 		"pollDraft" : "JS 5/25/2021 15:33",
 		"pollDraft:" : "JS 5/25/2021 15:33",
 		"printDataOn:withDelimiter:" : "psi 6/1/2021 13:09",

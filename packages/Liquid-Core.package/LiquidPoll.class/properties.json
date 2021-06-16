@@ -10,7 +10,7 @@
 		"id",
 		"startTime",
 		"answerSets",
-		"open" ],
+		"isOpen" ],
 	"name" : "LiquidPoll",
 	"pools" : [
 		 ],

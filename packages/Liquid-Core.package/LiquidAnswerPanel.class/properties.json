@@ -9,8 +9,7 @@
 		"question",
 		"answer",
 		"selectedChoices",
-		"choiceSelected",
-		"maxNumberOfChoices" ],
+		"choiceSelected" ],
 	"name" : "LiquidAnswerPanel",
 	"pools" : [
 		 ],

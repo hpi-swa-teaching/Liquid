@@ -10,7 +10,7 @@ startPoll
 				 questionList: self questionList.
 	newPoll := LiquidPoll newWithPollDraft: newPollDraft.
 	newPoll id: pollNameInput;
-		 open: true.
+		 isOpen: true.
 	self
 		currentPoll: (newPoll
 				startWithId: pollNameInput
