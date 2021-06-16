@@ -8,7 +8,7 @@ baseline: spec
 	                        spec
 	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 				package: 'Liquid-Core';
-				package: 'Liquid-Tests' with: [spec requires: #('default' 'SwaLint')];
+				package: 'Liquid-Tests' with: [spec requires: #('SwaLint' 'Liquid-Core')];
 				yourself.
 			spec
 				group: 'default' with: #('Liquid-Core');
