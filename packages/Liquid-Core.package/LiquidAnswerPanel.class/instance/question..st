@@ -12,4 +12,5 @@ question: aQuestion
 					"self answer: LiquidMultipleChoiceAnswer new."]
 		ifFalse: [self error: 'Unkown Question Type!'.]
 	].
+	self changed: #setText.
 	self changed: #choiceList.

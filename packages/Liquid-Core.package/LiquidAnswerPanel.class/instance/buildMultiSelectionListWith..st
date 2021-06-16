@@ -8,6 +8,5 @@ buildMultiSelectionListWith: aBuilder
 	setIndex: #choiceSelected:;
 	getSelectionList: #choiceAt:;
 	setSelectionList: #choiceAt:put:;
-	frame: (0.3@0 corner: 0.7@0.5);
-	"TODO: for frame: height dependent on amount of choices"
+	frame: (0.1@0.2 corner: 0.9@0.8);
 	yourself.

@@ -6,10 +6,12 @@ mockUpPollDraft := LiquidPollDraft new.
 
 mockUpPollDraft questionList: OrderedCollection new.
 
-question := LiquidSingleChoiceQuestion new.
+question := LiquidMultipleChoiceQuestion new.
+question maxNumberOfChoices: 2.
 question title: 'Do you like Liquid?'.
 question choiceList add: 'Yes'.
 question choiceList add: 'No'.
+question choiceList add: 'Maybe'.
 mockUpPollDraft questionList addLast: question.
 
 question := LiquidSingleChoiceQuestion new.
