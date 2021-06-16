@@ -1,5 +1,5 @@
 baseline
-baseline: specx^
+baseline: spec
 	<baseline>
 	spec
 		for: #'common'
