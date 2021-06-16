@@ -1,9 +1,10 @@
 baseline
-baseline: spec
+baseline: specx^
 	<baseline>
 	spec
 		for: #'common'
 		do: [
+			Preferences disable: #showDeprecationWarnings.	
 			spec baseline: 'SwaLint' with: [
 	                        spec
 	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
