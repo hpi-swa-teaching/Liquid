@@ -16,4 +16,5 @@ choiceAt: anIndex put: aBoolean
 				self updateAnswer.
 				].
 		"TODO: Let the user know that the maximum number of choices was reached ifFalse:"
+		self changed: #getRemainingVotedChoices.
 	self changed: #choiceSelected.

@@ -1,5 +1,6 @@
 accessing
 getChildren
 	^ {self builder build: (self buildMultiSelectionListWith: self builder).
-		"buildSingleChoiceList -> dependent on 'type' of the question"
+			self builder build: (self buildQuestionTitleTextWith: self builder).
+			self builder build: (self buildRemainingVotedChoicesCounterTextWith: self builder).
 		}
