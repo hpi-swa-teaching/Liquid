@@ -14,28 +14,21 @@ package "Data Structure" {
     LQPoll "1" <- "*" LQAnswerSet
     LQAnswerSet "1" <- "*" LQAnswer
     interface LQAnswer
-    class LQMultipleChoiceAnswer {
-        votedChoiceList
-    }
-    LQAnswer <|-- LQMultipleChoiceAnswer
-    class LQSingleChoiceAnswer {
+    class LQChoicesAnswer {
         votedChoice
     }
-    LQAnswer <|-- LQSingleChoiceAnswer
+    LQAnswer <|-- LQChoicesAnswer
 
     interface LQQuestion {
         choiceList
     }
     ' I chose * instead of 1 bc datastructure is there
     LQPollDraft "1" <- "*" LQQuestion
-    class LQSingleChoiceQuestion
-    LQSingleChoiceQuestion <|-- LQQuestion
-    class LQMultipleChoiceQuestion  {
+    class LQChoicesQuestion  {
         maxNumberOfChoices
     }
-    LQMultipleChoiceQuestion <|-- LQQuestion
-
-    LQQuestion .. LQAnswer
+    LQQuestion <|-- LQChoicesQuestion
+    LQAnswer "*" -- "1" LQQuestion
 }
 
 package Server {
@@ -43,7 +36,7 @@ package Server {
         class LQLocalObjectRepo
         class LQDevelopmentObjectRepo
         class LQDelayMessageDecorator
-        LQDevelopmentObjectRepo <|-- LQLocalObjectRepo
+        LQLocalObjectRepo <|-- LQDevelopmentObjectRepo
         ' LQDelayMessageDecorator -- LQLocalObjectDummy
         LQDevelopmentObjectRepo -- LQDelayMessageDecorator
 
@@ -59,15 +52,14 @@ package Server {
         LQObjectDummy at(id, ifAbsent)
         void at(id, ifAbsent, ifPresentPut)
     }
-    LQRemoteObjectRepo <|-- LQObjectRepo
-    LQLocalObjectRepo <|-- LQObjectRepo
+    LQObjectRepo <|-- LQRemoteObjectRepo
+    LQObjectRepo <|-- LQLocalObjectRepo
 
     class LQPollRepo {
         default
     }
-    LQPollRepo -- LQPoll
-    LQPollRepo -- Local
-    LQPollRepo -- Remote
+    LQObjectRepo -- LQPoll
+    LQPollRepo -> LQObjectRepo
 }
 
 class LQLocalObjectDummy {
@@ -84,17 +76,20 @@ class LQRemoteObjectDummy {
 package UI {
     class LQModel
     class LQHostMenu
-    LQHostMenu <|-- LQModel
+    LQModel <|-- LQHostMenu
     class LQStartMenu
-    LQStartMenu <|-- LQModel
+    LQModel <|-- LQStartMenu
     class LQResultsView
-    LQResultsView <|-- LQModel
-    class LQParticipantMenu
-    LQParticipantMenu <|-- LQModel
-    class LQPollDraftBuilder {
-        void runPoll()
+    LQModel <|-- LQResultsView
+    LQStartMenu --|> LQModel
+    class LQParticipantMenu {
+        sendAnser()
     }
-    LQPollDraftBuilder <|-- LQModel
+    LQParticipantMenu --|> LQModel
+    class LQPollDraftBuilder {
+        runPoll()
+    }
+    LQPollDraftBuilder --|> LQModel
 
     LQStartMenu -- LQHostMenu
     LQStartMenu -- LQParticipantMenu
