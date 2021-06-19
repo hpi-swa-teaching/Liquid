@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"buildEmptyAnswer" : "NM 6/15/2021 17:12",
-		"initialize" : "NM 6/14/2021 11:21",
-		"maxNumberOfChoices" : "JS 6/9/2021 11:09",
-		"maxNumberOfChoices:" : "JS 6/9/2021 11:09",
-		"type" : "JS 6/9/2021 11:10" } }

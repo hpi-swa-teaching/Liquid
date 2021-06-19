@@ -1,3 +1,0 @@
-accessing
-buildEmptyAnswer
-	^ LiquidMultipleChoiceAnswer new
