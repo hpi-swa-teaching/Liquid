@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"testClosePoll" : "CG 5/31/2021 14:01",
-		"testCsvPrinting" : "NM 6/7/2021 20:03" } }
+		"testCsvPrinting" : "NM 6/7/2021 20:03",
+		"testVisualizationSingleChoice" : "CG 6/22/2021 22:07" } }
