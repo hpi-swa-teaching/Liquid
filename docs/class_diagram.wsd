@@ -1,4 +1,4 @@
-@startuml Liquid
+@startuml "Structure of Liquid"
 ' class LQDraftStore
 
 package "Data Structure" {
@@ -6,7 +6,7 @@ package "Data Structure" {
         isOpen
         void startWithId(id, ifTakenBlock)
     }
-    LQPoll "1" <- "1" LQPollDraft
+    LQPoll "*" <- "1" LQPollDraft
     class LQPollDraft {
         title
     }
@@ -44,15 +44,14 @@ package Server {
     package Remote {
         class LQRemoteRepoClient
         class LQRemoteRepoServer
-        class LQRemoteObjectRepo
-        LQRemoteObjectRepo -- LQRemoteRepoServer
+        LQRemoteRepoClient -- LQRemoteRepoServer
         LQRemoteRepoServer -- LQRemoteRepoClient
     }
     interface LQObjectRepo {
         LQObjectDummy at(id, ifAbsent)
         void at(id, ifAbsent, ifPresentPut)
     }
-    LQObjectRepo <|-- LQRemoteObjectRepo
+    LQObjectRepo <|-- LQRemoteRepoClient
     LQObjectRepo <|-- LQLocalObjectRepo
 
     class LQPollRepo {
@@ -72,6 +71,7 @@ LQLocalObjectRepo -- LQLocalObjectDummy
 class LQRemoteObjectDummy {
     doesNotUnderstand(aMessage  )
 }
+LQRemoteObjectDummy -[hidden]- LQLocalObjectDummy
 
 package UI {
     class LQModel
@@ -81,7 +81,6 @@ package UI {
     LQModel <|-- LQStartMenu
     class LQResultsView
     LQModel <|-- LQResultsView
-    LQStartMenu --|> LQModel
     class LQParticipantMenu {
         sendAnser()
     }
