@@ -94,6 +94,12 @@ package UI {
     LQStartMenu -- LQParticipantMenu
     LQHostMenu -- LQResultsView
     LQHostMenu -- LQPollDraftBuilder
+
+    class LQUiComponent
+    class LQAnswerPanel
+    LQAnswerPanel --|> LQUiComponent
+    LQParticipantMenu -- LQAnswerPanel
+
 }
 
 @enduml
