@@ -1,3 +1,3 @@
-accessing
+buttons
 sendAnswer
-	self poll addAnswerSet: pollAnswer
+	self poll addAnswerSet: answerSet.
