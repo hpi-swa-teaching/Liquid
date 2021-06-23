@@ -10,10 +10,11 @@ choiceAt: anIndex put: aBoolean
 			ifTrue: [selectedChoices copyWith: choice] 
 			ifFalse: [selectedChoices copyWithout: choice].
 
-	(newSelectedChoices size <= maxNumberOfChoices)
+	(newSelectedChoices size <= self question maxNumberOfChoices)
 		ifTrue: [
 				selectedChoices := newSelectedChoices.
 				self updateAnswer.
 				].
 		"TODO: Let the user know that the maximum number of choices was reached ifFalse:"
+	self changed: #getRemainingVotedChoices.
 	self changed: #choiceSelected.
