@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LQLoadTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
