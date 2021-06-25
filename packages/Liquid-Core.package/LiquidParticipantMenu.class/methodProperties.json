@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"answeredPollIds" : "JS 6/25/2021 11:38",
 		"open" : "NM 5/14/2021 16:17" },
 	"instance" : {
 		"answerSet" : "NM 6/7/2021 20:20",
@@ -10,4 +11,4 @@
 		"importPollWithId:" : "NM 6/14/2021 11:17",
 		"poll" : "JS 5/25/2021 16:05",
 		"poll:" : "NM 6/14/2021 19:39",
-		"sendAnswer" : "JS 6/25/2021 11:28" } }
+		"sendAnswer" : "JS 6/25/2021 11:39" } }
