@@ -1,6 +1,7 @@
 buttons
 sendAnswer
-	self poll addAnswerSet: answerSet.
-	ToolBuilder open: LiquidStartMenu new.
+
+	self poll addAnswerSet: self answerSet.
 	LiquidParticipantMenu answeredPollIds add: (self poll id).
 	self destroy.
+	^ ToolBuilder open: LiquidStartMenu new.
