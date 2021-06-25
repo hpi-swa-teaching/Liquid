@@ -9,7 +9,7 @@ menu := LiquidParticipantMenu new.
 	(menu importPollWithId: pollId) 
 	ifNotNil: [
 		ToolBuilder open: menu.
-		self dependents do: [:curr | curr delete].
+		self destroy.
 		]
 	ifNil: [
 		UserDialogBoxMorph inform: 'Please enter a valid Poll ID' title: 'Invalid ID'.
