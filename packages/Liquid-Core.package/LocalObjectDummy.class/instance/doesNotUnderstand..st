@@ -1,4 +1,4 @@
-as yet unclassified
+communication
 doesNotUnderstand: aMessage
 	^ aMessage sendTo: object
 	

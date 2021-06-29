@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 buildResultsTextBoxWith: aBuilder 
 	^ aBuilder pluggableTextSpec new model: self;
 		 readOnly: true;

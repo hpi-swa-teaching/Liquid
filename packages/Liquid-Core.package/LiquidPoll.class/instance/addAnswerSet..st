@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 addAnswerSet: anAnswerSet 
-	open
+	isOpen
 		ifTrue: [answerSets add: anAnswerSet]
