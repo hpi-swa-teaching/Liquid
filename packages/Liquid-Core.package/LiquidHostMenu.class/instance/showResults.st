@@ -7,7 +7,7 @@ showResults
 		ifEmpty: [ ^ self ].
 		
 	foundPoll := PollRepo default at: pollNameInput ifAbsent: [
-		UserDialogBoxMorph inform: 'This poll does not exist.'
+		^ UIManager default inform: 'This poll does not exist.'
 	].
 
 	ToolBuilder open: (LiquidResultsView newWithPoll: foundPoll).

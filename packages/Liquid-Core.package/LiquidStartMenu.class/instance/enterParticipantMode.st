@@ -12,6 +12,7 @@ menu := LiquidParticipantMenu new.
 		self dependents do: [:curr | curr delete].
 		]
 	ifNil: [
-		UserDialogBoxMorph inform: 'Please enter a valid Poll ID' title: 'Invalid ID'.
+		UIManager default inform: 'Please enter a valid Poll ID' title: 'Invalid ID'.
+		"TODO: Ugly recursion. Better solve this using whileNil"
 		self enterParticipantMode.
 		]

@@ -2,5 +2,5 @@ change behavior
 closePoll
 	(PollRepo default
 		at: (FillInTheBlank request: 'Enter Poll ID')
-		ifAbsent: [^ UserDialogBoxMorph inform: 'This poll does not exist.'])
+		ifAbsent: [^ UIManager default inform: 'This poll does not exist.'])
 		isOpen: false
