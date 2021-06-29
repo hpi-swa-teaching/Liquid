@@ -12,7 +12,7 @@ menu := LiquidParticipantMenu new.
 		self dependents do: [:curr | curr delete].
 		]
 	ifNil: [
-		UIManager default inform: 'This Poll does not exist.' title: 'Invalid ID'.
+		UIManager default inform: 'This Poll does not exist.'.
 		"TODO: Ugly recursion. Better solve this using whileNil"
 		self enterParticipantMode.
 		]

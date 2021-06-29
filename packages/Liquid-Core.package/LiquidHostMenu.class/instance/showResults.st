@@ -7,7 +7,7 @@ showResults
 		ifEmpty: [ ^ self ].
 		
 	foundPoll := PollRepo default at: pollNameInput ifAbsent: [
-		^ UIManager default inform: 'This poll does not exist.' title: 'Unknown ID'
+		^ UIManager default inform: 'This poll does not exist.'
 	].
 
 	ToolBuilder open: (LiquidResultsView newWithPoll: foundPoll).
