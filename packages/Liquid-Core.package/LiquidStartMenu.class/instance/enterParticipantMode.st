@@ -2,7 +2,7 @@ modes
 enterParticipantMode
 |pollId menu|
 
-pollId := FillInTheBlank request: 'What''s your Poll ID?' initialAnswer: Clipboard clipboardText asString.
+pollId := UIManager default request: 'What''s your Poll ID?' initialAnswer: Clipboard clipboardText asString.
 pollId ifEmpty: [^ self].
 
 menu := LiquidParticipantMenu new.
@@ -12,7 +12,7 @@ menu := LiquidParticipantMenu new.
 		self dependents do: [:curr | curr delete].
 		]
 	ifNil: [
-		UIManager default inform: 'Please enter a valid Poll ID' title: 'Invalid ID'.
+		UIManager default inform: 'This Poll does not exist.' title: 'Invalid ID'.
 		"TODO: Ugly recursion. Better solve this using whileNil"
 		self enterParticipantMode.
 		]

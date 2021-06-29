@@ -1,13 +1,13 @@
 change behavior
 showResults
 	| pollNameInput foundPoll |
-	pollNameInput := FillInTheBlank request: 'Enter Poll ID'.
+	pollNameInput := UIManager default request: 'Enter Poll ID'.
 	
 	pollNameInput
 		ifEmpty: [ ^ self ].
 		
 	foundPoll := PollRepo default at: pollNameInput ifAbsent: [
-		^ UIManager default inform: 'This poll does not exist.'
+		^ UIManager default inform: 'This poll does not exist.' title: 'Unknown ID'
 	].
 
 	ToolBuilder open: (LiquidResultsView newWithPoll: foundPoll).
