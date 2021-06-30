@@ -4,6 +4,8 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec repository: 'github://hpi-swa-teaching/StatisticsWorkbench:release/packages';
+				version: #stable.
 			spec baseline: 'SwaLint' with: [
 	                        spec
 	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
