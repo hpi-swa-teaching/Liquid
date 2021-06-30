@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"question",
+		"answer",
+		"selectedChoices",
+		"choiceSelected" ],
+	"name" : "LiquidAnswerPanel",
+	"pools" : [
+		 ],
+	"super" : "LiquidUIComponent",
+	"type" : "normal" }

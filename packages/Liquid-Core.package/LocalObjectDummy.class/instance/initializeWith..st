@@ -1,3 +1,3 @@
-initialize-release
+initialize
 initializeWith: anObject
 	object := anObject

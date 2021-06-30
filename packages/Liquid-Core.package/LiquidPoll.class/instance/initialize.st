@@ -1,5 +1,5 @@
 initialize
 initialize
-	answerSets:= OrderedCollection new.
-	self	id: UUID new;
-		open: true.
+	answerSets := OrderedCollection new.
+	self id: UUID new.
+	isOpen := true.

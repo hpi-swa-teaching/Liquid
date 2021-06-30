@@ -1,4 +1,4 @@
-build answer
+modifying
 addAnswerSet: anAnswerSet 
-	open
+	isOpen
 		ifTrue: [answerSets add: anAnswerSet]
