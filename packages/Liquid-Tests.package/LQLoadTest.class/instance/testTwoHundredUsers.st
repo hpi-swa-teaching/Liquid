@@ -1,6 +1,6 @@
 as yet unclassified
 testTwoHundredUsers
-	<timeout: 15>
+	<timeout: 20>
 	| server port poll p q hostPoll pollId target |
 	port := (10000 to: 50000) atRandom.
 	server := RemoteRepoServer new.
