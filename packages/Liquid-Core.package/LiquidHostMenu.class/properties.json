@@ -10,5 +10,5 @@
 	"name" : "LiquidHostMenu",
 	"pools" : [
 		 ],
-	"super" : "LiquidModel",
+	"super" : "Model",
 	"type" : "normal" }
