@@ -1,0 +1,105 @@
+@startuml "Structure of Liquid"
+' class LQDraftStore
+
+package "Data Structure" {
+    class LQPoll  {
+        isOpen
+        void startWithId(id, ifTakenBlock)
+    }
+    LQPoll "*" <- "1" LQPollDraft
+    class LQPollDraft {
+        title
+    }
+    class LQAnswerSet
+    LQPoll "1" <- "*" LQAnswerSet
+    LQAnswerSet "1" <- "*" LQAnswer
+    interface LQAnswer
+    class LQChoicesAnswer {
+        votedChoice
+    }
+    LQAnswer <|-- LQChoicesAnswer
+
+    interface LQQuestion {
+        choiceList
+    }
+    ' I chose * instead of 1 bc datastructure is there
+    LQPollDraft "1" <- "*" LQQuestion
+    class LQChoicesQuestion  {
+        maxNumberOfChoices
+    }
+    LQQuestion <|-- LQChoicesQuestion
+    LQAnswer "*" -- "1" LQQuestion
+}
+
+package Server {
+    package Local {
+        class LQLocalObjectRepo
+        class LQDevelopmentObjectRepo
+        class LQDelayMessageDecorator
+        LQLocalObjectRepo <|-- LQDevelopmentObjectRepo
+        ' LQDelayMessageDecorator -- LQLocalObjectDummy
+        LQDevelopmentObjectRepo -- LQDelayMessageDecorator
+
+    }
+    package Remote {
+        class LQRemoteRepoClient
+        class LQRemoteRepoServer
+        LQRemoteRepoClient -- LQRemoteRepoServer
+        LQRemoteRepoServer -- LQRemoteRepoClient
+    }
+    interface LQObjectRepo {
+        LQObjectDummy at(id, ifAbsent)
+        void at(id, ifAbsent, ifPresentPut)
+    }
+    LQObjectRepo <|-- LQRemoteRepoClient
+    LQObjectRepo <|-- LQLocalObjectRepo
+
+    class LQPollRepo {
+        default
+    }
+    LQObjectRepo -- LQPoll
+    LQPollRepo -> LQObjectRepo
+}
+
+class LQLocalObjectDummy {
+    doesNotUnderstand(aMessage)
+}
+UI -- LQRemoteObjectDummy
+LQRemoteRepoClient -- LQRemoteObjectDummy
+UI -- LQLocalObjectDummy
+LQLocalObjectRepo -- LQLocalObjectDummy
+class LQRemoteObjectDummy {
+    doesNotUnderstand(aMessage  )
+}
+LQRemoteObjectDummy -[hidden]- LQLocalObjectDummy
+
+package UI {
+    class LQModel
+    class LQHostMenu
+    LQModel <|-- LQHostMenu
+    class LQStartMenu
+    LQModel <|-- LQStartMenu
+    class LQResultsView
+    LQModel <|-- LQResultsView
+    class LQParticipantMenu {
+        sendAnser()
+    }
+    LQParticipantMenu --|> LQModel
+    class LQPollDraftBuilder {
+        runPoll()
+    }
+    LQPollDraftBuilder --|> LQModel
+
+    LQStartMenu -- LQHostMenu
+    LQStartMenu -- LQParticipantMenu
+    LQHostMenu -- LQResultsView
+    LQHostMenu -- LQPollDraftBuilder
+
+    class LQUiComponent
+    class LQAnswerPanel
+    LQAnswerPanel --|> LQUiComponent
+    LQParticipantMenu -- LQAnswerPanel
+
+}
+
+@enduml
