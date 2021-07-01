@@ -1,6 +1,6 @@
 helpers
 lint: aLinterRule except: aCollectionOfClasses 
-	| testObjects |
+	| testObjects testRunner |
 	testObjects := self findTestObjects
 				select: [:aTestClassObject | (aCollectionOfClasses includes: aTestClassObject testClass) not].
 	testRunner := SLTestRunner new environment: SLDefaultEnvironment new.

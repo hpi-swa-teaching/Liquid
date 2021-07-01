@@ -2,7 +2,7 @@ modes
 enterParticipantMode
 |pollId menu|
 
-pollId := FillInTheBlank request: 'What''s your Poll ID?' initialAnswer: 'mockup'.
+pollId := FillInTheBlank request: 'What''s your Poll ID?'.
 pollId ifEmpty: [^ self].
 
 (LiquidParticipantMenu answeredPollIds includes: pollId) ifTrue: [

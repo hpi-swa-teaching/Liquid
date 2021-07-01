@@ -1,3 +1,4 @@
 accessing
-addChoice: aChoice
-	self choiceList add: aChoice.
+addChoice: aString
+	self choiceList add: aString
+	
