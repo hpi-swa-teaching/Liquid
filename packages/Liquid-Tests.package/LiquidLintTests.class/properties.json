@@ -5,9 +5,7 @@
 	"classvars" : [
 		 ],
 	"commentStamp" : "psi 6/1/2021 13:20",
-	"instvars" : [
-		"survey",
-		"testObjects" ],
+	"instvars" : [],
 	"name" : "LiquidLintTests",
 	"pools" : [
 		 ],

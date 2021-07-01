@@ -1,4 +1,5 @@
 SmalltalkCISpec {
+  #preLoading : 'scripts/preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #baseline : 'Liquid',
@@ -13,7 +14,7 @@ SmalltalkCISpec {
       #packages : [ 'Liquid-Core' ]
     },
     #exclude : {
-      #classes : [ #TCTLinterTests ]
-    },
-  },
+      #classes : [ #LiquidLintTests ]
+    }
+  }
 }
