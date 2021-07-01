@@ -1,3 +1,6 @@
 change behavior
 closePoll
-	currentPoll isOpen: false.
+	(PollRepo default
+		at: (FillInTheBlank request: 'Enter Poll ID')
+		ifAbsent: [^ UserDialogBoxMorph inform: 'This poll does not exist.'])
+		isOpen: false

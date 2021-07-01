@@ -6,16 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"choiceList",
-		"questionList",
-		"currentQuestionInput",
-		"currentChoiceInput",
-		"selectedItemQuestion",
-		"selectedItemChoice",
-		"choiceInputField",
-		"currentPoll" ],
+		 ],
 	"name" : "LiquidHostMenu",
 	"pools" : [
 		 ],
-	"super" : "LiquidModel",
+	"super" : "Model",
 	"type" : "normal" }

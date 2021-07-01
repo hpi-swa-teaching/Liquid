@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LiquidMorph",
+		"pollDraft" ],
+	"name" : "LiquidPollDraftBuilder",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Model",
 	"type" : "normal" }

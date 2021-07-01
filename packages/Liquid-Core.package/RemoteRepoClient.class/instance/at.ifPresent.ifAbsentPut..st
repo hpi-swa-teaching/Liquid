@@ -1,5 +1,5 @@
 accessing
-at: key ifPresent: do ifAbsentPut: anObject 
+at: key ifPresent: aBlock ifAbsentPut: anObject 
 	| resp |
 	resp := WebClient
 				httpPut: url , '/?id=' , key
