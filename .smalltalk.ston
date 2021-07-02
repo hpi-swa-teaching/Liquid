@@ -14,6 +14,6 @@ SmalltalkCISpec {
     },
     #exclude : {
       #classes : [ #TCTLinterTests ]
-    },
-  },
+    }
+  }
 }
