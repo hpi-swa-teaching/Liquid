@@ -1,19 +1,15 @@
 tests
 testifPresentIfAbsentRemote
-	| server port url client presentCheck|
+	|presentCheck|
 	presentCheck := false.
-	port := 10000 random.
-	server := RemoteRepoServer new listenOn: port.
-	url := 'http://localhost:' , port.
-	client := RemoteRepoClient new url: url.
-	client
+	self client
 		at: 'newPoll'
 		ifPresent: [self fail]
 		ifAbsentPut: (LiquidPoll newWithPollDraft: LiquidPollDraft new).
-	client 
+	self client 
 		at: 'newPoll'
 		ifAbsent: [self fail].
-	client 
+	self client 
 		at: 'newPoll'
 		ifPresent: [presentCheck := true]
 		ifAbsentPut: ThrowerOfErrors new. 	

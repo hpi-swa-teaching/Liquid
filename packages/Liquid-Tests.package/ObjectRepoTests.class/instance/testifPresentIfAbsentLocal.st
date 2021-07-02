@@ -1,16 +1,16 @@
 tests
 testifPresentIfAbsentLocal
-	| client presentCheck|
+	|presentCheck|
 	presentCheck := false.
 	client := LocalObjectRepo new.
-	client
+	self client
 		at: 'newPoll'
 		ifPresent: [self fail]
 		ifAbsentPut: (LiquidPoll newWithPollDraft: LiquidPollDraft new).
-	client 
+	self client 
 		at: 'newPoll'
 		ifAbsent: [self fail].
-	client 
+	self client 
 		at: 'newPoll'
 		ifPresent: [presentCheck := true]
 		ifAbsentPut: ThrowerOfErrors new. 	
