@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newWithPoll: aPoll
 	^ self new poll: aPoll.

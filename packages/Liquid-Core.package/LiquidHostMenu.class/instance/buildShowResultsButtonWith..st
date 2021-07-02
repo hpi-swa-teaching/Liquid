@@ -1,14 +1,14 @@
-buttons
+toolbuilder
 buildShowResultsButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new
 	model: self;
-	label: 'Show results';
+	label: 'Show Results';
 	action: #showResults;
 	frame: (LayoutFrame new
-				topFraction: 0.10;
-				bottomFraction: 0.20;
-				leftFraction: 0.4;
-				rightFraction: 0.6;
+				topFraction: 0;
+				bottomFraction: 1;
+				leftFraction: 0.35;
+				rightFraction: 0.65;
 				yourself);
 	yourself.

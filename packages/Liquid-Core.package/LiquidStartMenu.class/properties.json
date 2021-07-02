@@ -10,5 +10,5 @@
 	"name" : "LiquidStartMenu",
 	"pools" : [
 		 ],
-	"super" : "LiquidModel",
+	"super" : "Model",
 	"type" : "normal" }

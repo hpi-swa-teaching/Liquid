@@ -1,11 +1,10 @@
 {
 	"class" : {
 		"newWithPoll:" : "psi 5/26/2021 13:24",
-		"open" : "NM 6/16/2021 14:34" },
+		"open" : "psi 5/26/2021 13:07" },
 	"instance" : {
 		"buildResultsTextBoxWith:" : "JS 6/9/2021 10:58",
 		"buildWith:" : "JS 6/9/2021 10:58",
 		"getResults" : "psi 5/26/2021 17:18",
 		"poll" : "NM 6/9/2021 11:49",
-		"poll:" : "psi 5/26/2021 13:46",
-		"updateResults" : "psi 5/26/2021 13:47" } }
+		"poll:" : "psi 5/26/2021 13:46" } }
