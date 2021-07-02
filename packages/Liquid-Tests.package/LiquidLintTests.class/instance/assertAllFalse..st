@@ -1,4 +1,4 @@
 helpers
-assertAllFalse: aCollection
+assertAllFalse: aDictionary
 
-	self assertAll: aCollection areEqualTo: false
+	self assertAll: aDictionary areEqualTo: false

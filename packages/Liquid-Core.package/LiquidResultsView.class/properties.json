@@ -10,5 +10,5 @@
 	"name" : "LiquidResultsView",
 	"pools" : [
 		 ],
-	"super" : "LiquidModel",
+	"super" : "Model",
 	"type" : "normal" }

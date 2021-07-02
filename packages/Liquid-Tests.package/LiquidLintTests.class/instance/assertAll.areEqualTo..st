@@ -1,4 +1,3 @@
 helpers
-assertAll: aCollection areEqualTo: anObject
-
-	self assert: (aCollection allSatisfy: [ :numberOfOccurrences | numberOfOccurrences = anObject ])
+assertAll: aDictionary areEqualTo: anObject
+	aDictionary keysAndValuesDo: [:name :result | self assert: anObject  equals: result description: 'Linter failed for ', name].
