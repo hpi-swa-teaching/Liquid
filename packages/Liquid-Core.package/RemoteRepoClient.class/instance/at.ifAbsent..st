@@ -1,5 +1,5 @@
 accessing
-at: key ifAbsent: do
+at: key ifAbsent: aBlock
 	(WebClient httpGet: url , '/?id=' , key) isSuccess
 		ifTrue: [^ RemoteObjectDummy on: url withId: key]
-		ifFalse: do
+		ifFalse: [aBlock value]

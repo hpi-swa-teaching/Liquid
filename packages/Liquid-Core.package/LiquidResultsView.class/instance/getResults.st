@@ -1,4 +1,4 @@
-accessing
+report
 getResults
 	| stream |
 	stream := WriteStream on: String new.
