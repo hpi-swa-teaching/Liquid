@@ -10,6 +10,7 @@
 		"lint:except:" : "psi 7/1/2021 20:43",
 		"testClassCategoriesSpelling" : "psi 5/26/2021 20:47",
 		"testClassVariableCapitalization" : "psi 5/26/2021 20:47",
+		"testClassVariableCapitzlization" : "psi 5/26/2021 20:47",
 		"testClassVariableNamesSpelling" : "psi 5/26/2021 20:48",
 		"testInstanceVariableNamesSpelling" : "psi 5/26/2021 20:49",
 		"testLongMethodsWithoutEmptyLines" : "psi 5/26/2021 20:49",
