@@ -15,7 +15,7 @@ testTwoHundredUsers
 	pollId := 'gotta-catch-rayquaza'.
 	poll
 		startWithId: pollId
-		ifTaken: [self error: 'nonono'].
+		ifTaken: [self error: 'this shouldnt have occured'].
 		
 	"participant"
 	target := 200.
@@ -34,7 +34,7 @@ testTwoHundredUsers
 	"host"
 	poll isOpen: false.
 	
-	hostPoll := PollRepo default at: pollId ifAbsent: [ self error: 'nonono' ].
+	hostPoll := PollRepo default at: pollId ifAbsent: [ self error: 'this shouldnt have occured' ].
 	
 	self assert: target equals: hostPoll answerSets size.
 	server destroy
