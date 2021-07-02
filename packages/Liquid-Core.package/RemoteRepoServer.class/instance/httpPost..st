@@ -11,6 +11,10 @@ httpPost: req
 				nextPutAll: (STON toString: value);
 				 crlf;
 				 flush].
-	response := message sendTo: item.
+	response := [message sendTo: item]
+				on: Error
+				do: [:error | ^ req
+						sendResponse: (req newResponse protocol: 'HTTP/1.1' code: 400)
+						content: error description].
 	^ req
 		send200Response: (STON toString: response)
