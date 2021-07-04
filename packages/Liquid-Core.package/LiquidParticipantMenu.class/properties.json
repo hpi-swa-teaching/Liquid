@@ -6,15 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"questionList",
-		"votedChoiceList",
-		"selectedItemQuestion",
-		"selectedItemChoice",
-		"choiceList",
-		"pollAnswer",
-		"poll" ],
+		"poll",
+		"answerSet" ],
 	"name" : "LiquidParticipantMenu",
 	"pools" : [
 		 ],
-	"super" : "LiquidModel",
+	"super" : "Model",
 	"type" : "normal" }

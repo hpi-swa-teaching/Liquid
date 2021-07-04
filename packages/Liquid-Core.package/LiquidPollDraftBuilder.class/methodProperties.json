@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"openOn:" : "SK 5/22/2021 12:39" },
+	"instance" : {
+		"buildChoicesInputWith:" : "psi 6/10/2021 22:36",
+		"buildRunPollButtonWith:" : "psi 6/10/2021 22:35",
+		"buildTitleInputWith:" : "psi 6/10/2021 22:36",
+		"buildWith:" : "psi 6/10/2021 23:39",
+		"choiceList" : "psi 6/10/2021 22:32",
+		"choiceList:" : "psi 6/10/2021 22:16",
+		"generateRandomID" : "NM 7/2/2021 12:17",
+		"pollDraft" : "SK 5/22/2021 12:35",
+		"pollDraft:" : "NM 6/23/2021 10:12",
+		"question" : "psi 6/10/2021 21:18",
+		"runPoll" : "NM 7/2/2021 12:20",
+		"title" : "psi 6/10/2021 23:18",
+		"title:" : "psi 6/10/2021 23:37" } }

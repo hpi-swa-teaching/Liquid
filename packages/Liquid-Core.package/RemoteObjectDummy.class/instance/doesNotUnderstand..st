@@ -1,6 +1,9 @@
-as yet unclassified
+communication
 doesNotUnderstand: aMessage
 	| resp |
-	resp := WebClient httpPut: url,'/?id=',id,'&message=',(aMessage selector asString),'&args=',(STON toString: aMessage arguments) content: '' type: 'text/plain'.
-	resp isSuccess ifTrue: [^ (STON fromString: resp content)] ifFalse: [ self error: resp content ]
+	resp := WebClient httpPost: url,'/?id=',id content: (STON toString: aMessage) type: 'text/plain'.
+	resp isSuccess ifTrue: [^ (STON fromString: resp content)].
+	resp code = 400 ifTrue: [ RemoteError new signal: resp content ].
+	self error: resp content.
+	
 	

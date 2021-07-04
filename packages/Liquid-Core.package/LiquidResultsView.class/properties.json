@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"poll",
-		"textMorph" ],
+		"poll" ],
 	"name" : "LiquidResultsView",
 	"pools" : [
 		 ],
-	"super" : "LiquidModel",
+	"super" : "Model",
 	"type" : "normal" }

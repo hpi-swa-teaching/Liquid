@@ -1,4 +1,0 @@
-accessing
-choiceInputField
-
-	^ choiceInputField

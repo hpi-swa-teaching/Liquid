@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testClosePoll" : "CG 5/31/2021 14:01",
-		"testCsvPrinting" : "NM 6/7/2021 20:03",
+		"testClipboardImport" : "NM 7/2/2021 12:15",
+		"testClosePoll" : "NM 6/16/2021 14:56",
+		"testCsvPrinting" : "NM 6/16/2021 14:56",
 		"testVisualizationSingleChoice" : "CG 6/22/2021 22:07" } }

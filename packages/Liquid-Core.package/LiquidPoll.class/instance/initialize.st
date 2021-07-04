@@ -1,5 +1,5 @@
-as yet unclassified
 initialize
-	answerSets:= OrderedCollection new.
-	self	id: UUID new;
-		open: true.
+initialize
+	answerSets := OrderedCollection new.
+	self id: UUID new.
+	isOpen := true.

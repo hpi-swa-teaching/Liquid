@@ -1,4 +1,0 @@
-lists
-selectedItemQuestion
-
-	^ selectedItemQuestion

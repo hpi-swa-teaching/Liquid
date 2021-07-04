@@ -1,4 +1,0 @@
-lists
-selectedItemChoice
-
-	^ selectedItemChoice
