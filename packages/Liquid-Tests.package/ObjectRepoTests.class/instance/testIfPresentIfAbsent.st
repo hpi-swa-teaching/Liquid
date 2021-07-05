@@ -7,14 +7,14 @@ testIfPresentIfAbsent
 	currClient
 		at: 'newPoll'
 		ifPresent: [self fail]
-		ifAbsentPut: (LiquidPoll newWithPollDraft: LiquidPollDraft new).
+		ifAbsentPut: 'This is good'.
 	currClient 
 		at: 'newPoll'
 		ifAbsent: [self fail].
 	currClient 
 		at: 'newPoll'
 		ifPresent: [presentCheck := true]
-		ifAbsentPut: ThrowerOfErrors new.
+		ifAbsentPut: 'This shouldn''t be happening'.
 	self assert: presentCheck equals: true.
 	]
 	
