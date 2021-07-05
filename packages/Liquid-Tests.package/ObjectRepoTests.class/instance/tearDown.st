@@ -1,4 +1,4 @@
 tests
 tearDown
 	super tearDown.
-	self server destroy.
+	self server ifNotNil: [self server destroy].

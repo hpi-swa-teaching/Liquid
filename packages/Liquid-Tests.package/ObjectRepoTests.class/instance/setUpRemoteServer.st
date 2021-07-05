@@ -4,7 +4,7 @@ setUpRemoteServer
 	canProceed := false.
 	[canProceed] whileFalse: [
 		canProceed := true.
-		port := 10000 atRandom.
+		port := (10000 to: 50000) atRandom.
 		[server := (RemoteRepoServer new listenOn: port)] ifError: [canProceed := false].
 	].
 	url := 'http://localhost:' , port.
