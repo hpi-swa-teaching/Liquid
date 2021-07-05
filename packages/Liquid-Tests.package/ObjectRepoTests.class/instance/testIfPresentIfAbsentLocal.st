@@ -1,20 +1,18 @@
 tests
-testIfPresentIfAbsent
-	|localClient presentCheck|
-	localClient := LocalObjectRepo new.
-	{self client. localClient} do: [:currClient |
+testIfPresentIfAbsentLocal
+	|presentCheck|
+	client := LocalObjectRepo new.
 	presentCheck := false.
-	currClient
+	self client
 		at: 'newPoll'
 		ifPresent: [self fail]
 		ifAbsentPut: 'This is good'.
-	currClient 
+	self client 
 		at: 'newPoll'
 		ifAbsent: [self fail].
-	currClient 
+	self client 
 		at: 'newPoll'
 		ifPresent: [presentCheck := true]
 		ifAbsentPut: 'This shouldn''t be happening'.
 	self assert: presentCheck equals: true.
-	]
 	
