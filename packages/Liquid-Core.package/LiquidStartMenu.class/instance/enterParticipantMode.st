@@ -2,7 +2,7 @@ modes
 enterParticipantMode
 |pollId menu|
 
-pollId := FillInTheBlank request: 'What''s your Poll ID?'.
+pollId := UIManager default request: 'What''s your Poll ID?' initialAnswer: Clipboard clipboardText asString.
 pollId ifEmpty: [^ self].
 
 (LiquidParticipantMenu answeredPollIds includes: pollId) ifTrue: [
@@ -17,6 +17,6 @@ menu := LiquidParticipantMenu new.
 		self destroy.
 		]
 	ifNil: [
-		UserDialogBoxMorph inform: 'Please enter a valid Poll ID' title: 'Invalid ID'.
+		UIManager default inform: 'Please enter a valid Poll ID'.
 		self enterParticipantMode.
 		]
