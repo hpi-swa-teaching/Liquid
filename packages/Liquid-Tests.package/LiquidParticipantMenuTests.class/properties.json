@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LiquidParticipantMenuTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
