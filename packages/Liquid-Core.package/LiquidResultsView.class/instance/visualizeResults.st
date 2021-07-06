@@ -1,4 +1,3 @@
-as yet unclassified
+report
 visualizeResults
-
-	(SWDiagram new visualize: self data with: SWPieChart create) openInWindow.
+	(SWDiagram new visualize: self data with: SWPieChart create) openInWindow

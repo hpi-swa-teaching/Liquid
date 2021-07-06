@@ -1,7 +1,4 @@
-as yet unclassified
+result data
 choiceNames
-	|anArray|
-	anArray := OrderedCollection new.
-	(self poll pollDraft questionList first choiceList) do: 
-		[:aChoice| anArray add: aChoice].
-	^anArray
+	^ self poll pollDraft questionList first choiceList
+		collect: [:aChoice | aChoice].

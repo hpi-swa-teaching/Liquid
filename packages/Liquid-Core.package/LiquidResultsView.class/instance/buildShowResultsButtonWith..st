@@ -1,4 +1,4 @@
-as yet unclassified
+initialize
 buildShowResultsButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new

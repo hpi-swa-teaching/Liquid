@@ -1,8 +1,8 @@
-as yet unclassified
-pollChoiceCount	
-	|anArray count|
-	count := 1.
-	anArray := OrderedCollection new.
-	(self poll pollDraft questionList first choiceList) do: 
-		[:aChoice| anArray add: count. count := count +1].
-	^anArray
+result data
+pollChoiceCount
+	| count |
+	count := 0.
+	^ self poll pollDraft questionList first choiceList
+		collect: [:aChoice | 
+			count := count + 1.
+			count]
