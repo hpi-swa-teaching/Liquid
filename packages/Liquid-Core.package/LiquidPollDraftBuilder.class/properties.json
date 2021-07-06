@@ -10,5 +10,5 @@
 	"name" : "LiquidPollDraftBuilder",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "LQModel",
 	"type" : "normal" }
