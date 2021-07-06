@@ -1,8 +1,7 @@
 buttons
 sendAnswer
-	(LiquidParticipantMenu answeredPollIds includes: self poll id)
-		ifTrue: [UserDialogBoxMorph inform: 'You have already answered this Poll.' title: 'Incorrect Poll ID']
-		ifFalse: [LiquidParticipantMenu answeredPollIds add: self poll id.
-			self poll addAnswerSet: answerSet].
+	(LiquidParticipantMenu answeredPollIds ifAbsentAdd: self poll id)
+		ifTrue: [self poll addAnswerSet: answerSet]
+		ifFalse: [UserDialogBoxMorph inform: 'You have already answered this Poll.' title: 'Invalid operation!'].
 	self destroy.
 	ToolBuilder open: LiquidStartMenu new
