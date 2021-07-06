@@ -5,5 +5,7 @@ buildSendAnswerButtonWith: aBuilder
 	model: self;
 	label: 'Send Answer';
 	action: #sendAnswer;
-	frame: (0.7@0.81 corner: 0.9@0.91);
+	frame: (LayoutFrame
+				fractions: (0.9@0.8 corner: 0.9@0.8)
+				offsets: (-193@5 corner: 0@50))
 	yourself
