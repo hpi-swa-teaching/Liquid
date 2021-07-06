@@ -1,4 +1,4 @@
 tests
 testIfPresentIfAbsentRemote
-	self ifPresentIfAbsent: self client
+	self ifPresentIfAbsent: client
 	

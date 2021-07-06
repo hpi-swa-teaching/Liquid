@@ -1,11 +1,8 @@
 tests
 setUpRemoteServer
-	|port url canProceed|
-	canProceed := false.
-	[canProceed] whileFalse: [
-		canProceed := true.
-		port := (10000 to: 50000) atRandom.
-		[server := (RemoteRepoServer new listenOn: port)] ifError: [canProceed := false].
-	].
+	|port|
+	port := PortAssigner get.
+	server := (RemoteRepoServer new listenOn: port).
 	url := 'http://localhost:' , port.
 	client := RemoteRepoClient new url: url.
+	

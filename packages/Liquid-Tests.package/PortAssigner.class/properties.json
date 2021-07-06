@@ -1,16 +1,14 @@
 {
 	"category" : "Liquid-Tests",
 	"classinstvars" : [
-		 ],
+		"lastPort" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"server",
-		"url" ],
-	"name" : "ObjectRepoTests",
+		 ],
+	"name" : "PortAssigner",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "Object",
 	"type" : "normal" }
