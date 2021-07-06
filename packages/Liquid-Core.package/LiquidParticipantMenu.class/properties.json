@@ -1,7 +1,7 @@
 {
 	"category" : "Liquid-Core",
 	"classinstvars" : [
-		 ],
+		"answeredPollIds" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
