@@ -6,4 +6,4 @@ buildChoicesInputWith: aBuilder
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame
 				fractions: (0 @ 0 extent: 1 @ 1)
-				offsets: (0 @ 30 extent: 0 @ -60))
+				offsets: (0 @ 30 extent: 0 @ -90))

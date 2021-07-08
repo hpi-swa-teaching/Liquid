@@ -1,10 +1,10 @@
 tests
 testErrorHandling
 	|dummy|
-	self client
+	client
 		at: 'thrower'
 		ifPresent: []
 		ifAbsentPut: ThrowerOfErrors new.
-	dummy := self client at: 'thrower' ifAbsent: [].
+	dummy := client at: 'thrower' ifAbsent: [ self fail ].
 	[dummy escalate] on: RemoteError do: [^ self "everything is good" ].
-	self error: 'The test shouldn''t have gotten here'
+	self fail
