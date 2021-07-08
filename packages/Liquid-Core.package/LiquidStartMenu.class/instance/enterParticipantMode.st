@@ -6,7 +6,7 @@ pollId := UIManager default request: 'What''s your Poll ID?' initialAnswer: Clip
 pollId ifEmpty: [^ self].
 
 (LiquidParticipantMenu answeredPollIds includes: pollId) ifTrue: [
-	UserDialogBoxMorph inform: 'You have already answered this Poll.' title: 'Incorrect Poll ID'.
+	UIManager default inform: 'You have already answered this Poll.'.
 	^ self
 ].
 
