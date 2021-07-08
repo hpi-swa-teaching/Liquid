@@ -1,3 +1,0 @@
-tests
-client
-	^ client

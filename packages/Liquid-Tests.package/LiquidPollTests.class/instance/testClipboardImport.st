@@ -1,10 +1,11 @@
 tests
 testClipboardImport
-	| poll randomID |
+	| poll randomID client |
+	client := LocalObjectRepo new.
 	randomID := UUID new asString.
 	Clipboard clipboardText: randomID.
 
 	poll := LiquidPoll newWithPollDraft: LiquidPollDraft new.
-	poll startWithId: randomID ifTaken: [:taken | self fail].
+	client at: randomID ifPresent: [self fail] ifAbsentPut: poll.
 
-	self assert: ((PollRepo default at: Clipboard clipboardText ifAbsent: [:taken | self fail]) id) equals: poll id. 
+	self assert: ((client at: Clipboard clipboardText ifAbsent: [self fail]) id) equals: poll id. 

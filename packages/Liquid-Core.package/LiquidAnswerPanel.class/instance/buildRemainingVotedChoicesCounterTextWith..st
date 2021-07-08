@@ -6,5 +6,7 @@ buildRemainingVotedChoicesCounterTextWith: aBuilder
 	getText: #getRemainingVotedChoices;
 	indicateUnacceptedChanges: false;
 	readOnly: true;
-	frame: (0.1@0.81 corner: 0.38@0.87);
+	frame: (LayoutFrame
+				fractions: (0.1@0.81 extent: 0@0)
+				offsets: (0@0 extent: 200@30))
 	yourself.
