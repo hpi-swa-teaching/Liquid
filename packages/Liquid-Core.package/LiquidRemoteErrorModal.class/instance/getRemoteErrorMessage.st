@@ -1,0 +1,4 @@
+accessing
+getRemoteErrorMessage
+
+	^remoteError messageText
