@@ -1,5 +1,5 @@
 accessing
-choiceList: aText 
+choiceList: aText
 	self question
 		choiceList: (aText asString lines asOrderedCollection
 				collect: [:value | value withBlanksTrimmed]

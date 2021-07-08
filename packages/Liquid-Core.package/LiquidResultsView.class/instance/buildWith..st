@@ -1,4 +1,4 @@
-initialize
+toolbuilder
 buildWith: aBuilder 
 	^ aBuilder build: (aBuilder pluggableWindowSpec new model: self;
 			 label: 'Poll results for ' , self poll pollDraft title;
