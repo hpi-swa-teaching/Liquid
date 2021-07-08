@@ -4,13 +4,7 @@
 		"open" : "psi 5/26/2021 13:07" },
 	"instance" : {
 		"buildResultsTextBoxWith:" : "CG 7/4/2021 15:55",
-		"buildShowResultsButtonWith:" : "CG 6/10/2021 19:25",
-		"buildWith:" : "CG 7/4/2021 17:41",
-		"choiceNames" : "CG 7/4/2021 16:25",
-		"data" : "CG 7/4/2021 16:14",
+		"buildWith:" : "NM 7/8/2021 12:27",
 		"getResults" : "psi 5/26/2021 17:18",
 		"poll" : "NM 6/9/2021 11:49",
-		"poll:" : "psi 5/26/2021 13:46",
-		"pollChoiceCount" : "CG 7/4/2021 17:16",
-		"pollCount" : "CG 7/6/2021 12:14",
-		"visualizeResults" : "CG 7/4/2021 16:14" } }
+		"poll:" : "psi 5/26/2021 13:46" } }

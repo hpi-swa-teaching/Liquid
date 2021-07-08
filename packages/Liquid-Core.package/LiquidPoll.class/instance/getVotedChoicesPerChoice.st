@@ -1,7 +1,7 @@
-result data
-pollCount
+accessing
+getVotedChoicesPerChoice
 	| question|
-	question := poll pollDraft questionList first.
+	question := self pollDraft questionList first.
 	^ question choiceList
-		collect:[:aChoice| poll answerSets 
+		collect:[:aChoice| self answerSets 
 			count: [:anAnswerSet| (anAnswerSet answers at: question id) votedChoiceList includes: aChoice.]]

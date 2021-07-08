@@ -4,8 +4,10 @@
 	"instance" : {
 		"buildClosePollButtonWith:" : "RS 5/27/2021 15:42",
 		"buildCreatePollButtonWith:" : "6/23/2021 10:05:24",
-		"buildShowResultsButtonWith:" : "psi 5/26/2021 12:02",
-		"buildWith:" : "RS 5/27/2021 15:43",
+		"buildShowResultsButtonWith:" : "NM 7/8/2021 12:21",
+		"buildVisualizeResultsButtonWith:" : "NM 7/8/2021 12:21",
+		"buildWith:" : "NM 7/8/2021 12:20",
 		"closePoll" : "NM 7/2/2021 12:16",
 		"createPoll" : "NM 6/23/2021 10:13",
-		"showResults" : "NM 7/2/2021 12:16" } }
+		"showResults" : "NM 7/8/2021 12:21",
+		"visualizeResults" : "NM 7/8/2021 12:30" } }
