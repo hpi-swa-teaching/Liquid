@@ -1,5 +1,6 @@
 buttons
 sendAnswer
+	| answerIsNew |
 	answerIsNew := LiquidParticipantMenu answeredPollIds ifAbsentAdd: self poll id
 	answerIsNew ifTrue: ...
 		ifTrue: [self poll addAnswerSet: answerSet]
