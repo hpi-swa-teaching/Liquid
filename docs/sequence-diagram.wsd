@@ -1,0 +1,36 @@
+@startuml "Client-Server interaction"
+    actor Host
+    actor "Participant"
+    participant Dummy
+    activate Host 
+    activate "Participant"
+    Host -> RepoClient: at: ifPresent: ifAbsentPut
+    activate RepoClient
+    RepoClient -> RepoServer: <HTTP PUT>
+    activate RepoServer
+    create Poll
+    RepoServer -> Poll
+    RepoServer --> RepoClient
+    deactivate RepoServer
+    RepoClient --> Host
+    deactivate RepoClient
+    "Participant" -> RepoClient: at: ifAbsent:
+    activate RepoClient
+    create Dummy
+    RepoClient -> Dummy
+    RepoClient --> Participant
+    deactivate RepoClient
+    "Participant" -> Dummy: addAnswerSet
+    activate Dummy
+    Dummy -> Dummy: doesNotUnderstand:
+    Dummy -> RepoServer: <HTTP POST>
+    activate RepoServer
+    RepoServer -> Poll: addAnswerSet
+    activate Poll
+    Poll --> RepoServer
+    deactivate Poll
+    RepoServer --> Dummy
+    deactivate RepoServer
+    Dummy --> Participant
+    deactivate Dummy
+@enduml
