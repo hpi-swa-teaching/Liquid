@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "NM 7/9/2021 16:19",
+		"testAnswerSetPollID" : "NM 7/9/2021 16:19",
+		"testClipboardImport" : "NM 7/8/2021 15:12",
+		"testClosePoll" : "NM 7/9/2021 16:30",
+		"testCsvPrinting" : "NM 6/16/2021 14:56",
+		"testIDsAreUUIDs" : "NM 7/9/2021 16:09",
+		"testStartTime" : "NM 7/9/2021 16:45",
+		"testVisualizationDataCollection" : "NM 7/9/2021 16:05" } }

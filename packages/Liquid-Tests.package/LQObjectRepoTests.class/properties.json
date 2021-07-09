@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client",
+		"server",
+		"url" ],
+	"name" : "LQObjectRepoTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "psi 6/1/2021 13:20",
+	"instvars" : [
+		"survey",
+		"testObjects",
+		"testRunner" ],
+	"name" : "LQLintTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

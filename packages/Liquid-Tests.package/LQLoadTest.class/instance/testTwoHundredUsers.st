@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTwoHundredUsers
 	<timeout: 20>
 	| server port poll p q hostPoll pollId target |
