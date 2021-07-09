@@ -1,7 +1,7 @@
 {
 	"category" : "Liquid-Core",
 	"classinstvars" : [
-		 ],
+		"answeredPollIds" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -11,5 +11,5 @@
 	"name" : "LiquidParticipantMenu",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "LQModel",
 	"type" : "normal" }
