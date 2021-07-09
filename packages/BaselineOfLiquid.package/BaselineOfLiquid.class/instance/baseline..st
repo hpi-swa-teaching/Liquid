@@ -4,13 +4,17 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec baseline: 'SwaLint' with: [
+			spec baseline: 'StatisticsWorkbench' with: [
+	                        spec
+	                                repository: 'github://hpi-swa-teaching/StatisticsWorkbench:v2018.1'];
+				baseline: 'SwaLint' with: [
 	                        spec
 	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
-				package: 'Liquid-Core';
-				package: 'Liquid-Tests' with: [spec requires: #('SwaLint' 'Liquid-Core')];
+				package: 'Liquid-Core' with: [spec requires: #('libraries')];
+				package: 'Liquid-Tests' with: [spec requires: #('SwaLint' 'default')];
 				yourself.
 			spec
+				group: 'libraries' with: #('StatisticsWorkbench');
 				group: 'default' with: #('Liquid-Core');
 				group: 'tests' with: #('Liquid-Tests')];
 				yourself
