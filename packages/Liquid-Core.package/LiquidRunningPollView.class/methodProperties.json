@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"newWithPoll:" : "RS 7/9/2021 13:51",
+		"open" : "RS 7/9/2021 13:51" },
+	"instance" : {
+		"buildClosePollButtonWith:" : "RS 7/9/2021 14:21",
+		"buildIDTextBoxWith:" : "RS 7/9/2021 14:21",
+		"buildWith:" : "RS 7/9/2021 14:22",
+		"closePoll" : "RS 7/9/2021 14:15",
+		"getID" : "RS 7/9/2021 14:04",
+		"poll" : "RS 7/9/2021 13:54",
+		"poll:" : "RS 7/9/2021 14:04" } }
