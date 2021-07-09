@@ -1,15 +1,14 @@
 {
 	"category" : "Liquid-Core",
 	"classinstvars" : [
-		"answeredPollIds" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"poll",
-		"answerSet" ],
-	"name" : "LiquidParticipantMenu",
+		 ],
+	"name" : "LQModel",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "Model",
 	"type" : "normal" }
