@@ -19,7 +19,7 @@ testVisualizationSingleChoice
 	poll addAnswerSet: a1; addAnswerSet: a2; addAnswerSet: a3; addAnswerSet: a4.
 					
 	self assert: poll getVotedChoicesPerChoice equals: {1 . 3} asOrderedCollection.
-	self assert: poll getNumberOfChoices equals: {1 . 2} asOrderedCollection.
+	self assert: poll getChoiceIdentifiers equals: {1 . 2} asOrderedCollection.
 	self assert: poll getChoiceNames equals: {'Q1A1' . 'Q1A2'} asOrderedCollection.
 	
 				

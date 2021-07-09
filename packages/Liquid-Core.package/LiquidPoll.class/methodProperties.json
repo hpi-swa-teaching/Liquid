@@ -4,9 +4,9 @@
 	"instance" : {
 		"addAnswerSet:" : "NM 6/16/2021 14:35",
 		"answerSets" : "JS 5/25/2021 15:32",
+		"getChoiceIdentifiers" : "NM 7/9/2021 11:27",
 		"getChoiceNames" : "NM 7/8/2021 12:37",
-		"getNumberOfChoices" : "NM 7/8/2021 12:39",
-		"getVotedChoicesPerChoice" : "NM 7/8/2021 12:42",
+		"getVotedChoicesPerChoice" : "NM 7/9/2021 11:32",
 		"id" : "JS 5/25/2021 15:27",
 		"id:" : "JS 5/25/2021 15:27",
 		"initialize" : "NM 6/16/2021 14:35",

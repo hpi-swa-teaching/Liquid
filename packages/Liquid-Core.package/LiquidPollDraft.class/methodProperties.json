@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"addQuestion:" : "psi 6/10/2021 23:48",
-		"getChoiceNames" : "NM 7/8/2021 12:37",
-		"getNumberOfChoices" : "NM 7/8/2021 12:39",
+		"getChoiceIdentifiers" : "NM 7/9/2021 11:28",
+		"getChoiceNames" : "NM 7/9/2021 11:32",
 		"id" : "JS 5/18/2021 17:20",
 		"id:" : "JS 5/18/2021 17:20",
 		"initialize" : "JS 5/18/2021 17:21",
