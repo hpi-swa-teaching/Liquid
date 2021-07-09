@@ -6,7 +6,7 @@ baseline: spec
 		do: [
 			spec baseline: 'StatisticsWorkbench' with: [
 	                        spec
-	                                repository: 'github://hpi-swa-teaching/StatisticsWorkbench:v2018.1'];
+	                                repository: 'github://hpi-swa-teaching/StatisticsWorkbench:11245259c9fa9e0be1254a79ee744f28e56894d8/packages'];
 				baseline: 'SwaLint' with: [
 	                        spec
 	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];

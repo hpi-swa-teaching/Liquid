@@ -1,0 +1,3 @@
+accessing
+getChoiceIdentifiers
+	^ self pollDraft getChoiceIdentifiers

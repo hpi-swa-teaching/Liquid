@@ -1,5 +1,5 @@
 change behavior
-showResults
+visualizeResults
 	| pollNameInput foundPoll |
 	pollNameInput := UIManager default request: 'Enter Poll ID'.
 	pollNameInput
@@ -7,5 +7,4 @@ showResults
 	foundPoll := PollRepo default
 				at: pollNameInput
 				ifAbsent: [^ UIManager default inform: 'This poll does not exist.'].
-	ToolBuilder
-		open: (LiquidResultsView newWithPoll: foundPoll)
+	LiquidVisualizationView newWithPoll: foundPoll.
