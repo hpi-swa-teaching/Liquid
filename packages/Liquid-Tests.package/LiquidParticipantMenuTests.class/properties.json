@@ -1,14 +1,14 @@
 {
-	"category" : "Liquid-Core",
+	"category" : "Liquid-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft" ],
-	"name" : "LiquidPollDraftBuilder",
+		 ],
+	"name" : "LiquidParticipantMenuTests",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "TestCase",
 	"type" : "normal" }
