@@ -9,7 +9,7 @@
 		"survey",
 		"testObjects",
 		"testRunner" ],
-	"name" : "LQLintTests",
+	"name" : "LiquidLintTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
