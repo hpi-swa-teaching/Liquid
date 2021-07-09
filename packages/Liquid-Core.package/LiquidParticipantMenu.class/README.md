@@ -1,0 +1,1 @@
+The Menu where participants of polls can answer a poll's question(s).
