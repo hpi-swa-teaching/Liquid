@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 isValid: aPassword
 	^ self verify: aPassword matches: hashedPassword

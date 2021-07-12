@@ -1,3 +1,3 @@
-as yet unclassified
+manage
 findPasswordFor: aPollId
 	^ store at: aPollId

@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 isValid: password
 	^ true

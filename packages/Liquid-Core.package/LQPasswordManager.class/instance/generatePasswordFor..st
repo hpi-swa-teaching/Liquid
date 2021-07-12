@@ -1,4 +1,4 @@
-as yet unclassified
+manage
 generatePasswordFor: aPollId
 	| password |
 	password := UUID new.

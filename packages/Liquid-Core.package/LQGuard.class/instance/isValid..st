@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 isValid: somethingThatGuardsCanVerify
 	self subclassResponsibility
