@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStatisticsWorkbenchIsDefined
 	self assert: (SWDiagram isSystemDefined).
 	self assert: (SWData isSystemDefined).

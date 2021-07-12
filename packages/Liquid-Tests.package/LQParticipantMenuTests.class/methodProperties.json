@@ -3,5 +3,4 @@
 		 },
 	"instance" : {
 		"setUp" : "psi 7/6/2021 13:42",
-		"tearDown" : "psi 7/6/2021 13:42",
 		"testSendAnswer" : "psi 7/6/2021 13:43" } }
