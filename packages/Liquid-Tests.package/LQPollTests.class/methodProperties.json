@@ -3,10 +3,10 @@
 		 },
 	"instance" : {
 		"setUp" : "NM 7/9/2021 16:19",
-		"testAnswerSetPollID" : "NM 7/9/2021 16:19",
-		"testClipboardImport" : "NM 7/8/2021 15:12",
+		"testAnswerSetPollID" : "NM 7/12/2021 12:32",
+		"testClipboardImport" : "NM 7/12/2021 12:33",
 		"testClosePoll" : "NM 7/9/2021 16:30",
-		"testCsvPrinting" : "NM 6/16/2021 14:56",
-		"testIDsAreUUIDsToPreventCollisions" : "NM 7/12/2021 10:57",
-		"testStartTime" : "NM 7/12/2021 11:03",
-		"testVisualizationDataCollection" : "NM 7/9/2021 16:05" } }
+		"testCsvPrinting" : "NM 7/12/2021 12:34",
+		"testIDsAreUUIDsToPreventCollisions" : "NM 7/12/2021 12:35",
+		"testStartTime" : "NM 7/12/2021 12:35",
+		"testVisualizationDataCollection" : "NM 7/12/2021 12:35" } }

@@ -3,29 +3,27 @@ testCsvPrinting
 	| poll q1 q2 a1 a2 view |
 	poll := LiquidPoll newWithPollDraft: LiquidPollDraft new.
 	q1 := LiquidChoicesQuestion new title: 'Question 1';
-				
 				choiceList: {'Q1A1'. 'Q1A2'};
-				 yourself.
+				yourself.
 	q2 := LiquidChoicesQuestion new title: 'Q2';
-				
 				choiceList: {'Q2A1'. 'Q2A2'. 'Q2A3'};
-				 maxNumberOfChoices: 2;
-				 yourself.
+				maxNumberOfChoices: 2;
+				yourself.
 	poll pollDraft questionList add: q1;
 		 add: q2.
-	a1 := LiquidAnswerSet new addAnswer: (LiquidChoicesAnswer new questionId: q1 id;
-					 votedChoiceList: {'Q1A2'};
-					 yourself);
-				 addAnswer: (LiquidChoicesAnswer new questionId: q2 id;
-					
+	a1 := LiquidAnswerSet new 
+				addAnswer: (LiquidChoicesAnswer new questionId: q1 id;
+					votedChoiceList: {'Q1A2'};
+					yourself);
+				addAnswer: (LiquidChoicesAnswer new questionId: q2 id;
 					votedChoiceList: {'Q2A1'.  'Q2A3'};
-					 yourself);
-				 pollId: poll id;
-				 yourself.
-	a2 := LiquidAnswerSet new addAnswer: (LiquidChoicesAnswer new questionId: q2 id;
-					
+					yourself);
+				pollId: poll id;
+				yourself.
+	a2 := LiquidAnswerSet new 
+				addAnswer: (LiquidChoicesAnswer new questionId: q2 id;
 					votedChoiceList: {'Q2A1'. 'Q2A2'};
-					 yourself);
+					yourself);
 				 pollId: poll id;
 				 yourself.
 	poll addAnswerSet: a1;

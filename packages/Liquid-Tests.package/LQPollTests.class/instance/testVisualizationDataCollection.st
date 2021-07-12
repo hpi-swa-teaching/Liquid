@@ -20,5 +20,3 @@ testVisualizationDataCollection
 	self assert: poll getVotedChoicesPerChoice equals: {1 . 3} asOrderedCollection.
 	self assert: poll getChoiceIdentifiers equals: {1 . 2} asOrderedCollection.
 	self assert: poll getChoiceNames equals: {'Q1A1' . 'Q1A2'} asOrderedCollection.
-	
-				
