@@ -1,3 +1,3 @@
 tests
 testErrorHandlingRemote
-	self errorHandling: self client.
+	self errorHandling: self client withErrorType: RemoteError.

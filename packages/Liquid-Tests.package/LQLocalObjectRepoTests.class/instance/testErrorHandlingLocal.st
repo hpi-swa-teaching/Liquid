@@ -1,3 +1,3 @@
 tests
 testErrorHandlingLocal
-	self errorHandling: self client.
+	self errorHandling: self client withErrorType: Error.
