@@ -1,7 +1,7 @@
 as yet unclassified
 testTwoHundredUsers
 	<timeout: 20>
-	| server port poll p q hostPoll pollId target |
+	| server port poll p q hostPoll pollId target password |
 	port := (10000 to: 50000) atRandom.
 	server := RemoteRepoServer new.
 	server listenOn: port.
@@ -13,8 +13,10 @@ testTwoHundredUsers
 			 yourself).
 			
 	pollId := 'gotta-catch-rayquaza'.
+	password := 'karpador'.
 	poll
 		startWithId: pollId
+		andPassword: password
 		ifTaken: [self error: 'this shouldnt have occured'].
 		
 	"participant"
@@ -32,7 +34,7 @@ testTwoHundredUsers
 	].
 
 	"host"
-	poll isOpen: false.
+	poll closeWithPassword: password.
 	
 	hostPoll := PollRepo default at: pollId ifAbsent: [ self error: 'this shouldnt have occured' ].
 	

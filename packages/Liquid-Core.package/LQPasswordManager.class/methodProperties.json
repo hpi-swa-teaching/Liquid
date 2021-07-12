@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"default" : "sk 7/12/2021 16:00" },
+	"instance" : {
+		"findPasswordFor:" : "sk 7/12/2021 15:59",
+		"generatePasswordFor:" : "sk 7/12/2021 15:58",
+		"initialize" : "sk 7/12/2021 15:58" } }

@@ -4,17 +4,18 @@
 	"instance" : {
 		"addAnswerSet:" : "NM 6/16/2021 14:35",
 		"answerSets" : "JS 5/25/2021 15:32",
+		"closeWithPassword:" : "sk 7/12/2021 15:52",
 		"getChoiceIdentifiers" : "NM 7/9/2021 11:27",
 		"getChoiceNames" : "NM 7/8/2021 12:37",
 		"getVotedChoicesPerChoice" : "NM 7/9/2021 11:32",
 		"id" : "JS 5/25/2021 15:27",
 		"id:" : "JS 5/25/2021 15:27",
-		"initialize" : "NM 6/16/2021 14:35",
+		"initialize" : "sk 7/12/2021 15:52",
 		"isOpen" : "NM 6/16/2021 14:35",
-		"isOpen:" : "NM 6/16/2021 14:35",
 		"pollDraft" : "JS 5/25/2021 15:33",
 		"pollDraft:" : "JS 5/25/2021 15:33",
 		"printDataOn:withDelimiter:" : "psi 6/1/2021 13:09",
 		"startTime" : "JS 5/25/2021 15:55",
 		"startTime:" : "JS 5/25/2021 15:56",
-		"startWithId:ifTaken:" : "psi 6/10/2021 17:18" } }
+		"startWithId:andPassword:ifTaken:" : "sk 7/12/2021 15:35",
+		"startWithId:ifTaken:" : "sk 7/12/2021 16:01" } }

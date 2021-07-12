@@ -1,18 +1,13 @@
 {
 	"category" : "Liquid-Core",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft",
-		"id",
-		"startTime",
-		"answerSets",
-		"isOpen",
-		"guard" ],
-	"name" : "LiquidPoll",
+		"store" ],
+	"name" : "LQPasswordManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

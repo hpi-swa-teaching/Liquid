@@ -1,6 +1,8 @@
 change behavior
 closePoll
+	| pollId |
+	pollId := UIManager default request: 'Enter Poll ID'.
 	(PollRepo default
-		at: (UIManager default request: 'Enter Poll ID')
-		ifAbsent: [^ UIManager default inform: 'This poll does not exist.'])
-		isOpen: false
+		at: pollId
+		ifAbsent: [^ UIManager default inform: 'This poll does not exist.']) poll
+		closeWithPassword: (LQPasswordManager default findPasswordFor: pollId)

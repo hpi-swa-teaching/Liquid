@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft",
-		"id",
-		"startTime",
-		"answerSets",
-		"isOpen",
-		"guard" ],
-	"name" : "LiquidPoll",
+		 ],
+	"name" : "LQAcceptingGuard",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LQGuard",
 	"type" : "normal" }
