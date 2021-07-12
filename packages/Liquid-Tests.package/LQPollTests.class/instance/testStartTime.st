@@ -8,5 +8,4 @@ testStartTime
 	(Delay forMilliseconds: 1) wait.
 	timeAfterStart := DateAndTime now.
 	
-	self assert: timeBeforeStart < poll startTime equals: true.
-	self assert: poll startTime < timeAfterStart equals: true.
+	self assert: [poll startTime between: timeBeforeStart and: timeAfterStart].
