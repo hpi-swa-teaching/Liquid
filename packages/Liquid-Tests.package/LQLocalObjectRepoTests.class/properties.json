@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "LQObjectRepoTests",
+		 ],
+	"name" : "LQLocalObjectRepoTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "LQObjectRepoTests",
 	"type" : "normal" }

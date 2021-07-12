@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "NM 7/12/2021 15:27",
+		"setUpRemoteServer" : "NM 7/12/2021 15:23",
+		"tearDown" : "NM 7/12/2021 15:24",
+		"testErrorHandlingRemote" : "NM 7/12/2021 15:26",
+		"testIfPresentIfAbsentRemote" : "NM 7/12/2021 15:24",
+		"testMessagePassing" : "NM 7/12/2021 15:24" } }

@@ -1,4 +1,4 @@
-tests
+tests - subclasses
 ifPresentIfAbsent: aClient
 	|presentCheck|
 	presentCheck := false.
