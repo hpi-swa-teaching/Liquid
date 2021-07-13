@@ -1,3 +1,3 @@
 comparing
-isValid: password
+isValid: aPassword
 	^ true
