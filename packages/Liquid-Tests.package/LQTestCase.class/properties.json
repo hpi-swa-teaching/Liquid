@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft" ],
-	"name" : "LQPollDraftTests",
+		 ],
+	"name" : "LQTestCase",
 	"pools" : [
 		 ],
-	"super" : "LQTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
