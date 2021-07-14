@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LQLoadTest",
+	"name" : "LQParticipantMenuTests",
 	"pools" : [
 		 ],
 	"super" : "LQTestCase",
