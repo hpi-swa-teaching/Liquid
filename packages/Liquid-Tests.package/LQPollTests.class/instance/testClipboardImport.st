@@ -1,5 +1,6 @@
 tests
 testClipboardImport
+	"The functionality tested here is no longer used by Liquid. Leaving the test since it should still work"
 	| poll randomID client |
 	client := LocalObjectRepo new.
 	randomID := UUID new asString.
