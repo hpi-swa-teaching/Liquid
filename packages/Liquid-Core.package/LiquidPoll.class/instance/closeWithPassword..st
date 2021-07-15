@@ -1,5 +1,5 @@
-accessing
-closeWithPassword: password
-	guard ifValid: password do: [
+modifying
+closeWithPassword: aPassword
+	guard ifValid: aPassword do: [
 		isOpen := false
 	]

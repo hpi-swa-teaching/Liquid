@@ -1,7 +1,7 @@
 as yet unclassified
 testTwoHundredUsers
 	<timeout: 20>
-	| server port poll p q hostPoll pollId target password |
+	| server port poll p q hostPoll pollId target |
 	port := (10000 to: 50000) atRandom.
 	server := RemoteRepoServer new.
 	server listenOn: port.
@@ -13,10 +13,8 @@ testTwoHundredUsers
 			 yourself).
 			
 	pollId := 'gotta-catch-rayquaza'.
-	password := 'karpador'.
 	poll
 		startWithId: pollId
-		andPassword: password
 		ifTaken: [self error: 'this shouldnt have occured'].
 		
 	"participant"
@@ -34,7 +32,7 @@ testTwoHundredUsers
 	].
 
 	"host"
-	poll closeWithPassword: password.
+	poll closeWithPassword: (LQPasswordManager default findPasswordFor: pollId ifAbsent: [ self fail: 'expected password to exist' ]).
 	
 	hostPoll := PollRepo default at: pollId ifAbsent: [ self error: 'this shouldnt have occured' ].
 	

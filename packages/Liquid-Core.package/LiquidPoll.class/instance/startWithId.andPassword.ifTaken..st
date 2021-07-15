@@ -2,7 +2,7 @@ initialize
 startWithId: anId andPassword: aPassword ifTaken: do
 	self id: anId;
 		startTime: DateAndTime now.
-	guard := LQPasswordGuard newWithPassword: aPassword.
+	guard password: aPassword.
 	PollRepo default
 		at: anId
 		ifPresent: do

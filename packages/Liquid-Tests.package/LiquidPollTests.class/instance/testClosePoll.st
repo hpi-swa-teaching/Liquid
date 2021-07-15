@@ -26,7 +26,7 @@ testClosePoll
 				 pollId: poll id;
 				 yourself.
 	poll addAnswerSet: a1;
-		 closeWithPassword: nil;
+		 closeWithPassword: '';
 		 addAnswerSet: a2.
 	view := LiquidResultsView newWithPoll: poll.
 	self assert: poll answerSets size equals: 1

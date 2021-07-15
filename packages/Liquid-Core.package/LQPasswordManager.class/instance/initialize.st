@@ -1,3 +1,3 @@
 initialize-release
 initialize
-	store := Dictionary new.
+	passwordStore := Dictionary new.

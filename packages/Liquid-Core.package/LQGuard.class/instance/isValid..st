@@ -1,3 +1,0 @@
-comparing
-isValid: somethingThatGuardsCanVerify
-	self subclassResponsibility

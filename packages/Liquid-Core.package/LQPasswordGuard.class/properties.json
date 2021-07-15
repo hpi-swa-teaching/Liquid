@@ -10,5 +10,5 @@
 	"name" : "LQPasswordGuard",
 	"pools" : [
 		 ],
-	"super" : "LQGuard",
+	"super" : "Object",
 	"type" : "normal" }
