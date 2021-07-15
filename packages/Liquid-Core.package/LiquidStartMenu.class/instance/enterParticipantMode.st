@@ -1,22 +1,22 @@
 modes
 enterParticipantMode
-|pollId menu|
+	|pollId menu|
 
-pollId := UIManager default request: 'What''s your Poll ID?' initialAnswer: Clipboard clipboardText asString.
-pollId ifEmpty: [^ self].
+	pollId := UIManager default request: 'What''s your Poll ID?'.
+	pollId ifEmpty: [^ self].
 
-(LiquidParticipantMenu answeredPollIds includes: pollId) ifTrue: [
-	UIManager default inform: 'You have already answered this Poll.'.
-	^ self
-].
+	(LiquidParticipantMenu answeredPollIds includes: pollId) ifTrue: [
+		UIManager default inform: 'You have already answered this Poll.'.
+		^ self
+	].
 
-menu := LiquidParticipantMenu new.
-	(menu importPollWithId: pollId) 
-	ifNotNil: [
-		ToolBuilder open: menu.
-		self destroy.
-		]
-	ifNil: [
-		UIManager default inform: 'Please enter a valid Poll ID'.
-		self enterParticipantMode.
-		]
+	menu := LiquidParticipantMenu new.
+		(menu importPollWithId: pollId) 
+		ifNotNil: [
+			ToolBuilder open: menu.
+			self destroy.
+			]
+		ifNil: [
+			UIManager default inform: 'Please enter a valid Poll ID'.
+			self enterParticipantMode.
+			]
