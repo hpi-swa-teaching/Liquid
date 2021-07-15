@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LQLoadTest",
+		"url",
+		"server" ],
+	"name" : "LQRemoteObjectRepoTests",
 	"pools" : [
 		 ],
-	"super" : "LQTestCase",
+	"super" : "LQObjectRepoTests",
 	"type" : "normal" }

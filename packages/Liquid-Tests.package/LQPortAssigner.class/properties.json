@@ -1,14 +1,14 @@
 {
 	"category" : "Liquid-Tests",
 	"classinstvars" : [
-		 ],
+		"lastPort" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LQLoadTest",
+	"name" : "LQPortAssigner",
 	"pools" : [
 		 ],
-	"super" : "LQTestCase",
+	"super" : "Object",
 	"type" : "normal" }
