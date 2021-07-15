@@ -32,7 +32,10 @@ testTwoHundredUsers
 	].
 
 	"host"
-	poll isOpen: false.
+	poll
+		closeWithPassword: (LQPasswordManager default
+				findPasswordFor: pollId
+				ifAbsent: [self fail: 'expected pw to be present']).
 	
 	hostPoll := PollRepo default at: pollId ifAbsent: [self fail: 'Poll not found at given ID'].
 	
