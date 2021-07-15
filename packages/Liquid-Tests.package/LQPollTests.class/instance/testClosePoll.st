@@ -25,8 +25,10 @@ testClosePoll
 					 yourself);
 				 pollId: poll id;
 				 yourself.
+	PollRepo default: (LocalObjectRepo new).
+ 	poll startWithId: 'some-id' ifTaken: [].
 	poll addAnswerSet: a1;
-		 isOpen: false;
+		closeWithPassword: (LQPasswordManager default findPasswordFor: 'some-id' ifAbsent: [self fail: 'expected password to exist']);
 		 addAnswerSet: a2.
 	view := LiquidResultsView newWithPoll: poll.
 	
