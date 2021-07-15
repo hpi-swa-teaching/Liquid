@@ -1,3 +1,3 @@
 accessing
 title
-	^ self pollDraft title ifNil:[ 'Enter your title here']
+	^ self pollDraft title
