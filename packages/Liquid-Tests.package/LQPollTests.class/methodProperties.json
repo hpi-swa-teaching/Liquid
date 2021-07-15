@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"testAnswerSetPollID" : "NM 7/12/2021 12:32",
-		"testClipboardImport" : "NM 7/12/2021 12:33",
 		"testClosePoll" : "NM 7/9/2021 16:30",
 		"testCsvPrinting" : "NM 7/12/2021 12:34",
 		"testIDsAreUUIDsToPreventCollisions" : "NM 7/12/2021 12:35",
