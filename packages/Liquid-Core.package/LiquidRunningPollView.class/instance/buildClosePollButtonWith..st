@@ -1,4 +1,4 @@
-accessing
+toolbuilder
 buildClosePollButtonWith: aBuilder
 
 ^ aBuilder pluggableButtonSpec new

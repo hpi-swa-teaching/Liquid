@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildIDTextBoxWith: aBuilder 
 	^ aBuilder pluggableTextSpec new model: self;
 		 readOnly: true;
