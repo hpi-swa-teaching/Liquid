@@ -1,3 +1,0 @@
-*Liquid-Core
-needsLegend
-	^ false

@@ -1,8 +1,8 @@
-as yet unclassified
+tests
 testTwoHundredUsers
 	<timeout: 20>
 	| server port poll p q hostPoll pollId target |
-	port := (10000 to: 50000) atRandom.
+	port := LQPortAssigner get.
 	server := RemoteRepoServer new.
 	server listenOn: port.
 	PollRepo
@@ -15,14 +15,14 @@ testTwoHundredUsers
 	pollId := 'gotta-catch-rayquaza'.
 	poll
 		startWithId: pollId
-		ifTaken: [self error: 'this shouldnt have occured'].
+		ifTaken: [self fail: 'Poll ID already taken'].
 		
 	"participant"
 	target := 200.
 	target timesRepeat: [
 	p := PollRepo default
 				at: pollId
-				ifAbsent: [self error: 'nonono'].
+				ifAbsent: [self fail: 'Poll not found at given ID'].
 	q := p pollDraft questionList at: 1.
 	p addAnswerSet: (LiquidAnswerSet new addAnswer: (LiquidChoicesAnswer new questionId: q id;
 				 votedChoiceList: {'in Whiscashs throat'};
@@ -34,7 +34,7 @@ testTwoHundredUsers
 	"host"
 	poll isOpen: false.
 	
-	hostPoll := PollRepo default at: pollId ifAbsent: [ self error: 'this shouldnt have occured' ].
+	hostPoll := PollRepo default at: pollId ifAbsent: [self fail: 'Poll not found at given ID'].
 	
 	self assert: target equals: hostPoll answerSets size.
 	server destroy
