@@ -3,10 +3,12 @@
 		"newWithPoll:" : "RS 7/9/2021 13:51",
 		"open" : "RS 7/9/2021 13:51" },
 	"instance" : {
-		"buildClosePollButtonWith:" : "RS 7/9/2021 14:21",
+		"buildClosePollButtonWith:" : "RS 7/15/2021 14:40",
 		"buildIDTextBoxWith:" : "RS 7/9/2021 14:21",
-		"buildWith:" : "RS 7/9/2021 14:22",
-		"closePoll" : "RS 7/9/2021 14:15",
+		"buildWith:" : "RS 7/15/2021 14:40",
+		"changeClosePollButtonToVisualizeResultsButton" : "RS 7/15/2021 14:41",
+		"closePoll" : "RS 7/15/2021 14:41",
 		"getID" : "RS 7/9/2021 14:04",
 		"poll" : "RS 7/9/2021 13:54",
-		"poll:" : "RS 7/9/2021 14:04" } }
+		"poll:" : "RS 7/9/2021 14:04",
+		"visualizeResults" : "RS 7/15/2021 14:24" } }
