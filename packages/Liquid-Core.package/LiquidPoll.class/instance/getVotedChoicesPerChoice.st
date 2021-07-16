@@ -1,4 +1,4 @@
-accessing
+accessing - visualization
 getVotedChoicesPerChoice
 	| question|
 	question := self pollDraft questionList first.

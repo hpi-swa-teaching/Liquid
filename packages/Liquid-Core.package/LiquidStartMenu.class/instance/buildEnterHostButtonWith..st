@@ -4,6 +4,7 @@ buildEnterHostButtonWith: aBuilder
 ^ aBuilder pluggableButtonSpec new
 	model: self;
 	label: 'Enter Host Mode';
+	help: 'Enter the host menu, where you can create and close polls and get results to your polls';
 	action: #enterHostMode;
 	frame: (LayoutFrame new
 				topFraction: 0;

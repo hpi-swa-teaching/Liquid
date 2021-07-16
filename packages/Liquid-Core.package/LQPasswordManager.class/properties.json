@@ -1,14 +1,14 @@
 {
-	"category" : "Liquid-Tests",
+	"category" : "Liquid-Core",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "LQObjectRepoTests",
+		"passwordStore" ],
+	"name" : "LQPasswordManager",
 	"pools" : [
 		 ],
-	"super" : "LQTestCase",
+	"super" : "Object",
 	"type" : "normal" }

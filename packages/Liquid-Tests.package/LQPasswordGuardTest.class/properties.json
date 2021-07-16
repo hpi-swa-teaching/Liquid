@@ -1,14 +1,14 @@
 {
-	"category" : "Liquid-Core",
+	"category" : "Liquid-Tests",
 	"classinstvars" : [
-		"drafts" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "DraftStore",
+	"name" : "LQPasswordGuardTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

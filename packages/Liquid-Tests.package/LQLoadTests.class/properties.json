@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NM 7/15/2021 12:53",
 	"instvars" : [
 		 ],
-	"name" : "LQLoadTest",
+	"name" : "LQLoadTests",
 	"pools" : [
 		 ],
 	"super" : "LQTestCase",

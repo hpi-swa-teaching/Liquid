@@ -4,13 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NM 7/16/2021 11:01",
 	"instvars" : [
 		"pollDraft",
 		"id",
 		"startTime",
 		"answerSets",
-		"isOpen" ],
+		"isOpen",
+		"guard" ],
 	"name" : "LiquidPoll",
 	"pools" : [
 		 ],
