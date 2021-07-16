@@ -1,4 +1,4 @@
 accessing
 poll: aPoll
 	poll := aPoll.
-	self changed: #getID.
+	self changed: #pollId.

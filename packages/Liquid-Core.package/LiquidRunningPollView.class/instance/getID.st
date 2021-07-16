@@ -1,3 +1,3 @@
 accessing
-getID
+pollId
 	^ (self poll id asString)
