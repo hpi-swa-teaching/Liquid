@@ -55,4 +55,6 @@ We also just wanted to try out this approach. It's heavily inspired by the RPC a
 
 ## How does it work?
 
-TODO
+1. What is sent over the network, and how?
+2. How do the accompanying Smalltalk classes work?
+3. What is the LocalObjectRepo?
