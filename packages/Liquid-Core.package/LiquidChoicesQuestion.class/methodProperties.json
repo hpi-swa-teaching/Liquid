@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addChoice:" : "NM 7/9/2021 14:27",
 		"buildEmptyAnswer" : "NM 6/16/2021 14:26",
-		"initialize" : "NM 6/16/2021 14:27",
+		"choiceList" : "NM 7/9/2021 14:27",
+		"choiceList:" : "NM 7/9/2021 14:27",
+		"initialize" : "NM 7/9/2021 14:27",
 		"maxNumberOfChoices" : "JS 6/9/2021 11:09",
 		"maxNumberOfChoices:" : "JS 6/9/2021 11:09",
 		"type" : "NM 6/16/2021 14:27" } }

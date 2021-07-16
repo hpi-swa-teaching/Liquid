@@ -1,8 +1,9 @@
 toolbuilder
 buildChoicesInputWith: aBuilder 
 	^ aBuilder pluggableTextSpec new model: self;
-		 getText: #choiceList;
-		 editText: #choiceList:;
+		getText: #choiceList;
+		editText: #choiceList:;
+		help: 'Each line in this field represents a new choice for participants';
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame
 				fractions: (0 @ 0 extent: 1 @ 1)

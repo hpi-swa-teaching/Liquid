@@ -1,0 +1,2 @@
+The LQTestCase is an abstract superclass to all LQTests. It implements the setUp-method to reset all global states before each test to ensure their independence from each other.
+Not that running the tests in your local image will therefore also reset all global states of your Liquid, e.g. deleting all polls when the PollRepo default is reset.

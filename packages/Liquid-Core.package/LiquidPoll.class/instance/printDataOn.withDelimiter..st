@@ -5,7 +5,7 @@ printDataOn: aStream withDelimiter: aDelimiter
 				collect: [:aQuestion | aQuestion id].
 	self pollDraft questionList
 		do: [:aQuestion | 
-			aQuestion printOn: aStream.
+			aStream nextPutAll: aQuestion title.
 			aStream nextPutAll: aDelimiter].
 	aStream nextPut: Character cr.
 	self answerSets
