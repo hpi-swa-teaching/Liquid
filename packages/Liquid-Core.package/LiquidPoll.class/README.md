@@ -3,4 +3,4 @@ The poll Object participants get access to when entering the LQParticipantMenu. 
 Notable Instance Variables:
 id: A randomly generated UUID.
 isOpen: Indicated whether or not participants can still submit LQAnswerSets.
-answerSets: An OrderedCollection of all LQAnswerSets submitted by Participants. #Participants = answerSets size.
+answerSets: An OrderedCollection of all LQAnswerSets submitted by Participants. Number of Participants = answerSets size.
