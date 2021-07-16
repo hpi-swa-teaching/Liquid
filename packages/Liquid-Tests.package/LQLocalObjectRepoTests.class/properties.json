@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NM 7/15/2021 12:44",
 	"instvars" : [
-		"url",
-		"server" ],
-	"name" : "LQRemoteObjectRepoTests",
+		"client" ],
+	"name" : "LQLocalObjectRepoTests",
 	"pools" : [
 		 ],
-	"super" : "LQObjectRepoTests",
+	"super" : "LQTestCase",
 	"type" : "normal" }

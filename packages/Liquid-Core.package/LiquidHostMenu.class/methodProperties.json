@@ -2,12 +2,12 @@
 	"class" : {
 		"open" : "NM 5/19/2021 22:09" },
 	"instance" : {
-		"buildClosePollButtonWith:" : "RS 5/27/2021 15:42",
-		"buildCreatePollButtonWith:" : "6/23/2021 10:05:24",
-		"buildShowResultsButtonWith:" : "NM 7/8/2021 12:21",
-		"buildVisualizeResultsButtonWith:" : "NM 7/8/2021 12:21",
+		"buildClosePollButtonWith:" : "NM 7/15/2021 13:15",
+		"buildCreatePollButtonWith:" : "NM 7/15/2021 13:14",
+		"buildShowResultsButtonWith:" : "NM 7/15/2021 13:14",
+		"buildVisualizeResultsButtonWith:" : "NM 7/15/2021 13:15",
 		"buildWith:" : "NM 7/8/2021 12:20",
 		"closePoll" : "NM 7/2/2021 12:16",
-		"createPoll" : "NM 6/23/2021 10:13",
+		"createPoll" : "NM 7/15/2021 15:03",
 		"showResults" : "NM 7/8/2021 12:21",
 		"visualizeResults" : "NM 7/8/2021 12:30" } }

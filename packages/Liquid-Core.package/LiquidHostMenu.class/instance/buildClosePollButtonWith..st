@@ -4,6 +4,7 @@ buildClosePollButtonWith: aBuilder
 ^ aBuilder pluggableButtonSpec new
 	model: self;
 	label: 'Close Poll';
+	help: 'Close a poll and prevent participants from submitting additional answers';
 	action: #closePoll;
 	frame: (LayoutFrame new
 				topFraction: 0;

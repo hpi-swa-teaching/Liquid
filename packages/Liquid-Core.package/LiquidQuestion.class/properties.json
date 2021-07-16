@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "NM 7/9/2021 14:32",
 	"instvars" : [
 		"id",
-		"title",
-		"choiceList" ],
+		"title" ],
 	"name" : "LiquidQuestion",
 	"pools" : [
 		 ],
