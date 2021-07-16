@@ -4,15 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NM 7/16/2021 11:01",
+	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft",
-		"id",
-		"startTime",
-		"answerSets",
-		"isOpen",
-		"guard" ],
-	"name" : "LiquidPoll",
+		"hashedPassword" ],
+	"name" : "LQPasswordGuard",
 	"pools" : [
 		 ],
 	"super" : "Object",

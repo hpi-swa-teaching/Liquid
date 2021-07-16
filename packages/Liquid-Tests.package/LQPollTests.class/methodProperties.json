@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testAnswerSetPollID" : "NM 7/12/2021 12:32",
-		"testClosePoll" : "NM 7/9/2021 16:30",
+		"testClosePoll" : "sk 7/15/2021 14:31",
 		"testCsvPrinting" : "NM 7/12/2021 12:34",
 		"testIDsAreUUIDsToPreventCollisions" : "NM 7/12/2021 12:35",
 		"testStartTime" : "NM 7/12/2021 12:35",
