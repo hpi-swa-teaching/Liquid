@@ -1,17 +1,40 @@
 # Contributing
 
+## Getting Started
+
+> Innovative Polling + Squeak = ❤️
+> ❤️ + 💧 = Liquid
+> solve for 💧
+
+Always wanted to explore the inner workings of Liquid, Squeak, and the entire universe? The Answer to the Ultimate Question of Life, The Universe, and Everything?
+
+While we cannot help you with that, we can give you some guidance into this codebase.
+
+- [ ] Try it out using instructions in README.
+- [ ] Read the [docs](https://github.com/hpi-swa-teaching/Liquid/tree/main/docs).
+  - make sure you understood the RemoteRepo!
+  - take a look at the class diagram (open with [PlantText](https://www.planttext.com/)), focus on the *data structures* package.
+- [ ] Read through open issues
+- [ ] Get a grasp of the codebase, an hour of work should be enough to get a rough idea.
+
+### Tools Used
+
+- [poppy print](https://github.com/hpi-swa-teaching/poppy-print)
+- [Statistics Workbench](https://github.com/hpi-swa-teaching/StatisticsWorkbench)
+- [SwaLint](https://github.com/hpi-swa-teaching/SwaLint)
+
+## Development Process
+
 This document aims to define our development process.
 
-Beware: *Liquid*'s development process is not meant for world-public collaboration, so it doesn't cater to contributors outside the core team.
+Beware: _Liquid_'s development process is not meant for world-public collaboration, so it doesn't cater to contributors outside the core team.
 
-## Meetings
+### Meetings
 
 There's a weekly planning meeting on wednesday and a session with the product owner on friday.
 Additional meetings are scheduled sparingly as we see fit.
 
 Every meeting is accompanied by an issue containing agenda and potential decisions.
-
-## Development Process
 
 ### Pre-Prototype: Throw-Away Code for Problem Exploration
 
@@ -29,7 +52,7 @@ That means:
 
 ### General Process
 
-After we've explored the problem domain (again, aiming for May 12th), we go back to a *sane* development process.
+After we've explored the problem domain (again, aiming for May 12th), we go back to a _sane_ development process.
 
 That means:
 
@@ -45,21 +68,20 @@ Our Key Metrics:
 - Test Coverage. We aim for ~90%. (10% for hard-to-test UI code)
 - TBD
 
-
 ## Term Definitions
 
 To promote a shared conception of the problem domain and reduce miscommunication, we agree on the following terms:
 
-| Term  | Description |
-| - | - |
-| Question | A _Question_ object represents a question, there could be many types of questions such as single-choice, multiple-choice, free-text, .... |
-| Poll-Draft | A _Poll-Draft_ consists of all the properties of a Poll that could be reused, this includes especially a title and _Questions_. |
-| Poll | A _Poll_ is a _Poll-Draft_ that was started by a _Host_. |
-| Creator | A _creator_ is a person that creates _Poll-Drafts_. |
-| Host | A _Host_ is a person that starts a _Poll_ using a _Poll-Draft_. There can only be one _Host_ to a _Poll_, but a _Host_ can run multiple _Polls_. |
-| Participant | A _Participant_ participates in a Poll by viewing it and then responds by submitting an _Answer-Set_. |
-| Choice | In single-, multiple- and prioritised-choice-_Questions_ the _Participant_ can choose between a given set of options. We call each of these options a _Choice_. They are specified in the related _Question_.
-| VotedChoice | Each _Choice_ that the _Participant_ choose in his _Answer_ to a _Question_ is a _VotedChoice_ |
-| Answer | A _Participant_ answers a specific _Question_ in a _Poll_ with an _Answer_. The structure of the _Answer_ corresponds to the type of the _Question_ it answers. |
-| Answer-Set | An _Answer-Set_ to a _Poll_ consists of all of the _Answers_ of one _Participant_. Each unique _Participant_ submits one _Answer-Set_ to a _Poll_. The _Host_ of a _Poll_ only receives _Answer-Sets_, which make up the _Result_ of the _Poll_. |
-| Result | Each _Poll_ has exactly one _Result_. The _Result_ of a _Poll_ consists of the cumulative _Answer-Sets_ submitted by _Participants_. |
+| Term        | Description                                                                                                                                                                                                                                      |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Question    | A _Question_ object represents a question, there could be many types of questions such as single-choice, multiple-choice, free-text, ....                                                                                                        |
+| Poll-Draft  | A _Poll-Draft_ consists of all the properties of a Poll that could be reused, this includes especially a title and _Questions_.                                                                                                                  |
+| Poll        | A _Poll_ is a _Poll-Draft_ that was started by a _Host_.                                                                                                                                                                                         |
+| Creator     | A _creator_ is a person that creates _Poll-Drafts_.                                                                                                                                                                                              |
+| Host        | A _Host_ is a person that starts a _Poll_ using a _Poll-Draft_. There can only be one _Host_ to a _Poll_, but a _Host_ can run multiple _Polls_.                                                                                                 |
+| Participant | A _Participant_ participates in a Poll by viewing it and then responds by submitting an _Answer-Set_.                                                                                                                                            |
+| Choice      | In single-, multiple- and prioritised-choice-_Questions_ the _Participant_ can choose between a given set of options. We call each of these options a _Choice_. They are specified in the related _Question_.                                    |
+| VotedChoice | Each _Choice_ that the _Participant_ choose in his _Answer_ to a _Question_ is a _VotedChoice_                                                                                                                                                   |
+| Answer      | A _Participant_ answers a specific _Question_ in a _Poll_ with an _Answer_. The structure of the _Answer_ corresponds to the type of the _Question_ it answers.                                                                                  |
+| Answer-Set  | An _Answer-Set_ to a _Poll_ consists of all of the _Answers_ of one _Participant_. Each unique _Participant_ submits one _Answer-Set_ to a _Poll_. The _Host_ of a _Poll_ only receives _Answer-Sets_, which make up the _Result_ of the _Poll_. |
+| Result      | Each _Poll_ has exactly one _Result_. The _Result_ of a _Poll_ consists of the cumulative _Answer-Sets_ submitted by _Participants_.                                                                                                             |
