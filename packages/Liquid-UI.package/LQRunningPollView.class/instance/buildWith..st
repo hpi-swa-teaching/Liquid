@@ -5,5 +5,5 @@ buildWith: aBuilder
 		model: self;
 		label: 'Poll running with ID: ';
 		extent: 350 @ 130;
-		children: {self buildIDTextBoxWith: aBuilder. self buildClosePollButtonWith: aBuilder};
+		children: {self buildIDTextBoxWith: aBuilder. self buildPollInteractionButtonWith: aBuilder};
 		yourself)

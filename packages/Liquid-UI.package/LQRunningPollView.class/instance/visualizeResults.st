@@ -1,4 +1,4 @@
-accessing
+modifying
 visualizeResults
 
 	LQVisualizationView newWithPoll: (LQPollRepo default

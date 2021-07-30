@@ -1,5 +1,5 @@
 toolbuilder
-buildClosePollButtonWith: aBuilder
+buildPollInteractionButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;

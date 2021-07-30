@@ -1,4 +1,4 @@
-initialize
+toolbuilder
 buildRemainingVotedChoicesCounterTextWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

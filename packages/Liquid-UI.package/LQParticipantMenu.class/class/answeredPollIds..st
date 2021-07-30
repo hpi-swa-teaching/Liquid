@@ -1,4 +1,4 @@
 accessing
 answeredPollIds: aSet
 
-	answeredPollIds := aSet
+	AnsweredPollIds := aSet

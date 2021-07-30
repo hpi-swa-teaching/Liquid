@@ -1,4 +1,4 @@
-result data
+data
 data
 
 	| result sortedData |

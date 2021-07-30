@@ -1,9 +1,9 @@
 {
 	"category" : "Liquid-Network",
 	"classinstvars" : [
-		"default" ],
-	"classvars" : [
 		 ],
+	"classvars" : [
+		"Default" ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],

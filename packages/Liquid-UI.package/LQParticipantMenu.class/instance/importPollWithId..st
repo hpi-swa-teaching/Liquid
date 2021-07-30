@@ -1,9 +1,7 @@
-initialize
+communication
 importPollWithId: aString
 
-	| importedPoll |
-	importedPoll := LQPollRepo default at: aString ifAbsent: [^ nil].
-	self poll: importedPoll.
+	self poll: (LQPollRepo default at: aString ifAbsent: [^ nil]).
 	self answerSet: LQAnswerSet new.
 	self answerSet pollId: self poll id.
 	self changed: #poll

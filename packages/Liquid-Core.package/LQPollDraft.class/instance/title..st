@@ -1,4 +1,4 @@
-initialize
+accessing
 title: aString
 
 	title := aString

@@ -1,4 +1,4 @@
-initialize
+toolbuilder
 buildMultiSelectionListWith: aBuilder
 
 	^ aBuilder pluggableMultiSelectionListSpec new

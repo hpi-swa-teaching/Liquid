@@ -1,4 +1,4 @@
-accessing
+initialize
 buildEmptyAnswer
 
 	self subclassResponsibility

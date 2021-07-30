@@ -1,6 +1,6 @@
 accessing
 get
 
-	lastPort ifNil: [lastPort := 10000].
-	lastPort := lastPort + 1.
-	^ lastPort
+	LastPort ifNil: [LastPort := 10000].
+	LastPort := LastPort + 1.
+	^ LastPort

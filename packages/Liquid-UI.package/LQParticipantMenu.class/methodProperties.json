@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"answeredPollIds" : "CG 7/30/2021 19:06",
-		"answeredPollIds:" : "psi 7/6/2021 13:38",
+		"answeredPollIds" : "NM 7/30/2021 19:33",
+		"answeredPollIds:" : "NM 7/30/2021 19:33",
 		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
 		"answerSet" : "NM 6/7/2021 20:20",
 		"answerSet:" : "CG 7/30/2021 19:06",
-		"buildAnswerPanelWith:" : "CG 7/30/2021 19:14",
+		"buildAnswerPanelWith:" : "NM 7/30/2021 19:48",
 		"buildSendAnswerButtonWith:" : "CG 7/30/2021 19:06",
 		"buildWith:" : "CG 7/30/2021 19:06",
-		"importPollWithId:" : "CG 7/30/2021 19:06",
+		"importPollWithId:" : "NM 7/30/2021 19:38",
 		"poll" : "JS 5/25/2021 16:05",
 		"poll:" : "CG 7/30/2021 19:06",
 		"sendAnswer" : "CG 7/30/2021 19:06" } }

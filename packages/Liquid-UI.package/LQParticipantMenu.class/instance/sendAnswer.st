@@ -1,4 +1,4 @@
-buttons
+communication
 sendAnswer
 
 	| answerIsNew |
