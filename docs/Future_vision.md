@@ -12,5 +12,6 @@ Liquid currently supports single choice questions and multiple choice questions.
 To help participants filling out polls, we thought about making icons for the different question types. By hovering over the items you would be able to read a small instruction on what to do and what  type of question you are answering.
 - ### Fixing mistakes/ adjusting polls while they are running
 - ### Publishing polls to the same audience after you already ran a poll with them.
+- ### Counter telling the host how many people have submitted answers
 - ### Additional Security 
 Our security is still very rudimentary.
