@@ -1,3 +1,4 @@
 initialize
 initialize
-	self id: UUID new.
+
+	self id: UUID new

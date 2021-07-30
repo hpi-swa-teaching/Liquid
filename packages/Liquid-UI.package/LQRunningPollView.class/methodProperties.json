@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"newWithPoll:" : "RS 7/9/2021 13:51",
-		"open" : "RS 7/9/2021 13:51" },
+		"newWithPoll:" : "CG 7/30/2021 19:06",
+		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"buildClosePollButtonWith:" : "RS 7/15/2021 14:40",
-		"buildIDTextBoxWith:" : "RS 7/9/2021 14:21",
-		"buildWith:" : "RS 7/15/2021 14:40",
-		"changeClosePollButtonToVisualizeResultsButton" : "RS 7/15/2021 14:41",
-		"closePoll" : "NM 7/30/2021 14:35",
-		"poll" : "RS 7/9/2021 13:54",
-		"poll:" : "RS 7/9/2021 14:04",
-		"pollId" : "RS 7/9/2021 14:04",
-		"visualizeResults" : "NM 7/30/2021 14:35" } }
+		"buildClosePollButtonWith:" : "CG 7/30/2021 19:06",
+		"buildIDTextBoxWith:" : "CG 7/30/2021 19:06",
+		"buildWith:" : "CG 7/30/2021 19:06",
+		"changeClosePollButtonToVisualizeResultsButton" : "CG 7/30/2021 19:06",
+		"closePoll" : "CG 7/30/2021 19:06",
+		"poll" : "CG 7/30/2021 19:06",
+		"poll:" : "CG 7/30/2021 19:06",
+		"pollId" : "CG 7/30/2021 19:06",
+		"visualizeResults" : "CG 7/30/2021 19:06" } }

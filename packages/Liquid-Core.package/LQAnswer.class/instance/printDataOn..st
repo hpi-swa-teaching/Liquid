@@ -1,3 +1,4 @@
 printing
 printDataOn: aStream
-	self subclassResponsibility.
+
+	self subclassResponsibility

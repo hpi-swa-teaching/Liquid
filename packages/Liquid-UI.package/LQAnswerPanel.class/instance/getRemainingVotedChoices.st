@@ -1,3 +1,4 @@
 accessing
 getRemainingVotedChoices
-	^ 'Remaining Choices: ' , (self question maxNumberOfChoices - self selectedChoices size)
+
+	^ 'Remaining Choices: ', (self question maxNumberOfChoices - self selectedChoices size)

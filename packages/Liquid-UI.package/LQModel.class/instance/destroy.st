@@ -1,5 +1,4 @@
 removal
 destroy
 
-	self dependents
-		do: [:curr | curr delete]
+	self dependents do: [:curr | curr delete]

@@ -1,4 +1,4 @@
 accessing
 buildEmptyAnswer
 
-	self subclassResponsibility.
+	self subclassResponsibility

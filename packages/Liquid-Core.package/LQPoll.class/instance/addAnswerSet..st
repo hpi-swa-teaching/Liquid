@@ -1,4 +1,4 @@
 modifying
-addAnswerSet: anAnswerSet 
-	isOpen
-		ifTrue: [answerSets add: anAnswerSet]
+addAnswerSet: anAnswerSet
+
+	isOpen ifTrue: [answerSets add: anAnswerSet]

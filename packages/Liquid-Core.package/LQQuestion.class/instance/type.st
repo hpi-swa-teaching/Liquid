@@ -1,4 +1,4 @@
 accessing
 type
 
-	self subclassResponsibility.
+	self subclassResponsibility
