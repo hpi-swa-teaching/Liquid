@@ -1,0 +1,1 @@
+Generates and stores password locally, to relief users from the unbearable burden of remembering passwords.

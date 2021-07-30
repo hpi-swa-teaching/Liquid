@@ -1,0 +1,1 @@
+Window with information & actions relevant to a running poll
