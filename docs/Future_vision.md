@@ -9,7 +9,7 @@ Liquid still hasn't reached its full potential. We wanted to do a lot more than 
 -   ### Poll overview
     Currently, every poll-draft can only be accessed through its id. It would make the workflow with Liquid a lot easier if all the poll-drafts in the current squeak image could be accessed. For example, having a list with all poll-drafts, one with all currently running polls and one with all the poll results.
 -   ### More question types
-    Liquid currently supports single choice questions and multiple choice questions. We also wanted to implement priority based voting and free text answers
+    Liquid currently supports single choice questions and multiple choice questions. We also wanted to implement priority based voting and free text answers.
 -   ### Question Icons
     To help participants filling out polls, we thought about making icons for the different question types. By hovering over the items you would be able to read a small instruction on what to do and what type of question you are answering.
 -   ### Fixing mistakes/ adjusting polls while they are running
