@@ -1,0 +1,1 @@
+Emulates LQRemoteObjectDummy locally (part of the LQLocalObjectRepo)

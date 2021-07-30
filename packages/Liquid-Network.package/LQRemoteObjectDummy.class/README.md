@@ -1,0 +1,1 @@
+A dummy object that takes any message it's been sent, and forwards it over the network.

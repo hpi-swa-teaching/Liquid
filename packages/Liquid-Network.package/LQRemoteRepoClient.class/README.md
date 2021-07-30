@@ -1,0 +1,1 @@
+Interface to a remote repo, allows working with Smalltalk objects that live on another server.
