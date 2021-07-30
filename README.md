@@ -6,18 +6,29 @@ Group 13 SWT 2021
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/Liquid/badge.svg?branch=main)](https://coveralls.io/github/hpi-swa-teaching/Liquid)
 
 ### Installation
+
 First of all install metacello following [this guide](https://github.com/Metacello/metacello#squeak). If your Squeak is on version 5.2 or newer, it is enough to run this code line in your workspace:
-```Installer ensureRecentMetacello.```
+
+```smalltalk
+Installer ensureRecentMetacello.
+```
 
 Then run this code in your workspace:
-```Metacello new
+
+```smalltalk
+Metacello new
   baseline: 'Liquid';
   repository: 'github://hpi-swa-teaching/Liquid:main/packages';
-  load.```
+  load.
+```
 
 ### If you want to use Liquid, here is a quick introduction:
+
 In your Squeak Workspace run:
-```LiquidStartMenu open.```
+
+```smalltalk
+LiquidStartMenu open.
+```
 
 There you should be able to choose between the "Participant" and "Host" View.
 If you want to create a poll and run it, close a poll or show the results of a running poll choose "Host". For creating a poll, click "create poll" then type in your Question in the Header of the window.
@@ -27,7 +38,6 @@ If you want to close a poll click "close poll" in the host menu. After entering 
 For the poll results, press "Show results" and put in the respective poll id.
 
 Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose an answer or multiple answers and push the send button.
-
 
 ## Contributors ✨
 
