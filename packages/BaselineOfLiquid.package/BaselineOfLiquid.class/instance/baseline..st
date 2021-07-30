@@ -11,10 +11,12 @@ baseline: spec
 	                        spec
 	                                repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 				package: 'Liquid-Core' with: [spec requires: #('libraries')];
+				package: 'Liquid-Network' with: [spec requires: #('libraries')];
+				package: 'Liquid-UI' with: [spec requires: #('libraries')];
 				package: 'Liquid-Tests' with: [spec requires: #('SwaLint' 'default')];
 				yourself.
 			spec
 				group: 'libraries' with: #('StatisticsWorkbench');
-				group: 'default' with: #('Liquid-Core');
+				group: 'default' with: #('Liquid-Core' 'Liquid-Network' 'Liquid-UI');
 				group: 'tests' with: #('Liquid-Tests')];
 				yourself

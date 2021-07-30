@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"url",
+		"id" ],
+	"name" : "LQRemoteObjectDummy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

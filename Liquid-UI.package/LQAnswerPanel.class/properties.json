@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/9/2021 14:50",
+	"instvars" : [
+		"question",
+		"answer",
+		"selectedChoices",
+		"choiceSelected" ],
+	"name" : "LQAnswerPanel",
+	"pools" : [
+		 ],
+	"super" : "LQUIComponent",
+	"type" : "normal" }
