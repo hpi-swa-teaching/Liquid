@@ -1,4 +1,4 @@
 accessing
 selectedChoices: aSet
 
-	selectedChoices := aSet.
+	selectedChoices := aSet

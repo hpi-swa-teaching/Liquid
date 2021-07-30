@@ -1,4 +1,4 @@
 unnecessary code
 testNoAssignmentWithoutEffect
 
-	self assertAllZero: (self lint: #smallLintAssignmentWithoutEffect) 
+	self assertAllZero: (self lint: #smallLintAssignmentWithoutEffect)

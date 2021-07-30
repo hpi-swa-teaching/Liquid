@@ -1,4 +1,4 @@
 unnecessary code
 testNoBlockImmediatelyEvaluated
 
-	self assertAllZero: (self lint: #smallLintExtraBlock) 
+	self assertAllZero: (self lint: #smallLintExtraBlock)

@@ -1,4 +1,4 @@
 accessing
 question: anObject
 
-	question := anObject.
+	question := anObject

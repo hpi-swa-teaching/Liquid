@@ -1,5 +1,6 @@
 initialize
 initialize
+
 	super initialize.
 	
 	objectRepo := LQLocalObjectRepo new.

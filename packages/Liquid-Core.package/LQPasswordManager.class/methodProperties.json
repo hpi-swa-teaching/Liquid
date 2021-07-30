@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"default" : "sk 7/12/2021 16:00" },
+		"default" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"findPasswordFor:ifAbsent:" : "sk 7/14/2021 10:04",
-		"generatePasswordFor:" : "sk 7/14/2021 10:02",
-		"initialize" : "sk 7/14/2021 10:02" } }
+		"findPasswordFor:ifAbsent:" : "CG 7/30/2021 19:06",
+		"generatePasswordFor:" : "CG 7/30/2021 19:06",
+		"initialize" : "CG 7/30/2021 19:06" } }

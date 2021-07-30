@@ -1,4 +1,4 @@
 unnecessary code
 testNoTemporaryVariableNotReadAndWritten
 
-	self assertAllZero: (self lint: #smallLintOnlyReadOrWrittenTemporary) 
+	self assertAllZero: (self lint: #smallLintOnlyReadOrWrittenTemporary)

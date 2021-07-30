@@ -1,4 +1,5 @@
 running
 tearDown
+
 	super tearDown.
-	server ifNotNil: [server destroy].
+	server ifNotNil: [server destroy]

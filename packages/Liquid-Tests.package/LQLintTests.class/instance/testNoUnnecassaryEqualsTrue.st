@@ -1,4 +1,4 @@
 unnecessary code
 testNoUnnecassaryEqualsTrue
 
-	self assertAllZero: (self lint: #smallLintEqualsTrue) 
+	self assertAllZero: (self lint: #smallLintEqualsTrue)

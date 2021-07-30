@@ -1,4 +1,4 @@
 unnecessary code
 testNoMethodJustSendsSuperMessage
 
-	self assertAllZero: (self lint: #smallLintJustSendsSuper) 
+	self assertAllZero: (self lint: #smallLintJustSendsSuper)
