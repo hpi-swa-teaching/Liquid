@@ -1,5 +1,5 @@
 as yet unclassified
 default
 
-	instance ifNil: [instance := self new].
-	^ instance
+	Default ifNil: [Default := self new].
+	^ Default

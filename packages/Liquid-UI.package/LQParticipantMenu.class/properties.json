@@ -1,9 +1,9 @@
 {
 	"category" : "Liquid-UI",
 	"classinstvars" : [
-		"answeredPollIds" ],
-	"classvars" : [
 		 ],
+	"classvars" : [
+		"AnsweredPollIds" ],
 	"commentStamp" : "NM 7/9/2021 14:08",
 	"instvars" : [
 		"poll",

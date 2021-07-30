@@ -1,5 +1,5 @@
 accessing
 answeredPollIds
 
-	answeredPollIds ifNil: [answeredPollIds := Set new].
-	^ answeredPollIds
+	AnsweredPollIds ifNil: [AnsweredPollIds := Set new].
+	^ AnsweredPollIds
