@@ -1,10 +1,10 @@
 tests
 testIDsAreUUIDsToPreventCollisions
 	"isKindOf: is bad practice, but unfortunately UUID is missing a `isUUID` handler"
-	self assert: (LiquidAnswer new id isKindOf: UUID).
-	self assert: (LiquidChoicesAnswer new id isKindOf: UUID).
-	self assert: (LiquidAnswerSet new id isKindOf: UUID).
-	self assert: (LiquidPoll new id isKindOf: UUID).
-	self assert: (LiquidPollDraft new id isKindOf: UUID).
-	self assert: (LiquidQuestion new id isKindOf: UUID).
-	self assert: (LiquidChoicesQuestion new id isKindOf: UUID).
+	self assert: (LQAnswer new id isKindOf: UUID).
+	self assert: (LQChoicesAnswer new id isKindOf: UUID).
+	self assert: (LQAnswerSet new id isKindOf: UUID).
+	self assert: (LQPoll new id isKindOf: UUID).
+	self assert: (LQPollDraft new id isKindOf: UUID).
+	self assert: (LQQuestion new id isKindOf: UUID).
+	self assert: (LQChoicesQuestion new id isKindOf: UUID).

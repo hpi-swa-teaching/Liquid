@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/9/2021 14:10",
+	"instvars" : [
+		"poll" ],
+	"name" : "LQResultsView",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

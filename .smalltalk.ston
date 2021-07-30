@@ -14,7 +14,7 @@ SmalltalkCISpec {
       #packages : [ 'Liquid-Core' ]
     },
     #exclude : {
-      #classes : [ #LiquidLintTests ]
+      #classes : [ #LQLintTests ]
     }
   }
 }

@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	self pollDraft: LiquidPollDraft new
+	self pollDraft: LQPollDraft new

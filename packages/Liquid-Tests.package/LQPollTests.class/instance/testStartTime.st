@@ -3,7 +3,7 @@ testStartTime
 	| poll timeBeforeStart timeAfterStart|
 	timeBeforeStart := DateAndTime now.
 	(Delay forMilliseconds: 1) wait.
-	poll := LiquidPoll newWithPollDraft: LiquidPollDraft new.
+	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll startWithId: 'IAmAPoll' ifTaken: [self fail: 'Poll ID already taken'].
 	(Delay forMilliseconds: 1) wait.
 	timeAfterStart := DateAndTime now.
