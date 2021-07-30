@@ -1,0 +1,1 @@
+Abstract interface for managing objects, LQRemoteRepoClient is main implementation.

@@ -1,0 +1,1 @@
+Special error class to determinate errors that occured on the remote server.

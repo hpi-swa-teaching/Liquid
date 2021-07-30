@@ -1,0 +1,1 @@
+Replicates LQRemoteRepoClient behaviour for local development.
