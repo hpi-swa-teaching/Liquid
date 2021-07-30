@@ -1,8 +1,6 @@
 printing
-printDataOn: aStream withOrder: anOrderedCollection withDelimiter: aDelimiter
-	"is an array of Question UUIDs that signifies in what
-	order questions shall be printed"
+printDataOn: aStream withOrder: orderedQuesstionIDs withDelimiter: aDelimiter
 
-	anOrderedCollection do: [:answerId |
+	orderedQuesstionIDs do: [:answerId |
 		self answers at: answerId ifPresent: [:printedAnswer | printedAnswer printDataOn: aStream].
 		aStream nextPutAll: aDelimiter]
