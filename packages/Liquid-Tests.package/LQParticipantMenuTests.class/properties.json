@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/16/2021 11:07",
+	"instvars" : [
+		 ],
+	"name" : "LQParticipantMenuTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

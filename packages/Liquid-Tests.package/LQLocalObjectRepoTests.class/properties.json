@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/15/2021 12:44",
+	"instvars" : [
+		"client" ],
+	"name" : "LQLocalObjectRepoTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

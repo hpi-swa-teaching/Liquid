@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/15/2021 12:49",
+	"instvars" : [
+		"url",
+		"server" ],
+	"name" : "LQRemoteRepoClientTests",
+	"pools" : [
+		 ],
+	"super" : "LQLocalObjectRepoTests",
+	"type" : "normal" }

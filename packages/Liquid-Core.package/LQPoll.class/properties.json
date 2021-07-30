@@ -1,0 +1,19 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/16/2021 11:01",
+	"instvars" : [
+		"pollDraft",
+		"id",
+		"startTime",
+		"answerSets",
+		"isOpen",
+		"guard" ],
+	"name" : "LQPoll",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

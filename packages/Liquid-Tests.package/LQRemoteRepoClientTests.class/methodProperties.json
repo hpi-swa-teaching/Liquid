@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"shouldInheritSelectors" : "NM 7/13/2021 12:35" },
+	"instance" : {
+		"errorType" : "NM 7/30/2021 14:43",
+		"setUp" : "NM 7/12/2021 15:27",
+		"setUpRemoteServer" : "NM 7/30/2021 14:43",
+		"tearDown" : "NM 7/12/2021 15:24",
+		"testGPollRepoAlwaysDefined" : "NM 7/30/2021 14:43",
+		"testMessagePassing" : "NM 7/30/2021 14:44" } }

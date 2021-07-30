@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		"answeredPollIds" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/9/2021 14:08",
+	"instvars" : [
+		"poll",
+		"answerSet" ],
+	"name" : "LQParticipantMenu",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

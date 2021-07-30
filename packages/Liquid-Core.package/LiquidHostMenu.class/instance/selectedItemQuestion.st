@@ -1,4 +1,0 @@
-accessing
-selectedItemQuestion
-
-	^ selectedItemQuestion
