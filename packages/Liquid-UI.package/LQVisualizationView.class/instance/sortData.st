@@ -1,4 +1,4 @@
-result data
+data
 sortData
 
 	| result amountVotes labels |

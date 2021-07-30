@@ -1,4 +1,4 @@
-initialize
+communication
 importPollWithId: aString
 
 	self poll: (LQPollRepo default at: aString ifAbsent: [^ nil]).

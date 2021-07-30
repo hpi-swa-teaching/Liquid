@@ -1,4 +1,4 @@
-accessing
+modifying
 changeClosePollButtonToVisualizeResultsButton
 
 	(self dependents at: 3)

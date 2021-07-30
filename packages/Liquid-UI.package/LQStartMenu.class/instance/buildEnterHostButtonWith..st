@@ -1,4 +1,4 @@
-buttons
+toolbuilder
 buildEnterHostButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

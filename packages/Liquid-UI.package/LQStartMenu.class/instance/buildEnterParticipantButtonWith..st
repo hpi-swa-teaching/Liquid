@@ -1,4 +1,4 @@
-buttons
+toolbuilder
 buildEnterParticipantButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

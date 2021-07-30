@@ -1,4 +1,4 @@
-initialize
+toolbuilder
 buildQuestionTitleTextWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

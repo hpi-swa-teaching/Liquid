@@ -1,4 +1,4 @@
-buttons
+toolbuilder
 buildSendAnswerButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

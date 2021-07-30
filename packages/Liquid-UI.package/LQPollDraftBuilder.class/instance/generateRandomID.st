@@ -1,4 +1,4 @@
-accessing
+modifying
 generateRandomID
 
 	^ UUID new asString
