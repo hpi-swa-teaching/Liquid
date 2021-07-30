@@ -23,10 +23,6 @@ Liquid still hasn't reached its full potential. We wanted to do a lot more than 
 
 Both RCE and XSS is currently possible, and should be fixed. It's tracked in [#124](https://github.com/hpi-swa-teaching/Liquid/issues/124).
 
-    -   #### DDOS
-
-        Possible.
-
     -   #### PasswordGuard
 
         -   `LQPasswordGuard` guards a poll from outside access without the correct password. For this a password is currently automatically created from a UUID. We deem this as secure enough, even tough [it is not cryptographically sound](https://security.stackexchange.com/a/165991).
