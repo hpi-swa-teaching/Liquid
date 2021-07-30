@@ -2,11 +2,11 @@
 	"class" : {
 		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"buildClosePollButtonWith:" : "CG 7/30/2021 19:06",
 		"buildCreatePollButtonWith:" : "CG 7/30/2021 19:06",
+		"buildPollInteractionButtonWith:" : "NM 7/30/2021 19:42",
 		"buildShowResultsButtonWith:" : "CG 7/30/2021 19:06",
 		"buildVisualizeResultsButtonWith:" : "CG 7/30/2021 19:06",
-		"buildWith:" : "CG 7/30/2021 19:06",
+		"buildWith:" : "NM 7/30/2021 19:42",
 		"closePoll" : "CG 7/30/2021 19:06",
 		"createPoll" : "CG 7/30/2021 19:06",
 		"showResults" : "CG 7/30/2021 19:06",

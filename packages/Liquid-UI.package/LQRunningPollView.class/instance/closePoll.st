@@ -5,4 +5,4 @@ closePoll
 		findPasswordFor: poll id
 		ifAbsent: [^ UIManager default inform: 'You don''t have access to this poll.']).
 	self dependents first label: 'closed Poll with ID:'.
-	self changeClosePollButtonToVisualizeResultsButton
+	self changeClosePollButtonToVisualizeResultsButton.
