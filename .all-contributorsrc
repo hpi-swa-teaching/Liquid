@@ -1,0 +1,69 @@
+{
+  "projectName": "Liquid",
+  "projectOwner": "hpi-swa-teaching",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "richardschiemenz",
+      "name": "richardschiemenz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61618635?v=4",
+      "profile": "https://github.com/richardschiemenz",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Shieka",
+      "name": "Shieka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57802017?v=4",
+      "profile": "https://github.com/Shieka",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Skn0tt",
+      "name": "Simon Knott",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14912729?v=4",
+      "profile": "https://github.com/Skn0tt",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "NikkelM",
+      "name": "NikkelM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57323886?v=4",
+      "profile": "https://github.com/NikkelM",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "PaulVII",
+      "name": "Paul Sieben",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67124476?v=4",
+      "profile": "https://github.com/PaulVII",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Dassderdie",
+      "name": "Dassderdie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18506183?v=4",
+      "profile": "https://github.com/Dassderdie",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
