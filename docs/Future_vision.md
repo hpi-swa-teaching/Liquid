@@ -2,10 +2,10 @@
 
 ## Where to go from here?
 
-Liquid still hasn't reached its full potential. We wanted to do a lot more than we managed to do in this semester. You can look through our user stories on github or zenhub. To present a clear overview here is a short list (please refer to the [contributing doc](https://github.com/hpi-swa-teaching/Liquid/blob/main/CONTRIBUTING.md) for term definitions):
+Liquid still hasn't reached its full potential. We wanted to do a lot more than we managed to do in this semester. You can look through our user stories on github or zenhub. Following is a brief overview of possible improvements. Terminology is explained in our [term definitions](https://github.com/hpi-swa-teaching/Liquid/blob/main/CONTRIBUTING.md#term-definitions).
 
 -   ### Multiple questions per poll
-    Initially we wanted to implement multiple questions per poll. Our client did not deem this necessary for the time being. But because we already started making the proper infrastructure for this function, we decided to leave it there for possible future developers. For example, our poll-draft object still has a 'questionList'.
+    Our initial design included polls with multiple questions, which the customer didn't deem necessary. Data structures to support multiple questions were left in place, as an exercise to the reader (that's **you**!). For example, our poll-draft object still has a 'questionList', instead of a `question`.
 -   ### Poll overview
     Currently, every poll-draft can only be accessed through its id. It would make the workflow with Liquid a lot easier if all the poll-drafts in the current squeak image could be accessed. For example, having a list with all poll-drafts, one with all currently running polls and one with all the poll results.
 -   ### More question types
