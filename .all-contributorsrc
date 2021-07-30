@@ -1,0 +1,24 @@
+{
+  "projectName": "Liquid",
+  "projectOwner": "hpi-swa-teaching",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "richardschiemenz",
+      "name": "richardschiemenz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61618635?v=4",
+      "profile": "https://github.com/richardschiemenz",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
