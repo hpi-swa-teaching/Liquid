@@ -23,7 +23,6 @@ testTwoHundredUsers
 	p := LQPollRepo default
 				at: pollId
 				ifAbsent: [self fail: 'Poll not found at given ID'].
-	Transcript show: p pollDraft.
 	q := p pollDraft questionList first.
 	p addAnswerSet: (LQAnswerSet new addAnswer: (LQChoicesAnswer new questionId: q id;
 				 votedChoiceList: {'in Whiscashs throat'};

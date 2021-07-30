@@ -1,9 +1,8 @@
 tests
 testClosePoll
-	| poll q1 q2 a1 a2 view |
+	| poll q1 q2 a1 a2 |
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	q1 := LQChoicesQuestion new title: 'Question 1';
-				
 				choiceList: {'Q1A1'. 'Q1A2'};
 				 yourself.
 	q2 := LQChoicesQuestion new title: 'Q2';
@@ -28,9 +27,10 @@ testClosePoll
 	LQPollRepo default: (LQLocalObjectRepo new).
  	poll startWithId: 'some-id' ifTaken: [].
 	poll addAnswerSet: a1;
-		closeWithPassword: (LQPasswordManager default findPasswordFor: 'some-id' ifAbsent: [self fail: 'expected password to exist']);
+		closeWithPassword: (LQPasswordManager default findPasswordFor: 'some-id' 
+		ifAbsent: [self fail: 'expected password to exist']);
 		 addAnswerSet: a2.
-	view := LQResultsView newWithPoll: poll.
+	LQResultsView newWithPoll: poll.
 	
 	self assert: poll isOpen equals: false.
 	self assert: poll answerSets size equals: 1.

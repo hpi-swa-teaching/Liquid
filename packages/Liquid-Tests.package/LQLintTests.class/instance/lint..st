@@ -1,3 +1,3 @@
 helpers
 lint: aLinterRule
-	^ self lint: aLinterRule except: {}.
+	^ self lint: aLinterRule except: {}
