@@ -1,0 +1,1 @@
+Version of LQLocalObjectRepo that injects network unreliabilities.
