@@ -39,9 +39,6 @@ For the poll results, press "Show results" and put in the respective poll id.
 
 Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose an answer or multiple answers and push the send button.
 
-## Poppy Print
-All methods were pretty-printed by [poppy print](https://github.com/hpi-swa-teaching/poppy-print).
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
