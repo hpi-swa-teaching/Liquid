@@ -27,20 +27,17 @@ Metacello new
 In your Squeak Workspace run:
 
 ```smalltalk
-LiquidStartMenu open.
+LQStartMenu open.
 ```
 
 There you should be able to choose between the "Participant" and "Host" View.
 If you want to create a poll and run it, close a poll or show the results of a running poll choose "Host". For creating a poll, click "create poll" then type in your Question in the Header of the window.
 Every newline in the box under the question is a possible answer, so be sure to keep every answer on its own line.
 On the bottom you can run your poll and give it an id. Keep the id, it is used to access the poll and its results.
-If you want to close a poll click "close poll" in the host menu. After entering the poll id of the runing poll you want to close, nobody should be able to send new answers.
-For the poll results, press "Show results" and put in the respective poll id.
+If you want to close a poll click "close poll" in the host menu. After entering the poll id of the running poll you want to close, participants will not be able to send new answers.
+For the poll results, press "Show results" and input the respective poll id.
 
-Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose an answer or multiple answers and push the send button.
-
-## Poppy Print
-All methods were pretty-printed by [poppy print](https://github.com/hpi-swa-teaching/poppy-print).
+Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose one or multiple answers and push the send button.
 
 ## Contributors ✨
 
