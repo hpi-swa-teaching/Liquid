@@ -97,3 +97,28 @@ This will then take that response, and answer it to continue the normal Squeak r
 ### What is the LocalObjectRepo?
 
 The `LocalObjectRepo` is a lookalike of `RemoteRepoClient`, which doesn't work over the network at all and thus is easier to set up locally. It's designed to replicate the intricacies of the Remote Repo, but you shouldn't depend on that.
+
+### Intricacies of the ObjectRepo
+
+#### Law of Demeter
+
+Consider the following code:
+
+```smalltalk
+pollDummy := repoClient at: 'some-poll' ifAbsent: [ ... ].
+answers := pollDummy answerSets.
+answers size = 1                   "assume there's alread one answer".
+answers add: (LQAnswerSet new ...) "lets add another one".
+answers size = 2                   "now there's two!.
+```
+
+Now if we get a pollDummy from another machine, what do you expect the size of `pollDummy answerSets` to be?
+
+```smalltalk
+anotherPollDummy := repoClient at: 'some-poll' ifAbsent: [ ... ].
+anotherPollDummy answersSets size = 1. "what?"
+```
+
+While the addition of an answer set was successful on one machine, nothing happened on another one. While `pollDummy` is an instance of `RemoteObjectDummy` that's connected to the server, `pollDummy answerSets` is the response of the `answerSets` message: A `Set`, which only exists locally. Now if you send any messages to that set, the `pollDummy` isn't able to keep track of it, and all changes will stay local to that machine.
+
+That's why you always need to follow the Law of Demeter: If you talk with a Poll / Poll dummy, always send messages directly to it! In our case, we could send `pollDummy addAnswerSet: ...` instead.
