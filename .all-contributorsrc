@@ -16,7 +16,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/61618635?v=4",
       "profile": "https://github.com/richardschiemenz",
       "contributions": [
-        "doc"
+        "doc",
+        "video",
+        "code"
       ]
     },
     {
@@ -25,7 +27,10 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/57802017?v=4",
       "profile": "https://github.com/Shieka",
       "contributions": [
-        "doc"
+        "doc",
+        "design",
+        "code",
+        "video"
       ]
     },
     {
@@ -34,7 +39,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/14912729?v=4",
       "profile": "https://github.com/Skn0tt",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -43,7 +49,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/57323886?v=4",
       "profile": "https://github.com/NikkelM",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -52,7 +59,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/67124476?v=4",
       "profile": "https://github.com/PaulVII",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -61,7 +69,26 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/18506183?v=4",
       "profile": "https://github.com/Dassderdie",
       "contributions": [
-        "doc"
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "codeZeilen",
+      "name": "Patrick R",
+      "avatar_url": "https://avatars.githubusercontent.com/u/560608?v=4",
+      "profile": "https://www.patrickrein.de/",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "frcroth",
+      "name": "frcroth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6863832?v=4",
+      "profile": "https://frcroth.de/",
+      "contributions": [
+        "mentoring"
       ]
     }
   ],
