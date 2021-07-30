@@ -1,10 +1,10 @@
 {
 	"class" : {
-		"newWithPoll:" : "psi 5/26/2021 13:24",
-		"open" : "psi 5/26/2021 13:07" },
+		"newWithPoll:" : "CG 7/30/2021 19:06",
+		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"buildResultsTextBoxWith:" : "CG 7/4/2021 15:55",
-		"buildWith:" : "NM 7/8/2021 12:27",
-		"getResults" : "sk 7/17/2021 20:44",
-		"poll" : "NM 6/9/2021 11:49",
-		"poll:" : "psi 5/26/2021 13:46" } }
+		"buildResultsTextBoxWith:" : "CG 7/30/2021 19:06",
+		"buildWith:" : "CG 7/30/2021 19:06",
+		"getResults" : "CG 7/30/2021 19:06",
+		"poll" : "CG 7/30/2021 19:06",
+		"poll:" : "CG 7/30/2021 19:06" } }

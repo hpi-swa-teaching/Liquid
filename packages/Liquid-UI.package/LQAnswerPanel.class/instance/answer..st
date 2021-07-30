@@ -2,4 +2,4 @@ accessing
 answer: aLiquidAnswer
 
 	answer := aLiquidAnswer.
-	answer questionId: self question id.
+	answer questionId: self question id

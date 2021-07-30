@@ -1,9 +1,9 @@
 printing
-printDataOn: aStream 
+printDataOn: aStream
+
+	self votedChoiceList ifEmpty: [^ self].
 	self votedChoiceList
-		ifEmpty: [^ self].
-	self votedChoiceList
-		collect: [:votedChoice | 
+		collect: [:votedChoice |
 			aStream nextPutAll: votedChoice.
 			aStream nextPutAll: ',']
 		from: 1

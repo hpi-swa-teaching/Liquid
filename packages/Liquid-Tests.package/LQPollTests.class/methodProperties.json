@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAnswerSetPollID" : "NM 7/30/2021 14:45",
-		"testClosePoll" : "NM 7/30/2021 17:11",
-		"testCsvPrinting" : "NM 7/30/2021 14:47",
-		"testIDsAreUUIDsToPreventCollisions" : "NM 7/30/2021 14:47",
-		"testStartTime" : "NM 7/30/2021 14:47",
-		"testVisualizationDataCollection" : "NM 7/30/2021 14:48" } }
+		"testAnswerSetPollID" : "CG 7/30/2021 19:06",
+		"testClosePoll" : "CG 7/30/2021 19:06",
+		"testCsvPrinting" : "CG 7/30/2021 19:06",
+		"testIDsAreUUIDsToPreventCollisions" : "CG 7/30/2021 19:06",
+		"testStartTime" : "CG 7/30/2021 19:06",
+		"testVisualizationDataCollection" : "CG 7/30/2021 19:06" } }

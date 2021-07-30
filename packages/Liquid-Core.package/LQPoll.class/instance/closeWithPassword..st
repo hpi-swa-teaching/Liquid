@@ -1,5 +1,4 @@
 modifying
 closeWithPassword: aPassword
-	guard ifValid: aPassword do: [
-		isOpen := false
-	]
+
+	guard ifValid: aPassword do: [isOpen := false]

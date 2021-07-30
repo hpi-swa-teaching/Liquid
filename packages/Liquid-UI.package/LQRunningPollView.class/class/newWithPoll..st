@@ -1,3 +1,4 @@
 as yet unclassified
 newWithPoll: aPoll
-	^ self new poll: aPoll.
+
+	^ self new poll: aPoll

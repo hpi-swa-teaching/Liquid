@@ -1,3 +1,4 @@
 accessing
 addChoice: aChoice
-	self choiceList add: aChoice.
+
+	self choiceList add: aChoice

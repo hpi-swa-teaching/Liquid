@@ -1,3 +1,4 @@
 accessing
-votedChoiceList: aChoiceList 
+votedChoiceList: aChoiceList
+
 	votedChoiceList := aChoiceList

@@ -1,5 +1,6 @@
 tests
 testAddQuestion
+
 	| question |
 	self assert: self pollDraft questionList isEmpty.
 	
@@ -8,4 +9,4 @@ testAddQuestion
 	self pollDraft addQuestion: question.
 	
 	self assert: self pollDraft questionList size equals: 1.
-	self assert: self pollDraft questionList first title equals: 'An interesting question!'.
+	self assert: self pollDraft questionList first title equals: 'An interesting question!'

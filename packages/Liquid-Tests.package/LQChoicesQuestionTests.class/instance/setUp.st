@@ -1,4 +1,5 @@
 running
 setUp
+
 	super setUp.
-	question := LQChoicesQuestion new.
+	question := LQChoicesQuestion new

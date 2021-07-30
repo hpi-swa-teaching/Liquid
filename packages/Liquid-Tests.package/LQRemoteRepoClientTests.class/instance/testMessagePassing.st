@@ -1,5 +1,6 @@
 tests
 testMessagePassing
+
 	| clientA clientB flowersA flowersB |
 	clientA := LQRemoteRepoClient new url: url.
 	clientA at: 'flowers' ifPresent: nil ifAbsentPut: (Set with: 'magnolia').
@@ -12,5 +13,4 @@ testMessagePassing
 	
 	self assert: (flowersB includes: 'rhododendron') not.
 	flowersA add: 'rhododendron'.
-	self assert: (flowersB includes: 'rhododendron').
-	
+	self assert: (flowersB includes: 'rhododendron')
