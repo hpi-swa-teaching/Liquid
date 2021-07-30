@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPasswordGuard
 	| guard |
 	guard := LQPasswordGuard newWithPassword: 'pikachu'.
