@@ -1,0 +1,1 @@
+Encapsulates password hashing logic.
