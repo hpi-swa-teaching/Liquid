@@ -39,6 +39,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/richardschiemenz"><img src="https://avatars.githubusercontent.com/u/61618635?v=4?s=100" width="100px;" alt=""/><br /><sub><b>richardschiemenz</b></sub></a><br /><a href="https://github.com/hpi-swa-teaching/Liquid/commits?author=richardschiemenz" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Shieka"><img src="https://avatars.githubusercontent.com/u/57802017?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shieka</b></sub></a><br /><a href="https://github.com/hpi-swa-teaching/Liquid/commits?author=Shieka" title="Documentation">📖</a></td>
   </tr>
 </table>
 
