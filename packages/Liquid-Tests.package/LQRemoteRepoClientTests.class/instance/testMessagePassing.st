@@ -1,11 +1,11 @@
 tests
 testMessagePassing
 	| clientA clientB flowersA flowersB |
-	clientA := RemoteRepoClient new url: url.
+	clientA := LQRemoteRepoClient new url: url.
 	clientA at: 'flowers' ifPresent: nil ifAbsentPut: (Set with: 'magnolia').
 	flowersA := clientA at: 'flowers' ifAbsent: [].
 	
-	clientB := RemoteRepoClient new url: url.
+	clientB := LQRemoteRepoClient new url: url.
 	flowersB := clientB at: 'flowers' ifAbsent: [].
 	
 	self assert: (flowersB includes: 'magnolia').

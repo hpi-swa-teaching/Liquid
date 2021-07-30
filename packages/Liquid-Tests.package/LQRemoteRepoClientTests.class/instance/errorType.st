@@ -1,3 +1,3 @@
 accessing
 errorType
-	^ RemoteError
+	^ LQRemoteError

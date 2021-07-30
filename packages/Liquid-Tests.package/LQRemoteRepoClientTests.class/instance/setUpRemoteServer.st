@@ -2,6 +2,6 @@ running
 setUpRemoteServer
 	|port|
 	port := LQPortAssigner get.
-	server := (RemoteRepoServer new listenOn: port).
+	server := (LQRemoteRepoServer new listenOn: port).
 	url := 'http://localhost:' , port.
-	client := RemoteRepoClient new url: url.
+	client := LQRemoteRepoClient new url: url.

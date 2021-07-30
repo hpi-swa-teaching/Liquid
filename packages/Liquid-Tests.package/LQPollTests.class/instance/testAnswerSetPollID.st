@@ -1,9 +1,9 @@
 tests
 testAnswerSetPollID
 	| poll participantMenu |
-	poll := LiquidPoll newWithPollDraft: LiquidPollDraft new.
+	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll startWithId: 'IAmAPoll' ifTaken: [self fail: 'Poll ID already taken'].
-	participantMenu := LiquidParticipantMenu new importPollWithId: 'IAmAPoll'.
+	participantMenu := LQParticipantMenu new importPollWithId: 'IAmAPoll'.
 	
 	self assert: (participantMenu isNil not).
 	self assert: participantMenu answerSet pollId equals: poll id.

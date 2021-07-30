@@ -1,5 +1,5 @@
 running
 setUp
 	super setUp.
-	PollRepo default: LocalObjectRepo new.
-	LiquidParticipantMenu answeredPollIds: Set new.
+	LQPollRepo default: LQLocalObjectRepo new.
+	LQParticipantMenu answeredPollIds: Set new.

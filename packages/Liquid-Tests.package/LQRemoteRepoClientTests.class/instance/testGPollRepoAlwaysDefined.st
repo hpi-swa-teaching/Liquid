@@ -1,4 +1,4 @@
 tests
 testGPollRepoAlwaysDefined
-	PollRepo default: nil.
-	self assert: (PollRepo default isNil not).
+	LQPollRepo default: nil.
+	self assert: (LQPollRepo default isNil not).

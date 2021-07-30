@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	question := LiquidChoicesQuestion new.
+	question := LQChoicesQuestion new.

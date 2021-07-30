@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	self client: PollRepo default.
+	self client: LQPollRepo default.
