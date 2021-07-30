@@ -21,7 +21,7 @@ Liquid still hasn't reached its full potential. We wanted to do a lot more than 
 
     -   #### Remote Code Execution && XSS
 
-        We think both is currently possible, but don't have prove for that.
+Both RCE and XSS is currently possible, and should be fixed. It's tracked in [#124](https://github.com/hpi-swa-teaching/Liquid/issues/124).
 
     -   #### DDOS
 
