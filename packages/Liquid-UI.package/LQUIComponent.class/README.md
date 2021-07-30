@@ -1,0 +1,1 @@
+A general superclass for different kind of UI components used in Liquid's Menus.

@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"passwordStore" ],
+	"name" : "LQPasswordManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

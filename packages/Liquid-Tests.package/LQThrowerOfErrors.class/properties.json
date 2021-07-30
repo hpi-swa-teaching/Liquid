@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/15/2021 12:38",
+	"instvars" : [
+		 ],
+	"name" : "LQThrowerOfErrors",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Network",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LQPollRepo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		"lastPort" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/15/2021 12:34",
+	"instvars" : [
+		 ],
+	"name" : "LQPortAssigner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NM 7/9/2021 14:40",
+	"instvars" : [
+		"id",
+		"pollId",
+		"answers" ],
+	"name" : "LQAnswerSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
