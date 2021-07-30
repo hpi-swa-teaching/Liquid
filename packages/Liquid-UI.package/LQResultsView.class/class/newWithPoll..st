@@ -1,3 +1,4 @@
 instance creation
 newWithPoll: aPoll
-	^ self new poll: aPoll.
+
+	^ self new poll: aPoll

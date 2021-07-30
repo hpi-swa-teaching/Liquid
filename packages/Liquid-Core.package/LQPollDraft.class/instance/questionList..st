@@ -1,4 +1,4 @@
 accessing
 questionList: anObject
 
-	questionList := anObject.
+	questionList := anObject

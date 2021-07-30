@@ -1,8 +1,6 @@
 request handlers
-httpGet: req 
+httpGet: req
+
 	| item |
-	item := self objectRepo
-				at: (req fields at: 'id')
-				ifAbsent: [^ req send404Response].
-	req
-		send200Response: (STON toString: item)
+	item := self objectRepo at: (req fields at: 'id') ifAbsent: [^ req send404Response].
+	req send200Response: (STON toString: item)

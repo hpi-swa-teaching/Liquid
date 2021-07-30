@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"open" : "NM 5/13/2021 14:13" },
+		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"buildEnterHostButtonWith:" : "NM 7/15/2021 13:17",
-		"buildEnterParticipantButtonWith:" : "NM 7/16/2021 11:06",
-		"buildWith:" : "NM 5/15/2021 17:33",
-		"enterHostMode" : "NM 7/30/2021 14:32",
-		"enterParticipantMode" : "NM 7/30/2021 14:32" } }
+		"buildEnterHostButtonWith:" : "CG 7/30/2021 19:06",
+		"buildEnterParticipantButtonWith:" : "CG 7/30/2021 19:06",
+		"buildWith:" : "CG 7/30/2021 19:06",
+		"enterHostMode" : "CG 7/30/2021 19:06",
+		"enterParticipantMode" : "CG 7/30/2021 19:06" } }

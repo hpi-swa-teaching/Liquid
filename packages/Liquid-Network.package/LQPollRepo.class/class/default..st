@@ -1,3 +1,4 @@
 accessing
 default: aRepo
-	default := aRepo.
+
+	default := aRepo

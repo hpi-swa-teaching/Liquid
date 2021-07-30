@@ -1,4 +1,4 @@
 unnecessary code
 testNoMethodEquivalentDefinedInSuperclass
 
-	self assertAllZero: (self lint: #smallLintEquivalentSuperclassMethods) 
+	self assertAllZero: (self lint: #smallLintEquivalentSuperclassMethods)

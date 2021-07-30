@@ -1,3 +1,4 @@
 initialize
 on: anUrl withId: anId
-	^ self basicNew initializeWith: anUrl andId: anId.
+
+	^ self basicNew initializeWith: anUrl andId: anId

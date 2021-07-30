@@ -1,6 +1,7 @@
 buttons
 sendAnswer
-	| answerIsNew|
+
+	| answerIsNew |
 	answerIsNew := LQParticipantMenu answeredPollIds ifAbsentAdd: self poll id.
 	answerIsNew
 		ifTrue: [self poll addAnswerSet: answerSet]

@@ -1,6 +1,7 @@
 tests
 testStartTime
-	| poll timeBeforeStart timeAfterStart|
+
+	| poll timeBeforeStart timeAfterStart |
 	timeBeforeStart := DateAndTime now.
 	(Delay forMilliseconds: 1) wait.
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
@@ -8,4 +9,4 @@ testStartTime
 	(Delay forMilliseconds: 1) wait.
 	timeAfterStart := DateAndTime now.
 	
-	self assert: (poll startTime between: timeBeforeStart and: timeAfterStart).
+	self assert: (poll startTime between: timeBeforeStart and: timeAfterStart)
