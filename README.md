@@ -42,6 +42,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Shieka"><img src="https://avatars.githubusercontent.com/u/57802017?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shieka</b></sub></a><br /><a href="https://github.com/hpi-swa-teaching/Liquid/commits?author=Shieka" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Skn0tt"><img src="https://avatars.githubusercontent.com/u/14912729?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Simon Knott</b></sub></a><br /><a href="https://github.com/hpi-swa-teaching/Liquid/commits?author=Skn0tt" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/NikkelM"><img src="https://avatars.githubusercontent.com/u/57323886?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NikkelM</b></sub></a><br /><a href="https://github.com/hpi-swa-teaching/Liquid/commits?author=NikkelM" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/PaulVII"><img src="https://avatars.githubusercontent.com/u/67124476?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paul Sieben</b></sub></a><br /><a href="https://github.com/hpi-swa-teaching/Liquid/commits?author=PaulVII" title="Documentation">📖</a></td>
   </tr>
 </table>
 
