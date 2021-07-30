@@ -40,4 +40,4 @@ Both RCE and XSS is currently possible, and should be fixed. It's tracked in [#1
             -   Changing this variable in the SQUEAK-Image
             -   Closing and opening the SQUEAK-Image again without saving
             -   using a second machine or SQUEAK-Image altogether.
-        -   The most secure solution we envisioned is to generate a personal password each of the participants. Those could maybe be send via email to the participants.
+        -   The most secure solution we envisioned is to generate a personal password each of the participants. Those could maybe be sent via email to the participants.
