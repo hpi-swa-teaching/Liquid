@@ -107,7 +107,7 @@ Consider the following code:
 ```smalltalk
 pollDummy := repoClient at: 'some-poll' ifAbsent: [ ... ].
 answers := pollDummy answerSets.
-answers size = 1                   "assume there's alread one answer".
+answers size = 1                   "assume there's already one answer".
 answers add: (LQAnswerSet new ...) "lets add another one".
 answers size = 2                   "now there's two!.
 ```
