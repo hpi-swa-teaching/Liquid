@@ -23,14 +23,14 @@ Liquid still hasn't reached its full potential. We wanted to do a lot more than 
 
 Both RCE and XSS is currently possible, and should be fixed. It's tracked in [#124](https://github.com/hpi-swa-teaching/Liquid/issues/124).
 
-    -   #### PasswordGuard
+   -   #### PasswordGuard
 
         -   `LQPasswordGuard` guards a poll from outside access without the correct password. For this a password is currently automatically created from a UUID. We deem this as secure enough, even tough [it is not cryptographically sound](https://security.stackexchange.com/a/165991).
         -   Only hashes of the passwords are stored on the server. But the currently used hashing algorithm isn't cryptographically sound. Here's an issue to track this: [#122](https://github.com/hpi-swa-teaching/Liquid/issues/122)
         -   Currently you have to manually check for the correct password in the functions you find it necessary. Instead of a _blacklist_, a  _whitelist_ (all functions are protected by default, only some are not) would be more secure.
         -   ObjectRepo: Prevent meta-messages like perform: to be sent to object #124
 
-    -   #### Vote manipulation
+   -   #### Vote manipulation
 
         -   Currently we only check for double votes on the clientside by saving the polls one has already answered in a variable. So it is possible to double vote by
             -   Changing this variable in the SQUEAK-Image
