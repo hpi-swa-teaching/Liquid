@@ -1,4 +1,4 @@
 accessing
 answerSet: anAnswerSet
 
-	answerSet := anAnswerSet
+	answerSet := anAnswerSet.

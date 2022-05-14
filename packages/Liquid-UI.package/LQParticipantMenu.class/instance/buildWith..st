@@ -5,5 +5,5 @@ buildWith: aBuilder
 		model: self;
 		label: 'Liquid - Participant';
 		extent: 500 @ 400;
-		children: {self buildAnswerPanelWith: aBuilder. self buildSendAnswerButtonWith: aBuilder};
+		children: {self buildAnswerPanelWith: aBuilder. self buildSendAnswerButtonWith: aBuilder. self buildNextQuestionButtonWith: aBuilder};
 		yourself)
