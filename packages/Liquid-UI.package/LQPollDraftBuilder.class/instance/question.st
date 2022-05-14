@@ -1,4 +1,4 @@
 accessing
 question
 
-	^ self pollDraft questionList first
+	^ self pollDraft questionList last
