@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"newWithPoll:" : "kge 5/15/2022 15:02",
+		"openOn:" : "kge 5/15/2022 14:27" },
+	"instance" : {
+		"buildDefaultBrowserWith:" : "kge 5/15/2022 14:50",
+		"buildQuestionListWith:" : "kge 5/15/2022 14:30",
+		"buildWith:" : "kge 5/15/2022 15:14",
+		"currentVisualization" : "kge 5/15/2022 14:36",
+		"currentVisualization:" : "kge 5/15/2022 14:36",
+		"index" : "kge 5/15/2022 14:20",
+		"index:" : "kge 5/15/2022 14:20",
+		"initialize" : "kge 5/15/2022 15:02",
+		"poll" : "kge 5/15/2022 14:20",
+		"poll:" : "kge 5/15/2022 14:20",
+		"questionIndex" : "kge 5/15/2022 14:21",
+		"questionIndex:" : "kge 5/15/2022 14:58",
+		"questionList" : "kge 5/15/2022 14:19",
+		"questionListFrame:" : "kge 5/15/2022 15:05",
+		"questionListFrame:fromTop:fromLeft:width:" : "kge 5/15/2022 14:53" } }
