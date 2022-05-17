@@ -4,4 +4,4 @@ testUniqueness
 	
 	generator := LQPollIdGenerator new.
 	
-	self deny: (generator generateIdFromRealWords) equals: (generator generateIdFromRealWords)
+	self assert: false equals: ((generator generateIdFromRealWords) == (generator generateIdFromRealWords))
