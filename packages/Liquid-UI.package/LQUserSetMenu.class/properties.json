@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"pollDraft" ],
+	"name" : "LQUserSetMenu",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

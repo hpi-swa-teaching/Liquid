@@ -6,6 +6,7 @@ buildWith: aBuilder
 		label: 'Liquid - Host';
 		extent: 400 @ 100;
 		children: {
+			self buildUserSetButtonWith: aBuilder.
 			self buildPollInteractionButtonWith: aBuilder.
 			self buildShowResultsButtonWith: aBuilder.
 			self buildCreatePollButtonWith: aBuilder.

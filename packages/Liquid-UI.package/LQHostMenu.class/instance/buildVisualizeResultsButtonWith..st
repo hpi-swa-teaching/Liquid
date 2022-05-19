@@ -7,7 +7,7 @@ buildVisualizeResultsButtonWith: aBuilder
 		help: 'Visualize results to a poll as a bar graph';
 		action: #visualizeResults;
 		frame: (LayoutFrame new
-			topFraction: 0.55;
+			topFraction: 0.7;
 			bottomFraction: 1;
 			leftFraction: 0.35;
 			rightFraction: 0.65;
