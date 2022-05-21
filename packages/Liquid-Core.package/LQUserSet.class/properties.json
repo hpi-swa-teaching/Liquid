@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"userEntries" ],
+	"name" : "LQUserSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
