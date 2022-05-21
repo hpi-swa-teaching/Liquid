@@ -3,7 +3,7 @@ buildUserSetButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Create User Set';
+		label: 'Manage User Sets';
 		help: 'Upload a Userfile to restrict access to your polls';
 		action: #userSetMenu;
 		frame: (LayoutFrame new

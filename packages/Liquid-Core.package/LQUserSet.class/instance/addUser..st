@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 addUser: aLQUser
 
 	self userEntries add: aLQUser.	

@@ -3,11 +3,9 @@ buildWith: aBuilder
 
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Liquid - Create a Poll';
-		extent: 500 @ 400;
+		label: 'Liquid - User Sets';
+		extent: 200 @ 300;
 		children: {
-			self buildTitleInputWith: aBuilder.
-			self buildChoicesInputWith: aBuilder.
-			self buildRunPollButtonWith: aBuilder.
-			self buildMaxNumberOfChoicesInputWith: aBuilder.
-			self buildMaxNumberOfChoicesLabelWith: aBuilder} yourself)
+			self buildUserSetListViewWith: aBuilder.
+			"self buildRemoveUserSetButtonWith: aBuilder."
+			self buildAddUserSetFileButtonWith: aBuilder} yourself)
