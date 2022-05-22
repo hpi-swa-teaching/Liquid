@@ -14,7 +14,7 @@
 		"testExtractionOfGroupsWithEmptyBrackets" : "bwe 5/22/2022 21:23",
 		"testExtractionOfGroupsWithMultipleExcludedGroups" : "bwe 5/22/2022 21:28",
 		"testExtractionOfGroupsWithoutExcludedGroups" : "bwe 5/22/2022 21:31",
-		"testLeadingWhiteSpaceTrimmingOfDescription" : "bwe 5/22/2022 21:31",
-		"testLeadingWhiteSpaceTrimmingOfDescriptionWhenNoBracketsArePresent" : "bwe 5/22/2022 21:31",
-		"testTrailingWhiteSpaceTrimmingOfDescription" : "bwe 5/22/2022 21:31",
+		"testLeadingWhiteSpaceTrimmingOfDescription" : "bwe 5/22/2022 21:45",
+		"testLeadingWhiteSpaceTrimmingOfDescriptionWhenNoBracketsArePresent" : "bwe 5/22/2022 21:45",
+		"testTrailingWhiteSpaceTrimmingOfDescription" : "bwe 5/22/2022 21:45",
 		"testWhitespaceTrimmingForGroups" : "bwe 5/22/2022 21:28" } }

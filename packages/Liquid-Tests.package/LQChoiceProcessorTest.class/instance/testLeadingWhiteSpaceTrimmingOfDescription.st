@@ -3,8 +3,8 @@ testLeadingWhiteSpaceTrimmingOfDescription
 
 	| choiceEntry expectedDescription actualDescription |
 	
-	expectedDescription := '    Lorem ipsum dolor sit amet'.
-	choiceEntry := expectedDescription, '[group1]'.
+	expectedDescription := 'Lorem ipsum dolor sit amet'.
+	choiceEntry := '   ', expectedDescription, '[group1]'.
 		
 	actualDescription := processor extractDescription: choiceEntry .
 	
