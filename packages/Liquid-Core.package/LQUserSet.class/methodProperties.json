@@ -1,8 +1,10 @@
 {
 	"class" : {
-		"createFromFile:" : "ms 5/21/2022 11:33" },
+		"createFromFile:" : "ms 5/21/2022 11:33",
+		"createFromFile:withName:" : "bn 5/22/2022 17:39" },
 	"instance" : {
 		"addUser:" : "ape 5/21/2022 10:11",
+		"asString" : "bn 5/22/2022 17:53",
 		"id" : "ape 5/21/2022 10:08",
 		"id:" : "ape 5/21/2022 10:08",
 		"title" : "ms 5/21/2022 12:20",

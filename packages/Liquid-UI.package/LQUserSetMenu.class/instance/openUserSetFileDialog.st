@@ -7,4 +7,4 @@ openUserSetFileDialog
 	fc setCaption: 'Select a .csv file' translated.
 	fc setSuffixes: {'csv'}.
 	stream := fc open.
-	stream ifNotNil: [self userSets add: (LQUserSet createFromFile: stream). self changed: #userSets]
+	stream ifNotNil: [self addUserWith: stream]
