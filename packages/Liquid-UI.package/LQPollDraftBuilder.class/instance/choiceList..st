@@ -1,6 +1,7 @@
 accessing
 choiceList: aText
 
-	self question choiceList: (aText asString lines asOrderedCollection
+	self question choiceList: ((aText asString lines asOrderedCollection
 		collect: [:value | value withBlanksTrimmed]
 		thenSelect: [:value | (value withBlanksTrimmed = '') not])
+		collect: [:value | LQChoice newFrom: value])

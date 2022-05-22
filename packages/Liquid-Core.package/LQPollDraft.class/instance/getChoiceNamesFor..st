@@ -1,4 +1,4 @@
 accessing - visualization
 getChoiceNamesFor: aQuestion
 
-	^ aQuestion choiceList
+	^ aQuestion choiceDescriptions

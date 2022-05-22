@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bwe 5/22/2022 20:54",
+	"instvars" : [
+		"description",
+		"excludedGroups" ],
+	"name" : "LQChoice",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

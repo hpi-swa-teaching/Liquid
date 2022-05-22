@@ -1,4 +1,4 @@
 accessing
 choiceAt: anIndex
 
-	^ selectedChoices includes: (self choiceList at: anIndex ifAbsent: [^ false])
+	^ selectedChoices includes: (self choiceDescriptions at: anIndex ifAbsent: [^ false])
