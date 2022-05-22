@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"processor" : "bwe 5/22/2022 21:03",
+		"processor:" : "bwe 5/22/2022 21:04",
+		"setUp" : "bwe 5/22/2022 21:03",
+		"testExtractionOfDescriptionForBadFormattedStrings" : "bwe 5/22/2022 21:32",
+		"testExtractionOfDescriptionForWellFormattedStrings" : "bwe 5/22/2022 21:32",
+		"testExtractionOfDescriptionWithMultipleExcludedGroups" : "bwe 5/22/2022 21:32",
+		"testExtractionOfDescriptionWithoutExcludedGroups" : "bwe 5/22/2022 21:32",
+		"testExtractionOfGroupsForBadFormattedStrings" : "bwe 5/22/2022 21:22",
+		"testExtractionOfGroupsForWellFormattedStrings" : "bwe 5/22/2022 21:23",
+		"testExtractionOfGroupsWithEmptyBrackets" : "bwe 5/22/2022 21:23",
+		"testExtractionOfGroupsWithMultipleExcludedGroups" : "bwe 5/22/2022 21:28",
+		"testExtractionOfGroupsWithoutExcludedGroups" : "bwe 5/22/2022 21:31",
+		"testLeadingWhiteSpaceTrimmingOfDescription" : "bwe 5/22/2022 21:31",
+		"testLeadingWhiteSpaceTrimmingOfDescriptionWhenNoBracketsArePresent" : "bwe 5/22/2022 21:31",
+		"testTrailingWhiteSpaceTrimmingOfDescription" : "bwe 5/22/2022 21:31",
+		"testWhitespaceTrimmingForGroups" : "bwe 5/22/2022 21:28" } }

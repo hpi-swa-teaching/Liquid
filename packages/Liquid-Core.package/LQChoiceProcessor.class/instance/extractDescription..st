@@ -1,3 +1,3 @@
 as yet unclassified
 extractDescription: aString
-	^ aString
+	^ aString splitOn: '[' 
