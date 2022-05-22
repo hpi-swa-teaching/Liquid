@@ -1,3 +1,3 @@
-as yet unclassified
+generation
 generateIdFromRealWords
 	^ (self randomSubject) , '-', (self randomVerb) , '-', (self randomObject)

@@ -1,3 +1,3 @@
-as yet unclassified
+generation
 randomVerb
 	^ self storedVerbs atRandom

@@ -1,3 +1,3 @@
-as yet unclassified
+generation
 randomObject
 	^ self storedObjects atRandom
