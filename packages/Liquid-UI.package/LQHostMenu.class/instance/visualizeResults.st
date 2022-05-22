@@ -7,4 +7,4 @@ visualizeResults
 	foundPoll := LQPollRepo default
 		at: pollNameInput
 		ifAbsent: [^ UIManager default inform: 'This poll does not exist.'].
-	LQVisualizationView newWithPoll: foundPoll
+	LQVisualizationControls newWithPoll: foundPoll

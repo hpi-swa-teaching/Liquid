@@ -1,4 +1,4 @@
 accessing - visualization
 getChoiceNames
 
-	^ self questionList first choiceList
+	^ self getChoiceNamesFor: (self questionList first)

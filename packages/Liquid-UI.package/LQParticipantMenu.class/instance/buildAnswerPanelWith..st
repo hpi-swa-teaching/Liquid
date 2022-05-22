@@ -2,7 +2,9 @@ toolbuilder
 buildAnswerPanelWith: aBuilder
 
 	| answerPanel |
+	self currentQuestionIndex: 1.
 	answerPanel := LQAnswerPanel newWith: aBuilder.
-	answerPanel question: self poll pollDraft questionList first.
+	self answerPanel: answerPanel.
+	answerPanel question: self currentQuestion.
 	self answerSet addAnswer: answerPanel answer.
 	^ answerPanel

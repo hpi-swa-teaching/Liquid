@@ -3,4 +3,6 @@ Each LQPoll references exactly one LQPollDraft, but a LQPollDraft can belong to 
 
 Notable Instance Variables:
 id: A randomly generated UUID.
-questionList: An OrderedCollection of LQQuestions. Note: Currently (07/2021) the data structure supports multiple questions in one poll. even though the remainder of the application uses only the first entry of questionList, as required by the customer. Entries such as 'self poll pollDraft questionList first' are therefore the norm.  
+questionList: An OrderedCollection of LQQuestions. Note: (05/2022) multiple questions are supported from now on.
+
+"Note: Currently (07/2021) the data structure supports multiple questions in one poll. even though the remainder of the application uses only the first entry of questionList, as required by the customer. Entries such as 'self poll pollDraft questionList first' are therefore the norm."
