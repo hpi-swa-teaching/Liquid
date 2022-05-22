@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LQAnswerPanelTests",
+	"pools" : [
+		 ],
+	"super" : "LQUIComponentTests",
+	"type" : "normal" }
