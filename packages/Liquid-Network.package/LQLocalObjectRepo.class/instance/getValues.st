@@ -1,0 +1,4 @@
+accessing
+getValues
+
+	^ items values

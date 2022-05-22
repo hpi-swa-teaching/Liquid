@@ -5,9 +5,9 @@ newFromCollection: aCollection
 	|user|
 	user := self new.
 	(aCollection size == 3)
-	ifTrue: [user id: (aCollection at: 1).
-				user name: (aCollection at: 2).
-				user group: (aCollection at: 3)]
+	ifTrue: [user id: (aCollection first).
+				user name: (aCollection second).
+				user group: (aCollection third)]
 	ifFalse: [self halt.].
 	
 	^ user

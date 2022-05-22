@@ -1,14 +1,14 @@
 {
-	"category" : "Liquid-UI",
+	"category" : "Liquid-Network",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Default" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"choiceSelected" ],
-	"name" : "LQUserSetMenu",
+		 ],
+	"name" : "LQUserSetRepo",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "Object",
 	"type" : "normal" }

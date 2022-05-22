@@ -1,3 +1,3 @@
 accessing
 userSets
-	^ userSets
+	^ LQUserSetRepo default getValues
