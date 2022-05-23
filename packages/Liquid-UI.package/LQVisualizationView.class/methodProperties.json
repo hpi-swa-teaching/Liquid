@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"newWithPoll:" : "CG 7/30/2021 19:06" },
+		"newWithPoll:" : "kge 5/15/2022 14:35" },
 	"instance" : {
-		"data" : "CG 7/30/2021 19:06",
+		"data" : "kge 5/15/2022 13:08",
+		"dataFor:" : "kge 5/15/2022 13:12",
 		"poll" : "CG 7/30/2021 19:06",
 		"poll:" : "CG 7/30/2021 19:06",
-		"sortData" : "CG 7/30/2021 19:06",
-		"visualizeResults" : "CG 7/30/2021 19:06" } }
+		"sortData" : "kge 5/15/2022 13:08",
+		"sortDataFor:" : "kge 5/15/2022 13:12",
+		"visualizeResults" : "kge 5/15/2022 13:13",
+		"visualizeResultsFor:" : "kge 5/15/2022 14:46" } }

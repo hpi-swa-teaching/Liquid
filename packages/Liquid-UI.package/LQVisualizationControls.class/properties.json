@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bwe 5/22/2022 19:47",
+	"instvars" : [
+		"poll",
+		"index",
+		"currentVisualization" ],
+	"name" : "LQVisualizationControls",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

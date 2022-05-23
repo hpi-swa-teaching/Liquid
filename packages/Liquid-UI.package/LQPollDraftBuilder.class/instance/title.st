@@ -1,4 +1,4 @@
 accessing
 title
 
-	^ self pollDraft title
+	^ self question title

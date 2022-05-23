@@ -1,4 +1,4 @@
 modifying
 generateRandomID
 
-	^ UUID new asString
+	^ LQPollIdGenerator new generateIdFromRealWords
