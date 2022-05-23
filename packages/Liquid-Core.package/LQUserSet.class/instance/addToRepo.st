@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 addToRepo
 
-	LQUserSetRepo default at: (self id) ifPresent: [self halt] ifAbsentPut: self.
+	LQUserSetRepo default at: (self id) ifPresent: [self error] ifAbsentPut: self.

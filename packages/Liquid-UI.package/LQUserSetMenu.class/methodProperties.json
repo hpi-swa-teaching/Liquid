@@ -5,10 +5,12 @@
 	"instance" : {
 		"addUserWith:" : "bn 5/22/2022 19:17",
 		"buildAddUserSetFileButtonWith:" : "ms 5/21/2022 14:16",
-		"buildUserSetListViewWith:" : "bn 5/22/2022 17:49",
-		"buildWith:" : "ms 5/21/2022 14:18",
-		"choiceSelected" : "ms 5/21/2022 11:52",
-		"choiceSelected:" : "ms 5/21/2022 11:49",
-		"initialize" : "bn 5/22/2022 18:32",
+		"buildRemoveUserSetButtonWith:" : "ape 5/23/2022 17:56",
+		"buildUserSetListViewWith:" : "ape 5/23/2022 18:05",
+		"buildWith:" : "ape 5/23/2022 17:56",
+		"choiceSelected" : "ape 5/23/2022 18:08",
+		"choiceSelected:" : "ape 5/23/2022 18:07",
 		"openUserSetFileDialog" : "bn 5/22/2022 19:18",
-		"userSets" : "bn 5/22/2022 19:30" } }
+		"userSets" : "bn 5/22/2022 19:30",
+		"userSetsAt:" : "ape 5/23/2022 18:01",
+		"userSetsAt:put:" : "ape 5/23/2022 18:03" } }

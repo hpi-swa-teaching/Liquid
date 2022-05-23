@@ -7,5 +7,5 @@ buildWith: aBuilder
 		extent: 200 @ 300;
 		children: {
 			self buildUserSetListViewWith: aBuilder.
-			"self buildRemoveUserSetButtonWith: aBuilder."
+			self buildRemoveUserSetButtonWith: aBuilder.
 			self buildAddUserSetFileButtonWith: aBuilder} yourself)

@@ -1,7 +1,7 @@
 toolbuilder
 buildUserSetListViewWith: aBuilder
 
-	^ aBuilder pluggableListSpec new
+	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #userSets;
 		getIndex: #choiceSelected;
@@ -10,6 +10,6 @@ buildUserSetListViewWith: aBuilder
 			topFraction: 0.1; 
 			bottomFraction: 0.8; 
 			leftFraction: 0.1; 
-			rightFraction: 0.9)
+			rightFraction: 0.9);
 		yourself
 		
