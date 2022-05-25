@@ -1,3 +1,4 @@
 accessing
 choiceSelected
-	^ choiceSelected ifNil: [0]
+	
+	^ choiceSelected ifNil: [^choiceSelected := 0]

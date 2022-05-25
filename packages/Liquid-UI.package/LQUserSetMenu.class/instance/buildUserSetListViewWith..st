@@ -1,7 +1,7 @@
 toolbuilder
 buildUserSetListViewWith: aBuilder
 
-	^ aBuilder pluggableMultiSelectionListSpec new
+	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #userSets;
 		getIndex: #choiceSelected;
