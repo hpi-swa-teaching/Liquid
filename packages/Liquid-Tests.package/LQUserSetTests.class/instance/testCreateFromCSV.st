@@ -1,0 +1,17 @@
+as yet unclassified
+testCreateFromCSV
+
+	| userSet1 userSet2 stream |
+	
+	userSet1 := LQUserSet new
+		addUser: self createUser1;
+		addUser: self createUser2.
+			
+	stream := ReadStream on: '3,kandidat3,group2
+4,knadidat4,group1'.
+
+	userSet2 := LQUserSet createFromFile: stream.
+	
+	1 to: userSet1 userEntries size do: 
+		[:i | 
+		LQUserSetTests compareUser1: (userSet1 userEntries at: i) user2: (userSet2 userEntries at: i)].
