@@ -1,4 +1,0 @@
-accessing
-getValues
-
-	^ items values

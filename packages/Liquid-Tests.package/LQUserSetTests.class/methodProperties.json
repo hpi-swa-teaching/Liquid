@@ -6,7 +6,9 @@
 		"createUser1" : "JT 5/26/2022 19:24",
 		"createUser2" : "JT 5/26/2022 19:24",
 		"testAddOneUser" : "JT 5/26/2022 19:12",
+		"testAddToRepo" : "bn 5/26/2022 21:56",
 		"testAddTwoUsers" : "JT 5/26/2022 19:11",
+		"testAsString" : "bn 5/26/2022 21:16",
 		"testCreateFromCSV" : "JT 5/26/2022 19:33",
 		"testInitiallyEmpty" : "JT 5/26/2022 18:42",
 		"testUserNewFromCollection" : "JT 5/26/2022 19:12" } }
