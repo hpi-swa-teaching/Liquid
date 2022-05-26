@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testUserNewFromCollection
 
 	| user1 user2 |

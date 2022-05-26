@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCreateFromCSV
 
 	| userSet1 userSet2 stream |

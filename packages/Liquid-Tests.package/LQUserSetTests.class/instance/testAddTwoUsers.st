@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAddTwoUsers
 
 	| userSet user1 user2 |
