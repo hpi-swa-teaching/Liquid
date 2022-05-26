@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"compareUser1:user2:" : "ms 5/25/2022 16:57" },
+		 },
 	"instance" : {
-		"createUser1" : "ms 5/25/2022 17:06",
-		"createUser2" : "ms 5/25/2022 17:06",
-		"testAddUsers" : "ms 5/25/2022 17:19",
-		"testCreateFromCSV" : "ms 5/25/2022 17:10",
-		"testUserNewFromCollection" : "ms 5/25/2022 16:56" } }
+		"compareUser1:user2:" : "JT 5/26/2022 18:47",
+		"createUser1" : "JT 5/26/2022 19:24",
+		"createUser2" : "JT 5/26/2022 19:24",
+		"testAddOneUser" : "JT 5/26/2022 19:12",
+		"testAddTwoUsers" : "JT 5/26/2022 19:11",
+		"testCreateFromCSV" : "JT 5/26/2022 19:33",
+		"testInitiallyEmpty" : "JT 5/26/2022 18:42",
+		"testUserNewFromCollection" : "JT 5/26/2022 19:12" } }

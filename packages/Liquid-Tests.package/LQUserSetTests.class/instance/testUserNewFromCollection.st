@@ -9,4 +9,4 @@ testUserNewFromCollection
 
 	user2 := LQUser newFromCollection: {5 . 'peter' . 'group1'}.
 	
-	self assert: (LQUserSetTests compareUser1: user1 user2: user2) equals: true.
+	self assert: (self compareUser1: user1 user2: user2)
