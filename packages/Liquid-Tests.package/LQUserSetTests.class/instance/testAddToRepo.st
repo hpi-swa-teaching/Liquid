@@ -1,13 +1,12 @@
 tests
 testAddToRepo
 
-	| userSet uuid|
-	uuid := UUID new.
+	| userSet myUUID |
+	myUUID := UUID new.
 	userSet := LQUserSet new.
-	userSet id: uuid;
+	userSet id: myUUID;
 		title: 'lorem ipsum Meine Oma fährt im Hühnerstall Motorrad';
-		addToRepo;
-		yourself.
-	self assert: (LQUserSetRepo default at: uuid) title equals: userSet title.
-	LQUserSetRepo default removeKey: uuid
+		addToRepo.
+	self assert: (LQUserSetRepo default at: myUUID) title equals: userSet title.
+	LQUserSetRepo default removeKey: myUUID
 	
