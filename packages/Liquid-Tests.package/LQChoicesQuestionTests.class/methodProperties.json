@@ -7,4 +7,5 @@
 		"setUp" : "CG 7/30/2021 19:06",
 		"testAddChoice" : "CG 7/30/2021 19:06",
 		"testBuildEmptyChoicesAnswer" : "CG 7/30/2021 19:06",
-		"testCorrectQuestionType" : "CG 7/30/2021 19:06" } }
+		"testCorrectQuestionType" : "CG 7/30/2021 19:06",
+		"testmaxChoices" : "bn 5/26/2022 21:05" } }

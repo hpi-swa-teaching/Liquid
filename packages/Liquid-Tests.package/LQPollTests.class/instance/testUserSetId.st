@@ -4,6 +4,6 @@ testUserSetId
 	| poll |
 	
 	poll := LQPoll new.
-	poll id: 1.
+	poll userSetID: 1.
 	
-	self assert: poll id equals: 1
+	self assert: poll userSetID equals: 1
