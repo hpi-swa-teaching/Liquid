@@ -1,4 +1,4 @@
-as yet unclassified
+extracting
 extractGroups: aString
 
 	| openingBracketLocation closingBracketLocation rawGroups splitGroups |

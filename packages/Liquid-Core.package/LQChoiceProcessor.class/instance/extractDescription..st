@@ -1,4 +1,4 @@
-as yet unclassified
+extracting
 extractDescription: aString
 	
 	| firstBracketLocation rawDescription |
