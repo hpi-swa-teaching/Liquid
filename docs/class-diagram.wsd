@@ -2,6 +2,14 @@
 ' class LQDraftStore
 
 package "Data Structure" {
+  class LQUserSet  {
+
+    }
+    class LQUser  {
+        
+    }
+    LQUserSet "1" <-u  "*" LQUser
+    LQUserSet "1" <- "*" LQPoll
     class LQPoll  {
         isOpen
         void startWithId(id, ifTakenBlock)
@@ -58,7 +66,13 @@ package Server {
         default
     }
     LQObjectRepo -- LQPoll
+    LQObjectRepo -- LQUserSet
     LQPollRepo -> LQObjectRepo
+    
+    class LQUserSetRepo {
+        default
+    }
+    LQUserSetRepo -> LQObjectRepo
 }
 
 class LQLocalObjectDummy {
@@ -76,6 +90,8 @@ LQRemoteObjectDummy -[hidden]- LQLocalObjectDummy
 package UI {
     class LQModel
     class LQHostMenu
+    class LQUserSetMenu
+    LQModel <|-- LQUserSetMenu
     LQModel <|-- LQHostMenu
     class LQStartMenu
     LQModel <|-- LQStartMenu
@@ -93,6 +109,7 @@ package UI {
     LQStartMenu -- LQHostMenu
     LQStartMenu -- LQParticipantMenu
     LQHostMenu -- LQResultsView
+     LQHostMenu -- LQUserSetMenu
     LQHostMenu -- LQPollDraftBuilder
 
     class LQUiComponent
