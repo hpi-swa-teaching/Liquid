@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "NM 7/9/2021 14:09",
 	"instvars" : [
-		"pollDraft" ],
+		"pollDraft",
+		"currentChoiceListDraft" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],
