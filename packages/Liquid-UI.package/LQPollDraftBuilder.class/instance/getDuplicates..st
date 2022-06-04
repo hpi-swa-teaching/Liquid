@@ -1,4 +1,4 @@
-verifying
+duplicateDetection
 getDuplicates: aCollection
 
 	| duplicates |
