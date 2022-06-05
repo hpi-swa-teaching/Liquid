@@ -1,5 +1,5 @@
 toolbuilder
-addUserWith: aFileStream
+addUserSetWith: aFileStream
 
 	| name userSet|
 	name := UIManager default request: 'Choose a name for the User Set!'.
