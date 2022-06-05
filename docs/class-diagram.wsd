@@ -1,45 +1,15 @@
 @startuml "Structure of Liquid"
 ' class LQDraftStore
 
-package "Data Structure" {
-    class LQPoll  {
-        isOpen
-        void startWithId(id, ifTakenBlock)
-    }
-    LQPoll "*" <- "1" LQPollDraft
-    class LQPollDraft {
-        title
-    }
-    class LQAnswerSet
-    LQPoll "1" <- "*" LQAnswerSet
-    LQAnswerSet "1" <- "*" LQAnswer
-    interface LQAnswer
-    class LQChoicesAnswer {
-        votedChoice
-    }
-    LQAnswer <|-- LQChoicesAnswer
-
-    interface LQQuestion {
-        choiceList
-    }
-    ' I chose * instead of 1 bc datastructure is there
-    LQPollDraft "1" <- "*" LQQuestion
-    class LQChoicesQuestion  {
-        maxNumberOfChoices
-    }
-    LQQuestion <|-- LQChoicesQuestion
-    LQAnswer "*" -- "1" LQQuestion
-}
-
 package Server {
     package Local {
         class LQLocalObjectRepo
+        LQUserSetRepo -- LQLocalObjectRepo
         class LQDevelopmentObjectRepo
         class LQDelayMessageDecorator
         LQLocalObjectRepo <|-- LQDevelopmentObjectRepo
         ' LQDelayMessageDecorator -- LQLocalObjectDummy
         LQDevelopmentObjectRepo -- LQDelayMessageDecorator
-
     }
     package Remote {
         class LQRemoteRepoClient
@@ -73,12 +43,80 @@ class LQRemoteObjectDummy {
 }
 LQRemoteObjectDummy -[hidden]- LQLocalObjectDummy
 
+package Core {
+  package "Data Structure" {
+    class LQPoll  {
+        id
+        userSetID
+        startTime
+        isOpen
+        void startWithId(id, ifTakenBlock)
+    }
+    LQPoll "*" <- "1" LQPollDraft
+    class LQPollDraft {
+        title
+    }
+    class LQAnswerSet
+    LQPoll "1" <- "*" LQAnswerSet
+    LQAnswerSet "1" <- "*" LQAnswer
+    interface LQAnswer
+    class LQChoicesAnswer {
+        votedChoice
+    }
+    LQAnswer <|-- LQChoicesAnswer
+
+    interface LQQuestion {
+        choiceList
+    }
+    ' I chose * instead of 1 bc datastructure is there
+    LQPollDraft "1" <- "*" LQQuestion
+    class LQChoicesQuestion  {
+        maxNumberOfChoices
+    }
+    LQQuestion <|-- LQChoicesQuestion
+    LQAnswer "*" -- "1" LQQuestion
+    class LQChoice {
+      description
+      excludedGroups
+    }
+    LQChoicesQuestion "1" -> "*" LQChoice
+    class LQUser {
+      id
+      name
+      group
+    }
+    class LQUserSet {
+      id
+      title
+    }
+    LQUserSet "1" -> "*" LQUser
+  }
+
+  package Util {
+    class LQPollIdGenerator {}
+    class LQChoiceProcessor {}
+  }
+  
+  package Passwords {
+    class LQPasswordManager{}
+    class LQPasswordGuard{}
+    LQPoll -- LQPasswordGuard
+  }
+}
+
 package UI {
     class LQModel
+    class LQUserSetMenu {
+      openUserSetFileDialog()
+      removeSelectedUserSet()
+    }
     class LQHostMenu
     LQModel <|-- LQHostMenu
     class LQStartMenu
     LQModel <|-- LQStartMenu
+    LQModel <|-- LQVisualizationControls
+    LQModel <|-- LQVisualizationView
+    LQVisualizationView -- LQVisualizationControls
     class LQResultsView
     LQModel <|-- LQResultsView
     class LQParticipantMenu {
