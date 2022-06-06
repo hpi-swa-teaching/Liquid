@@ -1,1 +1,1 @@
-Creators can create new polls in this menu.
+Users can view, add and remove UserSets in this menu.

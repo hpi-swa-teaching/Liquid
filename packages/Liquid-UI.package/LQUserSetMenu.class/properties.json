@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "ape 6/6/2022 07:54",
 	"instvars" : [
 		"choiceSelected" ],
 	"name" : "LQUserSetMenu",
