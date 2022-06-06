@@ -1,11 +1,10 @@
 tests
 testAddOneUser
 
-	| userSet user1 |
+	| userSet |
 	
-	user1 := self createUser1.
 	userSet := LQUserSet new
-		 addUser: user1.
+		 addUser: self user1.
 	
 	self assert: userSet userEntries size equals: 1.
-	self assert: (userSet userEntries includes: user1)
+	self assert: (userSet userEntries includes: self user1)

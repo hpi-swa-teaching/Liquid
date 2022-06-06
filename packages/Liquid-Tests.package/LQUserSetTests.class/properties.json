@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"user1",
+		"user2" ],
 	"name" : "LQUserSetTests",
 	"pools" : [
 		 ],

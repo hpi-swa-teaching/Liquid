@@ -4,8 +4,8 @@ testCreateFromCSV
 	| userSet1 userSet2 stream |
 	
 	userSet1 := LQUserSet new
-		addUser: self createUser1;
-		addUser: self createUser2.
+		addUser: self user1;
+		addUser: self user2.
 			
 	stream := ReadStream on: '3,kandidat3,group2
 4,kandidat4,group1'.
