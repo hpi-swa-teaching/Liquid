@@ -1,5 +1,6 @@
 tests
 testNextButtonCurrentQuestionIndex
 
-	self participantMenu nextQuestion.
+	self participantMenu currentQuestionIndex: 1.
+	self participantMenu nextQuestionOrSend.
 	self assert: self participantMenu currentQuestionIndex equals: 2
