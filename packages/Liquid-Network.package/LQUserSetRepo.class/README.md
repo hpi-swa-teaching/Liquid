@@ -1,0 +1,1 @@
+Singleton for a LQObjectRepo that manages LQPoll objects.
