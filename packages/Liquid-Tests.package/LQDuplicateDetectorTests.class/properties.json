@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "bn 6/11/2022 19:49",
 	"instvars" : [
 		 ],
-	"name" : "LQPollsDraftBuilderTests",
+	"name" : "LQDuplicateDetectorTests",
 	"pools" : [
 		 ],
 	"super" : "LQTestCase",

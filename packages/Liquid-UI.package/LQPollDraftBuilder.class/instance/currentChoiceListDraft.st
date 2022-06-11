@@ -4,7 +4,7 @@ currentChoiceListDraft
 	| textStream duplicates|
 	
 	textStream := TextStream on: Text new.
-	duplicates := self getDuplicates: self question choiceList.
+	duplicates := LQDuplicateDetector identifyDuplicates: self question choiceList.
 	
 	self question choiceList
 		do: [:item | 

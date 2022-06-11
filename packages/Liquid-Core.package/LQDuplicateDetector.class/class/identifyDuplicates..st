@@ -1,5 +1,5 @@
-duplicateDetection
-getDuplicates: aCollection
+as yet unclassified
+identifyDuplicates: aCollection
 
 	| duplicates |
 	
