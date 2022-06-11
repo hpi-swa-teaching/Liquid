@@ -4,7 +4,7 @@ requestPollWith: aPollID
 	| requestedPoll |
 	requestedPoll := self default at: aPollID ifAbsent: [].
 	
-	requestedPoll userSet 
+	requestedPoll userSetID
 		ifNil: [^ requestedPoll];
 		ifNotNil: [^ nil]
 	
