@@ -1,8 +1,8 @@
-tests
+running
 setUp
 
 	| poll |
-	poll := LQPollTests getTestPoll.
+	poll := self createTestPoll.
 	self participantMenu: (LQParticipantMenu new
 		poll: poll;
 		answerSet: (LQAnswerSet new pollId: (poll id));

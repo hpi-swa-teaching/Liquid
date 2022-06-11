@@ -1,4 +1,4 @@
-tests
+running
 tearDown
 	
 	LQParticipantMenu answeredPollIds remove: self participantMenu poll id ifAbsent: [].
