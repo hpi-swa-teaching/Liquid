@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"poll" : "kge 6/12/2022 12:18",
+		"poll:" : "kge 6/12/2022 12:18",
+		"pollDraft" : "kge 6/12/2022 12:18",
+		"pollDraft:" : "kge 6/12/2022 12:18",
+		"q1" : "kge 6/12/2022 12:18",
+		"q1:" : "kge 6/12/2022 12:18",
+		"q1a1" : "kge 6/12/2022 12:19",
+		"q1a1:" : "kge 6/12/2022 12:19",
+		"q1a2" : "kge 6/12/2022 12:19",
+		"q1a2:" : "kge 6/12/2022 12:19",
+		"q2" : "kge 6/12/2022 12:19",
+		"q2:" : "kge 6/12/2022 12:19",
+		"q2a1" : "kge 6/12/2022 12:19",
+		"q2a1:" : "kge 6/12/2022 12:19",
+		"q2a2" : "kge 6/12/2022 12:19",
+		"q2a2:" : "kge 6/12/2022 12:19",
+		"setUp" : "kge 6/12/2022 12:23",
+		"testBarChartMorphChangedOnQuestionSelectionChanged" : "kge 6/12/2022 12:08",
+		"testHostMenuIntegrationWorks" : "kge 6/12/2022 12:09",
+		"testMultipleQuestionsInListView" : "kge 6/12/2022 12:08",
+		"testResultViewIntegrationWorks" : "kge 6/12/2022 12:09",
+		"testVisualizationDisplayedAfterInitialization" : "kge 6/12/2022 12:09" } }

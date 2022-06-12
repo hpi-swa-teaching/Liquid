@@ -1,6 +1,6 @@
 toolbuilder
 resetUI
 
-	self changed: #choiceList.
+	self changed: #choiceDescriptions.
 	self changed: #getTitle.
 	self changed: #getRemainingVotedChoices

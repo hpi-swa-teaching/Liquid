@@ -3,7 +3,7 @@ buildMultiSelectionListWith: aBuilder
 
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
-		list: #choiceList;
+		list: #choiceDescriptions;
 		getIndex: #choiceSelected;
 		setIndex: #choiceSelected:;
 		getSelectionList: #choiceAt:;
