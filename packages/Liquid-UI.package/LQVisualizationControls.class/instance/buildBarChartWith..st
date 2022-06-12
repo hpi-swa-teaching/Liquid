@@ -4,7 +4,6 @@ buildBarChartWith: aBuilder
 	pluggableScrollPaneSpec := aBuilder pluggableScrollPaneSpec new.
 	pluggableScrollPaneSpec 
 		model: self;
-		morph: self wrapperMorph;
-		yourself.
+		morph: self wrapperMorph.
 
 	^ pluggableScrollPaneSpec
