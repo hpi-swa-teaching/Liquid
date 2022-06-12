@@ -1,4 +1,4 @@
-accessing
+toolbuilder
 frame: bottomFraction fromTop: topFraction fromLeft: leftFraction width: rightFraction
 	
 	^LayoutFrame new

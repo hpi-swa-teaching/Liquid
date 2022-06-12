@@ -1,4 +1,4 @@
-as yet unclassified
+duplicate-detection
 identifyDuplicates: aCollection
 
 	| duplicates |

@@ -1,4 +1,4 @@
-as yet unclassified
+duplicate-detection
 withDuplicatesMarkedAsText: aCollection
 
 	| duplicates |

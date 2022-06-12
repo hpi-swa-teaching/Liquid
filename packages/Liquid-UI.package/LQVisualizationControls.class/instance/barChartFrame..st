@@ -1,4 +1,4 @@
-accessing
+toolbuilder
 barChartFrame: bottomFraction
 	
 	^self

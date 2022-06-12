@@ -1,4 +1,4 @@
-as yet unclassified
+duplicate-detection
 mark: aCollection in: anotherCollection with: aTextColor
 
 	| textStream |
