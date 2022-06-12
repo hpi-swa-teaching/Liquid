@@ -8,7 +8,7 @@ buildShowResultsButtonWith: aBuilder
 		action: #showResults;
 		frame: (LayoutFrame new
 			topFraction: 0;
-			bottomFraction: 0.45;
+			bottomFraction: 0.3;
 			leftFraction: 0.35;
 			rightFraction: 0.65;
 			yourself);

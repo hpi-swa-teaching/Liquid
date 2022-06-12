@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ape 6/6/2022 07:55",
+	"instvars" : [
+		"id",
+		"title",
+		"userEntries" ],
+	"name" : "LQUserSet",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
