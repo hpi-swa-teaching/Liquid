@@ -11,4 +11,4 @@ buildDefaultBrowserWith: builder
 	}.
 	self setMultiWindowFor:windowSpec.
 
-	^builder build: windowSpec
+	^ builder build: windowSpec

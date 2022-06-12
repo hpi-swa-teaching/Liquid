@@ -2,8 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createQuestionOne" : "bn 6/11/2022 19:47",
+		"createQuestionThree" : "bn 6/11/2022 19:47",
+		"createQuestionTwo" : "bn 6/11/2022 19:47",
+		"createSolutionOne" : "bn 6/11/2022 19:46",
+		"createSolutionThree" : "bn 6/11/2022 19:46",
+		"createSolutionTwo" : "bn 6/11/2022 19:46",
 		"pollDraft" : "NM 7/9/2021 16:21",
 		"pollDraft:" : "NM 7/9/2021 16:21",
 		"setUp" : "CG 7/30/2021 19:06",
 		"testAddQuestion" : "CG 7/30/2021 19:06",
-		"testPollDraftTitleCanBeSet" : "CG 7/30/2021 19:06" } }
+		"testPollDraftTitleCanBeSet" : "CG 7/30/2021 19:06",
+		"testWhitespaceRemoving" : "bn 6/11/2022 19:48" } }

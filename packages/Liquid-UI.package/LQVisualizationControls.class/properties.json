@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bwe 5/22/2022 19:47",
+	"commentStamp" : "kge 6/12/2022 11:25",
 	"instvars" : [
 		"poll",
 		"index",
-		"currentVisualization" ],
+		"currentVisualization",
+		"wrapperMorph" ],
 	"name" : "LQVisualizationControls",
 	"pools" : [
 		 ],

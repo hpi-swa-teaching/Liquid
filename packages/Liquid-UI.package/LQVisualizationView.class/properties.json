@@ -10,5 +10,5 @@
 	"name" : "LQVisualizationView",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "Object",
 	"type" : "normal" }
