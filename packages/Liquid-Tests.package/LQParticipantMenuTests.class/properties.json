@@ -6,7 +6,14 @@
 		 ],
 	"commentStamp" : "NM 7/16/2021 11:07",
 	"instvars" : [
-		"participantMenu" ],
+		"participantMenu",
+		"poll",
+		"q1",
+		"q2",
+		"q1c1",
+		"q1c2",
+		"q2c1",
+		"q2c2" ],
 	"name" : "LQParticipantMenuTests",
 	"pools" : [
 		 ],

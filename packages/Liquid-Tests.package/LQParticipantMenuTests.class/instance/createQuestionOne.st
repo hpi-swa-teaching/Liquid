@@ -3,5 +3,5 @@ createQuestionOne
 
 	^LQChoicesQuestion new
 		title: 'Question 1';
-		choiceList: {'Q1A1'. 'Q1A2'};
+		choiceList: {(self q1c1) . (self q1c2)};
 		yourself
