@@ -1,6 +1,4 @@
 accessing
 choiceDescriptions
 
-	^ (self question choiceDescriptions
-		inject: ''
-		into: [:total :value | total, value, Character cr]) asText
+	^LQDuplicateDetector new markDuplicatesIn: self question choiceList

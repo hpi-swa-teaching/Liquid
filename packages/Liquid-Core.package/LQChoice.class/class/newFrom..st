@@ -5,7 +5,8 @@ newFrom: aString
 	processor := LQChoiceProcessor new.
 	
 	choice := LQChoice new.
-	choice description: (processor extractDescription: aString).
-	choice excludedGroups: (processor extractGroups: aString).
+	choice description: (processor extractDescription: aString);
+		excludedGroups: (processor extractGroups: aString);
+		rawString: aString.
 	
 	^ choice

@@ -1,6 +1,6 @@
 helper methods
 createCollectionTwo
 
-	^{'Hallo' . 'Welt' . '!' . 'Hallo'} asOrderedCollection
+	^{LQChoice newFrom: 'Hallo' . LQChoice newFrom: 'Welt' . LQChoice newFrom: '!' . LQChoice newFrom: 'Hallo [123]'} asOrderedCollection
 
 

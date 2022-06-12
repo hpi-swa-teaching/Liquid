@@ -1,6 +1,6 @@
 helper methods
 createCollectionOne
 
-	^{'Hallo' . 'Welt' . '!'} asOrderedCollection
+	^{LQChoice newFrom: 'Hallo' . LQChoice newFrom: 'Welt' . LQChoice newFrom: '!'} asOrderedCollection
 
 

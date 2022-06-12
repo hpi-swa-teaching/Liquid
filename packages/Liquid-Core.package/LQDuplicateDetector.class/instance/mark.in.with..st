@@ -1,17 +1,17 @@
 duplicate-detection
-mark: aCollection in: anotherCollection with: aTextColor
+mark: aCollection in: aChoiceList with: aTextColor
 
 	| textStream |
 	
 	textStream := TextStream on: Text new.
 
-	anotherCollection
+	aChoiceList
 		do: [:item | 
-			(aCollection includes: item)
+			(aCollection includes: item description)
 				ifTrue: [textStream
 						withAttribute: aTextColor
-						do: [textStream nextPutAll: item]]
-				ifFalse: [textStream nextPutAll: item].
+						do: [textStream nextPutAll: item rawString]]
+				ifFalse: [textStream nextPutAll: item rawString].
 			textStream cr].
 		
 	^textStream contents

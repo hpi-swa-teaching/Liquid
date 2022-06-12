@@ -1,5 +1,3 @@
-LQDuplicate detector detects duplicates in a collection of answers and marks them.
-LQDuplicateDetector is a singleton.
-It is responsible for marking duplicates in an answer list given to it as collection and returning it as text with the duplicates marked.
+LQDuplicate detector detects duplicate answers in a collection of choices and marks them.
 
-It has no instances or inctance variables.
+It is responsible for marking duplicates in an choice list given to it as collection of LQChoices and returning it as text with the duplicates marked.
