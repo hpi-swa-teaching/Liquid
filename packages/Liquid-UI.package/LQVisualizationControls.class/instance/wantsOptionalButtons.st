@@ -1,0 +1,4 @@
+toolbuilder
+wantsOptionalButtons
+	
+	^ Preferences optionalButtons

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createCollectionOne" : "bn 6/11/2022 20:16",
+		"createCollectionTwo" : "bn 6/11/2022 20:19",
+		"createTextOne" : "bn 6/11/2022 20:13",
+		"createTextTwo" : "bn 6/11/2022 20:20",
+		"testDuplicateMarkingNoMarking" : "kge 6/12/2022 09:47",
+		"testDuplicateMarkingWithMarking" : "kge 6/12/2022 09:47",
+		"testMultipleDuplicates" : "kge 6/12/2022 09:46",
+		"testNoDuplicate" : "kge 6/12/2022 09:46",
+		"testSingleDuplicates" : "kge 6/12/2022 09:46" } }
