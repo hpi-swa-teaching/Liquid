@@ -7,4 +7,4 @@ testDuplicateMarkingNoMarking
 	
 	text := self createTextOne.
 	
-	self assert: (LQDuplicateDetector withDuplicatesMarkedAsText: collection) equals: text
+	self assert: (LQDuplicateDetector new withDuplicatesMarkedAsText: collection) equals: text

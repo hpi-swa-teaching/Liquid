@@ -1,4 +1,4 @@
 accessing
 choiceList
 
-	^LQDuplicateDetector withDuplicatesMarkedAsText: self question choiceList
+	^LQDuplicateDetector new withDuplicatesMarkedAsText: self question choiceList
