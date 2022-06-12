@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDuplicateMarkingInChoiceList
 
 	| pollDraftBuilder text |
@@ -8,8 +8,7 @@ testDuplicateMarkingInChoiceList
 	pollDraftBuilder := LQPollDraftBuilder new.
 	pollDraftBuilder pollDraft: LQPollDraft new;
 		addQuestion;
-		choiceList: text;
-		yourself.
+		choiceList: text.
 
 	self assert: pollDraftBuilder choiceDescriptions equals: text.
 	self assert: ((pollDraftBuilder choiceDescriptions attributesAt: 20)  includes: (TextColor color: Color red)) equals: true.

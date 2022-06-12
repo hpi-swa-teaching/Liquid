@@ -22,7 +22,7 @@
 		"testNoBrainClass" : "psi 5/26/2021 20:52",
 		"testNoComplexMethods" : "psi 5/26/2021 20:52",
 		"testNoContainsAReturnInAnEnsureBlock" : "psi 5/26/2021 20:52",
-		"testNoDataClass" : "NM 7/30/2021 15:29",
+		"testNoDataClass" : "bn 6/12/2022 21:11",
 		"testNoDebuggingCodeLeftInMethods" : "psi 5/26/2021 20:52",
 		"testNoDoesntUseTheResultOfAYourselfMessage" : "psi 5/26/2021 20:52",
 		"testNoEmptyExceptionHandler" : "psi 5/26/2021 20:53",
