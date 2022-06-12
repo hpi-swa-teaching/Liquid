@@ -5,4 +5,6 @@ visualizeResultsFor: aQuestion
 	self poll answerSets ifEmpty: [^ UIManager default inform: 'No answers have been submitted yet.'].
 	diagram := SWDiagram new .
 	diagram visualize: data with: SWBarChart create.
-	self addDependent: (diagram openInWindowLabeled: (aQuestion title))
+	self addDependent: (diagram openInWindowLabeled: (aQuestion title)).
+	
+	^ diagram

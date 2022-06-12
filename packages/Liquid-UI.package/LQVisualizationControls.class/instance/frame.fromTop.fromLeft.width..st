@@ -1,5 +1,5 @@
 accessing
-questionListFrame: bottomFraction fromTop: topFraction fromLeft: leftFraction width: rightFraction
+frame: bottomFraction fromTop: topFraction fromLeft: leftFraction width: rightFraction
 	
 	^LayoutFrame new
 		leftFraction: leftFraction offset: 0;

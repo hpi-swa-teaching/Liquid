@@ -8,7 +8,8 @@
 	"instvars" : [
 		"poll",
 		"index",
-		"currentVisualization" ],
+		"currentVisualization",
+		"wrapperMorph" ],
 	"name" : "LQVisualizationControls",
 	"pools" : [
 		 ],

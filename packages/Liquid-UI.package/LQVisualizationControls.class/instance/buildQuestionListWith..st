@@ -8,7 +8,5 @@ buildQuestionListWith: aBuilder
 		list: #questionList; 
 		getIndex: #questionIndex; 
 		setIndex: #questionIndex:.
-		"menu: #systemCategoryMenu:; 
-		keyPress: #systemCatListKey:from:."
 
 	^ listSpec
