@@ -2,6 +2,6 @@ helper methods
 createQuestionTwo
 
 	^LQChoicesQuestion new choiceList: {
-		'Die Sonne tönt nach alter Weise In Brudersphären Wettgesang, Und ihre vorgeschriebne Reise Vollendet sie mit Donnergang  '
-		. 'wapdapdabadibadawapdap  ' 
-		.  'aaaa bbbbbbb aa aa sssss   ' } asOrderedCollection
+		LQChoice newFrom: 'Die Sonne tönt nach alter Weise In Brudersphären Wettgesang, Und ihre vorgeschriebne Reise Vollendet sie mit Donnergang  '
+		. LQChoice newFrom: 'wapdapdabadibadawapdap  ' 
+		.  LQChoice newFrom: 'aaaa bbbbbbb aa aa sssss   ' } asOrderedCollection

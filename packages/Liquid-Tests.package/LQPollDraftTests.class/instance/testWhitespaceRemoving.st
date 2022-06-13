@@ -14,8 +14,6 @@ testWhitespaceRemoving
 	s2 := self createSolutionTwo.
 	s3 := self createSolutionThree.
 	
-	pollDraft removeWhitespacesFromQuestions.
-	
-	self assert: s1 equals: pollDraft questionList first choiceList.
-	self assert: s2 equals: pollDraft questionList second choiceList.
-	self assert: s3 equals: pollDraft questionList third choiceList
+	self assert: s1 equals: pollDraft questionList first choiceDescriptions.
+	self assert: s2 equals: pollDraft questionList second choiceDescriptions.
+	self assert: s3 equals: pollDraft questionList third choiceDescriptions
