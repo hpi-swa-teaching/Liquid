@@ -5,7 +5,6 @@
 	"instance" : {
 		"barChartFrame:" : "kge 6/12/2022 11:06",
 		"buildBarChartWith:" : "kge 6/12/2022 11:45",
-		"buildDefaultBrowserWith:" : "kge 6/12/2022 11:29",
 		"buildQuestionListWith:" : "kge 6/12/2022 10:28",
 		"buildWith:" : "kge 6/12/2022 11:07",
 		"currentVisualization" : "kge 5/15/2022 14:36",
@@ -20,7 +19,5 @@
 		"questionIndex:" : "kge 6/12/2022 11:19",
 		"questionList" : "kge 5/15/2022 14:19",
 		"questionListFrame:" : "kge 6/12/2022 11:06",
-		"setMultiWindowFor:" : "bn 6/11/2022 20:46",
-		"wantsOptionalButtons" : "bn 6/11/2022 20:46",
 		"wrapperMorph" : "kge 6/12/2022 10:51",
 		"wrapperMorph:" : "kge 6/12/2022 10:52" } }
