@@ -1,4 +1,4 @@
-modes
+modifying
 enterHostMode
 
 	ToolBuilder open: LQHostMenu new.

@@ -1,4 +1,4 @@
-communication
+modifying
 nextQuestion
 
 	(self currentQuestionIndex >= self poll pollDraft questionList size)

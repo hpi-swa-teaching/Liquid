@@ -1,4 +1,4 @@
-toolbuilder
+modifying
 resetUI
 
 	self changed: #choiceList.

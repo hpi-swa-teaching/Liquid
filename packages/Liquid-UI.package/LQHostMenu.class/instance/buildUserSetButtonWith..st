@@ -5,7 +5,7 @@ buildUserSetButtonWith: aBuilder
 		model: self;
 		label: 'Manage User Sets';
 		help: 'Upload a Userfile to restrict access to your polls';
-		action: #userSetMenu;
+		action: #openUserSetMenu;
 		frame: (LayoutFrame new
 			topFraction: 0.35;
 			bottomFraction: 0.65;
