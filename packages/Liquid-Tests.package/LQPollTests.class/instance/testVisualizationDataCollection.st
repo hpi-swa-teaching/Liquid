@@ -14,28 +14,28 @@ testVisualizationDataCollection
 	a1 := LQAnswerSet new
 		addAnswer: (LQChoicesAnswer new
 			questionId: q1 id;
-			votedChoiceList: {c2};
+			votedChoiceList: {c2 description};
 			yourself);
 		pollId: poll id;
 		yourself.
 	a2 := LQAnswerSet new
 		addAnswer: (LQChoicesAnswer new
 			questionId: q1 id;
-			votedChoiceList: {c2};
+			votedChoiceList: {c2 description};
 			yourself);
 		pollId: poll id;
 		yourself.
 	a3 := LQAnswerSet new
 		addAnswer: (LQChoicesAnswer new
 			questionId: q1 id;
-			votedChoiceList: {c2};
+			votedChoiceList: {c2 description};
 			yourself);
 		pollId: poll id;
 		yourself.
 	a4 := LQAnswerSet new
 		addAnswer: (LQChoicesAnswer new
 			questionId: q1 id;
-			votedChoiceList: {c1};
+			votedChoiceList: {c1 description};
 			yourself);
 		pollId: poll id;
 		yourself.
@@ -44,7 +44,8 @@ testVisualizationDataCollection
 		addAnswerSet: a2;
 		addAnswerSet: a3;
 		addAnswerSet: a4.
+		Transcript show:(poll getVotedChoicesPerChoiceFor: q1).
 	
-	self assert: poll getVotedChoicesPerChoice equals: {1. 3} asOrderedCollection.
+	self assert: (poll getVotedChoicesPerChoiceFor: q1) equals: {1. 3} asOrderedCollection.
 	self assert: (poll getChoiceIdentifiersFor: q1) equals: {1. 2} asOrderedCollection.
 	self assert: (poll getChoiceNamesFor: q1) equals: {'Q1A1'. 'Q1A2'} asOrderedCollection
