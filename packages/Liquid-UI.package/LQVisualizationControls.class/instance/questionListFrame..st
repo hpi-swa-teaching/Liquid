@@ -1,8 +1,8 @@
-accessing
+toolbuilder
 questionListFrame: bottomFraction
 	
 	^self
-		questionListFrame: bottomFraction
+		frame: bottomFraction
 		fromTop: 0
 		fromLeft: 0
-		width: 1
+		width: 0.25

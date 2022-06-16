@@ -1,3 +1,3 @@
 accessing
 currentQuestionIndex
-	^ currentQuestionIndex
+	^ currentQuestionIndex ifNil: [^currentQuestionIndex := 1]

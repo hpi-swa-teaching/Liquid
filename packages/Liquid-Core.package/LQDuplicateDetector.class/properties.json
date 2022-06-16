@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bn 6/12/2022 20:31",
+	"instvars" : [
+		 ],
+	"name" : "LQDuplicateDetector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -3,8 +3,12 @@
 		 },
 	"instance" : {
 		"addQuestion:" : "CG 7/30/2021 19:06",
-		"getChoiceIdentifiersFor:" : "kge 5/15/2022 12:59",
-		"getChoiceNamesFor:" : "kge 5/15/2022 13:00",
+
+		"getChoiceIdentifiers" : "kge 5/15/2022 13:01",
+		"getChoiceIdentifiersFor:" : "bwe 5/22/2022 20:26",
+		"getChoiceNames" : "kge 5/15/2022 13:01",
+		"getChoiceNamesFor:" : "bwe 5/22/2022 20:26",
+
 		"id" : "JS 5/18/2021 17:20",
 		"id:" : "JS 5/18/2021 17:20",
 		"initialize" : "CG 7/30/2021 19:06",

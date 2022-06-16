@@ -1,4 +1,4 @@
 disharmonies
 testNoDataClass
 
-	self assertAllFalse: (self lint: #dataClass: except: {LQPollDraft . LQUser})
+	self assertAllFalse: (self lint: #dataClass: except: {LQPollDraft . LQUser . LQChoice})
