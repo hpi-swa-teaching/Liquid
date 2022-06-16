@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"checkEqualityOf:and:" : "bn 6/16/2022 20:20",
 		"setUp" : "ape 6/15/2022 18:28",
 		"tearDown" : "ape 6/15/2022 18:23",
-		"testAddUserSet" : "ape 6/15/2022 18:31",
-		"testRemoveUserSet" : "ape 6/15/2022 18:18",
+		"testAddUserSet" : "bn 6/16/2022 20:19",
 		"userSet" : "ape 6/15/2022 18:03",
 		"userSet:" : "ape 6/15/2022 18:03",
 		"userSetMenu" : "ape 6/15/2022 17:54",
