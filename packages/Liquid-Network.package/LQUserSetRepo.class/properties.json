@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LQUserSetRepo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

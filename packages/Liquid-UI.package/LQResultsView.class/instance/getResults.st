@@ -1,4 +1,4 @@
-report
+modifying
 getResults
 
 	^ self poll exportCSV

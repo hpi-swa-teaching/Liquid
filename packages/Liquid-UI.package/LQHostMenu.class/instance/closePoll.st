@@ -1,4 +1,4 @@
-change behavior
+modifying
 closePoll
 
 	| pollId password |

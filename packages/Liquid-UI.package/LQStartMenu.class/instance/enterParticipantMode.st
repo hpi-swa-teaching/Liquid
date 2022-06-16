@@ -1,4 +1,4 @@
-modes
+modifying
 enterParticipantMode
 
 	| pollId menu |
