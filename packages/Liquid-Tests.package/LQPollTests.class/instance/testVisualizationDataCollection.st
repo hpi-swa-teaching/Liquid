@@ -44,7 +44,6 @@ testVisualizationDataCollection
 		addAnswerSet: a2;
 		addAnswerSet: a3;
 		addAnswerSet: a4.
-		Transcript show:(poll getVotedChoicesPerChoiceFor: q1).
 	
 	self assert: (poll getVotedChoicesPerChoiceFor: q1) equals: {1. 3} asOrderedCollection.
 	self assert: (poll getChoiceIdentifiersFor: q1) equals: {1. 2} asOrderedCollection.
