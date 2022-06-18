@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Default" ],
-	"commentStamp" : "",
+		 ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
 		"objectRepo" ],
-	"name" : "LQPollRepo",
+	"name" : "LQRemotePollRepoServer",
 	"pools" : [
 		 ],
-	"super" : "LQRemoteRepoClient",
+	"super" : "WebServer",
 	"type" : "normal" }
