@@ -6,6 +6,6 @@ startWithId: anId andPassword: aPassword ifTaken: do
 		id: anId;
 		startTime: DateAndTime now.
 	guard password: aPassword.
-	LQPollRepo default at: anId ifPresent: do ifAbsentPut: self.
+	LQRemotePollRepoServer pollRepo at: anId ifPresent: do ifAbsentPut: self.
 	
-	^ LQPollRepo default at: anId ifAbsent: []
+	^ LQRemotePollRepoServer pollRepo at: anId ifAbsent: []
