@@ -1,5 +1,5 @@
-as yet unclassified
+accessing
 pollRepo
 
-		PollRepo ifNil: [self pollRepo: LQLocalObjectRepo new].
+	PollRepo ifNil: [self pollRepo: LQLocalObjectRepo new].
 	^ PollRepo
