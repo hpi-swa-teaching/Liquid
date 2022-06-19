@@ -1,4 +1,4 @@
-toolbuilder
+as yet unclassified
 buildRemoveUserSetButtonWith: aBuilder
 
 	^aBuilder pluggableButtonSpec new
@@ -7,7 +7,7 @@ buildRemoveUserSetButtonWith: aBuilder
 		action: #removeSelectedUserSet;
 		frame: (LayoutFrame new 
 			topFraction: 0.67; 
-			bottomFraction: 0.82; 
+			bottomFraction: 0.74; 
 			leftFraction: 0.1; 
 			rightFraction: 0.9)
 		yourself.

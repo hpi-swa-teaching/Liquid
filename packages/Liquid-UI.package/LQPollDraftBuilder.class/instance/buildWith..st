@@ -11,4 +11,5 @@ buildWith: aBuilder
 			self buildRunPollButtonWith: aBuilder.
 			self buildMaxNumberOfChoicesInputWith: aBuilder.
 			self buildMaxNumberOfChoicesLabelWith: aBuilder.
-			self buildAddQuestionButtonWith: aBuilder} yourself)
+			self buildAddQuestionButtonWith: aBuilder.
+			self buildManageUserSetsButton: aBuilder} yourself)

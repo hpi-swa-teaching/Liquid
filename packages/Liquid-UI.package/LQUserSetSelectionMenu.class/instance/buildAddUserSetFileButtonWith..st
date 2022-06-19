@@ -1,4 +1,4 @@
-toolbuilder
+as yet unclassified
 buildAddUserSetFileButtonWith: aBuilder
 
 	^aBuilder pluggableButtonSpec new
@@ -6,8 +6,8 @@ buildAddUserSetFileButtonWith: aBuilder
 		label: 'Add User Set';
 		action: #openUserSetFileDialog;
 		frame: (LayoutFrame new 
-			topFraction: 0.83; 
-			bottomFraction: 0.98; 
+			topFraction: 0.75; 
+			bottomFraction: 0.82; 
 			leftFraction: 0.1; 
 			rightFraction: 0.9)
 		yourself.
