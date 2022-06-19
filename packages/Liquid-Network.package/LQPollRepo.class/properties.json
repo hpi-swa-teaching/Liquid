@@ -6,7 +6,6 @@
 		"Default" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"objectRepo",
 		"currentPassword" ],
 	"name" : "LQPollRepo",
 	"pools" : [
