@@ -2,11 +2,10 @@ request handlers
 httpGet: req
 
 	| poll id |
-	self halt.
 	id := (req fields at: 'id').
-	(self objectRepo includesKey: id) 
+	(self class pollRepo includesKey: id) 
 		ifFalse: [^ req send404Response];
-		ifTrue: [poll := (self objectRepo at: id)].
+		ifTrue: [poll := (self class pollRepo at: id)].
 	(poll requiresAuthentication)
 		ifTrue: 
 				[((poll myUserSet userEntries) includesKey: (req fields at: 'userID' ifAbsent: 

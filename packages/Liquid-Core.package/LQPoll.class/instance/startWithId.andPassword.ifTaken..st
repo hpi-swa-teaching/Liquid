@@ -1,6 +1,7 @@
 initialize
 startWithId: anId andPassword: aPassword ifTaken: do
 
+	self halt.
 	self
 		id: anId;
 		startTime: DateAndTime now.

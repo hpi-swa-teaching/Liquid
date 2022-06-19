@@ -3,7 +3,7 @@ httpPost: req
 
 	| item message response |
 	
-	item := self objectRepo at: (req fields at: 'id') ifAbsent: [^ req send404Response].
+	item := self class pollRepo at: (req fields at: 'id') ifAbsent: [^ req send404Response].
 	message := STON fromString: req content.
 	message arguments replaceAll: #sse with: [:value |
 		req stream

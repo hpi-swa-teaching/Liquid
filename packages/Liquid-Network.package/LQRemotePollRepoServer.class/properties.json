@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"PollRepo" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"objectRepo" ],
+		 ],
 	"name" : "LQRemotePollRepoServer",
 	"pools" : [
 		 ],
