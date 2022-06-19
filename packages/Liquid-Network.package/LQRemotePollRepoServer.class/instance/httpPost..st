@@ -5,7 +5,7 @@ httpPost: req
 	
 	item := self class pollRepo at: (req fields at: 'id') ifAbsent: [^ req send404Response].
 	(self request: req isAuthenticatedFor: item)
-		ifFalse: [^req send400Response].
+		ifFalse: [^self send401Response: req].
 	message := STON fromString: req content.
 	message arguments replaceAll: #sse with: [:value |
 		req stream

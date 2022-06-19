@@ -8,6 +8,6 @@ httpGet: req
 		ifFalse: [^ req send404Response];
 		ifTrue: [poll := (self class pollRepo at: id)].
 	(self request: req isAuthenticatedFor: poll)
-		ifFalse: [^req send400Response].
+		ifFalse: [^self send401Response: req].
 
 	req send200Response: (STON toString: poll)
