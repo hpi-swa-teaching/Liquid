@@ -2,8 +2,10 @@
 	"class" : {
 		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"buildEnterHostButtonWith:" : "CG 7/30/2021 19:06",
-		"buildEnterParticipantButtonWith:" : "CG 7/30/2021 19:06",
-		"buildWith:" : "CG 7/30/2021 19:06",
-		"enterHostMode" : "CG 7/30/2021 19:06",
-		"enterParticipantMode" : "ape 6/19/2022 13:58" } }
+		"buildEnterHostButtonWith:" : "kge 6/19/2022 18:59",
+		"buildEnterParticipantButtonWith:" : "kge 6/19/2022 19:00",
+		"buildStopServerButtonWith:" : "kge 6/19/2022 19:00",
+		"buildWith:" : "kge 6/19/2022 18:57",
+		"enterHostMode" : "kge 6/19/2022 18:52",
+		"enterParticipantMode" : "ape 6/19/2022 13:58",
+		"stopServer" : "kge 6/19/2022 18:56" } }

@@ -1,7 +1,6 @@
 request handlers
 httpGet: req
 
-	"WebRequest does not have 401 error code so 400 is used instead"
 	| poll id |
 	id := (req fields at: 'id').
 	Transcript show: ('ID: ', id);cr.

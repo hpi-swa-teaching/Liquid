@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"PollRepo" ],
+		"PollRepo",
+		"Server" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		 ],

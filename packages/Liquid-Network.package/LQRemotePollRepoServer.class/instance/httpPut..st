@@ -1,6 +1,7 @@
 request handlers
 httpPut: req
 
+	self shouldNotImplement.
 	self class pollRepo
 		at: (req fields at: 'id')
 		ifPresent: [^ req sendResponseCode: 409 content: '' type: 'application/ston' close: true]
