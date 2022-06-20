@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"openOn:" : "CG 7/30/2021 19:06" },
+	"instance" : {
+		"addQuestion" : "ape 5/14/2022 09:38",
+		"buildAddQuestionButtonWith:" : "ape 5/14/2022 08:45",
+		"buildChoicesInputWith:" : "bwe 5/22/2022 20:26",
+		"buildMaxNumberOfChoicesInputWith:" : "ape 5/14/2022 08:42",
+		"buildMaxNumberOfChoicesLabelWith:" : "ape 5/14/2022 08:42",
+		"buildRunPollButtonWith:" : "ape 5/14/2022 08:38",
+		"buildTitleInputWith:" : "bn 6/2/2022 21:59",
+		"buildWith:" : "bn 6/20/2022 20:18",
+		"choiceDescriptions" : "bn 6/12/2022 20:29",
+		"choiceList:" : "bn 6/12/2022 20:29",
+		"generateRandomID" : "bwe 5/17/2022 21:33",
+		"getMaxNumberOfChoicesLabel" : "NM 7/30/2021 19:44",
+		"maxNumberOfChoices" : "bn 6/2/2022 22:04",
+		"maxNumberOfChoices:" : "bwe 5/22/2022 20:26",
+		"parent__NOTFINALSOLUTION" : "bn 6/20/2022 20:04",
+		"parent__NOTFINALSOLUTION:" : "bn 6/20/2022 20:04",
+		"pollDraft" : "CG 7/30/2021 19:06",
+		"pollDraft:" : "CG 7/30/2021 19:06",
+		"question" : "ape 5/14/2022 08:51",
+		"resetUI" : "bwe 5/22/2022 20:26",
+		"runPoll" : "bn 6/13/2022 13:32",
+		"title" : "ape 5/14/2022 09:06",
+		"title:" : "CG 7/30/2021 19:06" } }

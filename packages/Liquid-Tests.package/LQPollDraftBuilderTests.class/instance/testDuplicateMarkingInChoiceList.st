@@ -5,7 +5,7 @@ testDuplicateMarkingInChoiceList
 	
 	text := self createText.
 	
-	pollDraftBuilder := LQPollDraftBuilder new.
+	pollDraftBuilder := LQQuestionBuilder new.
 	pollDraftBuilder pollDraft: LQPollDraft new;
 		addQuestion;
 		choiceList: text.

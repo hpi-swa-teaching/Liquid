@@ -1,14 +1,14 @@
-toolbuilder
-buildWith: aBuilder
-
-	^ aBuilder build: (aBuilder pluggableWindowSpec new
-		model: self;
-		label: 'Liquid - Create a Poll';
-		extent: 500 @ 400;
-		children: {
-			self buildTitleInputWith: aBuilder.
-			self buildChoicesInputWith: aBuilder.
-			self buildRunPollButtonWith: aBuilder.
-			self buildMaxNumberOfChoicesInputWith: aBuilder.
-			self buildMaxNumberOfChoicesLabelWith: aBuilder.
-			self buildAddQuestionButtonWith: aBuilder} yourself)
+as yet unclassified
+buildWith: builder
+	| windowSpec questionBuilder |
+	questionBuilder := LQQuestionBuilder new.
+	questionBuilder parent__NOTFINALSOLUTION: self.
+	questionBuilder pollDraft: self pollDraft.
+	windowSpec := self buildWindowWith: builder specs: {
+		(self questionListFrame) -> [self buildQuestionListWith: builder].
+		(self questionBuilderFrame) -> [questionBuilder buildWith: builder].
+	}.
+	windowSpec label: 'Liquid - Create a Poll'.
+	builder build:(questionBuilder buildWith: builder).
+	 ^builder build: windowSpec
+		

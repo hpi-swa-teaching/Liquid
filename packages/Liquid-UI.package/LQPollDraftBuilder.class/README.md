@@ -1,1 +1,0 @@
-Creators can create new polls in this menu.
