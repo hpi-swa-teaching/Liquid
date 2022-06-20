@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 clearSelection
 
 	self pollDraft userSetID: nil.

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildSelectUserSetButtonWith: aBuilder
 
 	^aBuilder pluggableButtonSpec new

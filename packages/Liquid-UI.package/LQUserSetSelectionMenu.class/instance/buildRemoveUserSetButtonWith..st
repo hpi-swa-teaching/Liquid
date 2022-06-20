@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildRemoveUserSetButtonWith: aBuilder
 
 	^aBuilder pluggableButtonSpec new
