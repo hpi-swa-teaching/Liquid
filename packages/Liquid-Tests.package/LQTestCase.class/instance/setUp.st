@@ -2,5 +2,12 @@ running
 setUp
 
 	super setUp.
-	LQPollRepo default: LQLocalObjectRepo new.
+	self savedUserSetRepo: LQUserSetRepo default.
+	self savedPollRepo: LQPollRepo default.
+	self savedServerPollRepo: LQRemotePollRepoServer pollRepo.
+	LQUserSetRepo default: nil.
+	LQPollRepo default: nil.
+	LQRemotePollRepoServer pollRepo: nil.
+	LQRemotePollRepoServer startServer.
+	"LQPollRepo default: LQLocalObjectRepo new."
 	LQParticipantMenu answeredPollIds: Set new

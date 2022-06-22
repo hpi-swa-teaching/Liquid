@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self setUpRemoteServer
+	"self setUpRemoteServer"

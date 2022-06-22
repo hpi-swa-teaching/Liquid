@@ -1,6 +1,7 @@
 running
 setUp
 
+	super setUp.
 	self userSetMenu: LQUserSetMenu new.
 	ToolBuilder open: self userSetMenu.
 	self userSet: (LQUserSet new 
