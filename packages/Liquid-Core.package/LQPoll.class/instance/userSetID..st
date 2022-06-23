@@ -1,4 +1,4 @@
 accessing
 userSetID: aUUID
 
-	userSetID := aUUID
+	self pollDraft userSetID: aUUID.

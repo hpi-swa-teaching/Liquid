@@ -10,7 +10,6 @@
 		"id",
 		"startTime",
 		"answerSets",
-		"userSetID",
 		"isOpen",
 		"guard" ],
 	"name" : "LQPoll",
