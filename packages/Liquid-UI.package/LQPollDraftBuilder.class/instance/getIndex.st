@@ -1,4 +1,4 @@
 as yet unclassified
 getIndex
 
-	^1
+	^self currentQuestion

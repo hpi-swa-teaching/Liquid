@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"openOn:" : "CG 7/30/2021 19:06" },
+		 },
 	"instance" : {
 		"buildChoicesInputWith:" : "JT 6/23/2022 19:49",
 		"buildMaxNumberOfChoicesInputWith:" : "JT 6/23/2022 19:48",
@@ -12,9 +12,8 @@
 		"getMaxNumberOfChoicesLabel" : "NM 7/30/2021 19:44",
 		"maxNumberOfChoices" : "bn 6/2/2022 22:04",
 		"maxNumberOfChoices:" : "bwe 5/22/2022 20:26",
-		"pollDraft" : "CG 7/30/2021 19:06",
-		"pollDraft:" : "CG 7/30/2021 19:06",
-		"question" : "ape 5/14/2022 08:51",
+		"question" : "bn 6/23/2022 21:45",
+		"question:" : "bn 6/23/2022 21:45",
 		"resetUI" : "bwe 5/22/2022 20:26",
 		"title" : "ape 5/14/2022 09:06",
-		"title:" : "CG 7/30/2021 19:06" } }
+		"title:" : "bn 6/23/2022 21:47" } }
