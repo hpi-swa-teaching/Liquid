@@ -1,4 +1,4 @@
-toolbuilder
+as yet unclassified
 buildRunPollButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

@@ -2,10 +2,20 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildQuestionListWith:" : "bn 6/20/2022 19:46",
-		"buildWith:" : "bn 6/20/2022 20:19",
-		"frame:fromTop:fromLeft:width:" : "bn 6/20/2022 19:52",
+		"addQuestion" : "JT 6/23/2022 19:31",
+		"addQuestionButtonFrame" : "JT 6/23/2022 19:22",
+		"buildAddQuestionButtonWith:" : "JT 6/23/2022 19:24",
+		"buildQuestionListWith:" : "JT 6/23/2022 19:30",
+		"buildRunPollButtonWith:" : "JT 6/23/2022 19:08",
+		"buildWith:" : "JT 6/23/2022 19:25",
+		"frame:fromTop:fromLeft:width:" : "JT 6/23/2022 19:18",
+		"generateRandomID" : "JT 6/23/2022 19:34",
+		"getIndex" : "JT 6/23/2022 19:27",
+		"list" : "JT 6/23/2022 19:27",
 		"pollDraft" : "bn 6/20/2022 19:55",
 		"pollDraft:" : "bn 6/20/2022 19:55",
-		"questionBuilderFrame" : "bn 6/20/2022 19:43",
-		"questionListFrame" : "bn 6/20/2022 19:44" } }
+		"questionBuilderFrame" : "JT 6/23/2022 19:18",
+		"questionListFrame" : "JT 6/23/2022 19:19",
+		"runPoll" : "JT 6/23/2022 19:33",
+		"runPollButtonFrame" : "JT 6/23/2022 19:22",
+		"setIndex" : "JT 6/23/2022 19:27" } }

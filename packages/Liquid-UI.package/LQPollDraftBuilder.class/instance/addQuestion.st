@@ -1,5 +1,5 @@
-modifying
+as yet unclassified
 addQuestion
 
 	self pollDraft addQuestion: LQChoicesQuestion new.
-	self resetUI
+	self changed: #list

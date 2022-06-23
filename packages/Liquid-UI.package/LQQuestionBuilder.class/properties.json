@@ -7,8 +7,7 @@
 	"commentStamp" : "NM 7/9/2021 14:09",
 	"instvars" : [
 		"pollDraft",
-		"currentChoiceListDraft",
-		"parent__NOTFINALSOLUTION" ],
+		"currentChoiceListDraft" ],
 	"name" : "LQQuestionBuilder",
 	"pools" : [
 		 ],

@@ -2,11 +2,9 @@ toolbuilder
 buildWith: aBuilder
 
 	^ aBuilder pluggablePanelSpec new
-		model: parent__NOTFINALSOLUTION;
+		model: self;
 		children: {
 			self buildTitleInputWith: aBuilder.
 			self buildChoicesInputWith: aBuilder.
-			self buildRunPollButtonWith: aBuilder.
 			self buildMaxNumberOfChoicesInputWith: aBuilder.
-			self buildMaxNumberOfChoicesLabelWith: aBuilder.
-			self buildAddQuestionButtonWith: aBuilder} yourself
+			self buildMaxNumberOfChoicesLabelWith: aBuilder} yourself
