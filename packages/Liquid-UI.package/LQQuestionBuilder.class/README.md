@@ -1,1 +1,2 @@
-Creators can create new polls in this menu.
+UI-Component responsible for biulding single questions.
+Is part of a LQPollDraftBuilder.
