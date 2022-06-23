@@ -1,3 +1,4 @@
 accessing
 currentQuestion
-	^ currentQuestion
+
+	^currentQuestion

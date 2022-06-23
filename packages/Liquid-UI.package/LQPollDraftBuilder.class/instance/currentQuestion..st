@@ -1,3 +1,4 @@
 accessing
-currentQuestion: anObject
-	currentQuestion := anObject
+currentQuestion: aNumber
+
+	currentQuestion := aNumber

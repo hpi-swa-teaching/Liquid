@@ -1,5 +1,7 @@
-as yet unclassified
+modifying
 setIndex: index
 
 	self currentQuestion: index.
-	self changed: #buildQuestionBuilder
+	index=0 ifFalse: [self changed: #buildQuestionBuilder].
+	self changed: #getIndex
+	

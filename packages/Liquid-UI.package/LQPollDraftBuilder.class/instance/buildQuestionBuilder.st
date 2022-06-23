@@ -1,7 +1,7 @@
-as yet unclassified
+toolbuilder
 buildQuestionBuilder
 	
-	^{ToolBuilder default build: ((self questionBuilderAt: self currentQuestion) buildWith: ToolBuilder default)}
+	^{(self questionBuilderAt: self currentQuestion) buildWith: ToolBuilder default}
 
 	
 		

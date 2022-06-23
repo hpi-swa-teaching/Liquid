@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 addQuestion
 
 	| question builder |
@@ -7,4 +7,5 @@ addQuestion
 	builder question: question.
 	self pollDraft addQuestion: question.
 	self addQuestionBuilder: builder.
+	self setIndex: self questionBuilders size.
 	self changed: #list
