@@ -8,7 +8,7 @@ testTwoHundredUsers
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll pollDraft questionList add: (LQChoicesQuestion new
 		title: 'Where is the master ball';
-		choiceList: {'in Whiscashs throat'. 'in Kangamas bag'};
+		choiceList: {LQChoice newFrom: 'in Whiscashs throat'. LQChoice newFrom: 'in Kangamas bag'};
 		yourself).
 	
 	pollId := 'gotta-catch-rayquaza'.
@@ -17,7 +17,7 @@ testTwoHundredUsers
 	poll startWithId: pollId ifTaken: [self fail: 'Poll ID already taken'].
 	
 	"participant"
-	target := 5."200."
+	target := 200.
 	target timesRepeat: [
 		p := LQPollRepo default
 			at: pollId
@@ -26,7 +26,7 @@ testTwoHundredUsers
 		p addAnswerSet: (LQAnswerSet new
 			addAnswer: (LQChoicesAnswer new
 				questionId: q id;
-				votedChoiceList: {'in Whiscashs throat'};
+				votedChoiceList: {LQChoice newFrom: 'in Whiscashs throat'};
 				yourself);
 			pollId: p id;
 			yourself)].
@@ -41,4 +41,3 @@ testTwoHundredUsers
 		ifAbsent: [self fail: 'Poll not found at given ID'].
 	
 	self assert: target equals: hostPoll answerSets size.
-	"server destroy"
