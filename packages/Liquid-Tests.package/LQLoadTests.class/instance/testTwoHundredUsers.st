@@ -2,11 +2,8 @@ tests
 testTwoHundredUsers
 	<timeout: 20>
 
-	| server port poll p q hostPoll pollId target |
-	"port := LQPortAssigner get.
-	server := LQRemotePollRepoServer new.
-	server listenOn: port.
-	LQPollRepo default: (LQPollRepo new url: 'http://localhost:', port).""(LQRemoteRepoClient new url: 'http://localhost:', port)."
+	| poll p q hostPoll pollId target |
+	
 	LQRemotePollRepoServer startServer.
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll pollDraft questionList add: (LQChoicesQuestion new

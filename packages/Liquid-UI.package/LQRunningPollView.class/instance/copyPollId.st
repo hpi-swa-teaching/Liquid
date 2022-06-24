@@ -1,3 +1,3 @@
 modifying
 copyPollId
-	Clipboard clipboardText: (self pollId)
+	Clipboard clipboardText: (self pollId asText)

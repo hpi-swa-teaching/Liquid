@@ -3,9 +3,5 @@
 		"shouldInheritSelectors" : "CG 7/30/2021 19:06" },
 	"instance" : {
 		"errorType" : "CG 7/30/2021 19:06",
-		"setUp" : "ape 6/22/2022 21:49",
-		"setUpRemoteServer" : "CG 7/30/2021 19:06",
-		"tearDown" : "ape 6/22/2022 21:37",
-		"testErrorHandling" : "kge 6/23/2022 22:23",
 		"testGPollRepoAlwaysDefined" : "ape 6/22/2022 21:49",
 		"testMessagePassing" : "ape 6/22/2022 21:53" } }

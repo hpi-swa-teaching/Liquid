@@ -3,7 +3,6 @@ at: key ifAbsent: aBlock
 
 	| resp |
 	resp := (WebClient httpGet: url, '/?id=', key, '&pwd=', self currentPassword).
-	Transcript show: resp.
 	resp isSuccess
 		ifTrue: [^ LQRemoteObjectDummy on: url withId: key andPassword: self currentPassword].
 		"ifFalse: [aBlock value]"
