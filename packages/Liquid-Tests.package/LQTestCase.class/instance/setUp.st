@@ -10,5 +10,4 @@ setUp
 	LQPollRepo default: nil.
 	LQRemotePollRepoServer pollRepo: nil.
 	LQRemotePollRepoServer startServer.
-	"LQPollRepo default: LQLocalObjectRepo new."
 	LQParticipantMenu answeredPollIds: Set new
