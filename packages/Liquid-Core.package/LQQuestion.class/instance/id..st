@@ -1,4 +1,4 @@
 accessing
-id: aUUID
+id: aString
 
-	id := aUUID
+	id := aString

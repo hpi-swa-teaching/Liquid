@@ -1,3 +1,3 @@
 accessing
-userSetID: aUUID
-	userSetID := aUUID
+userSetID: aString
+	userSetID := aString
