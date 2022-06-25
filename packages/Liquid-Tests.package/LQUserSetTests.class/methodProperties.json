@@ -10,6 +10,7 @@
 		"testAddToRepo" : "bn 5/26/2022 22:19",
 		"testAddTwoUsers" : "ape 6/6/2022 08:31",
 		"testAsString" : "bn 5/26/2022 21:16",
+		"testContainsUserWithId" : "kge 6/25/2022 19:52",
 		"testCreateFromCSV" : "ape 6/6/2022 08:32",
 		"testInitiallyEmpty" : "JT 5/26/2022 18:42",
 		"testUserNewFromCollection" : "ape 6/6/2022 08:36",
