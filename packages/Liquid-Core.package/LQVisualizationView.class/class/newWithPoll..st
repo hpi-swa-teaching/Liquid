@@ -1,5 +1,9 @@
-instance creation
+as yet unclassified
 newWithPoll: aPoll
 
-	^ self new
-		poll: aPoll
+	| pollVisualization |
+
+	pollVisualization := self new.
+	pollVisualization	poll: aPoll.
+		
+	^ pollVisualization

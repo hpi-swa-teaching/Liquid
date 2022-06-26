@@ -1,4 +1,4 @@
-initialize
+as yet unclassified
 visualizeResultsFor: aQuestion
 	| data diagram |
 	data := (self dataFor: aQuestion).
