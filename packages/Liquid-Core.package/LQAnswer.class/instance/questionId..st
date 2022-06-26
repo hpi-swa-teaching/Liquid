@@ -1,4 +1,4 @@
 accessing
-questionId: aUUID
+questionId: aString
 
-	questionId := aUUID
+	questionId := aString

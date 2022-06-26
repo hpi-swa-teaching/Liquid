@@ -6,9 +6,10 @@
 		"Default" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"currentPassword",
+		"url" ],
 	"name" : "LQPollRepo",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LQObjectRepo",
 	"type" : "normal" }

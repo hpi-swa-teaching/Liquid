@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newWithPoll:" : "ms 6/20/2022 12:48" },
+	"instance" : {
+		"buildAddUserSetFileButtonWith:" : "ms 6/19/2022 20:50",
+		"buildClearUserSetSelectionButtonWith:" : "ms 6/19/2022 20:53",
+		"buildRemoveUserSetButtonWith:" : "ms 6/19/2022 20:52",
+		"buildSelectUserSetButtonWith:" : "ms 6/19/2022 20:54",
+		"buildWith:" : "ms 6/19/2022 20:36",
+		"clearSelection" : "ms 6/20/2022 12:52",
+		"pollDraft" : "ms 6/19/2022 21:15",
+		"pollDraft:" : "ape 6/22/2022 15:45",
+		"selectUserSet" : "ape 6/20/2022 15:25" } }

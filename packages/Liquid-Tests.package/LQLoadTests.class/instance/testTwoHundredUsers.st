@@ -2,18 +2,18 @@ tests
 testTwoHundredUsers
 	<timeout: 20>
 
-	| server port poll p q hostPoll pollId target |
-	port := LQPortAssigner get.
-	server := LQRemoteRepoServer new.
-	server listenOn: port.
-	LQPollRepo default: (LQRemoteRepoClient new url: 'http://localhost:', port).
+	| poll p q hostPoll pollId target |
+	
+	LQRemotePollRepoServer startServer.
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll pollDraft questionList add: (LQChoicesQuestion new
 		title: 'Where is the master ball';
-		choiceList: {'in Whiscashs throat'. 'in Kangamas bag'};
+		choiceList: {LQChoice newFrom: 'in Whiscashs throat'. LQChoice newFrom: 'in Kangamas bag'};
 		yourself).
 	
 	pollId := 'gotta-catch-rayquaza'.
+	(LQRemotePollRepoServer pollRepo includesKey: pollId) 
+		ifTrue: [LQRemotePollRepoServer pollRepo removeKey: pollId].
 	poll startWithId: pollId ifTaken: [self fail: 'Poll ID already taken'].
 	
 	"participant"
@@ -26,7 +26,7 @@ testTwoHundredUsers
 		p addAnswerSet: (LQAnswerSet new
 			addAnswer: (LQChoicesAnswer new
 				questionId: q id;
-				votedChoiceList: {'in Whiscashs throat'};
+				votedChoiceList: {LQChoice newFrom: 'in Whiscashs throat'};
 				yourself);
 			pollId: p id;
 			yourself)].
@@ -41,4 +41,3 @@ testTwoHundredUsers
 		ifAbsent: [self fail: 'Poll not found at given ID'].
 	
 	self assert: target equals: hostPoll answerSets size.
-	server destroy

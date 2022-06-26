@@ -1,17 +1,16 @@
 toolbuilder
-buildWith: builder
-	| windowSpec |
-	windowSpec := self buildWindowWith: builder specs: {
-		(self questionListFrame) -> [self buildQuestionListWith: builder].
-		(self questionBuilderFrame) -> 
-			[builder pluggablePanelSpec new
-				model: self;
-				layout: #vertical;
-				children: #buildQuestionBuilder;
-				yourself].
-		(self runPollButtonFrame) -> [self buildRunPollButtonWith: builder].
-		(self addQuestionButtonFrame) -> [self buildAddQuestionButtonWith: builder].
-	}.
-	windowSpec label: 'Liquid - Create a Poll'.
-	 ^builder build: windowSpec
-		
+buildWith: aBuilder
+
+	^ aBuilder build: (aBuilder pluggableWindowSpec new
+		model: self;
+		label: 'Liquid - Create a Poll';
+		extent: 500 @ 400;
+		children: {
+			self buildTitleInputWith: aBuilder.
+			self buildChoicesInputWith: aBuilder.
+			self buildRunPollButtonWith: aBuilder.
+			self buildMaxNumberOfChoicesInputWith: aBuilder.
+			self buildMaxNumberOfChoicesLabelWith: aBuilder.
+			self buildAddQuestionButtonWith: aBuilder.
+			self buildManageUserSetsButton: aBuilder} yourself)
+			self buildManageUserSetsButton: aBuilder} yourself)

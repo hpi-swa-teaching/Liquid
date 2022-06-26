@@ -2,7 +2,7 @@ running
 setUp
 
 	| poll |
-	
+	super setUp.
 	self q1c1: (self createChoice1OfFirstQuestion).
 	self q1c2: (self createChoice2OfFirstQuestion).
 	self q2c1: (self createChoice1OfSecondQuestion).

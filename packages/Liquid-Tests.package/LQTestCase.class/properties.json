@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "NM 7/15/2021 12:36",
 	"instvars" : [
-		 ],
+		"savedUserSetRepo",
+		"savedPollRepo",
+		"savedServerPollRepo",
+		"savedPasswordManager",
+		"savedAnsweredPollIds",
+		"wasServerActive" ],
 	"name" : "LQTestCase",
 	"pools" : [
 		 ],
