@@ -2,6 +2,7 @@ request handlers
 httpGet: req
 
 	| poll id |
+	Transcript show: req.
 	id := (req fields at: 'id').
 	(self class pollRepo includesKey: id) 
 		ifFalse: [^ req send404Response];
