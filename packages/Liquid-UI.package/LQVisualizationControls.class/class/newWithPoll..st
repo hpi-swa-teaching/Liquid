@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 newWithPoll: aPoll
 	
 	^ self new

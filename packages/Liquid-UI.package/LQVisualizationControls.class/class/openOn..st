@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 openOn: aPoll
 
 	ToolBuilder open: (self newWithPoll: aPoll)

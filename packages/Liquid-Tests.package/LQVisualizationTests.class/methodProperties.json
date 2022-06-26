@@ -18,9 +18,12 @@
 		"q2a1:" : "kge 6/12/2022 12:19",
 		"q2a2" : "kge 6/12/2022 12:19",
 		"q2a2:" : "kge 6/12/2022 12:19",
-		"setUp" : "kge 6/12/2022 12:23",
-		"testBarChartMorphChangedOnQuestionSelectionChanged" : "kge 6/12/2022 12:08",
-		"testHostMenuIntegrationWorks" : "kge 6/12/2022 12:09",
-		"testMultipleQuestionsInListView" : "kge 6/12/2022 12:08",
-		"testResultViewIntegrationWorks" : "kge 6/12/2022 12:09",
-		"testVisualizationDisplayedAfterInitialization" : "kge 6/12/2022 12:09" } }
+		"setUp" : "bwe 6/26/2022 16:24",
+		"setUpPoll" : "bwe 6/26/2022 16:12",
+		"setUpVotes" : "bwe 6/26/2022 17:14",
+		"tearDown" : "bwe 6/26/2022 17:15",
+		"testBarChartMorphChangedOnQuestionSelectionChanged" : "bwe 6/26/2022 17:29",
+		"testMultipleQuestionsInListView" : "bwe 6/26/2022 17:21",
+		"testVisualizationDisplayedAfterInitialization" : "bwe 6/26/2022 17:22",
+		"visualizationControls" : "bwe 6/26/2022 16:20",
+		"visualizationControls:" : "bwe 6/26/2022 16:21" } }

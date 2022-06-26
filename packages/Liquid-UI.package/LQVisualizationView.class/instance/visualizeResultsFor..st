@@ -1,4 +1,4 @@
-initialize
+data
 visualizeResultsFor: aQuestion
 	| data diagram |
 	data := (self dataFor: aQuestion).
