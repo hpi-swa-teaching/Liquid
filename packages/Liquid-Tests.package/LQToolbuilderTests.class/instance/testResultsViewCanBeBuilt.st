@@ -1,10 +1,10 @@
 tests
 testResultsViewCanBeBuilt
 
-	"| resultsView |
+	| resultsView |
 	
-	resultsView := LQResultsView new.
+	resultsView := LQResultsView newWithPoll: self poll.
 	
 	ToolBuilder open: resultsView.
 	
-	resultsView destroy"
+	resultsView destroy
