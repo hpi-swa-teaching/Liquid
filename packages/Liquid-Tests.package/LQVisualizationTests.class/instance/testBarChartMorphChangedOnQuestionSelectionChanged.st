@@ -3,7 +3,7 @@ testBarChartMorphChangedOnQuestionSelectionChanged
 	
 	| visualizationOfFirstQuestion visualizationOfSecondQuestion |
 	
-	self visualizationControls questionIndex: 0 . 
+	self visualizationControls questionIndex: 0 .
 	visualizationOfFirstQuestion := self visualizationControls wrapperMorph submorphs first.
 	
 	self visualizationControls questionIndex: 1 . 
