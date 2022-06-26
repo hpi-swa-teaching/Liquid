@@ -1,4 +1,4 @@
-as yet unclassified
+data
 dataFor: aQuestion
 
 	| result sortedData |

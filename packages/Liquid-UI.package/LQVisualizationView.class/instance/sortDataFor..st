@@ -1,4 +1,4 @@
-as yet unclassified
+data
 sortDataFor: aQuestion
 
 	| result amountVotes labels |
