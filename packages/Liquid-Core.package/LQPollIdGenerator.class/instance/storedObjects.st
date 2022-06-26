@@ -1,9 +1,9 @@
 wordstorage
 storedObjects
 	^ {
-	'AbstractFactory' . 
+	'Abstract-Factory' . 
 	'Builder' . 
-	'FactoryMethod' . 
+	'Factory-Method' . 
 	'ObjectPool' . 
 	'Singleton' . 
 	'Prototype' . 
@@ -14,4 +14,33 @@ storedObjects
 	'Facade' . 
 	'Flyweight' .
 	'Proxy'.
-	'Command'  }
+	'Command'.
+	'Scrum'.
+	'Lifecycle'.
+	'RUP'.
+	'Requirements'.
+	'RDD'.
+	'LSD'.
+	'XP'.
+	'TDD'.
+	'Refactoring'.
+	'Reverse-Engineering'.
+	'Conways-Law'.
+	'Code-Ownership'.
+	'User-Stories'.
+	'Customer-Satisfaction'.
+	'Project-Management'.
+	'Software-Quality'.
+	'Pair-Programming'.
+	'Refactoring'.
+	'Planning-Game'.
+	'Test-First-Programming'.
+	'Simple-Design'.
+	'Collective-Code-Ownership'.
+	'Continuous-Integration'.
+	'Coding-Standards'.
+	'Small-Releases'.
+	'On-site-Customer'.
+	'Planning'.
+	'Agile-Manifesto'
+	}
