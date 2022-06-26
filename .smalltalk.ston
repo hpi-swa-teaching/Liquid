@@ -10,9 +10,6 @@ SmalltalkCISpec {
     }
   ],
   #testing : {
-    #coverage : {
-      #packages : [ 'Liquid-Core','Liquid-Network','Liquid-UI']
-    },
     #exclude : {
       #classes : [ #LQLintTests ]
     }
