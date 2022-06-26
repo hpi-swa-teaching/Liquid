@@ -1,7 +1,10 @@
 modifying
 enterParticipantMode
 
-	| pollId menu |
+	| pollId menu|
+	
+	LQPollRepo reset.
+	
 	pollId := UIManager default request: 'What''s your Poll ID?'.
 	pollId ifEmpty: [^ self].
 	

@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PollRepo",
+		"Server" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "LQRemotePollRepoServer",
+	"pools" : [
+		 ],
+	"super" : "WebServer",
+	"type" : "normal" }

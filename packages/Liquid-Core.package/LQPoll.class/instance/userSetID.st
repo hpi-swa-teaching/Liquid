@@ -1,4 +1,4 @@
 accessing
 userSetID
 
-	^ userSetID
+	^ self pollDraft userSetID

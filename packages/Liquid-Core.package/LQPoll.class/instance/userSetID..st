@@ -1,4 +1,4 @@
 accessing
-userSetID: aUUID
+userSetID: aString
 
-	userSetID := aUUID
+	self pollDraft userSetID: aString.

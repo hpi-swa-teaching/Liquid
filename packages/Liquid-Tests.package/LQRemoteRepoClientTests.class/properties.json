@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "NM 7/15/2021 12:49",
 	"instvars" : [
-		"url",
-		"server" ],
+		"url" ],
 	"name" : "LQRemoteRepoClientTests",
 	"pools" : [
 		 ],
