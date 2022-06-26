@@ -7,12 +7,12 @@ setUpVotes
 	
 	answerSet addAnswer: (LQChoicesAnswer new
 		questionId: (self q1 id);
-		votedChoiceList: {self q1a2};
+		votedChoiceList: {self q1a2 description};
 		yourself).
 		
 	answerSet addAnswer: (LQChoicesAnswer new
 		questionId: (self q2 id);
-		votedChoiceList: {self q2a1};
+		votedChoiceList: {self q2a1 description};
 		yourself).
 		
 	self poll addAnswerSet: answerSet
