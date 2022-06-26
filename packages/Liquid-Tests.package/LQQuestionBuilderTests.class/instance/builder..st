@@ -1,4 +1,4 @@
 accessing
-builder: anObject
+builder: aBuilder
 
-	builder := anObject
+	builder := aBuilder

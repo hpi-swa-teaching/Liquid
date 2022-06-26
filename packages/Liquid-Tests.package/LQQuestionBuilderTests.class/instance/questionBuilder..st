@@ -1,4 +1,4 @@
 accessing
-questionBuilder: anObject
+questionBuilder: aBuilder
 
-	questionBuilder := anObject
+	questionBuilder := aBuilder
