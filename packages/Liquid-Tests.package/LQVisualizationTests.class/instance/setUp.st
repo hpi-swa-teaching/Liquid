@@ -8,3 +8,4 @@ setUp
 	self visualizationControls: (LQVisualizationControls newWithPoll: (self poll)).
 	
 	ToolBuilder open: (self visualizationControls)
+	ToolBuilder open: (self visualizationControls)
