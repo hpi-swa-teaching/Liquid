@@ -1,10 +1,10 @@
 tests
 testRunningPollViewCanBeBuilt
 
-	"| runningPollView |
+	| runningPollView |
 	
-	runningPollView := LQRunningPollView new.
+	runningPollView := LQRunningPollView newWithPoll: self poll.
 	
 	ToolBuilder open: runningPollView.
 	
-	runningPollView destroy"
+	runningPollView destroy
