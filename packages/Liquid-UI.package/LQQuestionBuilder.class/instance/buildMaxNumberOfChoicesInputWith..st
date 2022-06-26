@@ -6,4 +6,4 @@ buildMaxNumberOfChoicesInputWith: aBuilder
 		getText: #maxNumberOfChoices;
 		editText: #maxNumberOfChoices:;
 		indicateUnacceptedChanges: false;
-		frame: (LayoutFrame fractions: (0.7 @ 1 extent: 0.3 @ 0) offsets: (0 @ -90 extent: 0 @ 34))
+		frame: (LayoutFrame fractions: (0.8 @ 0.9 extent: 0.2 @ 0.1) offsets: (0 @ 0 extent: 0 @ 0))

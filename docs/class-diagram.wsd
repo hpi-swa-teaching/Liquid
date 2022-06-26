@@ -2,43 +2,6 @@
 ' class LQDraftStore
 
 
-package "Data Structure" {
-  class LQUserSet  {
-
-    }
-    class LQUser  {
-        
-    }
-    LQUserSet "1" <-u  "*" LQUser
-    LQUserSet "1" <- "*" LQPoll
-    class LQPoll  {
-        isOpen
-        void startWithId(id, ifTakenBlock)
-    }
-    LQPoll "*" <- "1" LQPollDraft
-    class LQPollDraft {
-        title
-    }
-    class LQAnswerSet
-    LQPoll "1" <- "*" LQAnswerSet
-    LQAnswerSet "1" <- "*" LQAnswer
-    interface LQAnswer
-    class LQChoicesAnswer {
-        votedChoice
-    }
-    LQAnswer <|-- LQChoicesAnswer
-
-    interface LQQuestion {
-        choiceList
-    }
-    ' I chose * instead of 1 bc datastructure is there
-    LQPollDraft "1" <- "*" LQQuestion
-    class LQChoicesQuestion  {
-        maxNumberOfChoices
-    }
-    LQQuestion <|-- LQChoicesQuestion
-    LQAnswer "*" -- "1" LQQuestion
-}
 
 package Server {
     package Local {
@@ -47,9 +10,10 @@ package Server {
         class LQDevelopmentObjectRepo
         class LQDelayMessageDecorator
         LQLocalObjectRepo <|-- LQDevelopmentObjectRepo
-        ' LQDelayMessageDecorator -- LQLocalObjectDummy
+        LQDelayMessageDecorator -- LQLocalObjectDummy
         LQDevelopmentObjectRepo -- LQDelayMessageDecorator
-    }
+        }
+    
     package Remote {
         class LQRemoteRepoClient
         class LQRemoteRepoServer
@@ -113,7 +77,7 @@ package Core {
     interface LQQuestion {
         choiceList
     }
-    ' I chose * instead of 1 bc datastructure is there
+    ' I chose * instead of 1 bcLdatastructure is there'
     LQPollDraft "1" <- "*" LQQuestion
     class LQChoicesQuestion  {
         maxNumberOfChoices
@@ -173,7 +137,12 @@ package UI {
     class LQPollDraftBuilder {
         runPoll()
     }
+    class LQQuestionBuilder{
+    
+      }
+    LQPollDraftBuilder "1" <- "*" LQQuestionBuilder
     LQPollDraftBuilder --|> LQModel
+    LQQuestionBuilder --|> LQModel
 
     LQStartMenu -- LQHostMenu
     LQStartMenu -- LQParticipantMenu

@@ -3,7 +3,7 @@ buildMaxNumberOfChoicesLabelWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		getText: #getMaxNumberOfChoicesLabel;
+		getText: #createMaxNumberOfChoicesLabel;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		frame: (LayoutFrame fractions: (0 @ 1 extent: 0.7 @ 0) offsets: (0 @ -90 extent: 0 @ 34))
+		frame: (LayoutFrame fractions: (0 @ 0.9 extent: 0.8 @ 0.1) offsets: (0 @ 0 extent: 0 @ 0))
