@@ -7,6 +7,6 @@ testRunningPollViewCanBeBuilt
 	
 	ToolBuilder open: runningPollView.
 	
-	runningPollView closePoll .
+	runningPollView closePoll.
 	
 	runningPollView destroy
