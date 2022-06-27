@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testClearSelection
 
 	self userSetMenu pollDraft userSetID: 'testID'.
