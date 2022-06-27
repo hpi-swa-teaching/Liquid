@@ -2,10 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createPoll" : "kge 6/25/2022 19:38",
+		"createUserSet" : "kge 6/25/2022 19:38",
 		"testAnswerSetPollID" : "CG 7/30/2021 19:06",
 		"testClosePoll" : "CG 7/30/2021 19:06",
 		"testCsvPrinting" : "CG 7/30/2021 19:06",
-		"testIDsAreUUIDsToPreventCollisions" : "CG 7/30/2021 19:06",
+		"testIDsAreUUIDsToPreventCollisions" : "kge 6/25/2022 17:16",
+		"testMyUserSet" : "kge 6/25/2022 19:41",
+		"testMyUserSetWithUserSetNotInRepo" : "kge 6/25/2022 19:42",
+		"testRequiresAuthenticationFalse" : "kge 6/25/2022 19:39",
+		"testRequiresAuthenticationTrue" : "kge 6/25/2022 19:39",
 		"testStartTime" : "CG 7/30/2021 19:06",
-		"testUserSetId" : "bn 5/26/2022 20:59",
+		"testUserSetId" : "kge 6/23/2022 22:33",
 		"testVisualizationDataCollection" : "bn 6/16/2022 21:35" } }

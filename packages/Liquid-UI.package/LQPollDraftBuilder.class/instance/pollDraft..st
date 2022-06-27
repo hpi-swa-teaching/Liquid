@@ -1,5 +1,4 @@
 accessing
-pollDraft: aDraft
+pollDraft: aPollDraft
 
-	aDraft questionList ifEmpty: [aDraft questionList: (OrderedCollection newFrom: {LQChoicesQuestion new})].
-	pollDraft := aDraft
+	pollDraft := aPollDraft

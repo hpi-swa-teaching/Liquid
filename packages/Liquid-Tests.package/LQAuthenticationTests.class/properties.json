@@ -1,0 +1,20 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user1",
+		"user2",
+		"user3",
+		"userSet",
+		"userSet2",
+		"poll",
+		"poll2" ],
+	"name" : "LQAuthenticationTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

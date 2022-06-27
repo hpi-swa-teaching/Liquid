@@ -6,6 +6,8 @@
 		"question:" : "CG 7/30/2021 19:06",
 		"setUp" : "CG 7/30/2021 19:06",
 		"testAddChoice" : "bwe 6/5/2022 22:21",
+		"testAsStringNoTitle" : "bn 6/25/2022 20:47",
+		"testAsStringWithTitle" : "bn 6/25/2022 20:48",
 		"testBuildEmptyChoicesAnswer" : "CG 7/30/2021 19:06",
 		"testCorrectQuestionType" : "CG 7/30/2021 19:06",
 		"testmaxChoices" : "bn 5/26/2022 21:05" } }

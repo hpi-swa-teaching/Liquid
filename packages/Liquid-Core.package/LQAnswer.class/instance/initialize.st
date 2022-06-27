@@ -1,4 +1,5 @@
 initialize
 initialize
 
-	self id: UUID new
+	super initialize.
+	self id: UUID new asString

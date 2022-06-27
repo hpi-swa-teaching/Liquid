@@ -6,4 +6,5 @@ buildAddQuestionButtonWith: aBuilder
 		label: 'Add Question';
 		help: 'Add a new question to your poll.';
 		action: #addQuestion;
-		frame: (LayoutFrame fractions: (0 @ 1 extent: 1 @ 0) offsets: (0 @ -60 extent: 0 @ 30))
+		frame: (LayoutFrame new
+						topFraction: 0.92; leftFraction: 0.33; rightFraction: 0.66; bottomFraction: 1)

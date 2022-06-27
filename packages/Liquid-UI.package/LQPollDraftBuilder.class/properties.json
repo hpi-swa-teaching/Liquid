@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NM 7/9/2021 14:09",
+	"commentStamp" : "JT 6/23/2022 22:47",
 	"instvars" : [
 		"pollDraft",
-		"currentChoiceListDraft" ],
+		"questionBuilders",
+		"currentQuestion" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],

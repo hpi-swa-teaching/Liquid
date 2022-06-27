@@ -1,4 +1,4 @@
-modifying
+supporting
 generateRandomID
 
 	^ LQPollIdGenerator new generateIdFromRealWords

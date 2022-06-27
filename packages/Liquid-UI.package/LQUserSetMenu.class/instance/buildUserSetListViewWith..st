@@ -8,7 +8,7 @@ buildUserSetListViewWith: aBuilder
 		setIndex: #choiceSelected:;
 		frame: (LayoutFrame new 
 			topFraction: 0.1; 
-			bottomFraction: 0.8; 
+			bottomFraction: 0.65; 
 			leftFraction: 0.1; 
 			rightFraction: 0.9);
 		yourself
