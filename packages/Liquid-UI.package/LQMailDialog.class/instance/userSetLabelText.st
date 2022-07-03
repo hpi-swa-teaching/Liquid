@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 userSetLabelText
 
 	^self poll myUserSet title.

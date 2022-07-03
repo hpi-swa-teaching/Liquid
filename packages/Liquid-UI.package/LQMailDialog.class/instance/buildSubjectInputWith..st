@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildSubjectInputWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new

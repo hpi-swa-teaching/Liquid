@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 replacedMailText
 
 	^self rawMailText

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildUserSetLabelWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

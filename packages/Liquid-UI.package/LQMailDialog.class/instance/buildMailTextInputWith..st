@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildMailTextInputWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
