@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"openWithPoll:" : "ms 7/3/2022 21:16" },
+	"instance" : {
+		"buildMailTextInputWith:" : "ms 7/3/2022 21:34",
+		"buildReplacementListViewWith:" : "ms 7/3/2022 21:09",
+		"buildSendButtonWith:" : "ms 7/3/2022 21:19",
+		"buildSenderInputWith:" : "ms 7/3/2022 21:33",
+		"buildSubjectInputWith:" : "ms 7/3/2022 21:34",
+		"buildUserSetLabelWith:" : "ms 7/3/2022 21:20",
+		"buildUserSetListViewWith:" : "ms 7/3/2022 21:21",
+		"buildWith:" : "ms 7/3/2022 21:09",
+		"mailSender" : "ms 7/3/2022 21:32",
+		"mailSender:" : "ms 7/3/2022 21:32",
+		"mailSubject" : "ms 7/3/2022 21:32",
+		"mailSubject:" : "ms 7/3/2022 21:32",
+		"poll" : "ms 7/3/2022 21:05",
+		"poll:" : "ms 7/3/2022 21:05",
+		"rawMailText" : "ms 7/3/2022 21:33",
+		"rawMailText:" : "ms 7/3/2022 21:33",
+		"replacedMailText" : "ms 7/3/2022 21:39",
+		"sendMailFor:" : "ms 7/3/2022 21:35",
+		"sendMails" : "ms 7/3/2022 21:30",
+		"userSetData" : "ms 7/3/2022 21:26",
+		"userSetLabelText" : "ms 7/3/2022 21:20" } }

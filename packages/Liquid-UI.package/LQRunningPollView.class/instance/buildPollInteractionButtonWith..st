@@ -5,4 +5,8 @@ buildPollInteractionButtonWith: aBuilder
 		model: self;
 		label: 'Close Poll';
 		action: #closePoll;
-		frame: (LayoutFrame fractions: (0 @ 0.05 extent: 1 @ 0.2) offsets: (0 @ 85 extent: 0 @ 20)) yourself
+		frame: (LayoutFrame new 
+			topFraction: 0.75; 
+			bottomFraction: 1; 
+			leftFraction: 0; 
+			rightFraction: 1)

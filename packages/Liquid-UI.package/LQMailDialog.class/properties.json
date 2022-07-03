@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poll",
+		"mailSender",
+		"mailSubject",
+		"rawMailText" ],
+	"name" : "LQMailDialog",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }
