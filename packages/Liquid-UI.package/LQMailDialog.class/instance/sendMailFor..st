@@ -2,8 +2,8 @@ modifying
 sendMailFor: aUser
 
 	MailComposition new
-	messageText: self replacedMailText;
-	messageSubject: self mailSubject;
-	messageSender: self mailSender;
-	messageRecipient: aUser name;
+		messageText: (self injectUserDataFrom: aUser);
+		messageSubject: self mailSubject;
+		messageSender: self mailSender;
+		messageRecipient: aUser name;
 	doSendMail.

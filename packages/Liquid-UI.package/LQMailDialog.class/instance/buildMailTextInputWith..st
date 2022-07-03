@@ -3,7 +3,8 @@ buildMailTextInputWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		"getText: ;"
+		help: 'Mail Text';
+		getText: #rawMailText;
 		editText: #rawMailText:;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new 

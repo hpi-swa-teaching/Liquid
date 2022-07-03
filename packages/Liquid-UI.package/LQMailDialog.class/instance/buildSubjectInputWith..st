@@ -3,7 +3,8 @@ buildSubjectInputWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		"getText: ;"
+		help: 'Subject';
+		getText: #mailSubject;
 		editText: #mailSubject:;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new 

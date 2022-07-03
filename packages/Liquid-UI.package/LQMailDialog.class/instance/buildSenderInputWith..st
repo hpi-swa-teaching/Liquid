@@ -1,9 +1,10 @@
 toolbuilder
 buildSenderInputWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableInputFieldSpec new
 		model: self;
-		"getText: ;"
+		help: 'Sender E-Mail';
+		getText: #mailSender;
 		editText: #mailSender:;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new 
