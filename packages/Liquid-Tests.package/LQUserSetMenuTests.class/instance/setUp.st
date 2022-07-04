@@ -6,4 +6,4 @@ setUp
 	self userSet: (LQUserSet new 
 								id: UUID new asString; 
 								title: 'lorem ipsum Meine Oma fährt im Hühnerstall Motorrad';
-								addUser: (LQUser new id: '3'; name: 'kandidat3'; group: 'group2'))
+								addUser: LQUserSetTests new createUser1)
