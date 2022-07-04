@@ -4,8 +4,6 @@ buildReplacementListViewWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #replacementList;
-		"getIndex: #choiceSelected;
-		setIndex: #choiceSelected:;"
 		frame: (LayoutFrame new 
 			topFraction: 0.76; 
 			bottomFraction: 0.99;

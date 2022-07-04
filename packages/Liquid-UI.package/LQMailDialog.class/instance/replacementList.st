@@ -1,4 +1,7 @@
-toolbuilder
+modifying
 replacementList
 
-	^LQUser new mailMapping keys
+	^ OrderedCollection new 
+			addAll: LQUser new mailMapping keys;
+			addAll: {'{{poll-id}}' . '{{poll-title}}'};
+			yourself

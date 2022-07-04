@@ -1,5 +1,7 @@
 accessing
 mailMapping
 
-	^{'{{name}}' -> self name.
-		'{{surname}}' -> self group} asDictionary
+	^{'{{firstname}}' -> self firstname.
+		'{{surname}}' -> self surname.
+		'{{mail}}' -> self mail.
+		'{{pwd}}' -> self pwd} asDictionary
