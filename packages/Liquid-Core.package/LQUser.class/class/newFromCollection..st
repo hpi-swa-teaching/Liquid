@@ -8,8 +8,7 @@ newFromCollection: aCollection
 	ifTrue: [user firstname: (aCollection first).
 				user surname: (aCollection second).
 				user mail: (aCollection third).
-				user group: (aCollection fourth).
-				user pwd: UUID new asString]
+				user group: (aCollection fourth)]
 	ifFalse: [self halt.].
 	
 	^ user
