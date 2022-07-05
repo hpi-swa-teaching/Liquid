@@ -6,6 +6,7 @@ buildMailTextInputWith: aBuilder
 		help: 'Mail Text';
 		getText: #rawMailText;
 		editText: #rawMailText:;
+		name: self class mailTextInputName;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new 
 			topFraction: 0.15; 
