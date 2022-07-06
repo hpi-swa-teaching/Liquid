@@ -1,4 +1,4 @@
 helper methods
 createUser3
 
-	^ LQUser new id: '5'; name: 'kandidat5'; group: 'group2'
+	^ LQUser new firstname: 'Ash'; surname: 'Ketchum'; mail: 'ash@mail.com'; group: 'Rocket'
