@@ -9,7 +9,8 @@
 		"poll",
 		"mailSender",
 		"mailSubject",
-		"rawMailText" ],
+		"rawMailText",
+		"progressBar" ],
 	"name" : "LQMailDialog",
 	"pools" : [
 		 ],
