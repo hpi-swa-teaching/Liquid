@@ -3,9 +3,9 @@ setUp
 
 	super setUp.
 	self 
-		user1: self createUser1;
-		user2: self createUser2;
-		user3: self createUser3;
+		user1: nil;
+		user2: nil;
+		user3: nil;
 		createUserSet1;
 		createUserSet2;
 		createPoll;
