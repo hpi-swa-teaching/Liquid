@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"url",
-		"id",
-		"currentPassword" ],
-	"name" : "LQRemoteObjectDummy",
+		 ],
+	"name" : "LiquidNetworkServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ServiceProvider",
 	"type" : "normal" }
