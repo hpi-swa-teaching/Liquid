@@ -19,17 +19,19 @@ testTwoHundredUsers
 	"participant"
 	target := 200.
 	target timesRepeat: [
+		| answerSet |
 		p := LQPollRepo default
 			at: pollId
 			ifAbsent: [self fail: 'Poll not found at given ID'].
 		q := p pollDraft questionList first.
-		p addAnswerSet: (LQAnswerSet new
+		answerSet := (LQAnswerSet new
 			addAnswer: (LQChoicesAnswer new
 				questionId: q id;
 				votedChoiceList: {LQChoice newFrom: 'in Whiscashs throat'};
 				yourself);
 			pollId: p id;
-			yourself)].
+			yourself).
+		LQPollRepo default addAnswerSet: answerSet ToPoll: p id].
 	"host"
 	
 	poll closeWithPassword: (LQPasswordManager default
