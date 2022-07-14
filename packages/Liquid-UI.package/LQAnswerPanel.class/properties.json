@@ -9,7 +9,8 @@
 		"question",
 		"answer",
 		"selectedChoices",
-		"choiceSelected" ],
+		"choiceSelected",
+		"exclusionMarker" ],
 	"name" : "LQAnswerPanel",
 	"pools" : [
 		 ],
