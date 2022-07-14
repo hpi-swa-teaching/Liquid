@@ -6,6 +6,6 @@ buildAnswerPanelWith: aBuilder
 	self answerPanel: answerPanel.
 	self currentQuestionIndex: 1.
 	answerPanel question: self currentQuestion.
-	answerPanel exclusionMarker: (LQGroupExclusionMarker newFrom: self currentQuestion choiceList and: 'group1').
+	answerPanel exclusionMarker: (LQGroupExclusionMarker newFrom: self currentQuestion choiceList and: (LQPollRepo default groupAt: self poll id)).
 	self answerSet addAnswer: answerPanel answer.
 	^ answerPanel

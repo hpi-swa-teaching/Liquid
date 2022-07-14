@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"open" : "CG 7/30/2021 19:06" },
+		"open" : "CG 7/30/2021 19:06",
+		"reset" : "ms 7/14/2022 21:35" },
 	"instance" : {
 		"buildEnterHostButtonWith:" : "kge 6/19/2022 18:59",
 		"buildEnterParticipantButtonWith:" : "kge 6/19/2022 19:00",
