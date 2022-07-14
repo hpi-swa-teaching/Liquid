@@ -6,5 +6,5 @@ at: key ifAbsent: aBlock
 	resp isSuccess
 		ifTrue: [^ STON fromString: resp content].
 	(resp code = 401) ifTrue: [self currentPassword: self requestPassword. 
-												^ self at: key ifAbsent: aBlock].
+												^ aBlock value "self at: key ifAbsent: aBlock"].
 	^ aBlock value
