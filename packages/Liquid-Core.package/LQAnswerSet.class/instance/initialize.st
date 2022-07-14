@@ -1,5 +1,5 @@
 initialize
 initialize
 
-	answers := Dictionary new.
+	self answers: Dictionary new.
 	self id: UUID new asString

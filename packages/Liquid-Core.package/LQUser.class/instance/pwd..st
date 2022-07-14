@@ -1,3 +1,4 @@
 accessing
-pwd: anObject
-	pwd := anObject
+pwd: aString
+
+	pwd := aString

@@ -1,3 +1,4 @@
 accessing
-group: anObject
-	group := anObject
+group: aString
+
+	group := aString

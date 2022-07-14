@@ -1,3 +1,4 @@
 accessing
 group
-	^ group
+
+	^group

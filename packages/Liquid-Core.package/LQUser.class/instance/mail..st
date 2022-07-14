@@ -1,3 +1,4 @@
 accessing
-mail: anObject
-	mail := anObject
+mail: aString
+
+	mail := aString
