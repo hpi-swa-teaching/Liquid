@@ -1,4 +1,4 @@
 accessing
 choiceDescriptions
 
-	^ self question choiceDescriptions
+	^self exclusionMarker choiceListWithExclusionsMarked
