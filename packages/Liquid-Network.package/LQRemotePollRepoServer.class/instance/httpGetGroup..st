@@ -9,6 +9,8 @@ httpGetGroup: req
 		ifTrue: [poll := (self class pollRepo at: id)].
 	(self request: req isAuthenticatedFor: poll)
 		ifFalse: [^self send401Response: req].
-
-	user := (poll myUserSet getUserWithPassword: (req fields at: 'pwd')).
-	req send200Response: user group
+	(poll requiresAuthentication)
+		ifTrue:[
+			user := (poll myUserSet getUserWithPassword: (req fields at: 'pwd')).
+			req send200Response: user group]
+		ifFalse:[req send200Response: '']
