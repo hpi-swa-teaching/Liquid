@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LQAntiCheat",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

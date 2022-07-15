@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"is:FromUser:ValidFor:" : "kge 7/15/2022 11:43",
+		"isAnswer:FromUser:ValidForQuestionId:InPoll:" : "kge 7/15/2022 11:50",
+		"isVotedChoice:FromUser:ValidForQuestion:" : "kge 7/15/2022 11:50" } }
