@@ -1,0 +1,18 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"mailDialog",
+		"user1",
+		"user2",
+		"userSet1",
+		"poll" ],
+	"name" : "LQMailTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createPoll" : "ape 7/16/2022 11:08",
+		"createUser1" : "ape 7/16/2022 10:58",
+		"createUser2" : "ape 7/16/2022 10:57",
+		"createUserSet1" : "ape 7/16/2022 11:08",
+		"mailDialog" : "ape 7/16/2022 10:40",
+		"mailDialog:" : "ape 7/16/2022 10:39",
+		"poll" : "ape 7/16/2022 11:02",
+		"poll:" : "ape 7/16/2022 11:02",
+		"setUp" : "ape 7/16/2022 11:11",
+		"tearDown" : "ape 7/16/2022 10:43",
+		"testDefaultMailSender" : "ape 7/16/2022 11:15",
+		"testDefaultMailText" : "ape 7/16/2022 11:07",
+		"testDefaultSubject" : "ape 7/16/2022 11:12",
+		"user1" : "ape 7/16/2022 11:02",
+		"user1:" : "ape 7/16/2022 11:02",
+		"user2" : "ape 7/16/2022 11:02",
+		"user2:" : "ape 7/16/2022 11:02",
+		"userSet1" : "ape 7/16/2022 11:02",
+		"userSet1:" : "ape 7/16/2022 11:02" } }
