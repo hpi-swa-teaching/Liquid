@@ -1,0 +1,3 @@
+A LQAntiCheat checks whether or not an answerSet is allowed to be added to a poll. It ensures that group-based answer-exclusion is enforced by the server and that multiple answers cannot be added to a poll.
+
+Instance Variables
