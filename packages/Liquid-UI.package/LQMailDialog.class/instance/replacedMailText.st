@@ -1,4 +1,0 @@
-modifying
-replacedMailText
-
-	^self rawMailText
