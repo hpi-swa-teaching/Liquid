@@ -1,6 +1,6 @@
-as yet unclassified
+testing
 testReplacementList
 
 	self mailDialog rawMailText: ''.
-	self mailDialog replacementSelectedIndex: 2.
-	self assert: self mailDialog rawMailText equals: (self mailDialog replacementList at: 2).
+	self mailDialog replacementSelectedIndex: 1.
+	self assert: self mailDialog rawMailText equals: (self mailDialog replacementList at: 1).

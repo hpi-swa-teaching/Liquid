@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMailSender
 
 	self mailDialog mailSender: 'vorname.nachname@example.com'.

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMailText
 
 	self mailDialog rawMailText: 'Hello, this is the text of an email'.

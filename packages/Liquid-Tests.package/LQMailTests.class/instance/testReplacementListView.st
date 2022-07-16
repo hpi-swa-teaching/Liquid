@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testReplacementListView
 
 	self assert: self mailDialog replacementList equals: (OrderedCollection new 

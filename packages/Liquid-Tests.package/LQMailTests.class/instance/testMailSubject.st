@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testMailSubject
 
 	self mailDialog mailSubject: 'Mail Subject'.

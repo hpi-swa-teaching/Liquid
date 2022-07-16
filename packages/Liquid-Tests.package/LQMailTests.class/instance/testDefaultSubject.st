@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDefaultSubject
 
 	self assert: self mailDialog mailSubject equals: LQMailDialog defaultSubject.

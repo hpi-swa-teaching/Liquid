@@ -1,4 +1,4 @@
-as yet unclassified
+helper methods
 createUserSet1
 	
 	self userSet1: (LQUserSet new

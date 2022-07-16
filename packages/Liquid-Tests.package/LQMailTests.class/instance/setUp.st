@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	super setUp.
@@ -6,6 +6,6 @@ setUp
 	self user2: self createUser2.
 	self createUserSet1.
 	self createPoll.
-	self mailDialog: (LQMailDialog new poll: self poll).
+	self mailDialog: (LQMailDialog new poll: self poll; yourself).
 	ToolBuilder open: self mailDialog.
 	
