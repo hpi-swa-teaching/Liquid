@@ -1,6 +1,6 @@
 tests
 testTwoHundredUsers
-	<timeout: 20>
+	<timeout: 40>
 
 	| poll p q hostPoll pollId target |
 	
@@ -31,7 +31,7 @@ testTwoHundredUsers
 				yourself);
 			pollId: p id;
 			yourself).
-		LQPollRepo default addAnswerSet: answerSet ToPoll: p id].
+		(LQDelayMessageDecorator on: LQPollRepo default) addAnswerSet: answerSet ToPoll: p id].
 	"host"
 	
 	poll closeWithPassword: (LQPasswordManager default
