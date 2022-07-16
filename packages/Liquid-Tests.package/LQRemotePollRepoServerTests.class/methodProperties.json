@@ -11,6 +11,7 @@
 		"setUp" : "kge 7/16/2022 21:06",
 		"testAddAnswerSetPreventedByGroupBasedAnswerExclusion" : "kge 7/16/2022 21:14",
 		"testAddAnswerSetPreventedByMultipleAnswers" : "kge 7/16/2022 21:16",
+		"testAddAnswerSetPreventedByWrongPassword" : "kge 7/16/2022 21:19",
 		"testAddAnswerSetSuccessfully" : "kge 7/16/2022 21:14",
 		"user1" : "kge 7/16/2022 21:06",
 		"user1:" : "kge 7/16/2022 21:06",
