@@ -1,7 +1,14 @@
 accessing
 mailMapping
 
-	^{'{{firstname}}' -> self firstname.
+	^ Dictionary new
+			at: '{{firstname}}' put: self firstname;
+			at: '{{surname}}' put: self surname;
+			at: '{{mail}}' put: self mail;
+			at: '{{pwd}}' put: self pwd;
+			yourself.
+
+	"^{'{{firstname}}' -> self firstname.
 		'{{surname}}' -> self surname.
 		'{{mail}}' -> self mail.
-		'{{pwd}}' -> self pwd} asDictionary
+		'{{pwd}}' -> self pwd} asDictionary"
