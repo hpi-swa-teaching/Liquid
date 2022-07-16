@@ -1,0 +1,24 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createPoll" : "kge 7/16/2022 20:40",
+		"createUser1" : "kge 7/16/2022 20:15",
+		"createUser2" : "kge 7/16/2022 20:15",
+		"createUserSet1" : "kge 7/16/2022 20:30",
+		"poll" : "kge 7/16/2022 20:28",
+		"poll:" : "kge 7/16/2022 20:28",
+		"setUp" : "kge 7/16/2022 20:16",
+		"testGroupBasedAnswerExclusionEnforced" : "kge 7/16/2022 20:45",
+		"testGroupBasedAnswerExclusionNotPreventingAnswering" : "kge 7/16/2022 20:11",
+		"testMultipleAnsweringPrevented1" : "kge 7/16/2022 20:32",
+		"testMultipleAnsweringPrevented2" : "kge 7/16/2022 20:42",
+		"testNormalAnsweringAllowed" : "kge 7/16/2022 20:44",
+		"testUserAnsweredPollFalse" : "kge 7/16/2022 20:48",
+		"testUserAnsweredPollTrue" : "kge 7/16/2022 20:48",
+		"user1" : "kge 7/16/2022 20:25",
+		"user1:" : "kge 7/16/2022 20:25",
+		"user2" : "kge 7/16/2022 20:25",
+		"user2:" : "kge 7/16/2022 20:25",
+		"userSet" : "kge 7/16/2022 20:25",
+		"userSet:" : "kge 7/16/2022 20:25" } }
