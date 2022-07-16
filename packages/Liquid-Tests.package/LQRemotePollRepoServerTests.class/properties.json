@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poll",
+		"user1",
+		"user2",
+		"userSet" ],
+	"name" : "LQRemotePollRepoServerTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }
