@@ -1,4 +1,4 @@
 accessing
 pwd
 
-	^pwd
+	^'1'
