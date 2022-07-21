@@ -9,6 +9,6 @@ newFromCollection: aCollection
 				user surname: (aCollection second).
 				user mail: (aCollection third).
 				user group: (aCollection fourth)]
-	ifFalse: [self halt.].
+	ifFalse: [Error new signal: 'Failed to parse csv.'].
 	
 	^ user
