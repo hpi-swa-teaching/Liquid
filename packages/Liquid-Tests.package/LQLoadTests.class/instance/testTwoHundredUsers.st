@@ -38,8 +38,6 @@ testTwoHundredUsers
 		findPasswordFor: pollId
 		ifAbsent: [self fail: 'expected pw to be present']).
 	
-	hostPoll := LQPollRepo default
-		at: pollId
-		ifAbsent: [self fail: 'Poll not found at given ID'].
+	hostPoll := LQRemotePollRepoServer pollRepo at: pollId.
 	
-	self assert: target equals: (LQRemotePollRepoServer pollRepo at: pollId) answerSets size.
+	self assert: target equals: hostPoll answerSets size.

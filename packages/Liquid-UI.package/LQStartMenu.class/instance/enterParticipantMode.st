@@ -6,7 +6,6 @@ enterParticipantMode
 	LQPollRepo reset.
 	url := UIManager default request: 'What''s your server''s url and port? format: http://your.server.tld:8000'.
 	LQPollRepo default: (LQPollRepo new url: url).
-	Transcript show: url.
 	pollId := UIManager default request: 'What''s your Poll ID?'.
 	pollId ifEmpty: [^ self].
 	(LQParticipantMenu answeredPollIds includes: pollId) ifTrue: [
