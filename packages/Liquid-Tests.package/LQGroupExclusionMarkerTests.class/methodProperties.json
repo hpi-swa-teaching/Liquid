@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createChoiceList" : "kge 7/21/2022 16:14",
+		"exclusionMarker" : "kge 7/21/2022 16:14",
+		"exclusionMarker:" : "kge 7/21/2022 16:14",
+		"setUp" : "kge 7/21/2022 16:14",
+		"testChoiceListwithExclusionsMarked" : "kge 7/21/2022 16:15",
+		"testColourGray" : "kge 7/21/2022 16:15",
+		"testExcludes" : "kge 7/21/2022 16:15" } }
