@@ -1,4 +1,4 @@
 accessing
-pwd
+id
 
-	^pwd
+	^ id

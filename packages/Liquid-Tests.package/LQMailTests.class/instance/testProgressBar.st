@@ -1,9 +1,8 @@
 testing
 testProgressBar
 
-	| firstProgressBar |
 	self mailDialog openProgressBar.
-	firstProgressBar := self mailDialog progressBar.
+	self mailDialog progressBar.
 	self assert: self mailDialog progressBar label equals: 'Sending Mails'.
 	self assert: self mailDialog progressBar done equals: 0.
 	
