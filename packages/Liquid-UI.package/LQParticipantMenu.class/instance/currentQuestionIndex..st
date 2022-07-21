@@ -9,4 +9,4 @@ currentQuestionIndex: anObject
 	
 	self changed: #previousButtonEnabled.
 	self changed: #nextButtonLabel.
-	self changed: #questionCounterText.
+	self changed: #questionCounterText
