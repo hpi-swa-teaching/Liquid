@@ -6,9 +6,4 @@ mailMapping
 			at: '{{surname}}' put: self surname;
 			at: '{{mail}}' put: self mail;
 			at: '{{pwd}}' put: self pwd;
-			yourself.
-
-	"^{'{{firstname}}' -> self firstname.
-		'{{surname}}' -> self surname.
-		'{{mail}}' -> self mail.
-		'{{pwd}}' -> self pwd} asDictionary"
+			yourself
