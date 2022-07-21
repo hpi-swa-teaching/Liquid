@@ -1,3 +1,4 @@
 accessing
-firstname: anObject
-	firstname := anObject
+firstname: aString
+
+	firstname := aString
