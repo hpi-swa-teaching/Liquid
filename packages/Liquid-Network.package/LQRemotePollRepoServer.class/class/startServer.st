@@ -2,4 +2,4 @@ accessing
 startServer
 
 	self stopServer.
-	Server := LQRemotePollRepoServer new listenOn: 8008.
+	Server := LQRemotePollRepoServer new listenOn: 8000.
