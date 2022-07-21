@@ -1,3 +1,4 @@
 accessing
-rawMailText: anObject
-	rawMailText := anObject
+rawMailText: aText
+
+	rawMailText := aText
