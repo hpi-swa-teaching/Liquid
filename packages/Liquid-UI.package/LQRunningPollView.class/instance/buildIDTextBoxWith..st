@@ -6,4 +6,8 @@ buildIDTextBoxWith: aBuilder
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		getText: #pollId;
-		frame: (LayoutFrame fractions: (0 @ 0.05 extent: 1 @ 0) offsets: (0 @ 0 extent: 0 @ 30)) yourself
+		frame: (LayoutFrame new 
+			topFraction: 0; 
+			bottomFraction: 0.25; 
+			leftFraction: 0; 
+			rightFraction: 1)

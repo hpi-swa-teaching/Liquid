@@ -1,6 +1,5 @@
 initialize
 initialize
 
-	self
-		questionList: OrderedCollection new;
-		id: UUID new asString
+	super initialize.
+	self questionList: OrderedCollection new

@@ -7,8 +7,8 @@ testCreateFromCSV
 		addUser: self user1;
 		addUser: self user2.
 			
-	stream := ReadStream on: '3,kandidat3,group2
-4,kandidat4,group1'.
+	stream := ReadStream on: 'erika,musterfrau,erika.mustermann@hotmail.com,group1
+Ash,Ketchum,ash@mail.com,Rocket'.
 
 	userSet2 := LQUserSet createFromFile: stream.
 	

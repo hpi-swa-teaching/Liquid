@@ -1,6 +1,6 @@
 tests
 testTwoHundredUsers
-	<timeout: 20>
+	<timeout: 40>
 
 	| poll p q hostPoll pollId target |
 	
@@ -19,25 +19,25 @@ testTwoHundredUsers
 	"participant"
 	target := 200.
 	target timesRepeat: [
+		| answerSet |
 		p := LQPollRepo default
 			at: pollId
 			ifAbsent: [self fail: 'Poll not found at given ID'].
 		q := p pollDraft questionList first.
-		p addAnswerSet: (LQAnswerSet new
+		answerSet := (LQAnswerSet new
 			addAnswer: (LQChoicesAnswer new
 				questionId: q id;
 				votedChoiceList: {LQChoice newFrom: 'in Whiscashs throat'};
 				yourself);
 			pollId: p id;
-			yourself)].
+			yourself).
+		(LQDelayMessageDecorator on: LQPollRepo default) addAnswerSet: answerSet ToPoll: p id].
 	"host"
 	
 	poll closeWithPassword: (LQPasswordManager default
 		findPasswordFor: pollId
 		ifAbsent: [self fail: 'expected pw to be present']).
 	
-	hostPoll := LQPollRepo default
-		at: pollId
-		ifAbsent: [self fail: 'Poll not found at given ID'].
+	hostPoll := LQRemotePollRepoServer pollRepo at: pollId.
 	
 	self assert: target equals: hostPoll answerSets size.

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"hasUser:AnsweredPoll:" : "kge 7/15/2022 12:07",
+		"is:FromUser:ValidFor:" : "kge 7/15/2022 12:03",
+		"isAnswer:FromUser:ValidForQuestionId:InPoll:" : "kge 7/15/2022 11:50",
+		"isVotedChoice:FromUser:ValidForQuestion:" : "kge 7/21/2022 20:48" } }

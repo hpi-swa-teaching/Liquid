@@ -1,0 +1,18 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poll",
+		"mailSender",
+		"mailSubject",
+		"rawMailText",
+		"progressBar" ],
+	"name" : "LQMailDialog",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

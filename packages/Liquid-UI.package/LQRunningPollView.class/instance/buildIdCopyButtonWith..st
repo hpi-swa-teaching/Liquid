@@ -5,4 +5,8 @@ buildIdCopyButtonWith: aBuilder
 		model: self;
 		label: 'Copy Poll-ID to Clipboard';
 		action: #copyPollId;
-		frame: (LayoutFrame fractions: (0 @ 0.05 extent: 1 @ 0.2) offsets: (0 @ 30 extent: 0 @ 20)) yourself
+		frame: (LayoutFrame new 
+			topFraction: 0.25; 
+			bottomFraction: 0.5; 
+			leftFraction: 0; 
+			rightFraction: 1)

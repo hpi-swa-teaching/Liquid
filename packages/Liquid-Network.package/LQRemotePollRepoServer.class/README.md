@@ -1,1 +1,1 @@
-HTTP Server that works closely with LQRemoteRepoClient to manage objects over the network.
+HTTP Server that works closely with LQPollRepo to manage objects over the network. It ensures that only authenticated users can answer polls as well as ensuring the legality of adding answerSets to polls.

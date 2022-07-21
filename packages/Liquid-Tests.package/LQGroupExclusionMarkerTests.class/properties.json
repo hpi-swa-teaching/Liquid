@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"exclusionMarker" ],
+	"name" : "LQGroupExclusionMarkerTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

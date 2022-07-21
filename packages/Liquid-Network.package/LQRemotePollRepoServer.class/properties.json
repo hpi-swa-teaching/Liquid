@@ -5,7 +5,7 @@
 	"classvars" : [
 		"PollRepo",
 		"Server" ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "kge 7/16/2022 21:45",
 	"instvars" : [
 		 ],
 	"name" : "LQRemotePollRepoServer",

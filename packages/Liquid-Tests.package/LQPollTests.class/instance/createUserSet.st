@@ -1,6 +1,6 @@
 helper methods
 createUserSet
 	^ LQUserSet new
-		addUser: (LQUser new id: '3'; name: 'kandidat3'; group: 'group2');
-		addUser: (LQUser new id: '4'; name: 'kandidat4'; group: 'group1');
+		addUser: (LQUser new firstname: 'erika'; surname: 'musterfrau'; mail: 'erika.mustermann@hotmail.com'; group: 'group1');
+		addUser: (LQUser new firstname: 'max'; surname: 'mustermann'; mail: 'max.mustermann@hotmail.com'; group: 'group2');
 		yourself

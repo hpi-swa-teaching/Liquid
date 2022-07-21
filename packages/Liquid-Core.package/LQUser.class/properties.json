@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "ape 6/6/2022 07:55",
 	"instvars" : [
-		"id",
-		"name",
-		"group" ],
+		"firstname",
+		"surname",
+		"mail",
+		"group",
+		"pwd" ],
 	"name" : "LQUser",
 	"pools" : [
 		 ],

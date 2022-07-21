@@ -1,5 +1,5 @@
 communication
 doesNotUnderstand: aMessage
 
-	Delay forMilliseconds: 150.
+	Delay forMilliseconds: 80.
 	^ aMessage sendTo: object

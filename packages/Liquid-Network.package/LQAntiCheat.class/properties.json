@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "kge 7/16/2022 21:43",
+	"instvars" : [
+		 ],
+	"name" : "LQAntiCheat",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

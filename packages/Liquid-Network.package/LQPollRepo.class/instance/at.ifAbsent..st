@@ -4,7 +4,8 @@ at: key ifAbsent: aBlock
 	| resp |
 	resp := self serverAt: key.
 	resp isSuccess
-		ifTrue: [^ LQRemoteObjectDummy on: url withId: key andPassword: self currentPassword].
-	(resp code = 401) ifTrue: [self currentPassword: (UIManager default request: 'Enter your Password!'). 
-												^ self at: key ifAbsent: aBlock].
+		ifTrue: [^ STON fromString: resp content].
+	(resp code = 401 and: [self currentPassword isNil]) ifTrue: [self currentPassword: self requestPassword.
+												^  self at: key ifAbsent: aBlock].
+												
 	^ aBlock value

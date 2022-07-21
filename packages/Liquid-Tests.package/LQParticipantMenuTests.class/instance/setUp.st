@@ -17,5 +17,6 @@ setUp
 		poll: poll;
 		answerSet: (LQAnswerSet new pollId: (poll id));
 		yourself).
+	LQPollRepo default at: poll id ifPresent: [^ self fail] ifAbsentPut: poll.
 
 	ToolBuilder open: self participantMenu.
