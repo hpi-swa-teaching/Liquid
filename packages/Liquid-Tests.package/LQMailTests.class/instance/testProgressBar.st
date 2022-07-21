@@ -9,4 +9,4 @@ testProgressBar
 	self mailDialog progressBar done: 1.
 	self assert: self mailDialog progressBar done equals: 1.
 	
-	self mailDialog closeProgressBar.
+	self mailDialog closeProgressBar

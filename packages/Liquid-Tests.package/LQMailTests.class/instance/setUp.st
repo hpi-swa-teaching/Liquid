@@ -7,5 +7,5 @@ setUp
 	self createUserSet1.
 	self createPoll.
 	self mailDialog: (LQMailDialog new poll: self poll; yourself).
-	ToolBuilder open: self mailDialog.
+	ToolBuilder open: self mailDialog
 	

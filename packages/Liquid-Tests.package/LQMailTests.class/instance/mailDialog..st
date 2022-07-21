@@ -1,3 +1,4 @@
 accessing
-mailDialog: anObject
-	mailDialog := anObject
+mailDialog: aMailDialog
+
+	mailDialog := aMailDialog

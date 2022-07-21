@@ -1,4 +1,4 @@
 testing
 testDefaultMailSender
 
-	self assert: self mailDialog mailSender equals: LQMailDialog defaultSender.
+	self assert: self mailDialog mailSender equals: LQMailDialog defaultSender
