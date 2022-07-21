@@ -1,3 +1,4 @@
 accessing
-userSet: anObject
-	userSet := anObject
+userSet: aUserSet
+
+	userSet := aUserSet
