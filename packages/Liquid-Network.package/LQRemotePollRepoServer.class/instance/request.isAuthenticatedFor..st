@@ -1,4 +1,4 @@
-request handlers
+security
 request: req isAuthenticatedFor: poll
 
 	(poll requiresAuthentication)

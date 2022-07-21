@@ -42,4 +42,4 @@ testTwoHundredUsers
 		at: pollId
 		ifAbsent: [self fail: 'Poll not found at given ID'].
 	
-	self assert: target equals: hostPoll answerSets size.
+	self assert: target equals: (LQRemotePollRepoServer pollRepo at: pollId) answerSets size.

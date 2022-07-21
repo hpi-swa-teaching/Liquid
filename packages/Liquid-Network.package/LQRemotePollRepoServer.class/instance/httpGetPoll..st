@@ -1,7 +1,7 @@
 request handlers
 httpGetPoll: req
 
-	| poll id |
+	| poll id pollToSend |
 	id := (req fields at: 'id').
 	(self class pollRepo includesKey: id) 
 		ifFalse: [^ req send404Response];
@@ -9,4 +9,6 @@ httpGetPoll: req
 	(self request: req isAuthenticatedFor: poll)
 		ifFalse: [^self send401Response: req].
 
-	req send200Response: (STON toString: poll)
+	pollToSend := self sanitizePoll: poll.
+
+	req send200Response: (STON toString: pollToSend)
