@@ -1,4 +1,4 @@
 toolbuilder
 openMailDialog
 
-	LQMailDialog openWithPoll: self poll.
+	LQMailDialog openWithPoll: self poll
