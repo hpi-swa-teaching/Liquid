@@ -11,7 +11,7 @@ testNormalAnsweringAllowed
 
 	answerSet1 addAnswer: (LQChoicesAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {2};
+		votedChoiceList: {(q1 choiceList at: 2) description};
 		yourself).
 	
 	answerSet2 := LQAnswerSet new 
@@ -21,7 +21,7 @@ testNormalAnsweringAllowed
 	
 	answerSet2 addAnswer: (LQChoicesAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {1};
+		votedChoiceList: {(q1 choiceList at: 1) description};
 		yourself).
 	
 	self assert: ((LQAntiCheat new) is: answerSet1 FromUser: self user1 ValidFor: self poll).

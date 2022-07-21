@@ -10,7 +10,7 @@ testAddAnswerSetPreventedByWrongPassword
 
 	answerSet1 addAnswer: (LQChoicesAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {2};
+		votedChoiceList: {(q1 choiceList at: 2) description};
 		yourself).
 
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
