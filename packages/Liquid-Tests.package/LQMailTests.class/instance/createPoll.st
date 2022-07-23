@@ -3,7 +3,7 @@ createPoll
 	
 	| pollId |
 	
-	self poll: (LQPoll newWithPollDraft: LQPollDraft new).
+	self poll: (LQPoll newWithPollDraft: (LQPollDraft new title: 'TestTitle')).
 	self poll pollDraft questionList add: (LQChoicesQuestion new
 		title: 'Where is the master ball';
 		choiceList: {LQChoice newFrom: 'in Whiscashs throat'. LQChoice newFrom: 'in Kangamas bag'};
