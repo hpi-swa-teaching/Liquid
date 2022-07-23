@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"newWithTitle:" : "ape 7/23/2022 09:58" },
 	"instance" : {
 		"addManageUserSetsFrame" : "ms 6/27/2022 13:28",
 		"addQuestion" : "bn 6/23/2022 22:30",
@@ -29,6 +29,6 @@
 		"questionBuilders" : "bn 6/23/2022 22:30",
 		"questionBuilders:" : "bn 6/23/2022 21:55",
 		"questionListFrame" : "JT 6/23/2022 19:19",
-		"runPoll" : "JT 6/23/2022 19:33",
+		"runPoll" : "ape 7/23/2022 09:47",
 		"runPollButtonFrame" : "ms 6/27/2022 13:28",
 		"setIndex:" : "bn 6/23/2022 22:17" } }
