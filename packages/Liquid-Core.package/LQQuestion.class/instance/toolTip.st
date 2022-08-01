@@ -1,4 +1,0 @@
-accessing
-toolTip
-
-	self subclassResponsibility
