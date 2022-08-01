@@ -24,9 +24,9 @@ testAddAnswerSetPreventedByGroupBasedAnswerExclusion
 		yourself).
 	
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
-	LQPollRepo default currentToken: self user1 token.
+	LQPollRepo default token: self user1 token.
 	LQPollRepo default addAnswerSet: answerSet1 ToPoll: self poll id.
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
-	LQPollRepo default currentToken: self user2 token.
+	LQPollRepo default token: self user2 token.
 	LQPollRepo default addAnswerSet: answerSet2 ToPoll: self poll id.
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size) 

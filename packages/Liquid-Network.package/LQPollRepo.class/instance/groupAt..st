@@ -1,3 +1,3 @@
 communication
 groupAt: key
-	^ (WebClient httpGet: self url, '/?message=getGroup&id=', key, '&pwd=', self currentToken) content
+	^ (WebClient httpGet: self url, '/?message=getGroup&id=', key, '&token=', self token) content

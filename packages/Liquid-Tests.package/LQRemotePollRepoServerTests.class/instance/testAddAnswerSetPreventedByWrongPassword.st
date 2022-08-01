@@ -14,6 +14,6 @@ testAddAnswerSetPreventedByWrongPassword
 		yourself).
 
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
-	LQPollRepo default currentToken: 'This is incorrect'.
+	LQPollRepo default token: 'This is incorrect'.
 	LQPollRepo default addAnswerSet: answerSet1 ToPoll: self poll id.
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size)

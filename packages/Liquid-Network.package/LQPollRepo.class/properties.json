@@ -6,8 +6,7 @@
 		"Default" ],
 	"commentStamp" : "kge 7/16/2022 21:49",
 	"instvars" : [
-		"url",
-		"currentToken" ],
+		"url" ],
 	"name" : "LQPollRepo",
 	"pools" : [
 		 ],
