@@ -1,5 +1,5 @@
 toolbuilder
-getMailMorph
+mailMorph
 
 	^self dependents 
 		detect: [:dependent | (dependent knownName = self class mailTextInputName)]

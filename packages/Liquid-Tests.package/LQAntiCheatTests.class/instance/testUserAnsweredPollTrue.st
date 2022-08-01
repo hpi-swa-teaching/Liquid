@@ -7,6 +7,6 @@ testUserAnsweredPollTrue
 	 	pollId: (self poll id);
 		yourself.
 	
-	self deny: ((LQAntiCheat new) hasUser: self user1 AnsweredPoll: self poll).
+	self deny: (self poll answeredByUser: self user1).
 	self poll addAnswerSet: answerSet.
-	self assert: ((LQAntiCheat new) hasUser: self user1 AnsweredPoll: self poll)
+	self assert: (self poll answeredByUser: self user1)

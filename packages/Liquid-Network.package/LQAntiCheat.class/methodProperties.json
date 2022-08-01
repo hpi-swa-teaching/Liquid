@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"hasUser:AnsweredPoll:" : "ms 8/1/2022 16:13",
-		"is:FromUser:ValidFor:" : "kge 7/15/2022 12:03",
+		"is:FromUser:ValidFor:" : "kge 8/1/2022 19:42",
 		"isAnswer:FromUser:ValidForQuestionId:InPoll:" : "kge 7/15/2022 11:50",
 		"isVotedChoice:FromUser:ValidForQuestion:" : "kge 7/21/2022 20:48" } }
