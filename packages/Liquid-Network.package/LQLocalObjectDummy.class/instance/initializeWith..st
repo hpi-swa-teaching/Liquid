@@ -1,4 +1,4 @@
 initialize-release
 initializeWith: anObject
 
-	object := anObject
+	self object: anObject

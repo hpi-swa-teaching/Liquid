@@ -1,4 +1,4 @@
 initialize-release
 removeKey: key
 
-	items removeKey: key ifAbsent: [self error]
+	self items removeKey: key ifAbsent: [self error]

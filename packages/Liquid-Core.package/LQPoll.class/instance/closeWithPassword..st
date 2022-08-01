@@ -1,4 +1,4 @@
 modifying
 closeWithPassword: aPassword
 
-	guard ifValid: aPassword do: [isOpen := false]
+	self guard ifValid: aPassword do: [self isOpen: false]

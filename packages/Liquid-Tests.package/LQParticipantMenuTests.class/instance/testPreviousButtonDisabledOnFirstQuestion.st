@@ -2,4 +2,4 @@ tests
 testPreviousButtonDisabledOnFirstQuestion
 	
 	self participantMenu currentQuestionIndex: 1.
-	self assert: participantMenu previousButtonEnabled equals: false.
+	self assert: self participantMenu previousButtonEnabled equals: false.

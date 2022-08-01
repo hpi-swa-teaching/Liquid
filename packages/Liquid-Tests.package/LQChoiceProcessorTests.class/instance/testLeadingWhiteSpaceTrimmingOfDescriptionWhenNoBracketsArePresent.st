@@ -6,6 +6,6 @@ testLeadingWhiteSpaceTrimmingOfDescriptionWhenNoBracketsArePresent
 	expectedDescription := 'Lorem ipsum dolor sit amet'.
 	choiceEntry := '     ', expectedDescription, ' '.
 		
-	actualDescription := processor extractDescription: choiceEntry .
+	actualDescription := self processor extractDescription: choiceEntry .
 	
 	self assert: expectedDescription equals: actualDescription

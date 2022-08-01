@@ -1,4 +1,4 @@
 accessing
 addQuestionBuilder: aQuestionBuilder
 	
-	questionBuilders add: aQuestionBuilder
+	self questionBuilders add: aQuestionBuilder

@@ -3,5 +3,5 @@ generatePasswordFor: aPollId
 
 	| password |
 	password := UUID new.
-	passwordStore at: aPollId put: password.
+	self passwordStore at: aPollId put: password.
 	^ password

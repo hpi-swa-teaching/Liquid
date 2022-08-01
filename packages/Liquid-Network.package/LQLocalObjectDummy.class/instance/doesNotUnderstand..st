@@ -1,4 +1,4 @@
 communication
 doesNotUnderstand: aMessage
 
-	^ aMessage sendTo: object
+	^ aMessage sendTo: self object

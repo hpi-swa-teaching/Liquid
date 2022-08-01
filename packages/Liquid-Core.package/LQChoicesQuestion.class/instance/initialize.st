@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self id: UUID new asString.
-	choiceList := OrderedCollection new.
-	maxNumberOfChoices := 1
+	self choiceList: OrderedCollection new.
+	self maxNumberOfChoices: 1

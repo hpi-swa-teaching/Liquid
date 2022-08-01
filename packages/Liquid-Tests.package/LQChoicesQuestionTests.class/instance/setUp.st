@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	question := LQChoicesQuestion new
+	self question: LQChoicesQuestion new

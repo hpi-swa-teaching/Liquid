@@ -2,5 +2,7 @@
 	"class" : {
 		"on:" : "CG 7/30/2021 19:14" },
 	"instance" : {
-		"doesNotUnderstand:" : "kge 7/16/2022 21:23",
-		"on:" : "CG 7/30/2021 19:14" } }
+		"doesNotUnderstand:" : "kge 8/1/2022 18:52",
+		"object" : "kge 8/1/2022 19:20",
+		"object:" : "kge 8/1/2022 19:20",
+		"on:" : "kge 8/1/2022 18:52" } }
