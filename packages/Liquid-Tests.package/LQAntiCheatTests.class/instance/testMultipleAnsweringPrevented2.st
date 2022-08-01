@@ -5,7 +5,7 @@ testMultipleAnsweringPrevented2
 	
 	q1 := (self poll pollDraft questionList at: 1).
 	answerSet1 := LQAnswerSet new 
-		userpwd: self user1 pwd;
+		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
 
@@ -15,7 +15,7 @@ testMultipleAnsweringPrevented2
 		yourself).
 	
 	answerSet2 := LQAnswerSet new 
-		userpwd: self user1 pwd;
+		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
 	

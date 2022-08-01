@@ -9,7 +9,7 @@
 		"id",
 		"pollId",
 		"answers",
-		"userpwd" ],
+		"token" ],
 	"name" : "LQAnswerSet",
 	"pools" : [
 		 ],

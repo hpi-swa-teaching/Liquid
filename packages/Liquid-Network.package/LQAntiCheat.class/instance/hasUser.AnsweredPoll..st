@@ -1,3 +1,3 @@
 anti-cheat
 hasUser: aUser AnsweredPoll: aPoll
-	^ (aPoll answerSets select: [:answerSet | answerSet userpwd = aUser pwd]) isEmpty not
+	^ (aPoll answerSets select: [:answerSet | answerSet token = aUser token]) isEmpty not

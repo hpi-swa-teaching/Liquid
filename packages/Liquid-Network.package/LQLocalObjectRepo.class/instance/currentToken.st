@@ -1,4 +1,3 @@
 accessing
-currentPassword
-
+currentToken
 	^ currentPassword

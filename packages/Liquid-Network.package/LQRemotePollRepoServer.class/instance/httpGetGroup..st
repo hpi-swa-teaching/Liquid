@@ -11,6 +11,6 @@ httpGetGroup: req
 		ifFalse: [^self send401Response: req].
 	(poll requiresAuthentication)
 		ifTrue:[
-			user := (poll myUserSet getUserWithPassword: (req fields at: 'pwd')).
+			user := (poll myUserSet getUserWithToken: (req fields at: 'token')).
 			req send200Response: user group]
 		ifFalse:[req send200Response: '']

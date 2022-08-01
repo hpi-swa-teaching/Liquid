@@ -1,3 +1,3 @@
 accessing
-currentPassword: anObject
+currentToken: anObject
 	currentPassword := anObject

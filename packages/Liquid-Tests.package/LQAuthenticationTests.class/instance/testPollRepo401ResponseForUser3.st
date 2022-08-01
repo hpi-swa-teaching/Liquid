@@ -1,4 +1,4 @@
 tests
 testPollRepo401ResponseForUser3
-	LQPollRepo default currentPassword: self user3 pwd.
+	LQPollRepo default currentToken: self user3 token.
 	self assert: 401 equals: ((LQPollRepo default serverAt: self poll id) code)

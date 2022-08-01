@@ -4,7 +4,7 @@ testGroupBasedAnswerExclusionEnforced
 	
 	q1 := (self poll pollDraft questionList at: 1).
 	answerSet1 := LQAnswerSet new 
-		userpwd: self user1 pwd;
+		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
 
@@ -14,7 +14,7 @@ testGroupBasedAnswerExclusionEnforced
 		yourself).
 	
 	answerSet2 := LQAnswerSet new 
-		userpwd: self user2 pwd;
+		token: self user2 token;
 	 	pollId: (self poll id);
 		yourself.
 	

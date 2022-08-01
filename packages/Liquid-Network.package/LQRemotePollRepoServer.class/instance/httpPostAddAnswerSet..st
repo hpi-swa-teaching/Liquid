@@ -7,7 +7,7 @@ httpPostAddAnswerSet: req
 		ifFalse: [^self send401Response: req].
 		answerSet := STON fromString: req content.
 		(poll requiresAuthentication) ifTrue: [
-			user := (poll myUserSet getUserWithPassword: (req fields at: 'pwd')).
+			user := (poll myUserSet getUserWithToken: (req fields at: 'token')).
 			self addAnswerSet: answerSet FromUser: user ToPoll: poll.	]
 			ifFalse: [poll addAnswerSet: answerSet].
 

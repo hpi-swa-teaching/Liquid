@@ -1,3 +1,3 @@
 communication
 serverAt: key
-	^ WebClient httpGet: self url, '/?id=', key, '&pwd=', self currentPassword
+	^ WebClient httpGet: self url, '/?id=', key, '&token=', self currentToken

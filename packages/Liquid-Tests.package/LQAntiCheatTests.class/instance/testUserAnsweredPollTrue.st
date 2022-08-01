@@ -3,7 +3,7 @@ testUserAnsweredPollTrue
 	| answerSet |
 	
 	answerSet := LQAnswerSet new 
-		userpwd: self user1 pwd;
+		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
 	

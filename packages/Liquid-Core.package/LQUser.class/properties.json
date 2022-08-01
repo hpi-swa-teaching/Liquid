@@ -10,7 +10,7 @@
 		"surname",
 		"mail",
 		"group",
-		"pwd" ],
+		"token" ],
 	"name" : "LQUser",
 	"pools" : [
 		 ],

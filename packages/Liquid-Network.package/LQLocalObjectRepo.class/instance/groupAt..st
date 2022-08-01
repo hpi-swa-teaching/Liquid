@@ -2,5 +2,5 @@ accessing
 groupAt: aPollId
 	(self at: aPollId) requiresAuthentication
 		ifTrue: [
-			^ ((self at: aPollId) myUserSet getUserWithPassword: self currentPassword) group]
+			^ ((self at: aPollId) myUserSet getUserWithToken: self currentToken) group]
 		ifFalse: [^ 'nil']
