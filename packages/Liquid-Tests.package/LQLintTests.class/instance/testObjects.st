@@ -1,3 +1,0 @@
-accessing
-testObjects
-	^ testObjects
