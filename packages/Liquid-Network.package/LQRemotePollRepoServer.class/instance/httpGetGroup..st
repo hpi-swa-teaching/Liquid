@@ -5,10 +5,10 @@ httpGetGroup: req
 
 	id := (req fields at: 'id').
 	(self class pollRepo includesKey: id) 
-		ifFalse: [^ req send404Response];
-		ifTrue: [poll := (self class pollRepo at: id)].
+		ifFalse: [^ req send404Response].
+	poll := (self class pollRepo at: id).
 	(self request: req isAuthenticatedFor: poll)
-		ifFalse: [^self send401Response: req].
+		ifFalse: [^ self send401Response: req].
 	(poll requiresAuthentication)
 		ifTrue:[
 			user := (poll myUserSet getUserWithToken: (req fields at: 'token')).

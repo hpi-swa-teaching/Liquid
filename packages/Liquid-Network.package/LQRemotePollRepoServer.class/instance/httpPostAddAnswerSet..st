@@ -11,4 +11,4 @@ httpPostAddAnswerSet: req
 			self addAnswerSet: answerSet FromUser: user ToPoll: poll.	]
 			ifFalse: [poll addAnswerSet: answerSet].
 
-	^ req send200Response: (STON toString: True)
+	^ req send200Response: (STON toString: true)
