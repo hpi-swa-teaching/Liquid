@@ -3,7 +3,7 @@ testNormalAnsweringAllowed
 	
 	| answerSet1 answerSet2 q1 |
 	
-	q1 := (self poll pollDraft questionList at: 1).
+	q1 := (self poll pollDraft questionList first).
 	answerSet1 := LQAnswerSet new 
 		token: self user1 token;
 	 	pollId: (self poll id);
@@ -11,7 +11,7 @@ testNormalAnsweringAllowed
 
 	answerSet1 addAnswer: (LQChoicesAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {(q1 choiceList at: 2) description};
+		votedChoiceList: {(q1 choiceList second) description};
 		yourself).
 	
 	answerSet2 := LQAnswerSet new 
@@ -21,7 +21,7 @@ testNormalAnsweringAllowed
 	
 	answerSet2 addAnswer: (LQChoicesAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {(q1 choiceList at: 1) description};
+		votedChoiceList: {(q1 choiceList first) description};
 		yourself).
 	
 	self assert: ((LQAntiCheat new) is: answerSet1 FromUser: self user1 ValidFor: self poll).
