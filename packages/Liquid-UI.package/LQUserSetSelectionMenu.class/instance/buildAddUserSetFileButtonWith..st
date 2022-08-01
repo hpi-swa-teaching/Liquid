@@ -10,4 +10,4 @@ buildAddUserSetFileButtonWith: aBuilder
 			bottomFraction: 0.82; 
 			leftFraction: 0.1; 
 			rightFraction: 0.9)
-		yourself.
+		yourself

@@ -10,4 +10,4 @@ buildSelectUserSetButtonWith: aBuilder
 			bottomFraction: 0.9; 
 			leftFraction: 0.1; 
 			rightFraction: 0.9)
-		yourself.
+		yourself

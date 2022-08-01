@@ -7,4 +7,4 @@ createAnswerOneWith: aQuestion and: aPoll
 			votedChoiceList: {self q1c2};
 			yourself);
 		pollId: aPoll id;
-		yourself.
+		yourself

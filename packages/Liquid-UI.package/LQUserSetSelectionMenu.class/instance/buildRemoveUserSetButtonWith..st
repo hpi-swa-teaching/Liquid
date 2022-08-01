@@ -10,4 +10,4 @@ buildRemoveUserSetButtonWith: aBuilder
 			bottomFraction: 0.74; 
 			leftFraction: 0.1; 
 			rightFraction: 0.9)
-		yourself.
+		yourself

@@ -9,4 +9,4 @@ Join now!
 poll-id: {{poll-id}}
 Token: {{token}}
 
-Greetings'.
+Greetings'
