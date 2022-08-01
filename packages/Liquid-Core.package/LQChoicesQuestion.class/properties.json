@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "NM 7/9/2021 14:42",
 	"instvars" : [
+		"id",
+		"title",
 		"maxNumberOfChoices",
 		"choiceList" ],
 	"name" : "LQChoicesQuestion",
 	"pools" : [
 		 ],
-	"super" : "LQQuestion",
+	"super" : "Object",
 	"type" : "normal" }

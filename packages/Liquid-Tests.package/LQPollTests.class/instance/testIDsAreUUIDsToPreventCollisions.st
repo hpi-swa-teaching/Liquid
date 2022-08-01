@@ -14,7 +14,7 @@ testIDsAreUUIDsToPreventCollisions
 	pollID := LQPoll new id.
 	self assert: (UUID fromString: pollID) asString equals: pollID.
 	
-	questionID := LQQuestion new id.
+	questionID := LQChoicesQuestion new id.
 	self assert: (UUID fromString: questionID) asString equals: questionID.
 	
 	choicesQuestionID := LQChoicesQuestion new id.

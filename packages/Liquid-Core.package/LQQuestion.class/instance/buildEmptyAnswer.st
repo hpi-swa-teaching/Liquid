@@ -1,4 +1,0 @@
-initialize
-buildEmptyAnswer
-
-	self subclassResponsibility
