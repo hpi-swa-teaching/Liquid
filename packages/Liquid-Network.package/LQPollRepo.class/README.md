@@ -1,7 +1,7 @@
-An LQPollRepo is a singleton client for the LQRemotePollRepoServer. The Singleton manages the user's password.
+An LQPollRepo is a singleton client for the LQRemotePollRepoServer. The Singleton manages the user's token.
 
 Instance Variables
-	currentPassword <String>
+	token <String>
 	url <String>
 
 currentPassword - The user's password.	

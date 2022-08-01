@@ -1,5 +1,5 @@
 testing
-testAddAnswerSetPreventedByWrongPassword
+testAddAnswerSetPreventedByWrongToken
 	| answerSet1 q1 |
 	
 	q1 := (self poll pollDraft questionList at: 1).
