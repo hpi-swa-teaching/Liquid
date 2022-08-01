@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "NM 7/9/2021 14:13",
 	"instvars" : [
+		"id",
+		"questionId",
 		"votedChoiceList" ],
 	"name" : "LQChoicesAnswer",
 	"pools" : [
 		 ],
-	"super" : "LQAnswer",
+	"super" : "Object",
 	"type" : "normal" }
