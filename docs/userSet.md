@@ -5,7 +5,7 @@
 The _LQUserSet_ is a container containing LQUsers.
 It is referenced by a randomly generated ID.
 It encapsulates a collection of LQUsers and a title for the user set.
-The LQUsers themself contain a firstname, a surname, a group, a mail and a password.
+The LQUsers themself contain a firstname, a surname, a group, a mail and a token.
 A _LQUserSet_ can add itself to the LQUserSetRepo, where it is safed as a global state. 
 
 ## How can it be used?
@@ -19,13 +19,13 @@ user1 := LQUser new
     surname: 'musterfrau';
     mail: 'erika.mustermann@hotmail.com';
     group: 'group1';
-    pwd:'123';
+    token:'123';
     yourself.
 "Adding a user to the user set"
 LQUserSet new
          addUser: self user1.
 
-userSet containsUserWithPwd: '123' "true"
+userSet containsUserWithToken: '123' "true"
 ```
 
 ## Why did you build it?
