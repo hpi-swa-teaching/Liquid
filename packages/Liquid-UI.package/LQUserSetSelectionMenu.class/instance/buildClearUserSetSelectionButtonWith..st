@@ -9,5 +9,6 @@ buildClearUserSetSelectionButtonWith: aBuilder
 			topFraction: 0.91; 
 			bottomFraction: 0.98; 
 			leftFraction: 0.1; 
-			rightFraction: 0.9)
+			rightFraction: 0.9;
+			yourself);
 		yourself

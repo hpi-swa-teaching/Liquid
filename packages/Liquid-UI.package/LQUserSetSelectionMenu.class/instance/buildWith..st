@@ -10,4 +10,5 @@ buildWith: aBuilder
 			self buildRemoveUserSetButtonWith: aBuilder.
 			self buildAddUserSetFileButtonWith: aBuilder. 
 			self buildSelectUserSetButtonWith: aBuilder.
-			self buildClearUserSetSelectionButtonWith: aBuilder} yourself)
+			self buildClearUserSetSelectionButtonWith: aBuilder};
+		yourself)

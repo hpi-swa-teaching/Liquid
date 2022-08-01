@@ -9,4 +9,6 @@ buildUserSetLabelWith: aBuilder
 			topFraction: 0.10; 
 			bottomFraction: 0.15; 
 			leftFraction: 0.01; 
-			rightFraction: 0.24)
+			rightFraction: 0.24;
+			yourself);
+		yourself

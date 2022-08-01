@@ -10,6 +10,7 @@ buildUserSetListViewWith: aBuilder
 			topFraction: 0.1; 
 			bottomFraction: 0.65; 
 			leftFraction: 0.1; 
-			rightFraction: 0.9);
+			rightFraction: 0.9;
+			yourself);
 		yourself
 		

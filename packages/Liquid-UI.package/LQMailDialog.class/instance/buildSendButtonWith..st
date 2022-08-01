@@ -10,4 +10,6 @@ buildSendButtonWith: aBuilder
 			topFraction: 0.01; 
 			bottomFraction: 0.10; 
 			leftFraction: 0.01; 
-			rightFraction: 0.24)
+			rightFraction: 0.24;
+			yourself);
+		yourself

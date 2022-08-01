@@ -4,5 +4,5 @@ createFromFile: aFileStream withName: aString
 	
 	| userSet|
 	userSet := LQUserSet createFromFile: aFileStream.
-	userSet title: aString.
+	aString ifNotEmpty: [userSet title: aString].
 	^ userSet

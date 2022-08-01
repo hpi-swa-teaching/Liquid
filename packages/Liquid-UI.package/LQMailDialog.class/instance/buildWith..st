@@ -13,4 +13,5 @@ buildWith: aBuilder
 			self buildUserSetListViewWith: aBuilder.
 			self buildUserSetLabelWith: aBuilder.
 			self buildSendButtonWith: aBuilder.
-			} yourself)
+			};
+		yourself)

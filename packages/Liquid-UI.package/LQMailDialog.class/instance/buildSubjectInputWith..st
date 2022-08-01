@@ -11,4 +11,6 @@ buildSubjectInputWith: aBuilder
 			topFraction: 0.08; 
 			bottomFraction: 0.15; 
 			leftFraction: 0.25; 
-			rightFraction: 0.99)
+			rightFraction: 0.99;
+			yourself);
+		yourself
