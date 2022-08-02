@@ -9,5 +9,5 @@ printDataOn: aStream withDelimiter: aDelimiter
 		aStream nextPutAll: aDelimiter].
 	aStream nextPut: Character cr.
 	self answerSets do: [:answer |
-		answer printDataOn: aStream withOrder: orderedIds withDelimiter: aDelimiter.
+		answer printDataOn: aStream for: orderedIds with: aDelimiter.
 		aStream nextPut: Character cr]

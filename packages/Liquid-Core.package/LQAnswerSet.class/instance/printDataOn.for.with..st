@@ -1,5 +1,5 @@
 printing
-printDataOn: aStream withOrder: orderedQuesstionIDs withDelimiter: aDelimiter
+printDataOn: aStream for: orderedQuesstionIDs with: aDelimiter
 
 	orderedQuesstionIDs do: [:answerId |
 								self answers at: answerId ifPresent: [:printedAnswer | printedAnswer printDataOn: aStream].

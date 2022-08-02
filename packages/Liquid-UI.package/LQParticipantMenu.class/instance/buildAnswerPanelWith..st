@@ -1,12 +1,12 @@
 toolbuilder
 buildAnswerPanelWith: aBuilder
 
-	| answerPanel |
+	| temporaryAnswerPanel |
 	
-	answerPanel := LQAnswerPanel newWith: aBuilder.
-	self answerPanel: answerPanel.
+	temporaryAnswerPanel := LQAnswerPanel newWith: aBuilder.
+	self answerPanel: temporaryAnswerPanel.
 	self currentQuestionIndex: 1.
-	answerPanel question: self currentQuestion.
-	answerPanel exclusionMarker: (LQGroupExclusionMarker newFrom: self currentQuestion choiceList and: (LQPollRepo default groupAt: self poll id)).
-	self answerSet addAnswer: answerPanel answer.
-	^ answerPanel
+	temporaryAnswerPanel question: self currentQuestion.
+	temporaryAnswerPanel exclusionMarker: (LQGroupExclusionMarker newFrom: self currentQuestion choiceList and: (LQPollRepo default groupAt: self poll id)).
+	self answerSet addAnswer: temporaryAnswerPanel answer.
+	^ temporaryAnswerPanel
