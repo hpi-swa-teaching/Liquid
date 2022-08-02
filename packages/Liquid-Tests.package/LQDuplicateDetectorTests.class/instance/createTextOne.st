@@ -11,6 +11,6 @@ createTextOne
 	textStream nextPutAll: '!'.
 	textStream cr.
 	
-	^textStream contents
+	^ textStream contents
 
 

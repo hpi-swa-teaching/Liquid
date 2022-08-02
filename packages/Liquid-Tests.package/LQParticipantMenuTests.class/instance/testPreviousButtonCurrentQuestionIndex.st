@@ -5,4 +5,4 @@ testPreviousButtonCurrentQuestionIndex
 	self participantMenu previousQuestion.
 	self assert: self participantMenu currentQuestionIndex equals: 1.
 	self participantMenu previousQuestion.
-	self assert: self participantMenu currentQuestionIndex equals: 1.
+	self assert: self participantMenu currentQuestionIndex equals: 1

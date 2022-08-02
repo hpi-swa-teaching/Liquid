@@ -7,4 +7,4 @@ testNextButtonLabel
 				self assert: self participantMenu nextButtonLabel equals: 'Next'.
 				self participantMenu nextQuestion.].
 
-	self assert: self participantMenu nextButtonLabel equals: 'Send Answers'.
+	self assert: self participantMenu nextButtonLabel equals: 'Send Answers'

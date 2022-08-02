@@ -40,4 +40,4 @@ testTwoHundredUsers
 	
 	hostPoll := LQRemotePollRepoServer pollRepo at: pollId.
 	
-	self assert: target equals: hostPoll answerSets size.
+	self assert: target equals: hostPoll answerSets size

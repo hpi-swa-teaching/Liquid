@@ -1,3 +1,4 @@
 accessing
-objectsToTest: anObject
-	^ objectsToTest := anObject
+objectsToTest: aCollection
+
+	^ objectsToTest := aCollection

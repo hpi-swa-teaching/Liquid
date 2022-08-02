@@ -1,5 +1,6 @@
 testing
 testGroupBasedAnswerExclusionEnforced
+
 	| answerSet1 answerSet2 q1 |
 	
 	q1 := (self poll pollDraft questionList first).
@@ -25,4 +26,4 @@ testGroupBasedAnswerExclusionEnforced
 	
 	self deny: ((LQAntiCheat new) is: answerSet1 FromUser: self user1 ValidFor: self poll).
 	self poll addAnswerSet: answerSet1.
-	self deny: ((LQAntiCheat new) is: answerSet2 FromUser: self user2 ValidFor: self poll).
+	self deny: ((LQAntiCheat new) is: answerSet2 FromUser: self user2 ValidFor: self poll)

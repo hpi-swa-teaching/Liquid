@@ -1,3 +1,4 @@
 accessing
-participantMenu: anObject
-	participantMenu := anObject
+participantMenu: aParticipantMenu
+
+	participantMenu := aParticipantMenu

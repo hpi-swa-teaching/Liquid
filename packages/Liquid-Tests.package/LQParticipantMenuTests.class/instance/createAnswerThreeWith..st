@@ -1,6 +1,6 @@
 helper methods
 createAnswerThreeWith: aPoll
 
-	^LQAnswerSet new
+	^ LQAnswerSet new
 		pollId: aPoll id;
 		yourself

@@ -1,3 +1,4 @@
 accessing
-savedAnsweredPollIds: anObject
-	savedAnsweredPollIds := anObject
+savedAnsweredPollIds: aCollection
+
+	savedAnsweredPollIds := aCollection

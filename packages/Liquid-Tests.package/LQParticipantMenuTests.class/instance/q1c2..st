@@ -1,3 +1,4 @@
 accessing
-q1c2: anObject
-	q1c2 := anObject
+q1c2: aChoice
+
+	q1c2 := aChoice

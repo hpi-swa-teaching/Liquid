@@ -2,6 +2,7 @@ running
 setUp
 
 	| poll |
+	
 	super setUp.
 	self q1c1: (self createChoice1OfFirstQuestion).
 	self q1c2: (self createChoice2OfFirstQuestion).
@@ -19,4 +20,4 @@ setUp
 		yourself).
 	LQPollRepo default at: poll id ifPresent: [^ self fail] ifAbsentPut: poll.
 
-	ToolBuilder open: self participantMenu.
+	ToolBuilder open: self participantMenu

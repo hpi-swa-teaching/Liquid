@@ -1,5 +1,6 @@
 testing
 testPollSanitization
+
 	| answerSet1 q1 |
 	
 	q1 := (self poll pollDraft questionList first).

@@ -7,5 +7,5 @@ tearDown
 	LQRemotePollRepoServer pollRepo: self savedServerPollRepo.
 	LQRemotePollRepoServer serverActive: self wasServerActive.
 	LQPasswordManager default: self savedPasswordManager.
-	LQParticipantMenu answeredPollIds: self savedAnsweredPollIds.
+	LQParticipantMenu answeredPollIds: self savedAnsweredPollIds
 	

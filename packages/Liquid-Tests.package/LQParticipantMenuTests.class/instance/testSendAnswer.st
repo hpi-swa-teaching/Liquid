@@ -2,6 +2,7 @@ tests
 testSendAnswer
 
 	| poll q1 a1 participantMenu startMenu |
+	
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	q1 := self createQuestionOne.
 	poll pollDraft questionList add: q1.

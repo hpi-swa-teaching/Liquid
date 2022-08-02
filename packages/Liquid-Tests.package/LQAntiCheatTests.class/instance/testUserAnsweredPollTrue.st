@@ -1,5 +1,6 @@
 testing
 testUserAnsweredPollTrue
+
 	| answerSet |
 	
 	answerSet := LQAnswerSet new 

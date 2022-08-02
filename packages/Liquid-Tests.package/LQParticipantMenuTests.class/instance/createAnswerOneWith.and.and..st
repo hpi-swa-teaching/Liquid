@@ -1,7 +1,7 @@
 helper methods
 createAnswerOneWith: aQuestion and: anotherQuestion and: aPoll
 
-	^LQAnswerSet new
+	^ LQAnswerSet new
 		addAnswer: (LQChoicesAnswer new
 			questionId: aQuestion id;
 			votedChoiceList: {self q1c2};

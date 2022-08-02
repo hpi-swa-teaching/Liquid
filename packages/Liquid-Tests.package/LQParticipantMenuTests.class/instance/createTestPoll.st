@@ -15,4 +15,4 @@ createTestPoll
 	
 	LQPollRepo default: LQLocalObjectRepo new.
 	poll startWithId: 'some-id' ifTaken: [].
-	^poll
+	^ poll

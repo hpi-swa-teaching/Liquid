@@ -1,3 +1,4 @@
 accessing
-user3: anObject
-	user3 := anObject
+user3: aUser
+
+	user3 := aUser

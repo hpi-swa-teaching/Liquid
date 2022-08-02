@@ -2,6 +2,7 @@ tests
 testErrorHandling
 
 	| dummy |
+	
 	self client
 		at: 'thrower'
 		ifPresent: [self fail: 'Poll already exists']

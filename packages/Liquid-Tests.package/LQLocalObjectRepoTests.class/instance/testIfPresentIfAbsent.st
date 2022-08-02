@@ -2,6 +2,7 @@ tests
 testIfPresentIfAbsent
 
 	| presentCheck |
+	
 	presentCheck := false.
 	self client
 		at: 'newPoll'

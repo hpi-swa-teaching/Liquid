@@ -1,3 +1,4 @@
 accessing
-savedPollRepo: anObject
-	savedPollRepo := anObject
+savedPollRepo: anLQPollRepo
+
+	savedPollRepo := anLQPollRepo
