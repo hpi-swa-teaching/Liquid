@@ -1,7 +1,7 @@
 toolbuilder
 barChartFrame: bottomFraction
 	
-	^self
+	^ self
 		frame: bottomFraction
 		fromTop: 0
 		fromLeft: 0.25

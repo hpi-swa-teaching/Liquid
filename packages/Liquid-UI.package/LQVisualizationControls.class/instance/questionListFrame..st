@@ -1,7 +1,7 @@
 toolbuilder
 questionListFrame: bottomFraction
 	
-	^self
+	^ self
 		frame: bottomFraction
 		fromTop: 0
 		fromLeft: 0

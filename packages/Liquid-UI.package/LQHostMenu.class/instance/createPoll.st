@@ -5,4 +5,4 @@ createPoll
 
 	givenPollTitle := UIManager default request: 'Enter a title for your poll'.
 	(givenPollTitle = '') ifTrue:  [^ self].
-	ToolBuilder open: (LQPollDraftBuilder newWithTitle: givenPollTitle).
+	ToolBuilder open: (LQPollDraftBuilder newWithTitle: givenPollTitle)

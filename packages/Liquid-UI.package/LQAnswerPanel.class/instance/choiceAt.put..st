@@ -2,6 +2,7 @@ accessing
 choiceAt: anIndex put: aBoolean
 
 	| choice newSelectedChoices |
+	
 	choice := self choiceDescriptions at: anIndex ifAbsent: [^ self].
 	newSelectedChoices := aBoolean
 		ifTrue: [self selectedChoices copyWith: choice]

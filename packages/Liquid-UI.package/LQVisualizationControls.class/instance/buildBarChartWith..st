@@ -1,6 +1,8 @@
 toolbuilder
 buildBarChartWith: aBuilder
+
 	| pluggableScrollPaneSpec  |
+	
 	pluggableScrollPaneSpec := aBuilder pluggableScrollPaneSpec new.
 	pluggableScrollPaneSpec 
 		model: self;

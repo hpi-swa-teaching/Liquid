@@ -1,5 +1,6 @@
 accessing
 currentVisualization: aMorph
+
 	currentVisualization := aMorph.
 	self wrapperMorph submorphsDo: [:m | m delete].
 	aMorph position: 0@0.

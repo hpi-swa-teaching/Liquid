@@ -2,6 +2,7 @@ modifying
 closePoll
 
 	| pollId password |
+	
 	pollId := UIManager default request: 'Enter Poll ID'.
 	password := LQPasswordManager default
 		findPasswordFor: pollId

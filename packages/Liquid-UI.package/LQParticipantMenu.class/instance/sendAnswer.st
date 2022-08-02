@@ -2,6 +2,7 @@ modifying
 sendAnswer
 
 	| answerIsNew |
+	
 	answerIsNew := LQParticipantMenu answeredPollIds ifAbsentAdd: self poll id.
 	answerIsNew
 		ifTrue: [LQPollRepo default addAnswerSet: self answerSet ToPoll: self poll id ]

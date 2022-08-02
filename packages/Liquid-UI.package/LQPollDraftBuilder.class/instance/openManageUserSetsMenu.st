@@ -1,4 +1,4 @@
 toolbuilder
 openManageUserSetsMenu
 
-	LQUserSetSelectionMenu newWithPoll: self pollDraft.
+	LQUserSetSelectionMenu newWithPoll: self pollDraft

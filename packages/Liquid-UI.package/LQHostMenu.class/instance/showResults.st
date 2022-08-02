@@ -2,6 +2,7 @@ modifying
 showResults
 
 	| pollNameInput foundPoll |
+	
 	pollNameInput := UIManager default request: 'Enter Poll ID'.
 	pollNameInput ifEmpty: [^ self].
 	foundPoll := LQRemotePollRepoServer pollRepo

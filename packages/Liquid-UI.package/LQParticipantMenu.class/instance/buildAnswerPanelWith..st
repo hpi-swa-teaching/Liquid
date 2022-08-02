@@ -2,6 +2,7 @@ toolbuilder
 buildAnswerPanelWith: aBuilder
 
 	| answerPanel |
+	
 	answerPanel := LQAnswerPanel newWith: aBuilder.
 	self answerPanel: answerPanel.
 	self currentQuestionIndex: 1.

@@ -2,6 +2,7 @@ toolbuilder
 buildWith: builder
 
 	| windowSpec |
+	
 	windowSpec := self buildWindowWith: builder specs: {
 		(self questionListFrame) -> [self buildQuestionListWith: builder].
 		(self questionBuilderFrame) -> 

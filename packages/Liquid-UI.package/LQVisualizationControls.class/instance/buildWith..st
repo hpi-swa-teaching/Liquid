@@ -1,6 +1,8 @@
 toolbuilder
 buildWith: builder
+
 	| max windowSpec |
+	
 	max := 1.
 
 	windowSpec := self buildWindowWith: builder specs: {

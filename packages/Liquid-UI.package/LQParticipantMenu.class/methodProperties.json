@@ -4,11 +4,11 @@
 		"answeredPollIds:" : "NM 7/30/2021 19:33",
 		"open" : "CG 7/30/2021 19:06" },
 	"instance" : {
-		"answerPanel" : "ape 5/14/2022 10:08",
-		"answerPanel:" : "ape 5/14/2022 10:08",
+		"answerPanel" : "bn 8/2/2022 18:06",
+		"answerPanel:" : "bn 8/2/2022 18:06",
 		"answerSet" : "ape 5/14/2022 10:28",
 		"answerSet:" : "ape 5/14/2022 10:28",
-		"buildAnswerPanelWith:" : "ms 7/14/2022 21:46",
+		"buildAnswerPanelWith:" : "bn 8/2/2022 18:06",
 		"buildNextQuestionButtonWith:" : "kge 8/1/2022 20:57",
 		"buildPreviousQuestionButtonWith:" : "kge 8/1/2022 20:58",
 		"buildQuestionCounterWith:" : "kge 8/1/2022 20:58",
@@ -25,4 +25,4 @@
 		"previousButtonEnabled" : "bn 8/2/2022 16:56",
 		"previousQuestion" : "ms 6/8/2022 15:49",
 		"questionCounterText" : "bn 8/2/2022 16:56",
-		"sendAnswer" : "kge 8/1/2022 18:57" } }
+		"sendAnswer" : "bn 8/2/2022 18:07" } }

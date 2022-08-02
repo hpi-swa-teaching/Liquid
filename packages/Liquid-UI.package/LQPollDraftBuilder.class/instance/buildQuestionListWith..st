@@ -2,6 +2,7 @@ toolbuilder
 buildQuestionListWith: aBuilder
 
 	| listSpec |
+	
 	listSpec := aBuilder pluggableListSpec new.
 	listSpec 
 		model: self;
