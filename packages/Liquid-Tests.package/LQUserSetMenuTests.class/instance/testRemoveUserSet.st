@@ -2,6 +2,7 @@ testing
 testRemoveUserSet
 
 	| previousSize |
+	
 	self userSet addToRepo.
 	previousSize := self userSetMenu userSets size.
 	self userSetMenu choiceSelected: 1.

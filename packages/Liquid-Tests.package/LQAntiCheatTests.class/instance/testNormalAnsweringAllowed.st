@@ -24,7 +24,7 @@ testNormalAnsweringAllowed
 		votedChoiceList: {(q1 choiceList first) description};
 		yourself).
 	
-	self assert: ((LQAntiCheat new) is: answerSet1 FromUser: self user1 ValidFor: self poll).
+	self assert: ((LQAntiCheat new) is: answerSet1 From: self user1 ValidFor: self poll).
 	self poll addAnswerSet: answerSet1.
-	self assert: ((LQAntiCheat new) is: answerSet2 FromUser: self user2 ValidFor: self poll)
+	self assert: ((LQAntiCheat new) is: answerSet2 From: self user2 ValidFor: self poll)
 	

@@ -1,7 +1,7 @@
 running
 setUp
 
-	| poll |
+	| temporaryPoll |
 	
 	super setUp.
 	self q1c1: (self createChoice1OfFirstQuestion).
@@ -12,12 +12,12 @@ setUp
 	self q1: (self createQuestionOne).
 	self q2: (self createQuestionTwo).
 	
-	poll := self createTestPoll.
+	temporaryPoll := self createTestPoll.
 	
 	self participantMenu: (LQParticipantMenu new
-		poll: poll;
-		answerSet: (LQAnswerSet new pollId: (poll id));
+		poll: temporaryPoll;
+		answerSet: (LQAnswerSet new pollId: (temporaryPoll id));
 		yourself).
-	LQPollRepo default at: poll id ifPresent: [^ self fail] ifAbsentPut: poll.
+	LQPollRepo default at: temporaryPoll id ifPresent: [^ self fail] ifAbsentPut: temporaryPoll.
 
 	ToolBuilder open: self participantMenu

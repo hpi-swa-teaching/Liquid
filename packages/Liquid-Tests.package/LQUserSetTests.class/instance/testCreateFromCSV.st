@@ -13,6 +13,6 @@ Ash,Ketchum,ash@mail.com,Rocket'.
 
 	userSet2 := LQUserSet createFromFile: stream.
 	
-	1 to: userSet1 userEntries size do: 
+	1 to: 2 do: 
 		[:i | 
 		self assert: (self compareUser1: (userSet1 userEntries at: i) user2: (userSet2 userEntries at: i))]

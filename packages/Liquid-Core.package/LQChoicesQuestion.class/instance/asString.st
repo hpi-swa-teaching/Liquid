@@ -1,4 +1,4 @@
-accessing
+converting
 asString
 	
 	self title ifNil: [^ 'Untitled Question'].

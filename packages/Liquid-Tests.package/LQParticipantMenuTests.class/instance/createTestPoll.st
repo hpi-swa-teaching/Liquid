@@ -1,18 +1,19 @@
 helper methods
 createTestPoll
 
-	| poll q1 q2 |
-	poll := LQPoll newWithPollDraft: LQPollDraft new.
-	q1 := self createQuestionOne.
-	q2 := self createQuestionTwo.
+	| temporaryPoll question1 question2 |
 	
-	poll pollDraft questionList
-		add: q1;
-		add: q2.
+	temporaryPoll := LQPoll newWithPollDraft: LQPollDraft new.
+	question1 := self createQuestionOne.
+	question2 := self createQuestionTwo.
+	
+	temporaryPoll pollDraft questionList
+		add: question1;
+		add: question2.
 		
-	self createAnswerOneWith: q1 and: q2 and: poll.
-	self createAnswerTwoWith: q2 and: poll.
+	self createAnswerOneWith: question1 and: question2 and: temporaryPoll.
+	self createAnswerTwoWith: question2 and: temporaryPoll.
 	
 	LQPollRepo default: LQLocalObjectRepo new.
-	poll startWithId: 'some-id' ifTaken: [].
-	^ poll
+	temporaryPoll startWithId: 'some-id' ifTaken: [].
+	^ temporaryPoll
