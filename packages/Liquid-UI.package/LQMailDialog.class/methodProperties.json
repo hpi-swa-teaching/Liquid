@@ -1,9 +1,9 @@
 {
 	"class" : {
-		"defaultMailText" : "kge 8/1/2022 18:39",
+		"defaultMailText" : "bn 8/2/2022 16:53",
 		"defaultSender" : "ms 7/4/2022 20:14",
-		"defaultSubject" : "ms 7/3/2022 22:58",
-		"mailTextInputName" : "ms 7/5/2022 19:09",
+		"defaultSubject" : "bn 8/2/2022 16:53",
+		"mailTextInputName" : "bn 8/2/2022 16:53",
 		"openWithPoll:" : "ms 7/3/2022 21:16" },
 	"instance" : {
 		"buildMailTextInputWith:" : "kge 8/1/2022 20:50",
@@ -15,9 +15,9 @@
 		"buildUserSetListViewWith:" : "kge 8/1/2022 20:53",
 		"buildWith:" : "kge 8/1/2022 20:53",
 		"closeProgressBar" : "ms 7/7/2022 10:46",
-		"injectPollDataInto:" : "ms 7/4/2022 19:19",
-		"injectUserDataFrom:into:" : "ms 7/4/2022 19:11",
-		"mailMorph" : "kge 8/1/2022 19:51",
+		"injectPollDataInto:" : "bn 8/2/2022 16:54",
+		"injectUserDataFrom:into:" : "bn 8/2/2022 16:54",
+		"mailMorph" : "bn 8/2/2022 16:54",
 		"mailSender" : "kge 7/21/2022 22:50",
 		"mailSender:" : "kge 7/21/2022 22:50",
 		"mailSubject" : "kge 7/21/2022 22:51",
@@ -28,12 +28,12 @@
 		"poll:" : "kge 7/21/2022 22:51",
 		"progressBar" : "kge 7/21/2022 22:51",
 		"progressBar:" : "kge 7/21/2022 22:51",
-		"rawMailText" : "kge 7/21/2022 22:51",
+		"rawMailText" : "bn 8/2/2022 16:55",
 		"rawMailText:" : "kge 7/21/2022 22:52",
 		"replacementList" : "ms 7/4/2022 19:21",
 		"replacementSelectedIndex:" : "ms 7/5/2022 19:26",
 		"sendMailFor:" : "kge 7/21/2022 22:53",
 		"sendMails" : "ms 7/7/2022 10:46",
 		"updateProgressBarWithCompleted:" : "kge 7/21/2022 22:54",
-		"userSetData" : "kge 8/1/2022 19:52",
-		"userSetLabelText" : "kge 7/21/2022 22:54" } }
+		"userSetData" : "bn 8/2/2022 16:55",
+		"userSetLabelText" : "bn 8/2/2022 16:55" } }

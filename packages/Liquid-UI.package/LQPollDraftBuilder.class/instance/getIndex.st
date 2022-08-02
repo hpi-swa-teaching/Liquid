@@ -1,4 +1,4 @@
 accessing
 getIndex
 
-	^self currentQuestion
+	^ self currentQuestion

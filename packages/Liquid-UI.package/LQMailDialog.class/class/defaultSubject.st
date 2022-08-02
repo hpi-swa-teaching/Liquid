@@ -1,4 +1,4 @@
 defaults
 defaultSubject
 
-	^'Liquid Poll Invitation'
+	^ 'Liquid Poll Invitation'

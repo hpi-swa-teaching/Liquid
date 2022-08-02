@@ -1,7 +1,7 @@
 toolbuilder
 buildRemoveUserSetButtonWith: aBuilder
 
-	^aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Remove User Set';
 		action: #removeSelectedUserSet;

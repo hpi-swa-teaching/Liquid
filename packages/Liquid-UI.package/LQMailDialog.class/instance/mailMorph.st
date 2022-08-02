@@ -1,6 +1,6 @@
 toolbuilder
 mailMorph
 
-	^self dependents 
+	^ self dependents 
 		detect: [:dependent | (dependent knownName = self class mailTextInputName)]
 		ifNone: [nil]

@@ -1,7 +1,7 @@
 toolbuilder
 buildSelectUserSetButtonWith: aBuilder
 
-	^aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Select User Set';
 		action: #selectUserSet;

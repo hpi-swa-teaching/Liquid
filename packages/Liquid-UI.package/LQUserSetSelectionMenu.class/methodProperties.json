@@ -2,12 +2,12 @@
 	"class" : {
 		"newWithPoll:" : "ms 6/20/2022 12:48" },
 	"instance" : {
-		"buildAddUserSetFileButtonWith:" : "kge 8/1/2022 20:54",
-		"buildClearUserSetSelectionButtonWith:" : "kge 8/1/2022 20:54",
-		"buildRemoveUserSetButtonWith:" : "kge 8/1/2022 20:55",
-		"buildSelectUserSetButtonWith:" : "kge 8/1/2022 20:55",
+		"buildAddUserSetFileButtonWith:" : "bn 8/2/2022 17:05",
+		"buildClearUserSetSelectionButtonWith:" : "bn 8/2/2022 17:05",
+		"buildRemoveUserSetButtonWith:" : "bn 8/2/2022 17:05",
+		"buildSelectUserSetButtonWith:" : "bn 8/2/2022 17:05",
 		"buildWith:" : "kge 8/1/2022 20:48",
-		"clearSelection" : "ms 6/20/2022 12:52",
-		"pollDraft" : "ms 6/19/2022 21:15",
-		"pollDraft:" : "ape 6/22/2022 15:45",
+		"clearSelection" : "bn 8/2/2022 17:05",
+		"pollDraft" : "bn 8/2/2022 17:06",
+		"pollDraft:" : "bn 8/2/2022 17:06",
 		"selectUserSet" : "kge 8/1/2022 19:04" } }

@@ -1,7 +1,7 @@
 toolbuilder
 buildAddUserSetFileButtonWith: aBuilder
 
-	^aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Add User Set';
 		action: #openUserSetFileDialog;

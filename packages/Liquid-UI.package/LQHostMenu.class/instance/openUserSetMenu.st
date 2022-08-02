@@ -1,4 +1,4 @@
 modifying
 openUserSetMenu
 
-	LQUserSetMenu open.
+	LQUserSetMenu open

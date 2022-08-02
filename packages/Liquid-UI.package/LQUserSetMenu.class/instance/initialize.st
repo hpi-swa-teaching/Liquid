@@ -2,4 +2,4 @@ initialize
 initialize
 
 	super initialize.
-	self choiceSelected: 0.
+	self choiceSelected: 0

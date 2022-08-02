@@ -1,7 +1,7 @@
 toolbuilder
 runPollButtonFrame
 	
-	^self
+	^ self
 		frame: 1
 		fromTop: 0.925
 		fromLeft: 0.25
