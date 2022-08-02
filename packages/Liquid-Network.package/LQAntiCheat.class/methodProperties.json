@@ -2,6 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"is:FromUser:ValidFor:" : "JT 8/2/2022 18:04",
+		"is:FromUser:ValidFor:" : "bn 8/2/2022 18:24",
 		"isAnswer:FromUser:ValidForQuestionId:InPoll:" : "JT 8/2/2022 18:05",
 		"isVotedChoice:FromUser:ValidForQuestion:" : "JT 8/2/2022 18:05" } }

@@ -15,7 +15,7 @@
 		"testClassVariableCapitzlization" : "psi 5/26/2021 20:47",
 		"testClassVariableNamesSpelling" : "psi 5/26/2021 20:48",
 		"testInstanceVariableNamesSpelling" : "kge 7/21/2022 14:56",
-		"testLongMethodsWithoutEmptyLines" : "kge 6/26/2022 20:57",
+		"testLongMethodsWithoutEmptyLines" : "bn 8/2/2022 18:22",
 		"testNoAsOrderedCollectionAsArrayNotNeeded" : "psi 5/26/2021 20:50",
 		"testNoAssignmentInsideUnwindBlocksShouldBeOutside" : "psi 5/26/2021 20:50",
 		"testNoAssignmentWithoutEffect" : "CG 7/30/2021 19:06",

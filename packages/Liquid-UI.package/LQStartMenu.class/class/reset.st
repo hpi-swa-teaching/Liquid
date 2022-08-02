@@ -3,7 +3,8 @@ reset
 
 	LQUserSetRepo default: nil.
 	LQPollRepo default: nil.
-	LQRemotePollRepoServer pollRepo: nil.
+	LQRemotePollRepoServer resetPollRepo.
 	LQRemotePollRepoServer startServer.
 	LQParticipantMenu answeredPollIds: nil.
 	LQPasswordManager default: nil
+	
