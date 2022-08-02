@@ -1,4 +1,4 @@
-opening
+reseting
 reset
 
 	LQUserSetRepo default: nil.
