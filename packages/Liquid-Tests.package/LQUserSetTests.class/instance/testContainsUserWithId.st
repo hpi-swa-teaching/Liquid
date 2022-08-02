@@ -1,5 +1,6 @@
 tests
 testContainsUserWithId
+
 	| userSet |
 	
 	userSet := LQUserSet new

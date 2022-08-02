@@ -1,4 +1,9 @@
 supporting
 createUser2
 
-	^ LQUser new firstname: 'Ash'; surname: 'Ketchum'; mail: 'ash@mail.com'; group: 'Rocket'; yourself
+	^ LQUser new
+		firstname: 'Ash';
+		surname: 'Ketchum';
+		mail: 'ash@mail.com';
+		group: 'Rocket';
+		yourself

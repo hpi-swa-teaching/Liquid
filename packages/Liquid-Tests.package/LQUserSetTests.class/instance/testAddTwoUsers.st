@@ -3,8 +3,6 @@ testAddTwoUsers
 
 	| userSet |
 	
-	"user1 := self createUser1.
-	user2 := self createUser2."
 	userSet := LQUserSet new
 		addUser: self user1;
 		addUser: self user2;

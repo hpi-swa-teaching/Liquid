@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self userSetMenu pollDraft: LQPollDraft new.
+	self userSetMenu pollDraft: LQPollDraft new

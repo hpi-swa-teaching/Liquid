@@ -1,5 +1,6 @@
 security
 sanitizePoll: aPoll
+
 	| sanitizedPoll |
 	
 	sanitizedPoll := STON fromString: (STON toString: aPoll).

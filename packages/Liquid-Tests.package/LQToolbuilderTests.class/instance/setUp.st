@@ -21,6 +21,6 @@ setUp
 	self poll: (LQPoll newWithPollDraft: (self pollDraft)).
 	
 	self poll id: 'this-is-a-poll-id'.
-	self poll startWithId: 'this-is-a-poll-id' ifTaken: [].
+	self poll startWithId: 'this-is-a-poll-id' ifTaken: []
 
 	

@@ -1,7 +1,7 @@
 request handlers
 httpGetGroup: req
 
-	| poll id user|
+	| poll id user |
 
 	id := (req fields at: 'id').
 	(self class pollRepo includesKey: id) 

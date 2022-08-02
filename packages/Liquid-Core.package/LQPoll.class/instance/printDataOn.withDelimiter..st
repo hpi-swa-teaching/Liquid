@@ -2,6 +2,7 @@ printing
 printDataOn: aStream withDelimiter: aDelimiter
 
 	| orderedIds |
+	
 	orderedIds := self pollDraft questionList collect: [:aQuestion | aQuestion id].
 	self pollDraft questionList do: [:aQuestion |
 		aStream nextPutAll: aQuestion title.

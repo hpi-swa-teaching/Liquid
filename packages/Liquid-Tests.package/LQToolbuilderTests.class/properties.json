@@ -11,5 +11,5 @@
 	"name" : "LQToolbuilderTests",
 	"pools" : [
 		 ],
-	"super" : "LQUIComponentTests",
+	"super" : "LQTestCase",
 	"type" : "normal" }

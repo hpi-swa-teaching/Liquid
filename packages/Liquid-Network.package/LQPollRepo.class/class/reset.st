@@ -1,4 +1,4 @@
 accessing
 reset
 
-	self default: nil.
+	self default: nil

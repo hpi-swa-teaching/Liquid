@@ -1,5 +1,6 @@
 setup
 setUp
+
 	| question1 |
 	
 	super setUp.
@@ -12,4 +13,4 @@ setUp
 		choiceList: {'Q1A1'. 'Q1A2'};
 		yourself.
 	
-	self poll pollDraft questionList add: question1.
+	self poll pollDraft questionList add: question1

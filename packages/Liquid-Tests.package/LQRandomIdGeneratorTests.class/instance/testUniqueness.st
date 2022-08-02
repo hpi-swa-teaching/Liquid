@@ -1,5 +1,6 @@
 tests
 testUniqueness
+
 	| generator |
 	
 	generator := LQPollIdGenerator new.

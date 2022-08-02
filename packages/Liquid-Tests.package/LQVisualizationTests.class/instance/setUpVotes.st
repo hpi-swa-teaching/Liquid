@@ -1,5 +1,6 @@
 initialize-release
 setUpVotes
+
 	| answerSet |
 	
 	answerSet := LQAnswerSet new.

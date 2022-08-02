@@ -2,6 +2,7 @@ tests
 testPasswordGuard
 
 	| guard |
+	
 	guard := LQPasswordGuard newWithPassword: 'pikachu'.
 	self assert: (guard isValid: 'pikachu').
 	self deny: (guard isValid: 'raiku').

@@ -1,5 +1,6 @@
 initialize-release
 setUp
+
 	super setUp.
 	
 	self setUpPoll.

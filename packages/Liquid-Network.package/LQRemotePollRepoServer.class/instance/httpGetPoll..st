@@ -2,6 +2,7 @@ request handlers
 httpGetPoll: req
 
 	| poll id pollToSend |
+	
 	id := (req fields at: 'id').
 	(self class pollRepo includesKey: id) 
 		ifFalse: [^ req send404Response].

@@ -2,17 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"poll" : "bwe 6/26/2022 14:03",
-		"poll:" : "bwe 6/26/2022 14:03",
-		"pollDraft" : "bwe 6/26/2022 14:04",
-		"pollDraft:" : "bwe 6/26/2022 14:04",
-		"setUp" : "kge 6/26/2022 22:12",
-		"testAnswerPanelCanBeBuilt" : "bwe 6/26/2022 14:46",
+		"poll" : "JT 8/2/2022 17:43",
+		"poll:" : "JT 8/2/2022 17:43",
+		"pollDraft" : "JT 8/2/2022 17:43",
+		"pollDraft:" : "JT 8/2/2022 17:43",
+		"setUp" : "JT 8/2/2022 17:43",
 		"testHostMenuCanBeBuilt" : "bwe 6/26/2022 13:48",
 		"testParticipantMenuCanBeBuilt" : "bwe 6/26/2022 14:23",
-		"testPollDraftBuilderCanBeBuilt" : "bwe 6/26/2022 14:45",
 		"testResultsViewCanBeBuilt" : "bwe 6/27/2022 00:12",
 		"testRunningPollViewCanBeBuilt" : "kge 6/27/2022 09:12",
 		"testStartMenuCanBeBuilt" : "bwe 6/26/2022 13:51",
-		"testUserSetMenuCanBeBuilt" : "bwe 6/26/2022 13:52",
-		"testVisualizationControlsCanBeBuilt" : "bwe 6/26/2022 14:46" } }
+		"testUserSetMenuCanBeBuilt" : "bwe 6/26/2022 13:52" } }

@@ -1,5 +1,6 @@
 tests
 testCopyIdButton
+
 	| runningPollView |
 	
 	runningPollView := LQRunningPollView newWithPoll: self poll.

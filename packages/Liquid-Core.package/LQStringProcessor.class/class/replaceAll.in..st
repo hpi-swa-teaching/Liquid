@@ -2,6 +2,7 @@ replacing
 replaceAll: aDictionary in: aString
 	
 	| result |
+	
 	result := aString asString.
 	aDictionary keysAndValuesDo: [:key :value|
 		value ifNil: [value := 'Undefined'].

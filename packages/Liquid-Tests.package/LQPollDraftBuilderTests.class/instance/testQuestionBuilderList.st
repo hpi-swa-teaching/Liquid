@@ -1,7 +1,7 @@
 testing
 testQuestionBuilderList
 
-	|b1 b2 b3|
+	| b1 b2 b3 |
 	
 	b1 := LQQuestionBuilder new.
 	b2 := LQQuestionBuilder new.

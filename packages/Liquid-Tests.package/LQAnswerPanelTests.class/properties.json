@@ -10,5 +10,5 @@
 	"name" : "LQAnswerPanelTests",
 	"pools" : [
 		 ],
-	"super" : "LQUIComponentTests",
+	"super" : "LQTestCase",
 	"type" : "normal" }

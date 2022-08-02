@@ -1,5 +1,6 @@
 helper methods
 createPoll
+
 	| poll |
 	
 	poll:= (LQPoll newWithPollDraft: LQPollDraft new).

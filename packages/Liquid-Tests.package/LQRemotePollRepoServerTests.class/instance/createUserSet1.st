@@ -7,4 +7,4 @@ createUserSet1
 		addUser: self user1;
 		addUser: self user2;
 		yourself).
-	self userSet addToRepo.
+	self userSet addToRepo

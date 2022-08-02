@@ -1,6 +1,5 @@
 request handlers
 send401Response: request
-	"Send a 401 unauthorized"
 
 	| message |
 	message := '<html><head><title>401 Unauthorized</title></head></html>'.

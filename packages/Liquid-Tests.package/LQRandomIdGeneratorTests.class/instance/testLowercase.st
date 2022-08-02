@@ -1,5 +1,6 @@
 tests
 testLowercase
+
 	| generator generatedPollId |
 	
 	generator := LQPollIdGenerator new.
