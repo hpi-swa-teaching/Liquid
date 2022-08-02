@@ -1,6 +1,7 @@
 wordstorage
 storedVerbs
-	^{
+
+	^ {
 		'loves'. 
 		'enjoys'. 
 		'uses'.

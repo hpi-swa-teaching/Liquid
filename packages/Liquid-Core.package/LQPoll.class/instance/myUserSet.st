@@ -1,4 +1,4 @@
 printing
 myUserSet
 
-	^(LQUserSetRepo default at: (self userSetID))
+	^ (LQUserSetRepo default at: (self userSetID))

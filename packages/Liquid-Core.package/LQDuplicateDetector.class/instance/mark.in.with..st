@@ -14,4 +14,4 @@ mark: aCollection in: aChoiceList with: aTextColor
 				ifFalse: [textStream nextPutAll: item rawString].
 			textStream cr].
 		
-	^textStream contents
+	^ textStream contents

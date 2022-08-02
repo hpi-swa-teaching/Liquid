@@ -1,4 +1,4 @@
-as yet unclassified
+replacing
 replaceAll: aDictionary in: aString
 	
 	| result |
@@ -7,4 +7,4 @@ replaceAll: aDictionary in: aString
 		value ifNil: [value := 'Undefined'].
 		[(result findString: key) == 0] 
 				whileFalse: [result := result copyReplaceAll: key with: value.]].
-	^result
+	^ result
