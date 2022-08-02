@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "kge 8/1/2022 18:47",
 	"instvars" : [
+		"builder",
 		"question",
 		"answer",
 		"selectedChoices",
@@ -14,5 +15,5 @@
 	"name" : "LQAnswerPanel",
 	"pools" : [
 		 ],
-	"super" : "LQUIComponent",
+	"super" : "PluggablePanelSpec",
 	"type" : "normal" }
