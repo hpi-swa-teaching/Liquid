@@ -9,7 +9,7 @@ sendMails
 	countCompleted := 0.
 	self openProgressBar.
 	
-	[self poll myUserSet userEntries do:	 
+	[self poll userEntries do:	 
 			[:user | 
 			countCompleted := countCompleted + 1.
 			self updateProgressBarWithCompleted: countCompleted.

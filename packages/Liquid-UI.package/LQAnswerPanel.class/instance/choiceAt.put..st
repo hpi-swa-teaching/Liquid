@@ -8,7 +8,7 @@ choiceAt: anIndex put: aBoolean
 		ifTrue: [self selectedChoices copyWith: choice]
 		ifFalse: [self selectedChoices copyWithout: choice].
 	
-	(newSelectedChoices size <= self question maxNumberOfChoices and: [(self exclusionMarker excludes: anIndex) not]) ifTrue: [
+	(self isValidSelection: newSelectedChoices ForChoiceAt: anIndex) ifTrue: [
 		self selectedChoices: newSelectedChoices.
 		self updateAnswer].
 	self changed: #getRemainingVotedChoices.

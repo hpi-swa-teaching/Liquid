@@ -1,4 +1,4 @@
 anti-cheat
 isVotedChoice: votedChoice FromUser: aUser ValidForQuestion: question
 
-	^ ((((question choiceList select: [:choice | choice description = votedChoice]) first ) excludedGroups) includes: aUser group) not
+	^ question choiceList noneSatisfy: [:choice | (choice description = votedChoice) and: [choice excludesGroup: aUser group]]

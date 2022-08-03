@@ -1,6 +1,6 @@
 toolbuilder
 nextButtonLabel
 
-	(self currentQuestionIndex >= self poll pollDraft questionList size) 
+	(self currentQuestionIndex >= self poll questionList size) 
 		ifTrue: [^ 'Send Answers'].
 	^ 'Next'

@@ -1,16 +1,17 @@
 request handlers
 httpGetGroup: req
 
-	| poll id user |
+	| poll id user token|
 
 	id := (req fields at: 'id').
-	(self class pollRepo includesKey: id) 
+	(self hasPollWithId: id) 
 		ifFalse: [^ req send404Response].
-	poll := (self class pollRepo at: id).
+	poll := self pollWithId: id.
 	(self request: req isAuthenticatedFor: poll)
 		ifFalse: [^ self send401Response: req].
+	token := (req fields at: 'token').
 	(poll requiresAuthentication)
 		ifTrue:[
-			user := (poll myUserSet getUserWithToken: (req fields at: 'token')).
+			user := (poll myUserWithToken: token).
 			req send200Response: user group]
 		ifFalse:[req send200Response: '']

@@ -1,4 +1,4 @@
 accessing
 currentQuestion
 
-	^ self poll pollDraft questionList at: self currentQuestionIndex
+	^ self poll questionList at: self currentQuestionIndex

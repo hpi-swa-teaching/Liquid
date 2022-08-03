@@ -1,4 +1,4 @@
 accessing
 questionList
 
-	^ self poll pollDraft questionList collect: [:question | question title]
+	^ self poll questionList collect: [:question | question title]

@@ -1,4 +1,4 @@
 modifying
 userSetData
 
-	^ self poll myUserSet userEntries collect: [:user | user mail]
+	^ self poll userEntries collect: [:user | user mail]

@@ -1,6 +1,6 @@
 request handlers
 httpGet: req
 
-	(req fields includesKey: 'message') ifFalse: [^self httpGetPoll: req].
-	((req fields at: 'message') = 'getGroup') ifTrue: [^self httpGetGroup: req]
+	(self isPollGetRequest: req) ifTrue: [^self httpGetPoll: req].
+	(self isGroupGetRequest: req) ifTrue: [^self httpGetGroup: req]
 	
