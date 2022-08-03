@@ -39,6 +39,12 @@ For the poll results, press "Show results" and input the respective poll id.
 
 Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose one or multiple answers and push the send button.
 
+## Tests
+We tested the application via:
+- Integration Tests (can be found in `Liquid-Tests`-package)
+- Unit Tests (can be found in `Liquid-Tests`-package)
+- Use Case Tests (can be found in [Use Case Test Specification](https://github.com/hpi-swa-teaching/Liquid/blob/develop/docs/UseCases.md))
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
