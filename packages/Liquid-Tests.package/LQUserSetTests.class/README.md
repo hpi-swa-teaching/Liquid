@@ -1,4 +1,4 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQUserSetTests is a class containing the tests for the class LQUserSet in Liquid-Core.
 Instance Variables
 	user1:		<Object>
 	user2:		<Object>

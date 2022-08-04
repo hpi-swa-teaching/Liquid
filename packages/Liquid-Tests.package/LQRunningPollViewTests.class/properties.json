@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bn 8/4/2022 18:30",
+	"commentStamp" : "bn 8/4/2022 19:02",
 	"instvars" : [
 		"poll" ],
-	"name" : "LQPollCreationTests",
+	"name" : "LQRunningPollViewTests",
 	"pools" : [
 		 ],
 	"super" : "LQTestCase",

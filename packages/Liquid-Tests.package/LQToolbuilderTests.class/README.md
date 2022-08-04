@@ -1,4 +1,4 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQToolbuilderTests is a class containing tests whether various Liquid-UI classes can be built with the toolbuilder.
 
 Instance Variables
 	poll:		<Object>

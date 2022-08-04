@@ -1,4 +1,4 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQMailTests is a class containing the tests for the class LQMailDialog in Liquid-UI and the general process of sending mails.
 
 Instance Variables
 	mailDialog:		<Object>

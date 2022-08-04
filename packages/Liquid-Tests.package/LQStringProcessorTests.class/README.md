@@ -1,3 +1,3 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQStringProcessorTests is a class containing the tests for the class LQStringProcessor in Liquid-Core.
 
 Instance Variables

@@ -1,4 +1,4 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQVisualizationTests is a class containing the tests for the classes LQVisualizationView and LQVisualizationControls in Liquid-UI.
 
 Instance Variables
 	poll:		<Object>
