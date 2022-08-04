@@ -9,7 +9,10 @@
 		"poll",
 		"user1",
 		"user2",
-		"userSet" ],
+		"userSet",
+		"answerSet1",
+		"answerSet2",
+		"q1" ],
 	"name" : "LQAntiCheatTests",
 	"pools" : [
 		 ],

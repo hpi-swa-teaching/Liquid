@@ -1,7 +1,7 @@
 accessing
 maxNumberOfChoices: aText
 
-	((self isTextNumber: aText) and: [aText notEmpty])
-		ifTrue: [self question maxNumberOfChoices: (self determineMaxNumberOfChoicesFrom: aText)]
+	(aText asString isAllDigits and: [aText isEmpty not])
+		ifTrue: [self question maxNumberOfChoices: (1 max: (aText asNumber min: self question choiceDescriptions size))]
 		ifFalse: [aText isEmpty ifTrue: [self question maxNumberOfChoices: nil]].
 	self changed: #maxNumberOfChoices
