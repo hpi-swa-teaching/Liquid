@@ -7,7 +7,10 @@ createAnswerSet1With: aQuestion
 		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
+		
 	temporaryAnswerSet addAnswer: (LQChoicesAnswer new
 		questionId: (aQuestion id);
-		votedChoiceList: {(aQuestion choiceList first) description};
-		yourself)
+		votedChoiceList: {(aQuestion choiceList second) description};
+		yourself).
+		
+	^ temporaryAnswerSet

@@ -10,5 +10,7 @@ createAnswerSet2With: aQuestion
 	
 	temporaryAnswerSet addAnswer: (LQChoicesAnswer new
 		questionId: (aQuestion id);
-		votedChoiceList: {(aQuestion choiceList second) description};
-		yourself)
+		votedChoiceList: {(aQuestion choiceList first) description};
+		yourself).
+		
+	^ temporaryAnswerSet
