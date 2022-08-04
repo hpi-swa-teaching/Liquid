@@ -1,4 +1,0 @@
-accessing
-errorType
-
-	^ LQRemoteError

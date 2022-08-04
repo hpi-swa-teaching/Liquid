@@ -2,7 +2,6 @@ tests
 testMyUserSetWithUserSetNotInRepo
 
 	| userSet poll |
-	
 	userSet :=  self createUserSet.
 	poll := self createPoll.
 	poll userSetID: userSet id.
