@@ -4,8 +4,8 @@ testAddAnswerSetPreventedByGroupBasedAnswerExclusion
 	| answerSet1 answerSet2 q1 |
 	
 	q1 := (self poll pollDraft questionList first).
-	answerSet1 := self createAnswerSet1With: q1.
-	answerSet2 := self createAnswerSet2With: q1.
+	answerSet1 := self createAnswerSet1With: q1 and: (q1 choiceList first).
+	answerSet2 := self createAnswerSet2With: q1 and: (q1 choiceList second).
 	
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
 	

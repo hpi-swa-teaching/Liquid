@@ -1,16 +1,16 @@
 helper methods
-createAnswerSet2With: aQuestion
+createAnswerSet1With: aQuestion and: anAnswer
 
 	| temporaryAnswerSet |
 	
 	temporaryAnswerSet := LQAnswerSet new 
-		token: self user2 token;
+		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
-	
+		
 	temporaryAnswerSet addAnswer: (LQChoicesAnswer new
 		questionId: (aQuestion id);
-		votedChoiceList: {(aQuestion choiceList first) description};
+		votedChoiceList: {anAnswer description};
 		yourself).
 		
 	^ temporaryAnswerSet
