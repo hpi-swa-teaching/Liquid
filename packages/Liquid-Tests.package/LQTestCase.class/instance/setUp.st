@@ -8,9 +8,4 @@ setUp
 	self wasServerActive: LQRemotePollRepoServer isServerActive.
 	self savedPasswordManager: LQPasswordManager default.
 	self savedAnsweredPollIds: LQParticipantMenu answeredPollIds.
-	LQUserSetRepo default: nil.
-	LQPollRepo default: nil.
-	LQRemotePollRepoServer pollRepo: nil.
-	LQRemotePollRepoServer startServer.
-	LQParticipantMenu answeredPollIds: nil.
-	LQPasswordManager default: nil
+	LQStartMenu reset

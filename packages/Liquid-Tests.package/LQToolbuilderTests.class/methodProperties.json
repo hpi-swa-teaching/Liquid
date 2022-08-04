@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"createPollDraftWith:and:" : "JT 8/4/2022 23:57",
+		"createQ1" : "JT 8/4/2022 23:54",
+		"createQ2" : "JT 8/4/2022 23:55",
 		"poll" : "JT 8/2/2022 17:43",
 		"poll:" : "bn 8/4/2022 19:28",
 		"pollDraft" : "JT 8/2/2022 17:43",
 		"pollDraft:" : "bn 8/4/2022 19:28",
-		"setUp" : "JT 8/2/2022 17:43",
+		"setUp" : "JT 8/4/2022 23:57",
 		"testHostMenuCanBeBuilt" : "bwe 6/26/2022 13:48",
 		"testParticipantMenuCanBeBuilt" : "bwe 6/26/2022 14:23",
 		"testResultsViewCanBeBuilt" : "bwe 6/27/2022 00:12",
