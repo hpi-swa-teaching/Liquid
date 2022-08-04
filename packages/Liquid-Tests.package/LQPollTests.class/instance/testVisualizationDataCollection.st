@@ -10,7 +10,6 @@ testVisualizationDataCollection
 		choiceList: ({c1. c2} asOrderedCollection);
 		yourself.
 	poll pollDraft questionList add: q1.
-	
 	a1 := LQAnswerSet new
 		addAnswer: (LQChoicesAnswer new
 			questionId: q1 id;
@@ -44,7 +43,6 @@ testVisualizationDataCollection
 		addAnswerSet: a2;
 		addAnswerSet: a3;
 		addAnswerSet: a4.
-	
 	self assert: (poll getVotedChoicesPerChoiceFor: q1) equals: {1. 3} asOrderedCollection.
 	self assert: (poll getChoiceIdentifiersFor: q1) equals: {1. 2} asOrderedCollection.
 	self assert: (poll getChoiceNamesFor: q1) equals: {'Q1A1'. 'Q1A2'} asOrderedCollection

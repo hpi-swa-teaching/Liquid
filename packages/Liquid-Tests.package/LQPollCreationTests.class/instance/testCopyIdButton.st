@@ -2,7 +2,6 @@ tests
 testCopyIdButton
 
 	| runningPollView |
-	
 	runningPollView := LQRunningPollView newWithPoll: self poll.
 	runningPollView copyPollId.
 	"interacting with System clipboard is not instantaneous, therefore we wait"

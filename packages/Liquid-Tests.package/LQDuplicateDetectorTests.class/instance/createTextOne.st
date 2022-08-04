@@ -2,7 +2,6 @@ helper methods
 createTextOne
 
 	| textStream |
-
 	textStream := TextStream on: Text new.
 	textStream nextPutAll: 'Hallo'.
 	textStream cr.
@@ -10,7 +9,6 @@ createTextOne
 	textStream cr.
 	textStream nextPutAll: '!'.
 	textStream cr.
-	
 	^ textStream contents
 
 

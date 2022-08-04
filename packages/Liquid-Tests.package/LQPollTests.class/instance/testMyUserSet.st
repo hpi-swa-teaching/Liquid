@@ -2,7 +2,6 @@ tests
 testMyUserSet
 
 	| userSet poll |
-	
 	userSet :=  self createUserSet.
 	userSet addToRepo.
 	poll := self createPoll.
