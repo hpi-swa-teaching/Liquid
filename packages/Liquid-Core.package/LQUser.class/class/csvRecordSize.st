@@ -1,0 +1,4 @@
+accessing
+csvRecordSize
+
+	^ 4

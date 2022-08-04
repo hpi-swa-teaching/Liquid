@@ -4,7 +4,7 @@ newFromCollection: aCollection
 	|user|
 	
 	user := self new.
-	(aCollection size == 4)
+	(aCollection size == self csvRecordSize)
 	ifTrue: [user firstname: (aCollection first).
 				user surname: (aCollection second).
 				user mail: (aCollection third).
