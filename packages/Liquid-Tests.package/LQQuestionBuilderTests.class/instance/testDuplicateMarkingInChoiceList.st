@@ -1,14 +1,17 @@
 testing
 testDuplicateMarkingInChoiceList
 
-	| temporaryQuestionBuilder text |
+	| temporaryQuestionBuilder text color1 color2 |
 	
 	text := self createText.
 	
 	temporaryQuestionBuilder := LQQuestionBuilder new.
 	temporaryQuestionBuilder question: LQChoicesQuestion new;
 		choiceList: text.
-
+	
+	color1 := temporaryQuestionBuilder choiceDescriptions attributesAt: 20.
+	color2 := temporaryQuestionBuilder choiceDescriptions attributesAt: 7.
+	
 	self assert: temporaryQuestionBuilder choiceDescriptions equals: text.
-	self assert: ((temporaryQuestionBuilder choiceDescriptions attributesAt: 20)  includes: (TextColor color: Color red)) equals: true.
-	self assert: ((temporaryQuestionBuilder choiceDescriptions attributesAt: 7)  includes: (TextColor color: Color red)) equals: false
+	self assert: (color1 includes: (TextColor color: Color red)) equals: true.
+	self assert: (color2 includes: (TextColor color: Color red)) equals: false

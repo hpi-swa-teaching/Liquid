@@ -5,5 +5,9 @@ buildWith: aBuilder
 		model: self;
 		label: 'Welcome to Liquid';
 		extent: self extent;
-		children: {self buildEnterHostButtonWith: aBuilder. self buildEnterParticipantButtonWith: aBuilder. self buildStopServerButtonWith: aBuilder};
+		children: {
+					self buildEnterHostButtonWith: aBuilder.
+					self buildEnterParticipantButtonWith: aBuilder.
+					self buildStopServerButtonWith: aBuilder
+					};
 		yourself)

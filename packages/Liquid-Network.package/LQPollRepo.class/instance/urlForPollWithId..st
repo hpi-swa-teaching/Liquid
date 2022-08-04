@@ -1,4 +1,6 @@
 communication
 urlForPollWithId: aString
 
-	^ self url, '/?id=', aString, '&token=', self token
+	^ self url,
+		'/?id=', aString,
+		'&token=', self token

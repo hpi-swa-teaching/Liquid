@@ -1,7 +1,10 @@
 testing
 testChoiceListwithExclusionsMarked
 
-	self assert: ((self exclusionMarker choiceListWithExclusionsMarked first) isByteString).
-	self assert: ((self exclusionMarker choiceListWithExclusionsMarked second) isText).
-	self assert: (((self exclusionMarker choiceListWithExclusionsMarked second) attributesAt: 1)  includes: (TextColor gray)).
-	self assert: (((self exclusionMarker choiceListWithExclusionsMarked third) attributesAt: 1)  includes: (TextColor gray))
+	| listOfExclusions |
+	
+	listOfExclusions := self exclusionMarker choiceListWithExclusionsMarked.
+	self assert: ((listOfExclusions first) isByteString).
+	self assert: ((listOfExclusions second) isText).
+	self assert: (((listOfExclusions second) attributesAt: 1)  includes: (TextColor gray)).
+	self assert: (((listOfExclusions third) attributesAt: 1)  includes: (TextColor gray))

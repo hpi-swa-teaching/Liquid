@@ -1,5 +1,8 @@
 testing
 testLabelCreation
 
-	self assert: self questionBuilder createMaxNumberOfChoicesLabel equals: 'Maximum number of choices participants can vote:'
+	| labelText |
+	
+	labelText := 'Maximum number of choices participants can vote:'.
+	self assert: self questionBuilder createMaxNumberOfChoicesLabel equals: labelText
 	

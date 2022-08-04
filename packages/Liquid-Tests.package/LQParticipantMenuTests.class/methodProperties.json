@@ -14,6 +14,7 @@
 		"createQuestionOne" : "bn 8/2/2022 17:58",
 		"createQuestionTwo" : "bn 8/2/2022 17:58",
 		"createTestPoll" : "kge 8/4/2022 19:02",
+		"expectedQuestionCounterText" : "JT 8/4/2022 22:13",
 		"participantMenu" : "bn 8/2/2022 17:56",
 		"participantMenu:" : "bn 8/2/2022 17:58",
 		"poll" : "bn 8/2/2022 17:59",
@@ -41,5 +42,5 @@
 		"testPreviousButtonDisabledOnFirstQuestion" : "bn 8/2/2022 18:01",
 		"testPreviousButtonEnabled" : "JT 8/2/2022 19:50",
 		"testPreviousButtonEnabledOnSecondQuestion" : "bn 8/2/2022 18:02",
-		"testQuestionCounterIndex" : "bn 8/2/2022 18:02",
+		"testQuestionCounterIndex" : "JT 8/4/2022 22:13",
 		"testSendAnswer" : "bn 8/4/2022 21:20" } }

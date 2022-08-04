@@ -1,4 +1,6 @@
 generation
 generateIdFromRealWords
 
-	^ ((self randomSubject) , '-', (self randomVerb) , '-', (self randomObject)) asLowercase
+	^ ((self randomSubject), '-',
+		(self randomVerb) , '-',
+		(self randomObject)) asLowercase

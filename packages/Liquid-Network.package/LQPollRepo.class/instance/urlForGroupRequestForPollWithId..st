@@ -1,4 +1,6 @@
 communication
 urlForGroupRequestForPollWithId: aString
 	
- 	^ self url, '/?message=getGroup&id=', aString, '&token=', self token
+ 	^ self url,
+		'/?message=getGroup&id=', aString,
+		'&token=', self token
