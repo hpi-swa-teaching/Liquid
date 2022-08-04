@@ -1,1 +1,3 @@
-A collection of tests concerning themselves with everything related to LQChoicesQuestions.
+LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+
+It has no inctance variables.
