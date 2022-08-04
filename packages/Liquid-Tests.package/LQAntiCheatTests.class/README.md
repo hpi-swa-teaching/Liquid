@@ -1,5 +1,7 @@
 LQAntiCHeatTests is a class containing the tests for the class LQAntiCheat in Liquid-Core.
 
+It ensures that groub based answer exclusion is working and one can only answer polls when one is allowed to do so.
+
 Instance Variables
 	poll:		anLQPoll
 	user1:		anLQUser

@@ -1,5 +1,7 @@
 LQRemotePollRepoServerTests is a class containing the tests for the class LQRemotePollRepoServer in Liquid-Network.
 
+It ensures that answerSets con only be added in the intended way.
+
 Instance Variables
 	poll:		anLQPoll
 	user1:		anLQUser

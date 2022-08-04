@@ -1,5 +1,7 @@
 LQMailTests is a class containing the tests for the class LQMailDialog in Liquid-UI and the general process of sending mails.
 
+It ensures that the mail templating works and that mails are sent correctly.
+
 Instance Variables
 	mailDialog:		anLQMailDialog
 	poll:		anLQPoll

@@ -1,5 +1,6 @@
 LQQuestionBuilderTests is a class containing the tests for the class LQQuestionBuilder in Liquid-UI.
 
+It ensures that contents are displayed the intended way.
 
 Instance Variables
 	builder:		aToolBuilder

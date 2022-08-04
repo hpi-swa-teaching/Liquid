@@ -1,5 +1,7 @@
 LQAuthenticationTests is a class containing the tests for the Authentication Process at LQPollRepo.
 
+It ensures that the Server answers in the expected way and is reachable when intended.
+
 Instance Variables
 	poll:		anLQPoll
 	poll2:		anLQPoll
