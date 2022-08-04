@@ -1,4 +1,4 @@
-communication
+system primitives
 doesNotUnderstand: aMessage
 	
 	|delay|

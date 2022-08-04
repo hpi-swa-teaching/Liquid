@@ -1,4 +1,4 @@
-communication
+accessing
 at: key ifAbsent: aBlock
 
 	| resp |

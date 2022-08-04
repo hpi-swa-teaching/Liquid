@@ -1,4 +1,4 @@
-initialize
+initialize-release
 startWithId: anId andPassword: aPassword ifTaken: do
 
 	self

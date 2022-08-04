@@ -1,4 +1,4 @@
-communication
+accessing
 addAnswerSet: anAnswerSet ToPoll: aPollId
 
 	^ WebClient httpPost: 
