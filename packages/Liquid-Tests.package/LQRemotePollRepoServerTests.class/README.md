@@ -1,4 +1,4 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQRemotePollRepoServerTests is a class containing the tests for the class LQRemotePollRepoServer in Liquid-Network.
 
 Instance Variables
 	poll:		<Object>
