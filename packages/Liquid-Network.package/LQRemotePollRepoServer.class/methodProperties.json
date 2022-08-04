@@ -3,12 +3,10 @@
 		"isServerActive" : "JT 8/2/2022 18:09",
 		"pollRepo" : "ape 6/19/2022 15:11",
 		"pollRepo:" : "JT 8/2/2022 18:09",
-		"port" : "ms 8/4/2022 11:23",
 		"resetPollRepo" : "ms 6/19/2022 19:15",
 		"serverActive:" : "JT 8/2/2022 18:09",
-		"startServer" : "ms 8/4/2022 11:25",
-		"stopServer" : "kge 7/21/2022 14:34",
-		"unauthorizedResponseCode" : "ms 8/4/2022 11:23" },
+		"startServer" : "JT 8/2/2022 18:09",
+		"stopServer" : "kge 7/21/2022 14:34" },
 	"instance" : {
 		"addAnswerSet:FromUser:ToPoll:" : "JT 8/2/2022 19:20",
 		"hasPollWithId:" : "kge 8/3/2022 21:42",
@@ -25,5 +23,4 @@
 		"pollWithId:" : "kge 8/3/2022 21:43",
 		"request:isAuthenticatedFor:" : "ms 8/1/2022 16:18",
 		"sanitizePoll:" : "JT 8/2/2022 18:08",
-		"send401Response:" : "ms 8/4/2022 11:22",
-		"unauthorizedResponseCode" : "ms 8/4/2022 11:19" } }
+		"send401Response:" : "JT 8/2/2022 18:08" } }

@@ -1,4 +1,0 @@
-accessing
-unauthorizedResponseCode
-
-	^ 401
