@@ -1,5 +1,8 @@
 testing
 testPollRepo401ResponseForInvalidToken
 
-	LQPollRepo default token: -100.
-	self assert: 401 equals: ((LQPollRepo default serverAt: self poll id) code)
+	| invalidToken |
+	invalidToken := -100.
+	LQPollRepo default token: invalidToken.
+	self assert: LQRemotePollRepoServer unauthorizedResponseCode equals: 
+						((LQPollRepo default serverAt: self poll id) code)

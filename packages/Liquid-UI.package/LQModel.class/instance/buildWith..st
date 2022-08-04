@@ -1,4 +1,4 @@
 toolbuilder
-buildWith
+buildWith: aBuilder
 
 	self subclassResponsibility

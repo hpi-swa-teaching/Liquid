@@ -8,7 +8,8 @@
 		"serverActive:" : "JT 8/2/2022 18:09",
 		"startServer" : "ms 8/4/2022 11:25",
 		"stopServer" : "kge 7/21/2022 14:34",
-		"unauthorizedResponseCode" : "ms 8/4/2022 11:23" },
+		"unauthorizedResponseCode" : "ms 8/4/2022 11:23",
+		"unavailableResponseCode" : "ms 8/4/2022 23:07" },
 	"instance" : {
 		"addAnswerSet:FromUser:ToPoll:" : "JT 8/2/2022 19:20",
 		"hasPollWithId:" : "kge 8/3/2022 21:42",

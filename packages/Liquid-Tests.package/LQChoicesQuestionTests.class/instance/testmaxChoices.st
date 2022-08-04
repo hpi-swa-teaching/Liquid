@@ -1,5 +1,7 @@
 testing
 testmaxChoices
-
-	self question maxNumberOfChoices: 1234.
-	self assert: self question maxNumberOfChoices equals: 1234
+	
+	| numberOfChoices |
+	numberOfChoices := 1234.
+	self question maxNumberOfChoices: numberOfChoices.
+	self assert: self question maxNumberOfChoices equals: numberOfChoices
