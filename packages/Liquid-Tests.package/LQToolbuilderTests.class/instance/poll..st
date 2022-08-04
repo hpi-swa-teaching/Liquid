@@ -1,4 +1,4 @@
 accessing
-poll: anObject
+poll: anLQPoll
 
-	poll := anObject
+	poll := anLQPoll

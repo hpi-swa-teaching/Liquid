@@ -1,4 +1,4 @@
-tests
+testing
 testAddChoice
 
 	self assert: [self question choiceDescriptions isEmpty].

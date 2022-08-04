@@ -1,4 +1,4 @@
-tests
+testing
 testStatisticsWorkbenchIsDefined
 
 	self assert: SWDiagram isSystemDefined.

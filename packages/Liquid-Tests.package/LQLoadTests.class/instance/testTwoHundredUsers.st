@@ -1,4 +1,4 @@
-tests
+testing
 testTwoHundredUsers
 	<timeout: 40>
 

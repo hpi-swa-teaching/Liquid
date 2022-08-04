@@ -1,4 +1,4 @@
-tests
+testing
 testCreateFromCSV
 
 	| userSet1 userSet2 stream |

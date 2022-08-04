@@ -1,4 +1,4 @@
-tests
+testing
 testLeadingWhiteSpaceTrimmingOfDescriptionWhenNoBracketsArePresent
 
 	| choiceEntry expectedDescription actualDescription |

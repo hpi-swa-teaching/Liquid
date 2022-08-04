@@ -1,4 +1,4 @@
-tests
+testing
 testStartTime
 
 	| poll timeBeforeStart timeAfterStart |

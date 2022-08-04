@@ -1,4 +1,4 @@
-initialize-release
+running
 setUp
 	
 	| q1 q2 |

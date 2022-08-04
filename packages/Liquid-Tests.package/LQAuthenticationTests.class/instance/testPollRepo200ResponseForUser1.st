@@ -1,4 +1,4 @@
-tests
+testing
 testPollRepo200ResponseForUser1
 
 	LQPollRepo default token: self user1 token.

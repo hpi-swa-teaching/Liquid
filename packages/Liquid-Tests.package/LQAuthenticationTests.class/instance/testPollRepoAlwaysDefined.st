@@ -1,4 +1,4 @@
-tests
+testing
 testPollRepoAlwaysDefined
 
 	LQPollRepo default: nil.

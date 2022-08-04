@@ -1,4 +1,4 @@
-tests
+testing
 testQuestionCounterIndex
 	
 	self participantMenu currentQuestionIndex: 1.

@@ -1,4 +1,4 @@
-tests
+testing
 testWhitespaceTrimmingForGroups
 
 	| choiceEntry expectedGroups actualGroups |

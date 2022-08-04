@@ -1,4 +1,4 @@
-test
+testing
 testSingleDuplicates
 
 	| original onlyDuplicates |

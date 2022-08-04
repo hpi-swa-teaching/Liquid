@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfGroupsForBadFormattedStrings
 
 	| choiceEntry expectedGroups actualGroups |

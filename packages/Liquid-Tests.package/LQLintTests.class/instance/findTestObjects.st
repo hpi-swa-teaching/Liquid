@@ -1,4 +1,4 @@
-helpers
+helper methods
 findTestObjects
 
 	^ self objectsToTest ifNil: [ | objects blacklist |

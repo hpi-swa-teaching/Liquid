@@ -1,4 +1,4 @@
-helper
+helper methods
 let: target ParticipantsInteractWithPollId: aString
 
 	target timesRepeat: [

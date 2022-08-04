@@ -1,4 +1,4 @@
 accessing
-builder: anObject
+builder: aToolBuilder
 
-	builder := anObject
+	builder := aToolBuilder

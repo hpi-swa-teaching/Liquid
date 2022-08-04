@@ -1,4 +1,4 @@
-tests
+testing
 testNextButtonLabelOnLastQuestion
 	
 	self participantMenu currentQuestionIndex: self participantMenu poll pollDraft questionList size.

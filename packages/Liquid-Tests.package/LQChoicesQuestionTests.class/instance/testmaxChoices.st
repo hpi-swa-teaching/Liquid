@@ -1,4 +1,4 @@
-tests
+testing
 testmaxChoices
 
 	self question maxNumberOfChoices: 1234.

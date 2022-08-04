@@ -1,4 +1,4 @@
-supporting
+helper methods
 createUser2
 
 	^ LQUser new

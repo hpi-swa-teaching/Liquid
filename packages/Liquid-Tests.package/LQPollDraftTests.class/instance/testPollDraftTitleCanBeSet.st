@@ -1,4 +1,4 @@
-tests
+testing
 testPollDraftTitleCanBeSet
 
 	self pollDraft title: 'My Poll'.

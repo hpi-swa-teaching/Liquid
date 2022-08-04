@@ -1,4 +1,4 @@
-tests
+testing
 testNextButtonSendAnswerOnLastIndex
 
 	| startMenu |

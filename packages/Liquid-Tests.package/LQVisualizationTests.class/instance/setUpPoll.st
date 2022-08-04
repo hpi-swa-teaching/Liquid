@@ -1,4 +1,4 @@
-initialize-release
+helper methods
 setUpPoll
 
 	self q1a1: (LQChoice newFrom: 'Answer1 of Question 1').

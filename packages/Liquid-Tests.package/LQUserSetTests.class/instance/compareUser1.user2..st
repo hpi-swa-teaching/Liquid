@@ -1,4 +1,4 @@
-supporting
+helper methods
 compareUser1: aLQUser1 user2: aLQUser2
 
 	^ (aLQUser1 firstname = aLQUser2 firstname)

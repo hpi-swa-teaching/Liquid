@@ -1,4 +1,4 @@
 accessing
-userSet: anObject
+userSet: anLQUserSet
 
-	userSet := anObject
+	userSet := anLQUserSet

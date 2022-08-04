@@ -5,6 +5,7 @@ Instance Variables
 	user1:		anLQUser
 	user2:		anLQUser
 	userSet:		anLQUserSet
+			answerSet1 answerSet2 q1
 
 poll
 	a poll used in tests; contains userSet 

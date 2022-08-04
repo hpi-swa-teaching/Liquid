@@ -1,4 +1,4 @@
-tests
+testing
 testAnswerSetPollID
 
 	| poll participantMenu |

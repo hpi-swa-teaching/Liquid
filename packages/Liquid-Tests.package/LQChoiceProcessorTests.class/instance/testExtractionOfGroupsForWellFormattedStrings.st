@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfGroupsForWellFormattedStrings
 
 	| choiceEntry expectedGroups actualGroups |

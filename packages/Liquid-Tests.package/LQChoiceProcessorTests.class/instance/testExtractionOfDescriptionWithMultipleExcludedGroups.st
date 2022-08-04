@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfDescriptionWithMultipleExcludedGroups
 
 	| choiceEntry expectedDescription actualDescription |

@@ -1,4 +1,4 @@
-tests
+testing
 testToolTipWith: aQuestion
 
 	| answerPanel toolTip |

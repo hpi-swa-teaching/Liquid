@@ -1,4 +1,4 @@
-tests
+testing
 testPollRepo401ResponseForEmptyToken
 
 	LQPollRepo default token: ''.

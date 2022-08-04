@@ -1,4 +1,4 @@
-tests
+testing
 testPollRepo404ResponseForEmptyPollId
 
 	LQPollRepo default token: self user1 token.

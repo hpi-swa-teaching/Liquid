@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfGroupsWithMultipleExcludedGroups
 
 	| choiceEntry expectedGroups actualGroups |

@@ -1,4 +1,4 @@
-helper
+helper methods
 createPoll
 
 	| poll pollId |

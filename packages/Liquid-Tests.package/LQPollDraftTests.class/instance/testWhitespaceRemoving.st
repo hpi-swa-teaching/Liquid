@@ -1,4 +1,4 @@
-tests
+testing
 testWhitespaceRemoving
 	
 	| q1 q2 q3 temporaryPollDraft s1 s2 s3 |

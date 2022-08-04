@@ -1,4 +1,4 @@
 accessing
-pollDraft: anObject
+pollDraft: anLQPollDraft
 
-	pollDraft := anObject
+	pollDraft := anLQPollDraft

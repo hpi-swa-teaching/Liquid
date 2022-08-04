@@ -1,4 +1,4 @@
 accessing
-userSetMenu: anObject
+userSetMenu: anLQUserSetMenu
 
-	userSetMenu := anObject
+	userSetMenu := anLQUserSetMenu

@@ -1,4 +1,4 @@
-initialize-release
+helper methods
 setUpVotes
 
 	| answerSet |

@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfDescriptionForBadFormattedStrings
 
 	| choiceEntry expectedDescription actualDescription |

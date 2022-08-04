@@ -1,4 +1,4 @@
-tests
+testing
 testPreviousButtonEnabledOnSecondQuestion
 	
 	self participantMenu currentQuestionIndex: 1.

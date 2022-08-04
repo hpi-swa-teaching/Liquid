@@ -1,4 +1,4 @@
-helpers
+helper methods
 lint: aLinterRule except: aCollectionOfClasses
 
 	| testObjects temporaryTestRunner |

@@ -1,4 +1,4 @@
-tests
+testing
 testPollRepo401ResponseForInvalidToken
 
 	LQPollRepo default token: -100.

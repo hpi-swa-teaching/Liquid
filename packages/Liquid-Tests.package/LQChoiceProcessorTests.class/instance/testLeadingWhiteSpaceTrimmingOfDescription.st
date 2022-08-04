@@ -1,4 +1,4 @@
-tests
+testing
 testLeadingWhiteSpaceTrimmingOfDescription
 
 	| choiceEntry expectedDescription actualDescription |

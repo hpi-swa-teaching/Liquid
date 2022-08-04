@@ -1,4 +1,4 @@
-tests
+testing
 testLowercase
 
 	| generator generatedPollId |

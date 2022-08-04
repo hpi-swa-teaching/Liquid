@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfGroupsWithEmptyBrackets
 
 	| choiceEntry expectedGroups actualGroups |

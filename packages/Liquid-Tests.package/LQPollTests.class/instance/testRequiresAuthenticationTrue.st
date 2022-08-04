@@ -1,4 +1,4 @@
-tests
+testing
 testRequiresAuthenticationTrue
 
 	| userSet poll |
