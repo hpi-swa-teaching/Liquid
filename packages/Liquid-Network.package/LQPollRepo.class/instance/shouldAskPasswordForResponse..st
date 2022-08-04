@@ -1,4 +1,4 @@
 communication
 shouldAskPasswordForResponse: aWebResponse
 
-	^ (aWebResponse code = 401) and: [self token isNil]
+	^ (aWebResponse code = LQRemotePollRepoServer unauthorizedResponseCode) and: [self token isNil]
