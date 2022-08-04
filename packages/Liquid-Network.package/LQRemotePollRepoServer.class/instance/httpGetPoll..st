@@ -9,6 +9,6 @@ httpGetPoll: req
 	(self request: req isAuthenticatedFor: poll)
 		ifFalse: [^self send401Response: req].
 
-	pollToSend := self sanitizePoll: poll.
+	pollToSend := poll sanitized.
 
 	req send200Response: (STON toString: pollToSend)

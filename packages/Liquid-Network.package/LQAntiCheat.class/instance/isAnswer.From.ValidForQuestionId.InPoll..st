@@ -5,4 +5,4 @@ isAnswer: answer From: aUser ValidForQuestionId: questionid InPoll: aPoll
 	
 	question := (aPoll questionList select: [:q | q id = questionid]) first.
 	^ answer votedChoiceList allSatisfy: [:votedChoice |
-			self isVotedChoice: votedChoice FromUser: aUser ValidForQuestion: question]
+			question isVotedChoice: votedChoice ValidFrom: aUser]

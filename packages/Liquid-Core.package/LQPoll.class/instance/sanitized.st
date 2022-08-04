@@ -1,9 +1,9 @@
-security
-sanitizePoll: aPoll
+accessing
+sanitized
 
 	| sanitizedPoll |
 	
-	sanitizedPoll := STON fromString: (STON toString: aPoll).
+	sanitizedPoll := STON fromString: (STON toString: self).
 	sanitizedPoll
 		answerSets: OrderedCollection new;
 		guard: LQPasswordGuard new.

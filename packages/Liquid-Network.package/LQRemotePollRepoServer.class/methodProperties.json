@@ -14,7 +14,7 @@
 		"hasPollWithId:" : "kge 8/3/2022 21:42",
 		"httpGet:" : "kge 8/3/2022 21:48",
 		"httpGetGroup:" : "kge 8/3/2022 21:45",
-		"httpGetPoll:" : "kge 8/3/2022 22:16",
+		"httpGetPoll:" : "ms 8/4/2022 21:24",
 		"httpPost:" : "kge 8/3/2022 21:40",
 		"httpPostAddAnswerSet:" : "JT 8/2/2022 18:07",
 		"initialize" : "JT 8/2/2022 18:08",
@@ -24,6 +24,5 @@
 		"onRequest:" : "ms 6/19/2022 19:59",
 		"pollWithId:" : "kge 8/3/2022 21:43",
 		"request:isAuthenticatedFor:" : "ms 8/1/2022 16:18",
-		"sanitizePoll:" : "JT 8/2/2022 18:08",
 		"send401Response:" : "bn 8/4/2022 21:18",
 		"unauthorizedResponseCode" : "ms 8/4/2022 11:19" } }
