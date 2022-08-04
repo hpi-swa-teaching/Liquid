@@ -1,0 +1,31 @@
+LQAuthenticationTests is a class containing the tests for the Authentication Process at LQPollRepo.
+
+Instance Variables
+	poll:		anLQPoll
+	poll2:		anLQPoll
+	user1:		anLQUser
+	user2:		anLQUser
+	user3:		anLQUser
+	userSet:		anLQUserSet
+	userSet2:		anLQUserSet
+
+poll
+	a poll used in tests; contains userSet
+
+poll2
+	another poll used in tests; contains userSet2
+
+user1
+	a user used in tests; contained in userSet
+
+user2
+	a user used in tests; contained in userSet
+
+user3
+	a user used in tests; contained in userSet2
+
+userSet
+	a userSet used for testing; containing user1 and user2; contained in poll
+
+userSet2
+	another userSet used for testing; containing user3; contained in poll2
