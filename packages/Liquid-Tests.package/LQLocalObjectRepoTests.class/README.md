@@ -3,4 +3,7 @@ This superclass implements tests that should be tested on both LocalObjectRepos 
 To test general functionality of the LQObjectRepo, implement tests in LQRemoteRepoClientTests to avoid duplicate execution.
 
 Instance Variables
-	client:		<Object>
+	client:		anLQLocalObjectRepo
+	
+client
+	the LQLocalObjectRepo that is being tested

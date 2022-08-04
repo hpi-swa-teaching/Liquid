@@ -3,12 +3,12 @@ It implements the setUp and the tearDown methods to save and then reset all glob
 It then restores all global state after the tests are finished.
 
 Instance Variables
-	savedUserSetRepo:	anLQUserSetRepo
-	savedPollRepo:	anLQPollRepo
-	savedServerPollRepo:	anLQLocalObjectRepo
-	savedPasswordManager:	anLQPasswordManager
-	savedAnsweredPollIds:	aSet
-	wasServerActive:	aBoolean
+	savedUserSetRepo:		anLQUserSetRepo
+	savedPollRepo:		anLQPollRepo
+	savedServerPollRepo:		anLQLocalObjectRepo
+	savedPasswordManager:		anLQPasswordManager
+	savedAnsweredPollIds:		aSet
+	wasServerActive:		aBoolean
 
 All inctance variables are used to store the global state of the Image in order to restore it later.
 

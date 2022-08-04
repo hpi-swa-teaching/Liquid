@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bn 8/4/2022 19:45",
+	"commentStamp" : "bn 8/4/2022 21:27",
 	"instvars" : [
 		"client" ],
 	"name" : "LQLocalObjectRepoTests",

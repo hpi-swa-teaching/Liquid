@@ -7,7 +7,7 @@ Instance Variables
 	userSet:		anLQUserSet
 	answerSet1:		anLQAnswerSet
 	answerSet2: 	anLQAnswerSet
-	q1: anLQChoicesQuestion
+	q1:	 anLQChoicesQuestion
 
 poll
 	a poll used in tests; contains userSet 

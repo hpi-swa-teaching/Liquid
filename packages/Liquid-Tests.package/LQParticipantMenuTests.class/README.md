@@ -1,35 +1,35 @@
 A collection of tests concerning themselves with everything related to the LQParticipantMenu.
 Instance Variables
-	poll:		<Object>
-	q1:		<Object>
-	q1c1:		<Object>
-	q1c2:		<Object>
-	q2:		<Object>
-	q2c1:		<Object>
-	q2c2:		<Object>
-	participantMenu:		<Object>
+	poll:		anLQPoll
+	q1:		anLQChoicesQuestion
+	q1c1:		anLQChoice
+	q1c2:		anLQChoice
+	q2:		anLQChoicesQuestion
+	q2c1:		anLQChoice
+	q2c2:		anLQChoice
+	participantMenu:		anLQParticipantMenu
 
 
 poll
-	- xxxxx
+	an LQPoll used for testing; containig q1
 
 q1
-	- xxxxx
+	an LQChoicesQuestion used for testing; contained in poll; contains q1c1 and q1c2
 
 q1c1
-	- xxxxx
+	an LQChoice used for testing; contained in q1
 
 q1c2
-	- xxxxx
+	an LQChoice used for testing; contained in q1
 
 q2
-	- xxxxx
+	an LQChoicesQuestion used for testing; contained in poll; contains q2c1 and q2c2
 
 q2c1
-	- xxxxx
+	an LQChoice used for testing; contained in q2
 
 q2c2
-	- xxxxx
+	an LQChoice used for testing; contained in q2
 
 participantMenu
-	- xxxxx
+	the LQParticipantMenu that is being tested

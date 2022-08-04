@@ -1,23 +1,23 @@
 LQMailTests is a class containing the tests for the class LQMailDialog in Liquid-UI and the general process of sending mails.
 
 Instance Variables
-	mailDialog:		<Object>
-	poll:		<Object>
-	user1:		<Object>
-	user2:		<Object>
-	userSet1:		<Object>
+	mailDialog:		anLQMailDialog
+	poll:		anLQPoll
+	user1:		anLQUser
+	user2:		anLQUser
+	userSet1:		anLQUserSet
 
 mailDialog
-	- xxxxx
+	the LQMailDialog that is being tested
 
 poll
-	- xxxxx
+	an LQPoll used for testing; containig userSet1
 
 user1
-	- xxxxx
+	an LQUser used for testing; contained in userSet1
 
 user2
-	- xxxxx
+	another LQUser used for testing; contained in userSet1
 
 userSet1
-	- xxxxx
+	an LQUserSet used for testing; contained in poll; contains user1 and user2
