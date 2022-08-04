@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bn 8/4/2022 19:25",
+	"commentStamp" : "bn 8/4/2022 19:43",
 	"instvars" : [
 		"pollDraft" ],
 	"name" : "LQPollDraftTests",
