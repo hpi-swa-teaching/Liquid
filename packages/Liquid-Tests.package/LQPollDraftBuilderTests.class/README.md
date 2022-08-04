@@ -1,11 +1,11 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQPollDraftBuilderTests is a class containing the tests for the class LQPollDraftBuilder in Liquid-UI.
 
 Instance Variables
-	builder:		<Object>
-	pollDraftBuilder:		<Object>
+	builder:		aToolBuilder
+	pollDraftBuilder:		anLQPollDraftBuilder
 
 builder
-	- xxxxx
+	a Toolbuilder used to build the LQPollDraftBuilder in order to test it
 
 pollDraftBuilder
-	- xxxxx
+	the LQPollDraftBuilder that is being tested

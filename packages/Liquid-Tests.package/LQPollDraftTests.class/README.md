@@ -1,4 +1,7 @@
 A collection of tests concerning themselves with everything related to LQPolldrafts.
 
 Instance Variables
-	pollDraft:		<Object>
+	pollDraft:		anLQPollDraft
+			
+pollDraft
+	the LQPollDraft that is being tested

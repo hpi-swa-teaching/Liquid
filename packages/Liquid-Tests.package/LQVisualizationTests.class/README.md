@@ -1,39 +1,40 @@
 LQVisualizationTests is a class containing the tests for the classes LQVisualizationView and LQVisualizationControls in Liquid-UI.
 
 Instance Variables
-	poll:		<Object>
-	pollDraft:		<Object>
-	q1:		<Object>
-	q1a1:		<Object>
-	q1a2:		<Object>
-	q2:		<Object>
-	q2a1:		<Object>
-	q2a2:		<Object>
-	visualizationControls:		<Object>
+	poll:		anLQPoll
+	pollDraft:		anLQPollDraft
+	q1:		anLQChoicesQuestion
+	q1a1:		anLQChoice
+	q1a2:		anLQChoice
+	q2:		anLQChoicesQuestion
+	q2a1:		anLQChoice
+	q2a2:		anLQChoice
+	visualization	Controls:	anLQVisualizationControls
+
 
 poll
-	- xxxxx
-
+	an LQPoll used for testing; containig pollDraft
+	
 pollDraft
-	- xxxxx
+	anLQPollDraft used for testing; contained in poll
 
 q1
-	- xxxxx
+	an LQChoicesQuestion used for testing; contained in pollDraft; contains q1a1 and q1a2
 
 q1a1
-	- xxxxx
+	an LQChoice used for testing; contained in q1
 
 q1a2
-	- xxxxx
+	an LQChoice used for testing; contained in q1
 
 q2
-	- xxxxx
+	an LQChoicesQuestion used for testing; contained in pollDraft; contains q2a1 and q2a2
 
 q2a1
-	- xxxxx
+	an LQChoice used for testing; contained in q2
 
 q2a2
-	- xxxxx
+	an LQChoice used for testing; contained in q2
 
-visualizationControls
-	- xxxxx
+visualization	Controls
+	the LQVisualizationControls that is being tested

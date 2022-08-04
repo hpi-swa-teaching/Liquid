@@ -1,4 +1,5 @@
 A collection of tests concerning themselves with everything related to the LQParticipantMenu.
+
 Instance Variables
 	poll:		anLQPoll
 	q1:		anLQChoicesQuestion

@@ -1,11 +1,13 @@
-LQAnswerPanelTests is a class containing the tests for the class LQAnswerPanel in Liquid-Core.
+LQQuestionBuilderTests is a class containing the tests for the class LQQuestionBuilder in Liquid-UI.
+
 
 Instance Variables
-	builder:		<Object>
-	questionBuilder:		<Object>
+	builder:		aToolBuilder
+	questionBuilder:		anLQQuestionBuilder
 
 builder
-	- xxxxx
+	a Toolbuilder used to build the LQQuestionBuilder in order to test it
 
 questionBuilder
-	- xxxxx
+	the LQQuestionBuilder that is being tested
+

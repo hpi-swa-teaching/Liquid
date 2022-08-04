@@ -1,19 +1,19 @@
 LQRemotePollRepoServerTests is a class containing the tests for the class LQRemotePollRepoServer in Liquid-Network.
 
 Instance Variables
-	poll:		<Object>
-	user1:		<Object>
-	user2:		<Object>
-	userSet:		<Object>
+	poll:		anLQPoll
+	user1:		anLQUser
+	user2:		anLQUser
+	userSet:		anLQUserSet
 
 poll
-	- xxxxx
+	an LQPoll used for testing; contains userSet
 
 user1
-	- xxxxx
+	an LQUser used for testing; contained in userSet
 
 user2
-	- xxxxx
+	an LQUser used for testing; contained in userSet
 
 userSet
-	- xxxxx
+	an LQUserSet used for testing; contained in poll; contains user1 and user2

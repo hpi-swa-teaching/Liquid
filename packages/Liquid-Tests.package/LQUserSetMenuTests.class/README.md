@@ -1,11 +1,11 @@
 LQUserSetMenuTests is a class containing the tests for the class LQUserSetMenu in Liquid-UI.
 
 Instance Variables
-	userSet:		<Object>
-	userSetMenu:		<Object>
+	userSet:		anLQUserSet
+	userSetMenu:		anLQUserSetMenu
 
 userSet
-	- xxxxx
+	an LQUserSet used for testing
 
 userSetMenu
-	- xxxxx
+	the LQUserSetMenu that is being tested
