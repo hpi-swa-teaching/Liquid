@@ -1,12 +1,8 @@
 testing
 testPreviousButtonCurrentQuestionIndex
 
-	| indexBefore indexAfter |
-	
-	indexBefore := 2.
-	indexAfter := 1.
-	self participantMenu currentQuestionIndex: indexBefore.
+	self participantMenu currentQuestionIndex: 2.
 	self participantMenu previousQuestion.
-	self assert: self participantMenu currentQuestionIndex equals: indexAfter.
+	self assert: self participantMenu currentQuestionIndex equals: 1.
 	self participantMenu previousQuestion.
-	self assert: self participantMenu currentQuestionIndex equals: indexAfter
+	self assert: self participantMenu currentQuestionIndex equals: 1

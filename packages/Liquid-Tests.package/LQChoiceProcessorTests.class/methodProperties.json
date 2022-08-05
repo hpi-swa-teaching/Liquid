@@ -9,12 +9,12 @@
 		"testExtractionOfDescriptionForWellFormattedStrings" : "kge 8/4/2022 18:40",
 		"testExtractionOfDescriptionWithMultipleExcludedGroups" : "kge 8/4/2022 18:40",
 		"testExtractionOfDescriptionWithoutExcludedGroups" : "kge 8/4/2022 18:40",
-		"testExtractionOfGroupsForBadFormattedStrings" : "kge 8/4/2022 18:40",
-		"testExtractionOfGroupsForWellFormattedStrings" : "kge 8/4/2022 18:40",
+		"testExtractionOfGroupsForBadFormattedStrings" : "JT 8/5/2022 18:22",
+		"testExtractionOfGroupsForWellFormattedStrings" : "JT 8/5/2022 18:22",
 		"testExtractionOfGroupsWithEmptyBrackets" : "kge 8/4/2022 18:40",
-		"testExtractionOfGroupsWithMultipleExcludedGroups" : "kge 8/4/2022 18:40",
+		"testExtractionOfGroupsWithMultipleExcludedGroups" : "JT 8/5/2022 18:22",
 		"testExtractionOfGroupsWithoutExcludedGroups" : "kge 8/4/2022 18:40",
 		"testLeadingWhiteSpaceTrimmingOfDescription" : "kge 8/4/2022 18:40",
 		"testLeadingWhiteSpaceTrimmingOfDescriptionWhenNoBracketsArePresent" : "kge 8/4/2022 18:40",
 		"testTrailingWhiteSpaceTrimmingOfDescription" : "kge 8/4/2022 18:40",
-		"testWhitespaceTrimmingForGroups" : "kge 8/4/2022 18:40" } }
+		"testWhitespaceTrimmingForGroups" : "JT 8/5/2022 18:22" } }
