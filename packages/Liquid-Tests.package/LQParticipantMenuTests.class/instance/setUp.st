@@ -4,8 +4,8 @@ setUp
 	super setUp.
 	
 	self participantMenu: (LQParticipantMenu new
-		poll: poll;
-		answerSet: as1;
+		poll: self poll;
+		answerSet: self as1;
 		yourself).
 	
 	ToolBuilder open: self participantMenu

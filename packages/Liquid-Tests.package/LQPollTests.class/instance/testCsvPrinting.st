@@ -3,11 +3,11 @@ testCsvPrinting
 
 	| view |
 	
-	poll 
-		addAnswerSet: as1;
-		addAnswerSet: as2.
+	self poll 
+		addAnswerSet: self as1;
+		addAnswerSet: self as2.
 	
-	view := LQResultsView newWithPoll: poll.
+	view := LQResultsView newWithPoll: self poll.
 	
 	"Transcript show: view getResults."
 	

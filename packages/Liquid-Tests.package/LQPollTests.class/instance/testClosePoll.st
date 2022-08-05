@@ -1,12 +1,12 @@
 testing
 testClosePoll
 
-	poll addAnswerSet: as1; 
+	self poll addAnswerSet: self as1; 
 	  closeWithPassword: (LQPasswordManager default 
-	   findPasswordFor: poll id 
+	   findPasswordFor: self poll id 
 	   ifAbsent: [self fail: 'expected password to exist']); 
-	  addAnswerSet: as2.
+	  addAnswerSet: self as2.
 
-	LQResultsView newWithPoll: poll.
-	self assert: poll isOpen equals: false.
-	self assert: poll answerSets size equals: 1
+	LQResultsView newWithPoll: self poll.
+	self assert: self poll isOpen equals: false.
+	self assert: self poll answerSets size equals: 1

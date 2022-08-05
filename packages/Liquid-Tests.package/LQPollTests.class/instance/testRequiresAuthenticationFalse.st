@@ -4,7 +4,7 @@ testRequiresAuthenticationFalse
 	| userSet |
 	
 	userSet :=  self createUserSet.
-	poll userSetID: userSet id.
+	self poll userSetID: userSet id.
 	
-	self assert: poll requiresAuthentication not
+	self assert: self poll requiresAuthentication not
 	

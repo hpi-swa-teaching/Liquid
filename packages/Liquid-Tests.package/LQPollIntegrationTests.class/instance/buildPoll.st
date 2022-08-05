@@ -1,7 +1,7 @@
 initialize-release
 buildPoll
 
-	poll := LQPoll newWithPollDraft: LQPollDraft new.
-	poll pollDraft questionList
-		add: q1;
-		add: q2.
+	self poll: (LQPoll newWithPollDraft: LQPollDraft new).
+	self poll pollDraft questionList
+		add: self q1;
+		add: self q2.

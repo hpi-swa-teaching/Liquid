@@ -7,4 +7,4 @@ setUp
 	self buildPoll.
 	self buildAnswerSets.
 	
-	poll startWithId: 'IAmAPoll' ifTaken: [self fail: 'Poll ID already taken'].
+	self poll startWithId: 'IAmAPoll' ifTaken: [self fail: 'Poll ID already taken'].
