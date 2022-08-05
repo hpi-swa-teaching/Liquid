@@ -9,6 +9,6 @@ testBarChartMorphChangedOnQuestionSelectionChanged
 	self visualizationControls questionIndex: 1. 
 	visualizationOfSecondQuestion := self visualizationControls wrapperMorph submorphs first.
 	
-	self assert: false equals: (visualizationOfFirstQuestion == visualizationOfSecondQuestion)
+	self assert: (visualizationOfFirstQuestion == visualizationOfSecondQuestion) not
 	
 	

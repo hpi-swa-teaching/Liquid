@@ -3,10 +3,11 @@ setUp
 
 	super setUp.
 	
-	self setUpPoll.
-	self setUpVotes.
+	poll
+		addAnswerSet: as1;
+		addAnswerSet: as2.
 	
-	self visualizationControls: (LQVisualizationControls newWithPoll: (self poll)).
+	self visualizationControls: (LQVisualizationControls newWithPoll: (poll)).
 	
 	ToolBuilder open: (self visualizationControls).
 	ToolBuilder open: (self visualizationControls)
