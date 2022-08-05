@@ -1,6 +1,6 @@
 printing
-printDataOn: aStream for: orderedQuesstionIDs with: aDelimiter
+printDataOn: aStream for: orderedQuestionIDs with: aDelimiter
 
-	orderedQuesstionIDs do: [:answerId |
+	orderedQuestionIDs do: [:answerId |
 								self answers at: answerId ifPresent: [:printedAnswer | printedAnswer printDataOn: aStream].
 								aStream nextPutAll: aDelimiter]
