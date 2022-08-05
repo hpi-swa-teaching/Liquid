@@ -4,9 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bn 8/4/2022 22:34",
+	"commentStamp" : "ms 8/5/2022 16:51",
 	"instvars" : [
-		 ],
+		"poll",
+		"q1",
+		"q2",
+		"as1",
+		"as2",
+		"q1a1",
+		"q1a2",
+		"q2a1",
+		"q2a2" ],
 	"name" : "LQPollTests",
 	"pools" : [
 		 ],

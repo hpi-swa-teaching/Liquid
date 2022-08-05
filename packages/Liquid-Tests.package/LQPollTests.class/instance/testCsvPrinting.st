@@ -11,7 +11,6 @@ testCsvPrinting
 	q2 := LQChoicesQuestion new
 		title: 'Q2';
 		choiceList: {'Q2A1'. 'Q2A2'. 'Q2A3'};
-		maxNumberOfChoices: 2;
 		yourself.
 	poll pollDraft questionList
 		add: q1;
