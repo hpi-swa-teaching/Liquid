@@ -3,7 +3,7 @@ testSendAnswer
 
 	| startMenu answerSet |
 	
-	startMenu := participantMenu sendAnswer.
+	startMenu := self participantMenu sendAnswer.
 	
 	answerSet := (LQRemotePollRepoServer pollRepo at: self poll id) answerSets first.
 	self assert: (STON toString: answerSet) equals: (STON toString: self as1).
