@@ -1,0 +1,22 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poll",
+		"q1",
+		"q2",
+		"as1",
+		"as2",
+		"q1a1",
+		"q1a2",
+		"q2a1",
+		"q2a2" ],
+	"name" : "LQPollIntegrationTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }
