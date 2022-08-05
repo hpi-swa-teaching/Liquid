@@ -2,6 +2,6 @@ testing
 testNoDuplicate
 
 	| original onlyDuplicates |
-	original := {1 . 2 . 3 . 4 . 5 . 6} asOrderedCollection.
+	original := self createCollectionWithNoDuplicates.
 	onlyDuplicates := {} asOrderedCollection.
 	self assert: onlyDuplicates equals: (LQDuplicateDetector new identifyDuplicates: original)

@@ -1,6 +1,10 @@
 testing
 testNextButtonCurrentQuestionIndex
 
-	self participantMenu currentQuestionIndex: 1.
+	| indexBefore indexAfter |
+	
+	indexBefore := 1.
+	indexAfter := 2.
+	self participantMenu currentQuestionIndex: indexBefore.
 	self participantMenu nextQuestionOrSend.
-	self assert: self participantMenu currentQuestionIndex equals: 2
+	self assert: self participantMenu currentQuestionIndex equals: indexAfter

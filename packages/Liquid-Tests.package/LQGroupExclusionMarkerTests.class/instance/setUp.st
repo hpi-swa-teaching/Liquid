@@ -2,4 +2,5 @@ running
 setUp
 
 	super setUp.
-	self exclusionMarker: (LQGroupExclusionMarker newFrom: self createChoiceList and: 'group4')
+	self exclusionMarker: 
+		(LQGroupExclusionMarker newFrom: self createChoiceList and: self excludedGroup)
