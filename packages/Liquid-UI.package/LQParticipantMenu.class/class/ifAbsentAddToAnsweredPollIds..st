@@ -1,4 +1,4 @@
 accessing
 ifAbsentAddToAnsweredPollIds: aPollId
 	
-	self answeredPollIds ifAbsentAdd: aPollId
+	^ self answeredPollIds ifAbsentAdd: aPollId
