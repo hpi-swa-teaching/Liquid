@@ -1,7 +1,7 @@
 building
 newFromCollection: aCollection
 	
-	| user |
+	|user|
 	
 	user := self new.
 	(aCollection size == self csvRecordSize)

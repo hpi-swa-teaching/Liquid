@@ -11,9 +11,12 @@ enterParticipantMode
 	(LQParticipantMenu answeredPollIds includes: pollId) ifTrue: [
 		UIManager default inform: 'You have already answered this Poll.'.
 		^ self].
+	
 	menu := LQParticipantMenu new.
 	(menu importPollWithId: pollId)
-		ifNotNil: [ToolBuilder open: menu.
-					self destroy]
-		ifNil: [UIManager default inform: 'Please enter a valid Poll ID'.
-					self enterParticipantMode]
+		ifNotNil: [
+			ToolBuilder open: menu.
+			self destroy]
+		ifNil: [
+			UIManager default inform: 'Please enter a valid Poll ID'.
+			self enterParticipantMode]

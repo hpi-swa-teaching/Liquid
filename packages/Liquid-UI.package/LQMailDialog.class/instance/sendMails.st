@@ -2,13 +2,16 @@ modifying
 sendMails
 	
 	| countCompleted |
-	
-	self mailSender ifEmpty: [UIManager default inform: 'No Sender Mail Given'.
-									^self].
+	self mailSender ifEmpty: 
+			[UIManager default inform: 'No Sender Mail Given'.
+			^self].
+		
 	countCompleted := 0.
 	self openProgressBar.
-	[self poll userEntries do: [:user | 
-								countCompleted := countCompleted + 1.
-								self updateProgressBarWithCompleted: countCompleted.
-								self sendMailFor: user].
+	
+	[self poll userEntries do:	 
+			[:user | 
+			countCompleted := countCompleted + 1.
+			self updateProgressBarWithCompleted: countCompleted.
+			self sendMailFor: user].
 		self closeProgressBar] fork

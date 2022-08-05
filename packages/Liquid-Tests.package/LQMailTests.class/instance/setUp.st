@@ -9,3 +9,4 @@ setUp
 		createPoll;
 		mailDialog: (LQMailDialog new poll: self poll; yourself).
 	ToolBuilder open: self mailDialog
+	

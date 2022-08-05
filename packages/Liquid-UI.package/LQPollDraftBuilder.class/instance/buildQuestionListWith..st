@@ -9,4 +9,5 @@ buildQuestionListWith: aBuilder
 		list: #list;
 		getIndex: #getIndex; 
 		setIndex: #setIndex:.
+
 	^ listSpec

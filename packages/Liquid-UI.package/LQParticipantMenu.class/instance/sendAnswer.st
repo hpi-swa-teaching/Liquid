@@ -1,7 +1,10 @@
 modifying
 sendAnswer
+
+	| answerIsNew |
 	
-	(self class answeredPollIds ifAbsentAdd: self poll id)
+	answerIsNew := self class answeredPollIds ifAbsentAdd: self poll id.
+	answerIsNew
 		ifTrue: [LQPollRepo default addAnswerSet: self answerSet ToPoll: self poll id ]
 		ifFalse: [UIManager default inform: self messageAlreadyAnswered].
 	self poll isOpen ifFalse: [UIManager default inform: self messageAlreadyClosed].

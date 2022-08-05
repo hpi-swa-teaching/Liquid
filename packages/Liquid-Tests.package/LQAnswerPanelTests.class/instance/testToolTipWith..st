@@ -8,3 +8,4 @@ testToolTipWith: aQuestion
 	toolTip := answerPanel buildQuestionTooltipWith: ToolBuilder default.
 	
 	self assert: toolTip help equals: aQuestion toolTip
+	

@@ -2,7 +2,6 @@ testing
 testAddToRepo
 
 	| userSet myUUID |
-	
 	myUUID := UUID new.
 	userSet := LQUserSet new.
 	userSet id: myUUID;

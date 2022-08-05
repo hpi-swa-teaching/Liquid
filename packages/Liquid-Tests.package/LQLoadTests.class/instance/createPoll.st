@@ -2,7 +2,6 @@ helper methods
 createPoll
 
 	| poll pollId |
-	
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll questionList add: (LQChoicesQuestion new
 		title: 'Where is the master ball';

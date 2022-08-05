@@ -8,3 +8,5 @@ createTextOne
 	textStream nextPutAll: 'Welt'; cr.
 	textStream nextPutAll: '!'; cr.
 	^ textStream contents
+
+

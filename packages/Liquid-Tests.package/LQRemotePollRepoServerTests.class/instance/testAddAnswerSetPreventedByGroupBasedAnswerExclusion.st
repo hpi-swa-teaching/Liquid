@@ -8,9 +8,11 @@ testAddAnswerSetPreventedByGroupBasedAnswerExclusion
 	answerSet2 := self createAnswerSet2With: q1 and: (q1 choiceList second).
 	
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
+	
 	LQPollRepo default token: self user1 token.
 	LQPollRepo default addAnswerSet: answerSet1 ToPoll: self poll id.
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
+	
 	LQPollRepo default token: self user2 token.
 	LQPollRepo default addAnswerSet: answerSet2 ToPoll: self poll id.
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size)

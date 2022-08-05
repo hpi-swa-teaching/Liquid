@@ -1,11 +1,14 @@
 toolbuilder
 buildWith: builder
 
-	| windowSpec |
+	| max windowSpec |
+	
+	max := 1.
 
 	windowSpec := self buildWindowWith: builder specs: {
-		(self questionListFrame: 1) -> [self buildQuestionListWith: builder].
-		(self barChartFrame: 1) -> [self buildBarChartWith: builder].
+		(self questionListFrame: max) -> [self buildQuestionListWith: builder].
+		(self barChartFrame: max) -> [self buildBarChartWith: builder].
 	}.
 	windowSpec label: self poll pollDraft title.
 	 ^ builder build: windowSpec
+		
