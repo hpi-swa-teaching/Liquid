@@ -1,14 +1,10 @@
 testing
 testAnswerSetPollID
 
-	| participantMenu poll2 |
+	| participantMenu |
 	
-	poll2 := LQPoll newWithPollDraft: (LQPollDraft new).
-	poll2 startWithId: 'IAmAPoll2' ifTaken: [self fail]	.
-
-
-	participantMenu := LQParticipantMenu new importPollWithId: 'IAmAPoll2'.
+	participantMenu := LQParticipantMenu new importPollWithId: poll id.
 
 	
 	self assert: participantMenu isNil not.
-	self assert: participantMenu answerSet pollId equals: poll2 id
+	self assert: participantMenu answerSet pollId equals: poll id

@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 setUp
 	
 	super setUp.

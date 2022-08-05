@@ -6,6 +6,4 @@ newWithAnswers: anOrderedCollection for: aPoll
 	answerSet := LQAnswerSet new pollId: aPoll id.
 	anOrderedCollection do: [:answer | answerSet addAnswer: answer].
 	
-	aPoll addAnswerSet: answerSet.
-	
 	^ answerSet

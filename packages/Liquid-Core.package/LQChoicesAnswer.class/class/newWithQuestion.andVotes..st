@@ -1,4 +1,4 @@
-as yet unclassified
+class initialization
 newWithQuestion: aQuestion andVotes: anOrderedCollection
 
 	^ LQChoicesAnswer new
