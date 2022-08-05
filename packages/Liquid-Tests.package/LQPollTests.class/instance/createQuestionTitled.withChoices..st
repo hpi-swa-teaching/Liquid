@@ -1,4 +1,4 @@
-tests
+helper methods
 createQuestionTitled: aString withChoices: anOrderedCollection
 
 	^ LQChoicesQuestion new

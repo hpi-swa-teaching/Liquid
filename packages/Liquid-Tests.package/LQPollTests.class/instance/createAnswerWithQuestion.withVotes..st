@@ -1,4 +1,4 @@
-tests
+helper methods
 createAnswerWithQuestion: aQuestion withVotes: anOrderedCollection
 
 	^ LQChoicesAnswer new
