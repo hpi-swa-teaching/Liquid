@@ -1,6 +1,6 @@
 modifying
 changeClosePollButtonToVisualizeResultsButton
 
-	(self dependents at: 3)
+	(self dependents third)
 		label: 'Visualize Results';
 		action: #visualizeResults

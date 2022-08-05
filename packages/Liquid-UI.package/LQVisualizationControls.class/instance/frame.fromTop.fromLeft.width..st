@@ -5,5 +5,5 @@ frame: bottomFraction fromTop: topFraction fromLeft: leftFraction width: rightFr
 			leftFraction: leftFraction;
 			topFraction: topFraction;
 			rightFraction: (leftFraction + rightFraction);
-			bottomFraction: bottomFraction offset: 0.5 negated;
+			bottomFraction: bottomFraction offset: self bottomOffset;
 			yourself

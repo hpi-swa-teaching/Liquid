@@ -4,11 +4,12 @@
 		"openOn:" : "kge 5/15/2022 14:27" },
 	"instance" : {
 		"barChartFrame:" : "ms 8/4/2022 21:20",
+		"bottomOffset" : "ms 8/5/2022 21:19",
 		"buildBarChartWith:" : "JT 8/5/2022 19:26",
 		"buildQuestionListWith:" : "JT 8/5/2022 19:26",
 		"buildWith:" : "JT 8/5/2022 19:26",
 		"currentVisualization:" : "bn 8/2/2022 18:56",
-		"frame:fromTop:fromLeft:width:" : "ms 8/4/2022 21:19",
+		"frame:fromTop:fromLeft:width:" : "ms 8/5/2022 21:19",
 		"index" : "kge 5/15/2022 14:20",
 		"index:" : "kge 5/15/2022 14:20",
 		"initialize" : "kge 6/12/2022 11:03",

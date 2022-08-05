@@ -13,5 +13,5 @@ testDuplicateMarkingInChoiceList
 	color2 := temporaryQuestionBuilder choiceDescriptions attributesAt: 7.
 	
 	self assert: temporaryQuestionBuilder choiceDescriptions equals: text.
-	self assert: (color1 includes: (TextColor color: Color red)) equals: true.
-	self assert: (color2 includes: (TextColor color: Color red)) equals: false
+	self assert: (color1 includes: (TextColor color: Color red)).
+	self deny: (color2 includes: (TextColor color: Color red))
