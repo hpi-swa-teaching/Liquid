@@ -4,7 +4,7 @@ buildWith: aBuilder
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Liquid - Host';
-		extent: 400 @ 100;
+		extent: self extent;
 		children: {
 			self buildUserSetButtonWith: aBuilder.
 			self buildPollInteractionButtonWith: aBuilder.

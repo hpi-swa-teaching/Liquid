@@ -5,4 +5,4 @@ identifyDuplicates: aCollection
 	
 	duplicates := aCollection copy.
 	duplicates removeAll:  aCollection asSet.
-	^duplicates
+	^ duplicates

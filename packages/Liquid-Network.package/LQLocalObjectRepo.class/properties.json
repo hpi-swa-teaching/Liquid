@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"items",
-		"currentPassword" ],
+		"items" ],
 	"name" : "LQLocalObjectRepo",
 	"pools" : [
 		 ],

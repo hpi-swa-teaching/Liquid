@@ -1,4 +1,4 @@
-tests
+testing
 testAsStringWithTitle
 
 	self question title: 'Meine Frage ist toll'.

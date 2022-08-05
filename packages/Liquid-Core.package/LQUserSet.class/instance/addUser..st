@@ -1,4 +1,4 @@
 modifying
 addUser: aLQUser
 
-	self userEntries add: aLQUser.	
+	self userEntries add: aLQUser

@@ -13,5 +13,5 @@ createPoll
 	pollId := 'gotta-catch-rayquaza'.
 	(LQRemotePollRepoServer pollRepo includesKey: pollId) 
 		ifTrue: [LQRemotePollRepoServer pollRepo removeKey: pollId].
-	self poll startWithId: pollId ifTaken: [self fail: 'Poll ID already taken'].
+	self poll startWithId: pollId ifTaken: [self fail: 'Poll ID already taken']
 

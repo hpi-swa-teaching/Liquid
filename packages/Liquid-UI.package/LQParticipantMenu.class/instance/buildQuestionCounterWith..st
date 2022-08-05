@@ -7,4 +7,9 @@ buildQuestionCounterWith: aBuilder
 		readOnly: true;
 		indicateUnacceptedChanges: false;
 		frame: (LayoutFrame new
-							topFraction: 0.81; leftFraction: 0.38; rightFraction: 0.53; bottomFraction: 0.91) yourself
+					topFraction: 0.81;
+					leftFraction: 0.38; 
+					rightFraction: 0.53;
+					bottomFraction: 0.91;
+					yourself);
+		yourself

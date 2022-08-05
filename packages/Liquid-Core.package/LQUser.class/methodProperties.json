@@ -1,16 +1,17 @@
 {
 	"class" : {
-		"newFromCollection:" : "kge 7/21/2022 21:48" },
+		"csvRecordSize" : "ms 8/4/2022 21:18",
+		"newFromCollection:" : "JT 8/5/2022 19:18" },
 	"instance" : {
 		"firstname" : "kge 7/21/2022 21:50",
 		"firstname:" : "kge 7/21/2022 21:50",
-		"group" : "bn 7/14/2022 22:39",
+		"group" : "JT 8/2/2022 17:22",
 		"group:" : "bn 7/14/2022 22:39",
-		"initialize" : "bn 7/14/2022 22:38",
-		"mail" : "bn 7/14/2022 22:38",
+		"initialize" : "ms 8/1/2022 16:12",
+		"mail" : "JT 8/2/2022 17:22",
 		"mail:" : "bn 7/14/2022 22:38",
-		"mailMapping" : "kge 7/21/2022 21:51",
-		"pwd" : "bn 7/14/2022 22:37",
-		"pwd:" : "bn 7/14/2022 22:37",
-		"surname" : "bn 7/14/2022 22:37",
-		"surname:" : "bn 7/14/2022 22:37" } }
+		"mailMapping" : "ms 8/1/2022 16:12",
+		"surname" : "JT 8/2/2022 17:22",
+		"surname:" : "bn 7/14/2022 22:37",
+		"token" : "JT 8/2/2022 17:22",
+		"token:" : "ms 8/1/2022 16:12" } }

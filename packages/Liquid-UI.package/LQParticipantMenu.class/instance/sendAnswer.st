@@ -1,11 +1,9 @@
 modifying
 sendAnswer
-
-	| answerIsNew |
-	answerIsNew := LQParticipantMenu answeredPollIds ifAbsentAdd: self poll id.
-	answerIsNew
-		ifTrue: [LQPollRepo default addAnswerSet: answerSet ToPoll: self poll id ]
-		ifFalse: [UIManager default inform: 'You have already answered this Poll.'].
-	self poll isOpen ifFalse: [UIManager default inform: 'This Poll was already closed, your answers won''t be submitted.'].
+	
+	(self class ifAbsentAddToAnsweredPollIds: self poll id)
+		ifTrue: [LQPollRepo default addAnswerSet: self answerSet ToPoll: self poll id ]
+		ifFalse: [UIManager default inform: self messageAlreadyAnswered].
+	self poll isOpen ifFalse: [UIManager default inform: self messageAlreadyClosed].
 	self destroy.
 	^ ToolBuilder open: LQStartMenu new

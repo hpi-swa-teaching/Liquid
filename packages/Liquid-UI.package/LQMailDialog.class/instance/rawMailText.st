@@ -1,4 +1,4 @@
 accessing
 rawMailText
 
-	^ rawMailText ifNil: [^rawMailText := self class defaultMailText]
+	^ rawMailText ifNil: [^ rawMailText := self class defaultMailText]

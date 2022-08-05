@@ -1,9 +1,9 @@
-tests
+testing
 testMyUserSetWithUserSetNotInRepo
 
-	| userSet poll |
+	| userSet |
 	
 	userSet :=  self createUserSet.
-	poll := self createPoll.
-	poll userSetID: userSet id.
-	self should: [poll myUserSet id] raise: KeyNotFound
+	self poll userSetID: userSet id.
+	
+	self should: [self poll myUserSet id] raise: KeyNotFound

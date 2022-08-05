@@ -12,4 +12,6 @@ buildMailTextInputWith: aBuilder
 			topFraction: 0.15; 
 			bottomFraction: 0.99; 
 			leftFraction: 0.25; 
-			rightFraction: 0.99)
+			rightFraction: 0.99;
+			yourself);
+		yourself

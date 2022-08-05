@@ -1,6 +1,4 @@
 toolbuilder
 previousButtonEnabled
 
-	(self currentQuestionIndex = 1) 
-		ifTrue: [^false].
-	^true
+	^ (self currentQuestionIndex = 1) not

@@ -1,4 +1,4 @@
 accessing
 choiceDescriptions
 
-	^ choiceList collect: [:choice | choice description]
+	^ self choiceList collect: [:choice | choice description]

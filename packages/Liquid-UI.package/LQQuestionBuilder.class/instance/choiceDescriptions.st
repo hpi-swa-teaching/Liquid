@@ -1,4 +1,4 @@
 accessing
 choiceDescriptions
 
-	^LQDuplicateDetector new markDuplicatesIn: self question choiceList
+	^ LQDuplicateDetector new markDuplicatesIn: self question choiceList

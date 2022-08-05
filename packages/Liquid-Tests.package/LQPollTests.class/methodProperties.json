@@ -2,16 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createPoll" : "kge 6/25/2022 19:38",
-		"createUserSet" : "ms 7/4/2022 20:17",
-		"testAnswerSetPollID" : "CG 7/30/2021 19:06",
-		"testClosePoll" : "CG 7/30/2021 19:06",
-		"testCsvPrinting" : "CG 7/30/2021 19:06",
-		"testIDsAreUUIDsToPreventCollisions" : "kge 6/25/2022 17:16",
-		"testMyUserSet" : "kge 6/25/2022 19:41",
-		"testMyUserSetWithUserSetNotInRepo" : "kge 6/25/2022 19:42",
-		"testRequiresAuthenticationFalse" : "kge 6/25/2022 19:39",
-		"testRequiresAuthenticationTrue" : "kge 6/25/2022 19:39",
-		"testStartTime" : "CG 7/30/2021 19:06",
-		"testUserSetId" : "kge 6/23/2022 22:33",
-		"testVisualizationDataCollection" : "bn 6/16/2022 21:35" } }
+		"testAnswerSetPollID" : "ms 8/5/2022 20:38",
+		"testClosePoll" : "ms 8/5/2022 20:38",
+		"testCsvPrinting" : "ms 8/5/2022 20:38",
+		"testIDsAreUUIDsToPreventCollisions" : "JT 8/4/2022 23:31",
+		"testMyUserSet" : "ms 8/5/2022 20:39",
+		"testMyUserSetWithUserSetNotInRepo" : "ms 8/5/2022 20:39",
+		"testRequiresAuthenticationFalse" : "ms 8/5/2022 20:39",
+		"testRequiresAuthenticationTrue" : "ms 8/5/2022 20:39",
+		"testStartTime" : "bn 8/5/2022 20:45",
+		"testUserSetId" : "ms 8/5/2022 20:39",
+		"testVisualizationDataCollection" : "ms 8/5/2022 20:39" } }

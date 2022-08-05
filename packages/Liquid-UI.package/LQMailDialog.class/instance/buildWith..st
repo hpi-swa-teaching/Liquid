@@ -4,7 +4,7 @@ buildWith: aBuilder
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
 		label: 'Liquid - User Sets';
-		extent: 500 @ 400;
+		extent: self extent;
 		children: {
 			self buildMailTextInputWith: aBuilder.
 			self buildReplacementListViewWith: aBuilder.
@@ -13,4 +13,5 @@ buildWith: aBuilder
 			self buildUserSetListViewWith: aBuilder.
 			self buildUserSetLabelWith: aBuilder.
 			self buildSendButtonWith: aBuilder.
-			} yourself).
+			};
+		yourself)

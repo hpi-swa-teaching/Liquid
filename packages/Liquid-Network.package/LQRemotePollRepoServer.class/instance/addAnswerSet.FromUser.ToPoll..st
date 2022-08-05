@@ -1,4 +1,5 @@
 request handlers
 addAnswerSet: anAnswerSet FromUser: aUser ToPoll: aPoll
-	anAnswerSet userpwd: aUser pwd.
-	(LQAntiCheat new is: anAnswerSet FromUser: aUser ValidFor: aPoll) ifTrue: [aPoll addAnswerSet: anAnswerSet]
+
+	anAnswerSet token: aUser token.
+	(LQAntiCheat new is: anAnswerSet From: aUser ValidFor: aPoll) ifTrue: [aPoll addAnswerSet: anAnswerSet]

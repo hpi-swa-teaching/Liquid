@@ -4,4 +4,4 @@ Note that currently (07/2021) the LQAnswerPanel only supports LQChoicesQuestions
 Notable Instance Variables:
 answer: The LQAnswer currently being edited by the participant. One LQAnswer exists for each LQQuestion and Participant.
 choiceSelected: The choice that was last selected in the MultiSelectionList.
-selectedChoices: An OrderedCollection of all choices that have already been selected by the participant.
+selectedChoices: An Set of all choices that have already been selected by the participant.

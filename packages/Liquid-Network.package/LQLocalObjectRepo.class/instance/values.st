@@ -1,4 +1,4 @@
 accessing
 values
 
-	^ items values
+	^ self items values

@@ -1,11 +1,8 @@
-tests
+testing
 testExtractionOfGroupsWithoutExcludedGroups
 
 	| choiceEntry expectedGroups actualGroups |
-	
 	expectedGroups := OrderedCollection new.
 	choiceEntry := 'Lorem ipsum dolor sit amet '.
-		
-	actualGroups := processor extractGroups: choiceEntry .
-	
+	actualGroups := self processor extractGroups: choiceEntry.
 	self assert: expectedGroups equals: actualGroups

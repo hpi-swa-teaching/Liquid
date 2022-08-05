@@ -1,0 +1,2 @@
+A LQStringProcessor is a utility class that enables the replacement of parts within a string. This processor is used for template rendering in the MailDialog.
+The helper method is implemented on class-side. Thus, there is no instance variables.

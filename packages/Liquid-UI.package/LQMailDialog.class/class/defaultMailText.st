@@ -1,12 +1,12 @@
 defaults
 defaultMailText
 
-	^'Hello {{firstname}} {{surname}},
+	^ 'Hello {{firstname}} {{surname}},
 you have been invited to a Liquid Poll.
 
 Join now!
 
 poll-id: {{poll-id}}
-Password: {{pwd}}
+Token: {{token}}
 
-Greetings'.
+Greetings'

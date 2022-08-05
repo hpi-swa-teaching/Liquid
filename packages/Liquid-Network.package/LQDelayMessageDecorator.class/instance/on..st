@@ -1,4 +1,4 @@
 accessing
 on: anObject
 
-	object := anObject
+	self object: anObject

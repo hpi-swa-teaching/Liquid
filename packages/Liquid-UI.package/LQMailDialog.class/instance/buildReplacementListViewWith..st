@@ -9,5 +9,6 @@ buildReplacementListViewWith: aBuilder
 			topFraction: 0.76; 
 			bottomFraction: 0.99;
 			leftFraction: 0.01; 
-			rightFraction: 0.24)
+			rightFraction: 0.24;
+			yourself);
 		yourself

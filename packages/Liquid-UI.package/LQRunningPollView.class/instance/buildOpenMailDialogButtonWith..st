@@ -10,4 +10,6 @@ buildOpenMailDialogButtonWith: aBuilder
 			topFraction: 0.5; 
 			bottomFraction: 0.75; 
 			leftFraction: 0; 
-			rightFraction: 1)
+			rightFraction: 1;
+			yourself);
+		yourself

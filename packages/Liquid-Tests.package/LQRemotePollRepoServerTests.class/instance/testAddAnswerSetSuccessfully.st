@@ -1,32 +1,16 @@
 testing
 testAddAnswerSetSuccessfully
+
 	| answerSet1 answerSet2 q1 |
 	
-	q1 := (self poll pollDraft questionList at: 1).
-	answerSet1 := LQAnswerSet new 
-		userpwd: self user1 pwd;
-	 	pollId: (self poll id);
-		yourself.
-
-	answerSet1 addAnswer: (LQChoicesAnswer new
-		questionId: (q1 id);
-		votedChoiceList: {(q1 choiceList at: 2) description};
-		yourself).
-	
-	answerSet2 := LQAnswerSet new 
-		userpwd: self user2 pwd;
-	 	pollId: (self poll id);
-		yourself.
-	
-	answerSet2 addAnswer: (LQChoicesAnswer new
-		questionId: (q1 id);
-		votedChoiceList: {(q1 choiceList at: 1) description};
-		yourself).
+	q1 := (self poll pollDraft questionList first).
+	answerSet1 := self createAnswerSet1With: q1 and: (q1 choiceList second).
+	answerSet2 := self createAnswerSet2With: q1 and: (q1 choiceList first).
 	
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
-	LQPollRepo default currentPassword: self user1 pwd.
+	LQPollRepo default token: self user1 token.
 	LQPollRepo default addAnswerSet: answerSet1 ToPoll: self poll id.
 	self assert: 1 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
-	LQPollRepo default currentPassword: self user2 pwd.
+	LQPollRepo default token: self user2 token.
 	LQPollRepo default addAnswerSet: answerSet2 ToPoll: self poll id.
 	self assert: 2 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size) 

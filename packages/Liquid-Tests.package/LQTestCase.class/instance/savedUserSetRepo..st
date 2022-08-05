@@ -1,3 +1,4 @@
 accessing
-savedUserSetRepo: anObject
-	savedUserSetRepo := anObject
+savedUserSetRepo: aUserSetRepo
+
+	savedUserSetRepo := aUserSetRepo

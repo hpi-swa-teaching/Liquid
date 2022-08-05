@@ -1,4 +1,5 @@
 initialize-release
 initialize
 
-	self id: UUID new asString.
+	super initialize.
+	self id: UUID new asString

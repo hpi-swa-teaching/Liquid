@@ -1,10 +1,12 @@
-tests
+testing
 testPasswordGuard
 
-	| guard |
+	| someBlock guard |
+	
+	someBlock := [Number one].
 	guard := LQPasswordGuard newWithPassword: 'pikachu'.
 	self assert: (guard isValid: 'pikachu').
-	self assert: (guard isValid: 'raiku') not.
-	self assert: (guard ifValid: 'pikachu' do: [10]) = 10.
-	self assert: (guard ifValid: 'raiku' do: [10]) = nil.
+	self deny: (guard isValid: 'raiku').
+	self assert: (guard ifValid: 'pikachu' do: someBlock) = someBlock value.
+	self assert: (guard ifValid: 'raiku' do: someBlock) isNil.
 	self assert: ((STON toString: guard) includes: 'pikachu') not

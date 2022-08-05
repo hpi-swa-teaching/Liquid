@@ -1,4 +1,4 @@
 testing
 testUserAnsweredPollFalse
 
-	self deny: ((LQAntiCheat new) hasUser: self user1 AnsweredPoll: self poll).
+	self deny: (self poll answeredByUser: self user1)

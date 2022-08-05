@@ -9,4 +9,6 @@ buildIdCopyButtonWith: aBuilder
 			topFraction: 0.25; 
 			bottomFraction: 0.5; 
 			leftFraction: 0; 
-			rightFraction: 1)
+			rightFraction: 1;
+			yourself);
+		yourself

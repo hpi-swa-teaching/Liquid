@@ -2,14 +2,16 @@
 	"class" : {
 		"default" : "kge 7/21/2022 15:43",
 		"default:" : "ape 6/22/2022 21:33",
-		"reset" : "ms 6/19/2022 19:55" },
+		"reset" : "JT 8/2/2022 18:09" },
 	"instance" : {
-		"addAnswerSet:ToPoll:" : "kge 7/21/2022 20:44",
-		"at:ifAbsent:" : "bn 7/14/2022 22:29",
-		"currentPassword" : "ms 6/19/2022 19:58",
-		"currentPassword:" : "ape 6/19/2022 13:53",
-		"groupAt:" : "ms 7/14/2022 21:54",
-		"requestPassword" : "kge 7/9/2022 17:08",
-		"serverAt:" : "kge 7/9/2022 16:24",
-		"url" : "kge 6/19/2022 18:11",
-		"url:" : "kge 6/19/2022 18:11" } }
+		"addAnswerSet:ToPoll:" : "JT 8/4/2022 21:39",
+		"at:ifAbsent:" : "kge 8/3/2022 22:28",
+		"groupAt:" : "kge 8/4/2022 10:21",
+		"requestToken" : "JT 8/2/2022 18:06",
+		"serverAt:" : "kge 8/4/2022 10:22",
+		"shouldAskPasswordForResponse:" : "ms 8/4/2022 11:22",
+		"url" : "JT 8/2/2022 18:07",
+		"url:" : "JT 8/2/2022 18:07",
+		"urlForGroupRequestForPollWithId:" : "JT 8/4/2022 21:39",
+		"urlForPollWithId:" : "JT 8/4/2022 21:41",
+		"urlForPostingAnswerSet:ToPoll:" : "JT 8/4/2022 21:41" } }

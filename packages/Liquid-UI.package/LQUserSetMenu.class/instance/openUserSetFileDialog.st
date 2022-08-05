@@ -2,6 +2,7 @@ modifying
 openUserSetFileDialog
 
 	| fc stream |
+	
 	fc := FileChooser new.
 	fc initializeAsSystemWindowWithCaptionPane.
 	fc setCaption: 'Select a .csv file' translated.

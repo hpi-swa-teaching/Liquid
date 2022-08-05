@@ -1,4 +1,8 @@
-tests
+testing
 testPollRepo404ResponseForInvalidPollId
-	LQPollRepo default currentPassword: self user1 pwd.
-	self assert: 404 equals: ((LQPollRepo default serverAt: -100) code)
+
+	| invalidPollId |
+	invalidPollId := -100.
+	LQPollRepo default token: self user1 token.
+	self assert: LQRemotePollRepoServer unavailableResponseCode 
+						equals: ((LQPollRepo default serverAt: invalidPollId) code)

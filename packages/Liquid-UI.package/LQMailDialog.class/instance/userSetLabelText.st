@@ -1,4 +1,4 @@
 modifying
 userSetLabelText
 
-	^self poll myUserSet title
+	^ self poll myUserSet title

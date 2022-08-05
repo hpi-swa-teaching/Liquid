@@ -1,4 +1,4 @@
 initialize-release
 includesKey: aKey
 
-	^ items includesKey: aKey
+	^ self items includesKey: aKey

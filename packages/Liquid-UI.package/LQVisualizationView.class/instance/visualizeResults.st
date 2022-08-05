@@ -1,4 +1,4 @@
 data
 visualizeResults
 
-	^ self poll pollDraft questionList collect: [:each | self visualizeResultsFor: each]
+	^ self poll questionList collect: [:each | self visualizeResultsFor: each]

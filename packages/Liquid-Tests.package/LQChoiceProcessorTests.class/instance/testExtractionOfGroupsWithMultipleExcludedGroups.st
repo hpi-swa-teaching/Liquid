@@ -1,4 +1,4 @@
-tests
+testing
 testExtractionOfGroupsWithMultipleExcludedGroups
 
 	| choiceEntry expectedGroups actualGroups |
@@ -8,7 +8,5 @@ testExtractionOfGroupsWithMultipleExcludedGroups
 		add: 'group2';
 		yourself.
 	choiceEntry := 'Lorem ipsum dolor sit amet', '[group1,group2]'.
-		
-	actualGroups := processor extractGroups: choiceEntry .
-	
+	actualGroups := self processor extractGroups: choiceEntry.
 	self assert: expectedGroups equals: actualGroups

@@ -1,3 +1,4 @@
 accessing
-savedPasswordManager: anObject
-	savedPasswordManager := anObject
+savedPasswordManager: anLQPasswordManager
+
+	savedPasswordManager := anLQPasswordManager

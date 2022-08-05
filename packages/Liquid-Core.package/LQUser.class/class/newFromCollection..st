@@ -1,10 +1,10 @@
-as yet unclassified
+building
 newFromCollection: aCollection
-
-	"Sollten sicherstellen, dass drei Einträge in Collection"
-	|user|
+	
+	| user |
+	
 	user := self new.
-	(aCollection size == 4)
+	(aCollection size == self csvRecordSize)
 	ifTrue: [user firstname: (aCollection first).
 				user surname: (aCollection second).
 				user mail: (aCollection third).

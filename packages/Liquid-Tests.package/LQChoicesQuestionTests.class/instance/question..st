@@ -1,4 +1,4 @@
 accessing
-question: anObject
+question: aQuestion
 
-	question := anObject
+	question := aQuestion

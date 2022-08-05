@@ -1,4 +1,4 @@
 defaults
 mailTextInputName
 
-	^'MailPluggableTextMorph'
+	^ 'MailPluggableTextMorph'

@@ -1,5 +1,6 @@
-initialization
+initialize-release
 initialize
 
 	super initialize.
-	votedChoiceList := OrderedCollection new
+	self id: UUID new asString.
+	self votedChoiceList: OrderedCollection new

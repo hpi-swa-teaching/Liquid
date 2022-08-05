@@ -7,4 +7,4 @@ markDuplicatesIn: aChoiceList
 	
 	duplicates := self identifyDuplicates: choiceDescriptions.
 	
-	^(self mark: duplicates in: aChoiceList with: (TextColor color: Color red))
+	^ (self mark: duplicates in: aChoiceList with: (TextColor color: Color red))

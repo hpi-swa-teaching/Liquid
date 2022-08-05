@@ -2,11 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createCollectionOne" : "bn 6/12/2022 20:34",
-		"createCollectionTwo" : "bn 6/12/2022 20:33",
-		"createTextOne" : "bn 6/11/2022 20:13",
-		"testDuplicateMarkingNoMarking" : "bn 6/12/2022 20:59",
-		"testDuplicateMarkingWithMarking" : "bn 6/12/2022 21:00",
-		"testMultipleDuplicates" : "kge 6/12/2022 09:46",
-		"testNoDuplicate" : "kge 6/12/2022 09:46",
-		"testSingleDuplicates" : "kge 6/12/2022 09:46" } }
+		"createCollectionOne" : "bn 8/2/2022 17:52",
+		"createCollectionThreeWithDuplicates" : "ms 8/5/2022 15:51",
+		"createCollectionThreeWithoutDuplicates" : "ms 8/5/2022 15:51",
+		"createCollectionTwo" : "JT 8/4/2022 21:59",
+		"createCollectionWithNoDuplicates" : "ms 8/5/2022 15:49",
+		"createTextOne" : "JT 8/5/2022 18:23",
+		"testDuplicateMarkingNoMarking" : "kge 8/4/2022 18:41",
+		"testDuplicateMarkingWithMarking" : "JT 8/4/2022 22:01",
+		"testMultipleDuplicates" : "kge 8/4/2022 18:42",
+		"testNoDuplicate" : "ms 8/5/2022 15:50",
+		"testSingleDuplicates" : "ms 8/5/2022 15:51" } }

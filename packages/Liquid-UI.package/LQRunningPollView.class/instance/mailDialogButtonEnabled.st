@@ -1,4 +1,4 @@
 toolbuilder
 mailDialogButtonEnabled
 
-	^self poll requiresAuthentication
+	^ self poll requiresAuthentication

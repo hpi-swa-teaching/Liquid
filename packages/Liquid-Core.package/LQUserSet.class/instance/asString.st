@@ -1,4 +1,4 @@
 converting
 asString
 
-	^self title
+	^ self title

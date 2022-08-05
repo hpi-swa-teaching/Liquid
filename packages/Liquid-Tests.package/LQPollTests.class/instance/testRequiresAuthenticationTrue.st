@@ -1,10 +1,10 @@
-tests
+testing
 testRequiresAuthenticationTrue
 
-	| userSet poll |
+	| userSet |
 	
 	userSet :=  self createUserSet.
 	userSet addToRepo.
-	poll:= self createPoll.
-	poll userSetID: userSet id.
-	self assert: poll requiresAuthentication
+	
+	self poll userSetID: userSet id.
+	self assert: self poll requiresAuthentication

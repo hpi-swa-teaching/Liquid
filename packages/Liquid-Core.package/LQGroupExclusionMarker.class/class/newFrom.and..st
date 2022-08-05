@@ -1,7 +1,7 @@
 instance creation
 newFrom: aChoiceList and: aGroup
 
-	^self new 
+	^ self new
 		choiceList: aChoiceList;
 		group: aGroup
 

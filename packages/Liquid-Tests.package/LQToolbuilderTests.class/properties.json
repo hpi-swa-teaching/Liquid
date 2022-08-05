@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "bwe 8/5/2022 15:21",
 	"instvars" : [
 		"poll",
 		"pollDraft" ],
 	"name" : "LQToolbuilderTests",
 	"pools" : [
 		 ],
-	"super" : "LQUIComponentTests",
+	"super" : "LQTestCase",
 	"type" : "normal" }

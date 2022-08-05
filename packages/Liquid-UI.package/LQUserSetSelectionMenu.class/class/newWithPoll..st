@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newWithPoll: aLQPollDraft
 
 	ToolBuilder open: 

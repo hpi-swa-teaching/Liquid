@@ -4,19 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ms 8/5/2022 21:14",
 	"instvars" : [
-		"poll",
 		"pollDraft",
-		"q1",
-		"q2",
-		"q1a1",
-		"q1a2",
-		"q2a1",
-		"q2a2",
 		"visualizationControls" ],
 	"name" : "LQVisualizationTests",
 	"pools" : [
 		 ],
-	"super" : "LQTestCase",
+	"super" : "LQPollIntegrationTests",
 	"type" : "normal" }

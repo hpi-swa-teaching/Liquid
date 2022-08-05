@@ -1,3 +1,4 @@
 accessing
 isServerActive
+
 	^ Server notNil

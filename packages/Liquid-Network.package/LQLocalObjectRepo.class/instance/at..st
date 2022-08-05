@@ -1,4 +1,4 @@
 accessing
 at: key
 
-	^ items at: key
+	^ self items at: key

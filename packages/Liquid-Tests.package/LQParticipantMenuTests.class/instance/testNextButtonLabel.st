@@ -1,10 +1,10 @@
-tests
+testing
 testNextButtonLabel
 	
 	self participantMenu currentQuestionIndex: 1.
 	1 to: (self participantMenu poll pollDraft questionList size) - 1 do:
 			[:i |
-				self assert: participantMenu nextButtonLabel equals: 'Next'.
+				self assert: self participantMenu nextButtonLabel equals: 'Next'.
 				self participantMenu nextQuestion.].
 
-	self assert: participantMenu nextButtonLabel equals: 'Send Answers'.
+	self assert: self participantMenu nextButtonLabel equals: 'Send Answers'

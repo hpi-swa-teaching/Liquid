@@ -1,5 +1,8 @@
 testing
 testIndexSetNormally
 
-	self pollDraftBuilder setIndex: 123.
-	self assert: self pollDraftBuilder getIndex equals: 123
+	| index |
+	
+	index := 123.
+	self pollDraftBuilder setIndex: index.
+	self assert: self pollDraftBuilder getIndex equals: index

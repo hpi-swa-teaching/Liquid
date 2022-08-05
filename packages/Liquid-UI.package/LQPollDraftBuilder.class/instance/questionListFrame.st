@@ -1,7 +1,7 @@
 toolbuilder
 questionListFrame
 	
-	^self
+	^ self
 		frame: 0.85
 		fromTop: 0
 		fromLeft: 0

@@ -4,11 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NM 7/15/2021 12:39",
+	"commentStamp" : "bwe 8/5/2022 15:24",
 	"instvars" : [
-		"survey",
-		"testObjects",
-		"testRunner" ],
+		"objectsToTest" ],
 	"name" : "LQLintTests",
 	"pools" : [
 		 ],

@@ -1,4 +1,5 @@
-tests
+testing
 testPollRepo200ResponseForUser1
-	LQPollRepo default currentPassword: self user1 pwd.
+
+	LQPollRepo default token: self user1 token.
 	self assert: ((LQPollRepo default serverAt: self poll id) isSuccess)

@@ -1,9 +1,10 @@
-test
+testing
 testDuplicateMarkingWithMarking
 
-	| collection |
+	| collection color1 color2 |
 	
 	collection := self createCollectionTwo.
-	
-	self assert: (((LQDuplicateDetector new markDuplicatesIn: collection) attributesAt: 2)  includes: (TextColor color: Color red)) equals: true.
-	self assert: (((LQDuplicateDetector new markDuplicatesIn: collection) attributesAt: 7)  includes: (TextColor color: Color red)) equals: false
+	color1 := (LQDuplicateDetector new markDuplicatesIn: collection) attributesAt: 2.
+	color2 := ((LQDuplicateDetector new markDuplicatesIn: collection) attributesAt: 7).
+	self assert: (color1 includes: (TextColor color: Color red)).
+	self deny: (color2  includes: (TextColor color: Color red))

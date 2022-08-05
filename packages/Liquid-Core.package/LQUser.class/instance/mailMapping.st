@@ -5,5 +5,5 @@ mailMapping
 			at: '{{firstname}}' put: self firstname;
 			at: '{{surname}}' put: self surname;
 			at: '{{mail}}' put: self mail;
-			at: '{{pwd}}' put: self pwd;
+			at: '{{token}}' put: self token;
 			yourself

@@ -1,7 +1,8 @@
-initialize
+initialize-release
 initialize
 
-	answerSets := OrderedCollection new.
+	super initialize.
+	self answerSets: OrderedCollection new.
 	self id: UUID new asString.
-	isOpen := true.
-	guard := LQPasswordGuard new
+	self isOpen: true.
+	self guard: LQPasswordGuard new

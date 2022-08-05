@@ -1,3 +1,4 @@
 accessing
 visualizationControls: aVisualizationControls
+
 	visualizationControls := aVisualizationControls

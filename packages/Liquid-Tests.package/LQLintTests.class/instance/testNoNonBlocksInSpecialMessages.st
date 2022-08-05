@@ -1,4 +1,4 @@
 misc
 testNoNonBlocksInSpecialMessages
 
-	self assertAllZero: (self lint: #smallLintIfTrueBlocks except: {LQLintTests})
+	self assertAllZero: (self lint: #smallLintIfTrueBlocks except: {self class})

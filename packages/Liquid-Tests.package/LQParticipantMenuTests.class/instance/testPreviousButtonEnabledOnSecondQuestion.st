@@ -1,6 +1,6 @@
-tests
+testing
 testPreviousButtonEnabledOnSecondQuestion
 	
 	self participantMenu currentQuestionIndex: 1.
 	self participantMenu nextQuestionOrSend.
-	self assert: participantMenu previousButtonEnabled equals: true
+	self assert: self participantMenu previousButtonEnabled

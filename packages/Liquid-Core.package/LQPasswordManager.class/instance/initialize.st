@@ -1,4 +1,5 @@
 initialize-release
 initialize
 
-	passwordStore := Dictionary new
+	super initialize.
+	self passwordStore: Dictionary new

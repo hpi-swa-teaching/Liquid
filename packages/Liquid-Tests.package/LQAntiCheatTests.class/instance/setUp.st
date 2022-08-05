@@ -4,4 +4,7 @@ setUp
 	super setUp.
 	self
 		createUserSet1;
-		createPoll
+		createPoll;
+		createAnswerSet1;
+		createAnswerSet2;
+		setQuestion1

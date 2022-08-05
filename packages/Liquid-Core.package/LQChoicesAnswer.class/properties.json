@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NM 7/9/2021 14:13",
+	"commentStamp" : "bwe 8/5/2022 15:11",
 	"instvars" : [
+		"id",
+		"questionId",
 		"votedChoiceList" ],
 	"name" : "LQChoicesAnswer",
 	"pools" : [
 		 ],
-	"super" : "LQAnswer",
+	"super" : "Object",
 	"type" : "normal" }

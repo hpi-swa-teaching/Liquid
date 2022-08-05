@@ -1,6 +1,8 @@
 toolbuilder
 buildWith: builder
+
 	| windowSpec |
+	
 	windowSpec := self buildWindowWith: builder specs: {
 		(self questionListFrame) -> [self buildQuestionListWith: builder].
 		(self questionBuilderFrame) -> 
@@ -14,6 +16,6 @@ buildWith: builder
 		(self addManageUserSetsFrame) -> [self buildManageUserSetsButton: builder].
 	}.
 	windowSpec label: 'Liquid - Create a Poll'.
-	 ^builder build: windowSpec
+	^ builder build: windowSpec
 		
 		

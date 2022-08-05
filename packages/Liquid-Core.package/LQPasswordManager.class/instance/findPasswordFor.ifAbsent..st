@@ -1,4 +1,4 @@
 manage
 findPasswordFor: aPollId ifAbsent: do
 
-	^ passwordStore at: aPollId ifAbsent: [do value]
+	^ self passwordStore at: aPollId ifAbsent: [do value]

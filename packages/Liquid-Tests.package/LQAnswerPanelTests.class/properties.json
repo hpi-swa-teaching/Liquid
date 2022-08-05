@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "bn 8/4/2022 22:33",
 	"instvars" : [
 		 ],
 	"name" : "LQAnswerPanelTests",
 	"pools" : [
 		 ],
-	"super" : "LQUIComponentTests",
+	"super" : "LQTestCase",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-tests
+testing
 testToolTip
-	LQQuestion allSubclasses
-		do: [:question | self testToolTipWith: question new]
+
+	self testToolTipWith: LQChoicesQuestion new

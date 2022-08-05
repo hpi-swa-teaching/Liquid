@@ -1,7 +1,7 @@
 toolbuilder
 buildClearUserSetSelectionButtonWith: aBuilder
 
-	^aBuilder pluggableButtonSpec new
+	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Clear Selection';
 		action: #clearSelection;
@@ -9,5 +9,6 @@ buildClearUserSetSelectionButtonWith: aBuilder
 			topFraction: 0.91; 
 			bottomFraction: 0.98; 
 			leftFraction: 0.1; 
-			rightFraction: 0.9)
-		yourself.
+			rightFraction: 0.9;
+			yourself);
+		yourself

@@ -1,3 +1,4 @@
 communication
 groupAt: key
-	^ (WebClient httpGet: self url, '/?message=getGroup&id=', key, '&pwd=', self currentPassword) content
+
+	^ (WebClient httpGet: (self urlForGroupRequestForPollWithId: key)) content

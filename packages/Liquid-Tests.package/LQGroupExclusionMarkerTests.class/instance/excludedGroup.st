@@ -1,0 +1,4 @@
+accessing
+excludedGroup
+
+	^'group4'

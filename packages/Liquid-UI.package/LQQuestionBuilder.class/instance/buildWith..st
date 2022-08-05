@@ -7,4 +7,5 @@ buildWith: aBuilder
 				self buildTitleInputWith: aBuilder.
 				self buildChoicesInputWith: aBuilder.
 				self buildMaxNumberOfChoicesInputWith: aBuilder.
-				self buildMaxNumberOfChoicesLabelWith: aBuilder} yourself)
+				self buildMaxNumberOfChoicesLabelWith: aBuilder};
+			yourself)

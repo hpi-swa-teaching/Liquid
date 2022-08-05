@@ -7,4 +7,4 @@ colourGrey: aString
 
 	textStream withAttribute: TextColor gray do: [textStream nextPutAll: aString].
 		
-	^textStream contents
+	^ textStream contents

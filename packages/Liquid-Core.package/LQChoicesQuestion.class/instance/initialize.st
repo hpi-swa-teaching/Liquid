@@ -1,6 +1,7 @@
-initialize
+initialize-release
 initialize
 
 	super initialize.
-	choiceList := OrderedCollection new.
-	maxNumberOfChoices := 1
+	self id: UUID new asString.
+	self choiceList: OrderedCollection new.
+	self maxNumberOfChoices: 1

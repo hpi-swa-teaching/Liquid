@@ -1,4 +1,4 @@
 initialize-release
 initialize
 
-	items := Dictionary new
+	self items: Dictionary new

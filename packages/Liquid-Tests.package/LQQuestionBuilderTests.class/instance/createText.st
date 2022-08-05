@@ -1,7 +1,7 @@
 helper methods
 createText
 
-	^'Baum
+	^ 'Baum
 Katze
 Haus
 123 []
