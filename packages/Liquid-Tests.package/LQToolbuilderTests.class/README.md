@@ -1,8 +1,8 @@
 LQToolbuilderTests is a class containing tests whether various Liquid-UI classes can be built with the toolbuilder.
 
 Instance Variables
-	poll:		anLQPoll
-	pollDraft:		anLQPollDraft
+	poll:				<LQPoll>
+	pollDraft:	<LQPollDraft>
 
 poll
 	an LQPoll used for testing; contains pollDraft

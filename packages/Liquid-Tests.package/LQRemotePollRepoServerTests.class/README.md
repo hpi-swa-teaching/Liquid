@@ -3,10 +3,10 @@ LQRemotePollRepoServerTests is a class containing the tests for the class LQRemo
 It ensures that answerSets con only be added in the intended way.
 
 Instance Variables
-	poll:		anLQPoll
-	user1:		anLQUser
-	user2:		anLQUser
-	userSet:		anLQUserSet
+	poll:			<LQPoll>
+	user1:		<LQUser>
+	user2:		<LQUser>
+	userSet:	<LQUserSet>
 
 poll
 	an LQPoll used for testing; contains userSet

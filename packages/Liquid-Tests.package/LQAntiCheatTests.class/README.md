@@ -3,13 +3,13 @@ LQAntiCHeatTests is a class containing the tests for the class LQAntiCheat in Li
 It ensures that groub based answer exclusion is working and one can only answer polls when one is allowed to do so.
 
 Instance Variables
-	poll:		anLQPoll
-	user1:		anLQUser
-	user2:		anLQUser
-	userSet:		anLQUserSet
-	answerSet1:		anLQAnswerSet
-	answerSet2: 	anLQAnswerSet
-	q1:	 anLQChoicesQuestion
+	poll:		<LQPoll>
+	user1:	<LQUser>
+	user2:	<LQUser>
+	userSet:				<LQUserSet>
+	answerSet1:	<LQAnswerSet>
+	answerSet2: 	<LQAnswerSet>
+	q1:	 		<LQChoicesQuestion>
 
 poll
 	a poll used in tests; contains userSet 

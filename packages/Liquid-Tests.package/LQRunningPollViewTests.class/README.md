@@ -3,7 +3,7 @@ LQRunningPollViewTests is a class containing the tests for the class LQRunningPo
 It tests whether the Copy to Clipboard works
 
 Instance Variables
-	poll:		anLQPoll
+	poll:		<LQPoll>
 
 poll
 	an LQPoll used for testing

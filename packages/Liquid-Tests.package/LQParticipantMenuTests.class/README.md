@@ -3,14 +3,14 @@ A collection of tests concerning themselves with everything related to the LQPar
 It ensures that the displayed contents are correct.
 
 Instance Variables
-	poll:		anLQPoll
-	q1:		anLQChoicesQuestion
-	q1c1:		anLQChoice
-	q1c2:		anLQChoice
-	q2:		anLQChoicesQuestion
-	q2c1:		anLQChoice
-	q2c2:		anLQChoice
-	participantMenu:		anLQParticipantMenu
+	poll:		<LQPoll>
+	q1:			<LQChoicesQuestion>
+	q1c1:	<LQChoice>
+	q1c2:	<LQChoice>
+	q2:			<LQChoicesQuestion>
+	q2c1:	<LQChoice>
+	q2c2:	<LQChoice>
+	participantMenu:		<LQParticipantMenu>
 
 
 poll

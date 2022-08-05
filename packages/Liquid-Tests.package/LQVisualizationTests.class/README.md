@@ -3,15 +3,15 @@ LQVisualizationTests is a class containing the tests for the classes LQVisualiza
 It ensures that contents are displayed the intended way.
 
 Instance Variables
-	poll:		anLQPoll
-	pollDraft:		anLQPollDraft
-	q1:		anLQChoicesQuestion
-	q1a1:		anLQChoice
-	q1a2:		anLQChoice
-	q2:		anLQChoicesQuestion
-	q2a1:		anLQChoice
-	q2a2:		anLQChoice
-	visualization	Controls:	anLQVisualizationControls
+	poll:				<LQPoll>
+	pollDraft:	<LQPollDraft>
+	q1:					<LQChoicesQuestion>
+	q1a1:			<LQChoice>
+	q1a2:			<LQChoice>
+	q2:					<LQChoicesQuestion>
+	q2a1:			<LQChoice>
+	q2a2:			<LQChoice>
+	visualization	Controls:	<LQVisualizationControls>
 
 
 poll

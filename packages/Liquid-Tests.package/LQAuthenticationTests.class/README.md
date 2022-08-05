@@ -3,13 +3,13 @@ LQAuthenticationTests is a class containing the tests for the Authentication Pro
 It ensures that the Server answers in the expected way and is reachable when intended.
 
 Instance Variables
-	poll:		anLQPoll
-	poll2:		anLQPoll
-	user1:		anLQUser
-	user2:		anLQUser
-	user3:		anLQUser
-	userSet:		anLQUserSet
-	userSet2:		anLQUserSet
+	poll:				<LQPoll>
+	poll2:			<LQPoll>
+	user1:			<LQUser>
+	user2:			<LQUser>
+	user3:			<LQUser>
+	userSet:		<LQUserSet>
+	userSet2: <LQUserSet>
 
 poll
 	a poll used in tests; contains userSet

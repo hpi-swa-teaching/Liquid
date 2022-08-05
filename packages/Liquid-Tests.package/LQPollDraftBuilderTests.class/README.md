@@ -3,8 +3,8 @@ LQPollDraftBuilderTests is a class containing the tests for the class LQPollDraf
 It ensures that contents are displayed the intended way.
 
 Instance Variables
-	builder:		aToolBuilder
-	pollDraftBuilder:		anLQPollDraftBuilder
+	builder:						<ToolBuilder>
+	pollDraftBuilder:	<LQPollDraftBuilder>
 
 builder
 	a Toolbuilder used to build the LQPollDraftBuilder in order to test it

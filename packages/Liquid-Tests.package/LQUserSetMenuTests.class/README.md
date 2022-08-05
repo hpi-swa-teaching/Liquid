@@ -4,8 +4,8 @@ It ensures that contents are displayed the intended way
 It further tests whether it is possible to add and remove userSets through the menu
 
 Instance Variables
-	userSet:		anLQUserSet
-	userSetMenu:		anLQUserSetMenu
+	userSet:				<LQUserSet>
+	userSetMenu:	<LQUserSetMenu>
 
 userSet
 	an LQUserSet used for testing
