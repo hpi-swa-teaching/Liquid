@@ -2,6 +2,7 @@ testing
 testExtractionOfGroupsWithMultipleExcludedGroups
 
 	| choiceEntry expectedGroups actualGroups |
+	
 	expectedGroups := OrderedCollection new
 		add: 'group1';
 		add: 'group2';

@@ -12,5 +12,3 @@ setUp
 	
 	self poll id: 'this-is-a-poll-id'.
 	self poll startWithId: 'this-is-a-poll-id' ifTaken: []
-
-	

@@ -6,9 +6,16 @@
 		 ],
 	"commentStamp" : "bwe 8/5/2022 15:19",
 	"instvars" : [
-		"participantMenu" ],
+		"participantMenu",
+		"poll",
+		"q1",
+		"q2",
+		"q1c1",
+		"q1c2",
+		"q2c1",
+		"q2c2" ],
 	"name" : "LQParticipantMenuTests",
 	"pools" : [
 		 ],
-	"super" : "LQPollIntegrationTests",
+	"super" : "LQTestCase",
 	"type" : "normal" }
