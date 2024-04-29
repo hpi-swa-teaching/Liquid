@@ -1,0 +1,42 @@
+[
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Liquid-Network'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Liquid-Core'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Liquid-Tests'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Liquid-UI'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfLiquid'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	}
+]
