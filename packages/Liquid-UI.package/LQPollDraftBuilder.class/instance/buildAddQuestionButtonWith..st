@@ -3,7 +3,7 @@ buildAddQuestionButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Add Question';
+		label: 'Add Another Question';
 		help: 'Add a new question to your poll.';
 		action: #addQuestion;
 		frame: (LayoutFrame new

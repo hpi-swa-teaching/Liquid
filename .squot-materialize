@@ -1,22 +1,7 @@
 [
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'docs',
-			'class-diagram.wsd'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.github',
-			'workflows',
-			'ci.yml'
-		],
-		#encoding : 'TXT'
-	},
 	SquotCypressMapper {
 		#package : MCPackage {
-			#name : 'BaselineOfLiquid'
+			#name : 'Liquid-Core'
 		},
 		#path : FSAbsolutePath [
 			'packages'
@@ -24,23 +9,7 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'docs',
-			'ObjectRepo.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.github',
-			'workflows',
-			'ci-linter.yml'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'docs',
-			'userSet.md'
+			'.all-contributorsrc'
 		],
 		#encoding : 'TXT'
 	},
@@ -52,48 +21,27 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'.smalltalk.legacy.ston'
+			'README.md'
 		],
 		#encoding : 'TXT'
 	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'Liquid-Tests'
-		},
+	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'packages'
-		]
+			'docs',
+			'ObjectRepo.md'
+		],
+		#encoding : 'TXT'
 	},
-	SquotCypressMapper {
-		#package : MCPackage {
-			#name : 'Liquid-UI'
-		},
+	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'packages'
-		]
+			'CONTRIBUTING.md'
+		],
+		#encoding : 'TXT'
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'docs',
 			'UseCases.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.smalltalk.ston'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.all-contributorsrc'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'LICENSE'
 		],
 		#encoding : 'TXT'
 	},
@@ -107,8 +55,28 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'ci.yml'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
 			'docs',
-			'Future_vision.md'
+			'LQLogo.svg'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.legacy.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.lint.ston'
 		],
 		#encoding : 'TXT'
 	},
@@ -122,20 +90,27 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'CONTRIBUTING.md'
+			'docs',
+			'class-diagram.wsd'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'LICENSE'
 		],
 		#encoding : 'TXT'
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
 			'docs',
-			'LQLogo.svg'
+			'Future_vision.md'
 		],
 		#encoding : 'TXT'
 	},
 	SquotCypressMapper {
 		#package : MCPackage {
-			#name : 'Liquid-Core'
+			#name : 'Liquid-UI'
 		},
 		#path : FSAbsolutePath [
 			'packages'
@@ -150,20 +125,52 @@
 	},
 	SquotPlaintextMapper {
 		#path : FSAbsolutePath [
-			'README.md'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
-			'.smalltalk.lint.ston'
-		],
-		#encoding : 'TXT'
-	},
-	SquotPlaintextMapper {
-		#path : FSAbsolutePath [
 			'scripts',
 			'preLoading.st'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'docs',
+			'userSet.md'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'Liquid-Tests'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'pollData',
+			'plaintext.txt'
+		],
+		#encoding : 'TXT'
+	},
+	SquotCypressMapper {
+		#package : MCPackage {
+			#name : 'BaselineOfLiquid'
+		},
+		#path : FSAbsolutePath [
+			'packages'
+		]
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.smalltalk.ston'
+		],
+		#encoding : 'TXT'
+	},
+	SquotPlaintextMapper {
+		#path : FSAbsolutePath [
+			'.github',
+			'workflows',
+			'ci-linter.yml'
 		],
 		#encoding : 'TXT'
 	}

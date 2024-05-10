@@ -5,7 +5,7 @@ printDataOn: aStream
 	self votedChoiceList
 		collect: [:votedChoice |
 			aStream nextPutAll: votedChoice.
-			aStream nextPutAll: ',']
+			aStream nextPutAll: ':']
 		from: 1
 		to: self votedChoiceList size - 1.
 	aStream nextPutAll: self votedChoiceList last
