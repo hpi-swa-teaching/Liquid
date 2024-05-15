@@ -8,4 +8,5 @@ printDataOn: aStream
 			aStream nextPutAll: ':']
 		from: 1
 		to: self votedChoiceList size - 1.
-	aStream nextPutAll: self votedChoiceList last
+		
+	aStream nextPutAll: self votedChoiceList last	
