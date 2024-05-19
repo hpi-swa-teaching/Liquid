@@ -14,6 +14,7 @@ buildWith: builder
 		(self runPollButtonFrame) -> [self buildRunPollButtonWith: builder].
 		(self addQuestionButtonFrame) -> [self buildAddQuestionButtonWith: builder].
 		(self addManageUserSetsFrame) -> [self buildManageUserSetsButton: builder].
+		(self removeQuestionButtonFrame) -> [self buildRemoveQuestionButtonWith: builder].
 	}.
 	windowSpec label: 'Liquid - Create a Poll'.
 	^ builder build: windowSpec
