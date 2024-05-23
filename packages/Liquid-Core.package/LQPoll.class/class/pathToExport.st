@@ -1,3 +1,3 @@
 instance creation
 pathToExport
-	^ FileDirectory default fullName, FileDirectory default pathNameDelimiter, 'DataExports'
+	^ FileDirectory default fullName , FileDirectory default pathNameDelimiter , 'DataExports' 
