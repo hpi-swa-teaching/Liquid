@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Anton Eichstädt 5/24/2024 15:23",
+	"instvars" : [
+		"id",
+		"questionId",
+		"choicesRanking" ],
+	"name" : "LQPrioAnswer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

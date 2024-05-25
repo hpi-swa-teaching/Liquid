@@ -8,9 +8,9 @@ testAddAnswerSetPreventedByMultipleAnswers
 		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
-	answerSet1 addAnswer: (LQChoicesAnswer new
+	answerSet1 addAnswer: (LQMultChoiceAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {(q1 choiceList second) description};
+		choicesRanking: {(q1 choiceList second) description};
 		yourself).
 	
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).

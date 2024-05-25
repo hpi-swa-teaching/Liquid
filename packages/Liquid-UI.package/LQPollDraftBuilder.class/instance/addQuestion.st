@@ -3,7 +3,7 @@ addQuestion
 
 	| question builder |
 	
-	question := LQChoicesQuestion new.
+	question := LQMultChoiceQuestion new.
 	builder := LQQuestionBuilder new.
 	builder question: question.
 	self pollDraft addQuestion: question.

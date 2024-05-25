@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bwe 8/5/2022 16:10",
+	"instvars" : [
+		"id",
+		"title",
+		"maxNumberOfChoices",
+		"choiceList" ],
+	"name" : "LQMultChoiceQuestion",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

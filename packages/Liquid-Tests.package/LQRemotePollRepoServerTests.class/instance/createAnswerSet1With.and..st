@@ -8,9 +8,9 @@ createAnswerSet1With: aQuestion and: anAnswer
 	 	pollId: (self poll id);
 		yourself.
 		
-	temporaryAnswerSet addAnswer: (LQChoicesAnswer new
+	temporaryAnswerSet addAnswer: (LQMultChoiceAnswer new
 		questionId: (aQuestion id);
-		votedChoiceList: {anAnswer description};
+		choicesRanking: {anAnswer description};
 		yourself).
 		
 	^ temporaryAnswerSet
