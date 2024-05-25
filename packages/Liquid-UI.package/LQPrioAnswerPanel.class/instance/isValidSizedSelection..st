@@ -1,4 +1,4 @@
 validation
-isValidSizedSelection: aSet
+isValidSizedSelection: anOrderedCollection
 
-	^ aSet size <= self question maxNumberOfChoices
+	^ anOrderedCollection size = self question choiceList size

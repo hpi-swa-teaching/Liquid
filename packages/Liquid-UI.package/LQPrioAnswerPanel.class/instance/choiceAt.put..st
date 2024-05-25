@@ -12,4 +12,5 @@ choiceAt: anIndex put: aBoolean
 		self selectedChoices: newSelectedChoices.
 		self updateAnswer].
 	self changed: #getRemainingVotedChoices.
+	self changed: #updateRankingIndices.
 	self changed: #choiceSelected

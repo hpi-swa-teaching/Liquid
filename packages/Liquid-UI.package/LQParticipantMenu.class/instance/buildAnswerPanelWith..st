@@ -3,7 +3,7 @@ buildAnswerPanelWith: aBuilder
 
 	| temporaryAnswerPanel |
 	
-	temporaryAnswerPanel := LQAnswerPanel newWith: aBuilder.
+	temporaryAnswerPanel := LQPrioAnswerPanel newWith: aBuilder.
 	self answerPanel: temporaryAnswerPanel.
 	self currentQuestionIndex: 1.
 	temporaryAnswerPanel question: self currentQuestion.
