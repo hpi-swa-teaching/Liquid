@@ -1,4 +1,3 @@
 accessing
-removeQuestionBuilderAt: index
-	
-	self questionBuilders removeAt: index
+removeQuestionBuilderAt: index 
+	self questionBuilders removeAt: index 
