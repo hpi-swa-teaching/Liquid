@@ -1,7 +1,7 @@
 helper methods
 createAnswerWithQuestion: aQuestion withVotes: anOrderedCollection
 
-	^ LQChoicesAnswer new
+	^ LQMultChoiceAnswer new
 			questionId: aQuestion id;
-			votedChoiceList: anOrderedCollection;
+			choicesRanking: anOrderedCollection;
 			yourself

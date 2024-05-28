@@ -8,4 +8,4 @@ testQuestionList
 	self assert: self pollDraftBuilder list size equals: sizeBefore.
 	self pollDraftBuilder addQuestion.
 	self assert: self pollDraftBuilder list size equals: sizeAfter.
-	self pollDraftBuilder list do: [:question | self assert: (question isKindOf: LQChoicesQuestion)]
+	self pollDraftBuilder list do: [:question | self assert: (question isKindOf: LQMultChoiceQuestion)]

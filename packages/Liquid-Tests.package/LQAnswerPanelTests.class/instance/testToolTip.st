@@ -1,4 +1,4 @@
 testing
 testToolTip
 
-	self testToolTipWith: LQChoicesQuestion new
+	self testToolTipWith: LQMultChoiceQuestion new

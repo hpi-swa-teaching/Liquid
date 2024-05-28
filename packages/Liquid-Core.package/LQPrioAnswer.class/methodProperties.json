@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newWithQuestion:andVotes:" : "Anton Eichstädt 5/24/2024 15:38" },
+	"instance" : {
+		"choicesRanking" : "Anton Eichstädt 5/24/2024 15:23",
+		"choicesRanking:" : "Anton Eichstädt 5/24/2024 15:24",
+		"containsVoteForChoice:" : "Anton Eichstädt 5/24/2024 15:25",
+		"id" : "JT 8/2/2022 16:59",
+		"id:" : "JT 8/2/2022 16:59",
+		"initialize" : "Anton Eichstädt 5/24/2024 15:24",
+		"printDataOn:" : "Anton Eichstädt 5/24/2024 15:23",
+		"questionId" : "JT 8/2/2022 17:01",
+		"questionId:" : "JT 8/2/2022 17:01" } }

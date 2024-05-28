@@ -8,9 +8,9 @@ let: target ParticipantsInteractWithPollId: aString
 				ifAbsent: [self fail: 'Poll not found at given ID'].
 			q := p questionList first.
 			answerSet := (LQAnswerSet new
-				addAnswer: (LQChoicesAnswer new
+				addAnswer: (LQMultChoiceAnswer new
 					questionId: q id;
-					votedChoiceList: {LQChoice newFrom: 'in Whiscashs throat'};
+					choicesRanking: {LQChoice newFrom: 'in Whiscashs throat'};
 					yourself);
 				pollId: p id;
 				yourself).
