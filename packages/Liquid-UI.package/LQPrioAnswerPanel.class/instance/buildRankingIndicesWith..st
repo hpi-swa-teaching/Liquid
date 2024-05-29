@@ -3,8 +3,8 @@ buildRankingIndicesWith: aBuilder
 
 	^ aBuilder pluggableListSpec new
 		model: self;
-		"list: #choiceDescriptions;
-		getIndex: #choiceSelected;
+		list: #getRankingIndices;
+		"getIndex: #choiceSelected;
 		setIndex: #choiceSelected:;
 		getSelectionList: #choiceAt:;
 		setSelectionList: #choiceAt:put:;"
