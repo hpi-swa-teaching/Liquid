@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	self question: LQMultChoiceQuestion new
+	self question: LQChoicesQuestion new
