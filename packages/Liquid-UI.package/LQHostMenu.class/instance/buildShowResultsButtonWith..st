@@ -5,7 +5,7 @@ buildShowResultsButtonWith: aBuilder
 		model: self;
 		label: 'Export Results';
 		help: 'Export poll results in a CSV format';
-		action: #showResults;
+		action: #exportResults;
 		frame: (LayoutFrame new
 			topFraction: 0;
 			bottomFraction: 0.3;
