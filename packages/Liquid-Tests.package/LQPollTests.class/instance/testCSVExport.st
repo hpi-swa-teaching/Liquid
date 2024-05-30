@@ -2,8 +2,11 @@ testing
 testCSVExport
 	| filePath fileStream buffer match |
 	self poll addAnswerSet: self as1.
-	self poll exportCSV.
 	filePath := LQPoll pathToExport , FileDirectory default pathNameDelimiter , self poll id , '.csv'.
+	FileDirectory default
+		deleteFileNamed: filePath
+		ifAbsent: []. 
+	self poll exportCSV.
 	fileStream := FileStream fileNamed: filePath.
 	buffer := fileStream contents.
 	match := 'Question 1;Question 2;
