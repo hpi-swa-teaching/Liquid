@@ -2,9 +2,9 @@ testing
 testPollSanitization
 
 	self answerSet1 token: self user1 token.
-	self answerSet1 addAnswer: (LQMultChoiceAnswer new
+	self answerSet1 addAnswer: (LQChoicesAnswer new
 		questionId: (self q1 id);
-		choicesRanking: {(self q1 choiceList second) description};
+		votedChoiceList: {(self q1 choiceList second) description};
 		yourself).
 	LQPollRepo default token: self user1 token.
 	LQPollRepo default addAnswerSet: self answerSet1 ToPoll: self poll id.

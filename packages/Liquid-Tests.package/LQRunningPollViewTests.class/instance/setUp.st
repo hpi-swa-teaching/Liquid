@@ -7,7 +7,7 @@ setUp
 	self poll: (LQPoll newWithPollDraft: LQPollDraft new).
 	self poll id: 'test-id'.
 	
-	question1 := LQMultChoiceQuestion new
+	question1 := LQChoicesQuestion new
 		title: 'Question 1';
 		choiceList: {'Q1A1'. 'Q1A2'};
 		yourself.

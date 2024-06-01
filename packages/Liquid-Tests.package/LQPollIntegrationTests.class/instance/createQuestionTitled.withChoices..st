@@ -1,7 +1,7 @@
 helper methods
 createQuestionTitled: aString withChoices: anOrderedCollection
 
-	^ LQMultChoiceQuestion new
+	^ LQChoicesQuestion new
 			title: aString;
 			choiceList: anOrderedCollection;
 			yourself

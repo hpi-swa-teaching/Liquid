@@ -1,5 +1,5 @@
 accessing
-answer: aLQAnswer
+answer: aLiquidAnswer
 
-	answer := aLQAnswer.
+	answer := aLiquidAnswer.
 	answer questionId: self question id
