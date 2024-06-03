@@ -3,9 +3,9 @@ buildShowResultsButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Show Results';
-		help: 'Display poll results in a CSV format';
-		action: #showResults;
+		label: 'Export Results';
+		help: 'Export poll results in a CSV format';
+		action: #exportResults;
 		frame: (LayoutFrame new
 			topFraction: 0;
 			bottomFraction: 0.3;

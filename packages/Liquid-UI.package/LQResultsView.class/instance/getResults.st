@@ -1,4 +1,4 @@
 modifying
 getResults
 
-	^ self poll exportCSVDownloadsPath
+	^ self poll exportCSV

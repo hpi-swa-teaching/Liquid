@@ -4,13 +4,13 @@
 	"instance" : {
 		"buildCreatePollButtonWith:" : "bn 8/2/2022 16:52",
 		"buildPollInteractionButtonWith:" : "NM 7/30/2021 19:42",
-		"buildShowResultsButtonWith:" : "JT 5/19/2022 22:11",
+		"buildShowResultsButtonWith:" : "vl 5/30/2024 15:01",
 		"buildUserSetButtonWith:" : "ape 6/15/2022 17:24",
 		"buildVisualizeResultsButtonWith:" : "JT 8/5/2022 18:28",
 		"buildWith:" : "ms 8/4/2022 10:55",
 		"closePoll" : "JT 8/5/2022 18:29",
 		"createPoll" : "bn 8/2/2022 18:05",
+		"exportResults" : "vl 5/30/2024 17:25",
 		"extent" : "ms 8/4/2022 10:55",
 		"openUserSetMenu" : "bn 8/2/2022 16:52",
-		"showResults" : "JT 8/5/2022 18:29",
 		"visualizeResults" : "JT 8/5/2022 18:29" } }
