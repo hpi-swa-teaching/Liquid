@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildPollDraftListViewWith:" : "FLST 6/4/2024 14:53",
+		"buildRemovePollDraftButtonWith:" : "FLST 6/4/2024 15:22",
+		"buildShowPollDraftButtonWith:" : "FLST 6/4/2024 15:22",
+		"buildWith:" : "FLST 6/4/2024 15:23",
+		"choiceSelected" : "FLST 6/4/2024 14:48",
+		"choiceSelected:" : "FLST 6/4/2024 14:49",
+		"initialize" : "FLST 6/4/2024 15:04",
+		"pollDrafts" : "FLST 6/4/2024 15:00",
+		"pollDrafts:" : "FLST 6/4/2024 15:31",
+		"populatePollDrafts" : "FLST 6/4/2024 15:13",
+		"removeDraft" : "FLST 6/4/2024 15:35",
+		"showDraft" : "FLST 6/4/2024 15:17" } }
