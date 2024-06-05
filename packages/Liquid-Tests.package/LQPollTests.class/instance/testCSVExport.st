@@ -9,9 +9,6 @@ testCSVExport
 	self poll exportCSV.
 	fileStream := FileStream fileNamed: filePath.
 	buffer := fileStream contents.
-	"match := 'Question 1;Question 2;
-Q1A1:Q1A2;Q1A2;
-'."
 	match := poll returnDataWithDelimiter: ';'.
 	self assert: match equals: buffer.
 	fileStream close
