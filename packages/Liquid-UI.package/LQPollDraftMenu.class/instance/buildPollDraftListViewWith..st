@@ -3,7 +3,7 @@ buildPollDraftListViewWith: aBuilder
 	^ aBuilder pluggableListSpec new model: self;
 		 list: #pollDrafts;
 		 getIndex: #choiceSelected;
-		setIndex: #choiceSelected:;
+		 setIndex: #choiceSelected:; 
 		 frame: (LayoutFrame new topFraction: 0.1;
 			 bottomFraction: 0.65;
 			 leftFraction: 0.1;
