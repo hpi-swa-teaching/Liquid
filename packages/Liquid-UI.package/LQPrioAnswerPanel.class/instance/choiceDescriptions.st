@@ -1,4 +1,0 @@
-accessing
-choiceDescriptions
-
-	^ self exclusionMarker choiceListWithExclusionsMarked

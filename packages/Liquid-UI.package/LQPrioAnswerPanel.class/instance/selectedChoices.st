@@ -1,4 +1,0 @@
-accessing
-selectedChoices
-
-	^ selectedChoices

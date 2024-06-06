@@ -8,5 +8,5 @@ buildMultiSelectionListWith: aBuilder
 		setIndex: #choiceSelected:;
 		getSelectionList: #choiceAt:;
 		setSelectionList: #choiceAt:put:;
-		frame: (0.1 @ 0.2 corner: 0.9 @ 0.8);
+		frame: (0.15 @ 0.2 corner: 0.9 @ 0.8);
 		yourself

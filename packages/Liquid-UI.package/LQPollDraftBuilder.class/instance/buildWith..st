@@ -12,7 +12,8 @@ buildWith: builder
 				children: #buildQuestionBuilder;
 				yourself].
 		(self runPollButtonFrame) -> [self buildRunPollButtonWith: builder].
-		(self addQuestionButtonFrame) -> [self buildAddQuestionButtonWith: builder].
+		(self addMultiChoiceQuestionButtonFrame) -> [self buildAddMultiChoiceQuestionButtonWith: builder].
+		(self addPriorityQuestionButtonFrame) -> [self buildAddPriorityQuestionButtonWith: builder].
 		(self addManageUserSetsFrame) -> [self buildManageUserSetsButton: builder].
 	}.
 	windowSpec label: 'Liquid - Create a Poll'.
