@@ -7,7 +7,7 @@ buildWith: builder
 							 layout: #vertical;
 							 children: #buildQuestionBuilder;
 							 yourself]. self runPollButtonFrame
-					-> [self buildRunPollButtonWith: builder]. self addQuestionButtonFrame
+					-> [self buildRunPollButtonWith: builder]. self addMultiChoiceQuestionButtonFrame
 					-> [self buildAddQuestionButtonWith: builder]. self addManageUserSetsFrame
 					-> [self buildManageUserSetsButton: builder]. self removeQuestionButtonFrame
 					-> [self buildRemoveQuestionButtonWith: builder].

@@ -2,7 +2,7 @@ accessing
 question: aQuestion
 
 	question := aQuestion.
-	self selectedChoices: Set new.
+	self selectedChoices: OrderedCollection new.
 	self answer: aQuestion buildEmptyAnswer.
 	self resetUI
 	

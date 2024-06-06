@@ -1,4 +1,4 @@
 accessing
-selectedChoices: aSet
+selectedChoices: anOrderedCollection
 
-	selectedChoices := aSet
+	selectedChoices := anOrderedCollection
