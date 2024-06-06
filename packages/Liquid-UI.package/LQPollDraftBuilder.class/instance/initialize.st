@@ -7,3 +7,4 @@ initialize
 	self pollDraft questionList: OrderedCollection new.
 	self currentQuestion: 1.
 	self addMultiChoiceQuestion
+
