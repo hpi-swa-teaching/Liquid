@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"newWithTitle:" : "ape 7/23/2022 09:58",
-		"openWithPollDraft:" : "vl 6/7/2024 14:24" },
+		"openWithPollDraft:" : "vl 6/7/2024 14:24",
+		"newWithTitle:and:" : "Ingmar Vogel 6/7/2024 11:53" },
 	"instance" : {
 		"addManageUserSetsFrame" : "bn 8/2/2022 16:57",
 		"addMultiChoiceQuestion" : "Anton Eichstädt 6/5/2024 17:31",
@@ -25,7 +26,9 @@
 		"frame:fromTop:fromLeft:width:" : "bn 8/2/2022 16:58",
 		"generateRandomID" : "leli 6/12/2024 14:20",
 		"getIndex" : "bn 8/2/2022 16:58",
-		"initialize" : "Anton Eichstädt 6/5/2024 17:31",
+		"host" : "Ingmar Vogel 6/7/2024 11:41",
+		"host:" : "Ingmar Vogel 6/7/2024 11:41",
+		"initialize" : "bn 6/27/2022 13:49",
 		"list" : "bn 8/2/2022 16:58",
 		"openManageUserSetsMenu" : "bn 8/2/2022 18:08",
 		"pollDraft" : "bn 6/20/2022 19:55",

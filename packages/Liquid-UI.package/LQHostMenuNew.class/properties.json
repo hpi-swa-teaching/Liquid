@@ -4,13 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JT 6/23/2022 22:47",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"pollDraft",
-		"questionBuilders",
-		"currentQuestion",
-		"host" ],
-	"name" : "LQPollDraftBuilder",
+		"currentPoll",
+		"visualizations",
+		"pollList" ],
+	"name" : "LQHostMenuNew",
 	"pools" : [
 		 ],
 	"super" : "LQModel",
