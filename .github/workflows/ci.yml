@@ -17,7 +17,14 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-      - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.ston
+      - name: Run tests
+        run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.ston
+        timeout-minutes: 15
+        env:
+          # for uploading coverage reports
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run linting
+        run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.lint.ston
         timeout-minutes: 15
         env:
           # for uploading coverage reports
