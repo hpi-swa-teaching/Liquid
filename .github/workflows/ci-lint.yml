@@ -11,7 +11,7 @@ jobs:
         os: [ ubuntu-latest ]
         # Select compatible Smalltalk image(s)
         smalltalk: [ Squeak64-6.0 ]
-    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    name: Linting
     steps:
       - uses: actions/checkout@v4
       - uses: hpi-swa/setup-smalltalkCI@v1
