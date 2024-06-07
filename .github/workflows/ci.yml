@@ -8,16 +8,16 @@ jobs:
     strategy:
       matrix:
         # Select platform(s)
-        os: [ ubuntu-latest, macos-latest ]
+        os: [ ubuntu-latest ]
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-5.3 ]
+        smalltalk: [ Squeak64-6.0 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-      - run: smalltalkci -s ${{ matrix.smalltalk }}
+      - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.ston
         timeout-minutes: 15
         env:
           # for uploading coverage reports
