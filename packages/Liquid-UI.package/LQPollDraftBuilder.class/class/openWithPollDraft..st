@@ -1,7 +1,7 @@
 instance creation
 openWithPollDraft: aLQPollDraft 
 	| aPollDraftBuilder |
-	aPollDraftBuilder := self new. 
+	aPollDraftBuilder := self new.
 	aPollDraftBuilder pollDraft: aLQPollDraft.
 	aPollDraftBuilder questionBuilders removeAll.
 	1
