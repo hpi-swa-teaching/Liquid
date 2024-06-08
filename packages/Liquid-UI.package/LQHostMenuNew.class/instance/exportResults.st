@@ -1,10 +1,9 @@
 modifying
 exportResults
-	| pollNameInput foundPoll |
-	pollNameInput := UIManager default request: 'Enter Poll ID'.
-	pollNameInput
-		ifEmpty: [^ self]. 
-	foundPoll := LQRemotePollRepoServer pollRepo
-				at: pollNameInput
-				ifAbsent: [^ UIManager default inform: 'This poll does not exist.'].
-	foundPoll exportCSV
+
+self currentPoll == 0 ifFalse: [
+(LQRemotePollRepoServer pollRepo at: self currentPollID
+		ifAbsent:
+		[^ 'This poll does not exist.']) 
+		exportCSV
+		]

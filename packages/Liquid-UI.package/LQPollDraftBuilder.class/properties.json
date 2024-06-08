@@ -8,8 +8,7 @@
 	"instvars" : [
 		"pollDraft",
 		"questionBuilders",
-		"currentQuestion",
-		"host" ],
+		"currentQuestion" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],

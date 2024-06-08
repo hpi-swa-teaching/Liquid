@@ -4,13 +4,15 @@ buildWith: builder
 	| windowSpec |
 	
 	windowSpec := self buildWindowWith: builder specs: {
-		(self questionListFrame) -> [self buildQuestionListWith: builder].
+		(self pollListFrame) -> [self buildPollListWith: builder].
 		"(self questionBuilderFrame) -> 
 			[builder pluggablePanelSpec new
 				model: self;
 				layout: #vertical;
 				children: #buildQuestionBuilder;
 				yourself]."
+		(self idTextBoxFrameFrame) -> [self buildIDTextBoxWith: builder].
+		(self deletePollButtonFrame) -> [self buildDeletePollButtonWith: builder].
 		(self createPollFromSavedPollsButtonFrame) -> [self buildCreatePollFromSavedDraftsButton: builder].
 		(self idCopyButtonFrame) -> [self buildIdCopyButtonWith: builder].
 		(self stopServerButtonFrame) -> [self buildStopServerButtonWith: builder].
