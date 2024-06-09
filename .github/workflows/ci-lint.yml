@@ -1,4 +1,4 @@
-name: CI-Legacy
+name: CI
 
 on: [push, pull_request]
 
@@ -8,16 +8,16 @@ jobs:
     strategy:
       matrix:
         # Select platform(s)
-        os: [ ubuntu-latest, macos-latest ]
+        os: [ ubuntu-latest ]
         # Select compatible Smalltalk image(s)
-        smalltalk: [ Squeak64-5.3, Squeak64-5.2 ]
-    name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
+        smalltalk: [ Squeak64-6.0 ]
+    name: Linting
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-      - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.legacy.ston
+      - run: smalltalkci -s ${{ matrix.smalltalk }} .smalltalk.lint.ston
         timeout-minutes: 15
         env:
           # for uploading coverage reports

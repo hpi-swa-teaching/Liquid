@@ -39,7 +39,7 @@
 		"testNoInstanceVariableNotReadAndWritten" : "psi 5/26/2021 20:55",
 		"testNoLiteralArrayContainsComma" : "psi 5/26/2021 20:55",
 		"testNoLiteralArrayContainsSuspiciousTrueFalseOrNil" : "psi 5/26/2021 20:56",
-		"testNoMessagesSentButNotImplemented" : "kge 6/25/2022 21:26",
+		"testNoMessagesSentButNotImplemented" : "FLST 6/7/2024 14:32",
 		"testNoMethodEquivalentDefinedInSuperclass" : "CG 7/30/2021 19:06",
 		"testNoMethodHasNoTimestamp" : "psi 5/26/2021 20:56",
 		"testNoMethodJustSendsSuperMessage" : "CG 7/30/2021 19:06",
