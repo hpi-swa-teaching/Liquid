@@ -1,5 +1,5 @@
 toolbuilder
-buildMaxNumberOfChoicesLabelWith: aBuilder
+buildMaxNumberOfCharactersLabelWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
