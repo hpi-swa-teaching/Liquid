@@ -1,6 +1,6 @@
 modifying
 makeFreeTextLogic
 
-	self answerPanel pluggableMultiSelectionList
+	self currentAnswerPanel pluggableMultiSelectionList
 	
 	

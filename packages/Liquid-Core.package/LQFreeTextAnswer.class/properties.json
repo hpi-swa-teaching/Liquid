@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"id",
+		"questionId",
+		"answer" ],
+	"name" : "LQFreeTextAnswer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

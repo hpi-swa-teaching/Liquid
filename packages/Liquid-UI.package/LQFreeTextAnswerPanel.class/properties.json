@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"builder",
+		"question",
+		"answer" ],
+	"name" : "LQFreeTextAnswerPanel",
+	"pools" : [
+		 ],
+	"super" : "PluggablePanelSpec",
+	"type" : "normal" }

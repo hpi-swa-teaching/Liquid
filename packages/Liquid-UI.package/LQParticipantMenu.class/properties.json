@@ -8,8 +8,10 @@
 	"instvars" : [
 		"poll",
 		"answerSet",
-		"answerPanel",
-		"currentQuestionIndex" ],
+		"currentQuestionIndex",
+		"currentAnswerPanel",
+		"freeTextPanel",
+		"selectionPanel" ],
 	"name" : "LQParticipantMenu",
 	"pools" : [
 		 ],
