@@ -1,7 +1,6 @@
 class initialization
 newWithQuestion: aQuestion andVotes: anOrderedCollection
 
-	^ LQAnswer new
+	^ LQFreeTextAnswer new
 			questionId: aQuestion id;
-			choicesRanking: (anOrderedCollection collect: [:each | each description]) ;
 			yourself
