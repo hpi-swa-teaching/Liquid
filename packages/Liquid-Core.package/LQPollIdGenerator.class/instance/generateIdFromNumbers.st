@@ -1,8 +1,10 @@
 generation
 generateIdFromNumbers
-
-	^ ((self randomNumber),
-		(self randomNumber),
-		(self randomNumber),
-		(self randomNumber),
-		(self randomNumber))
+	| randomGen |
+	randomGen := Random new.
+	^ (self randomNumberWith: randomGen)
+		, (self randomNumberWith: randomGen)
+		, (self randomNumberWith: randomGen)
+		, (self randomNumberWith: randomGen)
+		, (self randomNumberWith: randomGen)
+		
