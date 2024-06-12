@@ -1,5 +1,5 @@
 class initialization
-newWithQuestion: aQuestion andVotes: anOrderedCollection
+newWithQuestion: aQuestion
 
 	^ LQFreeTextAnswer new
 			questionId: aQuestion id;
