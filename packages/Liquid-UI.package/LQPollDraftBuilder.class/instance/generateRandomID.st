@@ -1,4 +1,4 @@
 supporting
 generateRandomID
 
-	^ LQPollIdGenerator new generateIdFromRealWords
+	^(Random new nextInt: 90000) +10000 asString
