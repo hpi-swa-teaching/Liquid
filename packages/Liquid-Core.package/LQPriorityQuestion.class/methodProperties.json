@@ -2,20 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChoice:" : "Anton Eichstädt 6/5/2024 11:46",
+		"addChoice:" : "leli 6/17/2024 14:09",
 		"asString" : "JT 8/2/2022 17:01",
-		"buildEmptyAnswer" : "Anton Eichstädt 6/5/2024 17:40",
+		"buildEmptyAnswer" : "leli 6/17/2024 14:09",
 		"choiceDescriptions" : "kge 8/1/2022 18:51",
 		"choiceList" : "JT 8/2/2022 17:01",
 		"choiceList:" : "Anton Eichstädt 6/5/2024 11:46",
-		"id" : "JT 8/2/2022 17:01",
-		"id:" : "JT 8/2/2022 17:01",
-		"initialize" : "Anton Eichstädt 6/4/2024 11:28",
+		"initialize" : "leli 6/17/2024 14:10",
 		"isVotedChoice:ValidFrom:" : "ms 8/4/2022 21:31",
 		"maxNumberOfChoices" : "Anton Eichstädt 6/5/2024 11:33",
 		"numberOfChoices" : "Anton Eichstädt 6/4/2024 11:21",
 		"numberOfChoices:" : "Anton Eichstädt 6/4/2024 11:21",
-		"title" : "JT 8/2/2022 17:02",
-		"title:" : "JT 8/2/2022 17:02",
 		"toolTip" : "Anton Eichstädt 5/24/2024 15:15",
 		"type" : "Anton Eichstädt 5/24/2024 15:11" } }

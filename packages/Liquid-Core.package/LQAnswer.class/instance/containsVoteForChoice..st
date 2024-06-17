@@ -1,4 +1,3 @@
 evaluation
-containsVoteForChoice: aChoice
-
-	^ self choicesRanking includes: aChoice description
+containsVoteForChoice: aChoice 
+	self halt.

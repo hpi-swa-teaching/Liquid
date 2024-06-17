@@ -1,4 +1,4 @@
 accessing
-choicesRanking: aChoiceList
+choicesRanking: aChoiceList 
+	self halt.
 
-	votedChoiceList := aChoiceList

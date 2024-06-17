@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asString" : "leli 6/17/2024 14:06",
+		"buildEmptyAnswer" : "leli 6/17/2024 14:06",
+		"choiceList" : "leli 6/17/2024 14:08",
+		"id" : "leli 6/17/2024 14:05",
+		"id:" : "leli 6/17/2024 14:05",
+		"initialize" : "leli 6/17/2024 14:16",
+		"maxNumberOfCharacters" : "leli 6/17/2024 14:03",
+		"maxNumberOfChoices" : "leli 6/17/2024 14:03",
+		"numberOfChoices" : "leli 6/17/2024 14:14",
+		"numberOfChoices:" : "leli 6/17/2024 14:14",
+		"title" : "leli 6/17/2024 14:03",
+		"title:" : "leli 6/17/2024 14:03",
+		"toolTip" : "leli 6/17/2024 14:07",
+		"type" : "leli 6/17/2024 14:04" } }

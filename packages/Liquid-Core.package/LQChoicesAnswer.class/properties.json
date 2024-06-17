@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"answer" ],
-	"name" : "LQFreeTextAnswer",
+		"votedChoiceList" ],
+	"name" : "LQChoicesAnswer",
 	"pools" : [
 		 ],
 	"super" : "LQAnswer",

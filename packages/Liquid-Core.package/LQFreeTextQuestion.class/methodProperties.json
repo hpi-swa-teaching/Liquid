@@ -2,14 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"asString" : "JT 8/2/2022 17:01",
 		"buildEmptyAnswer" : "leli 6/10/2024 15:47",
-		"id" : "JT 8/2/2022 17:01",
-		"id:" : "JT 8/2/2022 17:01",
-		"initialize" : "leli 6/7/2024 11:57",
+		"initialize" : "leli 6/17/2024 14:04",
 		"maxNumberOfCharacters" : "leli 6/7/2024 11:54",
 		"maxNumberOfCharacters:" : "leli 6/7/2024 11:54",
-		"title" : "JT 8/2/2022 17:02",
-		"title:" : "JT 8/2/2022 17:02",
 		"toolTip" : "leli 6/7/2024 11:13",
 		"type" : "leli 6/7/2024 11:12" } }

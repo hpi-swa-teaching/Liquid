@@ -4,11 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "",
 	"instvars" : [
-		"answer" ],
-	"name" : "LQFreeTextAnswer",
+		"id",
+		"title",
+		"numberOfChoices" ],
+	"name" : "LQQuestion",
 	"pools" : [
 		 ],
-	"super" : "LQAnswer",
+	"super" : "Object",
 	"type" : "normal" }
