@@ -8,7 +8,7 @@ testAddAnswerSetPreventedByMultipleAnswers
 		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
-	answerSet1 addAnswer: (LQChoicesAnswer new
+	answerSet1 addAnswer: (LQAnswer new
 		questionId: (q1 id);
 		votedChoiceList: {(q1 choiceList second) description};
 		yourself).

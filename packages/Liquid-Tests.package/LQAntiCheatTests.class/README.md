@@ -9,7 +9,7 @@ Instance Variables
 	userSet:				<LQUserSet>
 	answerSet1:	<LQAnswerSet>
 	answerSet2: 	<LQAnswerSet>
-	q1:	 		<LQChoicesQuestion>
+	q1:	 		<LQMultiChoiceQuestion>
 
 poll
 	a poll used in tests; contains userSet 

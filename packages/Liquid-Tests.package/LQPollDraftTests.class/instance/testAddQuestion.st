@@ -3,7 +3,7 @@ testAddQuestion
 
 	| question |
 	self assert: self pollDraft questionList isEmpty.
-	question := LQChoicesQuestion new.
+	question := LQMultiChoiceQuestion new.
 	question title: 'An interesting question!'.
 	self pollDraft addQuestion: question.
 	self assert: self pollDraft questionList size equals: 1.

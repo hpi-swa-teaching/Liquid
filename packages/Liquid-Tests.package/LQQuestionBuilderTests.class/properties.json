@@ -8,7 +8,7 @@
 	"instvars" : [
 		"builder",
 		"questionBuilder" ],
-	"name" : "LQQuestionBuilderTests",
+	"name" : "LQMultiChoiceQuestionBuildeTests",
 	"pools" : [
 		 ],
 	"super" : "LQTestCase",
