@@ -137,12 +137,12 @@ package UI {
     class LQPollDraftBuilder {
         runPoll()
     }
-    class LQMultiChoiceQuestionBuilde{
+    class LQMultiChoiceQuestionBuilder{
     
       }
-    LQPollDraftBuilder "1" <- "*" LQMultiChoiceQuestionBuilde
+    LQPollDraftBuilder "1" <- "*" LQMultiChoiceQuestionBuilder
     LQPollDraftBuilder --|> LQModel
-    LQMultiChoiceQuestionBuilde --|> LQModel
+    LQMultiChoiceQuestionBuilder --|> LQModel
 
     LQStartMenu -- LQHostMenu
     LQStartMenu -- LQParticipantMenu

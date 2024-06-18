@@ -4,7 +4,7 @@ addMultiChoiceQuestion
 	| question builder |
 	
 	question := LQMultiChoiceQuestion new.
-	builder := LQMultiChoiceQuestionBuilder new.
+	builder := LQMultiChoiceQuestionBuilderr new.
 	builder question: question.
 	self pollDraft addQuestion: question.
 	self addQuestionBuilder: builder.

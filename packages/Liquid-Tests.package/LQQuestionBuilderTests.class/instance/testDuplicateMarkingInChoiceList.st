@@ -5,7 +5,7 @@ testDuplicateMarkingInChoiceList
 	
 	text := self createText.
 	
-	temporaryQuestionBuilder := LQMultiChoiceQuestionBuilde new.
+	temporaryQuestionBuilder := LQMultiChoiceQuestionBuilder new.
 	temporaryQuestionBuilder question: LQMultiChoiceQuestion new;
 		choiceList: text.
 	
