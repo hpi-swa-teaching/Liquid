@@ -1,9 +1,10 @@
 toolbuilder
 buildFreeTextPanelWith: aBuilder 
-	| temporaryFreeTextPanel |
-	temporaryFreeTextPanel := LQFreeTextAnswerPanel newWith: aBuilder.
-	self freeTextPanel: temporaryFreeTextPanel.
-	temporaryFreeTextPanel question: self currentQuestion.
-	self answerSet addAnswer: temporaryFreeTextPanel answer.
+	| spec |
+	spec := LQFreeTextAnswerPanel newWith: aBuilder.
+	spec name: #freeText.
+	self freeTextPanel: spec.
+	spec question: self currentQuestion.
+	self answerSet addAnswer: spec answer.
 	self setUpMenu.
-	^ temporaryFreeTextPanel
+	^ spec
