@@ -12,7 +12,7 @@
 		"selectedChoices",
 		"choiceSelected",
 		"exclusionMarker" ],
-	"name" : "LQAnswerPanel",
+	"name" : "LQSelectionPanel",
 	"pools" : [
 		 ],
 	"super" : "PluggablePanelSpec",

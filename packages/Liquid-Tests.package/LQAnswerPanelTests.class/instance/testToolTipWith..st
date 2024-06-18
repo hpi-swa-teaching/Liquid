@@ -3,7 +3,7 @@ testToolTipWith: aQuestion
 
 	| answerPanel toolTip |
 	
-	answerPanel := LQAnswerPanel new.
+	answerPanel := LQSelectionPanel new.
 	answerPanel question: aQuestion.
 	toolTip := answerPanel buildQuestionTooltipWith: ToolBuilder default.
 	

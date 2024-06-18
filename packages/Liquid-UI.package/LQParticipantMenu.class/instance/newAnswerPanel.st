@@ -1,5 +1,6 @@
 toolbuilder
 newAnswerPanel
 	self currentQuestion type = 'freeText'
-		ifTrue: [self currentAnswerPanel: self freeTextPanel]
-		ifFalse: [self currentAnswerPanel: self selectionPanel]
+		ifTrue: [self currentAnswerPanel: self freeTextPanel.
+			self freeTextPanel show. self selectionPanel hide]
+		ifFalse: [self currentAnswerPanel: self selectionPanel. self selectionPanel show. self freeTextPanel hide]

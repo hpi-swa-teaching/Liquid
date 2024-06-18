@@ -6,5 +6,4 @@ buildFreeTextPanelWith: aBuilder
 	self freeTextPanel: spec.
 	spec question: self currentQuestion.
 	self answerSet addAnswer: spec answer.
-	self setUpMenu.
 	^ spec

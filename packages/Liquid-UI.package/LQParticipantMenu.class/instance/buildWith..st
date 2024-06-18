@@ -4,9 +4,10 @@ buildWith: aBuilder
 	window := aBuilder build: (aBuilder pluggableWindowSpec new model: self;
 			 label: 'Liquid - Participant';
 			 extent: self extent;
-			 children: {self buildAnswerPanelWith: aBuilder. self buildFreeTextPanelWith: aBuilder. self buildNextQuestionButtonWith: aBuilder. self buildPreviousQuestionButtonWith: aBuilder. self buildQuestionCounterWith: aBuilder};
+			 children: {self buildSelectionPanelWith: aBuilder. self buildFreeTextPanelWith: aBuilder. self buildNextQuestionButtonWith: aBuilder. self buildPreviousQuestionButtonWith: aBuilder. self buildQuestionCounterWith: aBuilder};
 			 yourself).
-	
-	freeTextPanel := aBuilder widgetAt: #freeText.
-	
+	self freeTextPanel: (aBuilder widgetAt: #freeText).
+	self selectionPanel: (aBuilder widgetAt: #selection).
+	self halt.
+	self currentQuestionIndex: 1.
 	^ window
