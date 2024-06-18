@@ -1,4 +1,4 @@
 accessing
 choicesRanking: aChoiceList
 
-	votedChoiceList := aChoiceList
+	choicesRanking := aChoiceList
