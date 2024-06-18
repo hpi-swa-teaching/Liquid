@@ -1,4 +1,6 @@
 accessing
 currentPollID
-	self pollList size == 0 ifFalse: [
-	^ (self pollList at: self getIndex) id]
+	self pollList size == 0
+		ifFalse: [^ (self pollList at: self getIndex) id].
+		
+	 ^ 'No polls in your repo.'

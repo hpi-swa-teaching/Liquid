@@ -3,5 +3,7 @@ pollId
 	
 	((self currentPoll == 0) and: [self pollList size == 0])
 	ifFalse: 
-	[^ self currentPollID asString].
-	 ^ 'No poll selected!'
+	[(LQRemotePollRepoServer pollRepo at: self currentPollID) isOpen
+	ifFalse: [^'Poll closed!'].
+	^ self currentPollID asString].
+	^ 'No polls in your repo!'
