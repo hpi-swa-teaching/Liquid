@@ -8,7 +8,7 @@
 	"instvars" : [
 		"question",
 		"questionType" ],
-	"name" : "LQMultiChoiceQuestionBuilderr",
+	"name" : "LQMultiChoiceQuestionBuilder",
 	"pools" : [
 		 ],
 	"super" : "LQModel",
