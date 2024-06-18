@@ -1,4 +1,4 @@
 accessing
 getTitle
-
-	^ self question title
+	self haltOnCount: 2.
+	^self question title
