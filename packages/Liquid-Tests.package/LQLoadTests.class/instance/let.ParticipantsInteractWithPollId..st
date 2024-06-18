@@ -10,7 +10,7 @@ let: target ParticipantsInteractWithPollId: aString
 			answerSet := (LQAnswerSet new
 				addAnswer: (LQAnswer new
 					questionId: q id;
-					votedChoiceList: {LQChoice newFrom: 'in Whiscashs throat'};
+					choicesRanking: {LQChoice newFrom: 'in Whiscashs throat'};
 					yourself);
 				pollId: p id;
 				yourself).

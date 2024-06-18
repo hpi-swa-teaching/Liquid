@@ -10,7 +10,7 @@ testAddAnswerSetPreventedByWrongToken
 		yourself.
 	answerSet1 addAnswer: (LQAnswer new
 		questionId: (q1 id);
-		votedChoiceList: {(q1 choiceList second) description};
+		choicesRanking: {(q1 choiceList second) description};
 		yourself).
 
 	self assert: 0 equals: ((LQRemotePollRepoServer pollRepo at: self poll id) answerSets size).
