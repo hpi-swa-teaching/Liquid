@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "Anton Eichstädt 5/24/2024 15:19",
 	"instvars" : [
-		"id",
-		"title",
 		"choiceList",
 		"numberOfChoices" ],
 	"name" : "LQPriorityQuestion",

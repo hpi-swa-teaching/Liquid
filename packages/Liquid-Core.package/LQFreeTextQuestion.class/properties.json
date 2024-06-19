@@ -6,10 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"id",
-		"title",
-		"maxNumberOfCharacters",
-		"choiceList" ],
+		"maxNumberOfCharacters" ],
 	"name" : "LQFreeTextQuestion",
 	"pools" : [
 		 ],

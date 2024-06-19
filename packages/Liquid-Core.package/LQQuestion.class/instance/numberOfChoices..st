@@ -1,3 +1,3 @@
 as yet unclassified
 numberOfChoices: anObject 
-	numberOfChoices := anObject
+	self halt.
