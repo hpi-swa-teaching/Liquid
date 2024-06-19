@@ -3,7 +3,7 @@ buildRemainingCharactersCounterTextWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;
-		getText: #defaultRemaining;
+		getText: #getRemainingCharactersLabel;
 		indicateUnacceptedChanges: false;
 		readOnly: true;
 		frame: (self layoutFrame);
