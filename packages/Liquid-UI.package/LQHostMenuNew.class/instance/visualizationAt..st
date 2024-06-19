@@ -1,4 +1,4 @@
 accessing
-visualizationAt: index
-
+visualizationAt: index 
 	^ self visualizations at: index
+	

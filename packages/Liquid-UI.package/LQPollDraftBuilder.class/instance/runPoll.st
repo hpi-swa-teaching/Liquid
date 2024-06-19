@@ -8,4 +8,5 @@ runPoll
 	poll := LQPoll newWithPollDraft: self pollDraft.
 	poll startWithId: givenPollID
 		ifTaken: [^ UIManager default inform: 'This ID is already taken'].
-	ToolBuilder open: (LQRunningPollView newWithPoll: poll)
+		self destroy
+	"ToolBuilder open: (LQRunningPollView newWithPoll: poll)"

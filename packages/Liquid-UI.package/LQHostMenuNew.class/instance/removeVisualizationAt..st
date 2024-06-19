@@ -1,3 +1,4 @@
 accessing
 removeVisualizationAt: index 
-	self visualizations removeAt: index 
+	self visualizations removeAt: index
+	

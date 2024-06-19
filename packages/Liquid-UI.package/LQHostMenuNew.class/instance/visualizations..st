@@ -1,4 +1,4 @@
 accessing
-visualizations: anOrderedCollection
-	
+visualizations: anOrderedCollection 
 	visualizations := anOrderedCollection
+	

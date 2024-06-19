@@ -1,4 +1,4 @@
 accessing
-addVisualization: aVisualization
-	
+addVisualization: aVisualization 
 	self visualizations add: aVisualization
+	

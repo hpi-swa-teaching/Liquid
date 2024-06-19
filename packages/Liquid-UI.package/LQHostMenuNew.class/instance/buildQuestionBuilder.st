@@ -1,7 +1,5 @@
 toolbuilder
 buildQuestionBuilder
-	
-	^ {(self questionBuilderAt: self currentQuestion) buildWith: ToolBuilder default}
-
-	
+	^ {(self questionBuilderAt: self currentQuestion)
+		buildWith: ToolBuilder default}
 		
