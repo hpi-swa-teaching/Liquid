@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "LQFreeTextAnswerPanel",
+		"builder",
+		"question",
+		"answer" ],
+	"name" : "LQAnswerPanel",
 	"pools" : [
 		 ],
-	"super" : "LQAnswerPanel",
+	"super" : "PluggablePanelSpec",
 	"type" : "normal" }

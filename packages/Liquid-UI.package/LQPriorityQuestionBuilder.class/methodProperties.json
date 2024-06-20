@@ -4,7 +4,6 @@
 	"instance" : {
 		"buildChoicesInputWith:" : "kge 8/1/2022 20:44",
 		"buildPriorityExplanationLabelWith:" : "Anton Eichstädt 6/5/2024 17:08",
-		"buildTitleInputWith:" : "kge 8/1/2022 20:45",
 		"buildWith:" : "Anton Eichstädt 6/5/2024 17:11",
 		"choiceDescriptions" : "bn 8/2/2022 16:59",
 		"choiceList:" : "Anton Eichstädt 5/29/2024 12:21",
@@ -12,11 +11,6 @@
 		"createPriorityExplanationLabel" : "Anton Eichstädt 6/5/2024 17:08",
 		"createQuestionTypeOptionsText" : "Anton Eichstädt 5/29/2024 12:14",
 		"determineMaxNumberOfChoicesFrom:" : "Anton Eichstädt 6/19/2024 14:00",
-		"isTextNumber:" : "kge 8/4/2022 10:30",
 		"maxNumberOfChoices" : "bn 6/2/2022 22:04",
 		"maxNumberOfChoices:" : "Anton Eichstädt 6/19/2024 14:00",
-		"orderedLinesFor:" : "kge 8/3/2022 22:31",
-		"question" : "bn 8/2/2022 17:00",
-		"question:" : "bn 6/23/2022 21:45",
-		"title" : "ape 5/14/2022 09:06",
-		"title:" : "bn 6/23/2022 21:47" } }
+		"orderedLinesFor:" : "kge 8/3/2022 22:31" } }

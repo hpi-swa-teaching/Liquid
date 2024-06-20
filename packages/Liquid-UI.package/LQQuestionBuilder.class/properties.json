@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
-	"name" : "LQFreeTextAnswerPanel",
+		"question",
+		"questionType" ],
+	"name" : "LQQuestionBuilder",
 	"pools" : [
 		 ],
-	"super" : "LQAnswerPanel",
+	"super" : "LQModel",
 	"type" : "normal" }

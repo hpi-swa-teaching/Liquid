@@ -6,14 +6,11 @@
 		 ],
 	"commentStamp" : "Anton Eichstädt 6/5/2024 17:39",
 	"instvars" : [
-		"builder",
-		"question",
-		"answer",
 		"selectedChoices",
 		"choiceSelected",
 		"exclusionMarker" ],
 	"name" : "LQSelectionPanel",
 	"pools" : [
 		 ],
-	"super" : "PluggablePanelSpec",
+	"super" : "LQAnswerPanel",
 	"type" : "normal" }

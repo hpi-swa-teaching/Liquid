@@ -1,3 +1,3 @@
 accessing
-answer: anAnswer 
-	answer:= anAnswer 
+answer: aLQFreeTextAnswer
+	answer:= aLQFreeTextAnswer 
