@@ -9,6 +9,7 @@
 		"buildStopServerButtonWith:" : "kge 6/19/2022 19:00",
 		"buildWith:" : "FLST 7/7/2024 10:31",
 		"enterHostMode" : "JT 8/5/2022 21:56",
+<<<<<<< HEAD
 		"enterParticipantMode" : "FLST 6/22/2024 12:00",
 		"extractAndValidatePollIdAndURL:" : "FLST 6/22/2024 11:58",
 		"getPollIdFrom:with:" : "leli 6/12/2024 14:04",
@@ -16,4 +17,7 @@
 		"logoCanvas" : "FLST 7/4/2024 12:55",
 		"logoCanvas:" : "FLST 7/4/2024 12:55",
 		"logoInCollection" : "FLST 7/4/2024 12:56",
+=======
+		"enterParticipantMode" : "leli 6/20/2024 15:05",
+>>>>>>> 3c1f851 (endlich nicht mehr localhost...)
 		"stopServer" : "bn 8/2/2022 17:02" } }
