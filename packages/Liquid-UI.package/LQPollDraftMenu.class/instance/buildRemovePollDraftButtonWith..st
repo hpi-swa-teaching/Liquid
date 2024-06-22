@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildRemovePollDraftButtonWith: aBuilder 
 	^ aBuilder pluggableButtonSpec new model: self;
 		 label: 'Remove Draft';

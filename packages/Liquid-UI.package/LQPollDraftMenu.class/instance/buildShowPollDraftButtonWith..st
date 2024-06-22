@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildShowPollDraftButtonWith: aBuilder 
 	^ aBuilder pluggableButtonSpec new model: self;
 		 label: 'Show Draft'; 

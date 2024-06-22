@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 choiceSelected: anIndex 
 	choiceSelected := anIndex. self changed: #choiceSelected

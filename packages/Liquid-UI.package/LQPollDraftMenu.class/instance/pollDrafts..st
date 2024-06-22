@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 pollDrafts: anOrderedCollection 
 	pollDrafts := anOrderedCollection. self changed: #pollDrafts

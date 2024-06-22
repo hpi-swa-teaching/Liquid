@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 populatePollDrafts
 	| draftCollection |
 	draftCollection := OrderedCollection new.

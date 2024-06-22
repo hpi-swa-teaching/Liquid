@@ -1,4 +1,4 @@
-as yet unclassified
+modifying
 removeDraft
 	| selectedDraft |
 	self choiceSelected isZero

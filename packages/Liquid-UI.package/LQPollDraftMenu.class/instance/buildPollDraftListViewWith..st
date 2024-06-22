@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildPollDraftListViewWith: aBuilder 
 	^ aBuilder pluggableListSpec new model: self;
 		 list: #pollDrafts;
