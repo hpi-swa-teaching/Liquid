@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"newWithTitle:" : "ape 7/23/2022 09:58" },
+		"newWithTitle:" : "ape 7/23/2022 09:58",
+		"openWithPollDraft:" : "vl 6/7/2024 14:24" },
 	"instance" : {
 		"addManageUserSetsFrame" : "bn 8/2/2022 16:57",
 		"addQuestion" : "bn 8/2/2022 18:07",
 		"addQuestionBuilder:" : "kge 8/1/2022 19:03",
-		"addQuestionButtonFrame" : "Ingmar Vogel 5/19/2024 15:31",
+		"addQuestionButtonFrame" : "FLST 6/4/2024 11:40",
 		"buildAddQuestionButtonWith:" : "Ingmar Vogel 5/19/2024 15:28",
 		"buildManageUserSetsButton:" : "kge 8/1/2022 20:56",
 		"buildMaxNumberOfChoicesInputWith:" : "kge 8/1/2022 20:46",
@@ -13,8 +14,9 @@
 		"buildQuestionBuilder" : "bn 8/2/2022 16:57",
 		"buildQuestionListWith:" : "JT 8/5/2022 18:51",
 		"buildRemoveQuestionButtonWith:" : "vl 5/27/2024 12:40",
-		"buildRunPollButtonWith:" : "kge 8/1/2022 20:56",
-		"buildWith:" : "Ingmar Vogel 5/19/2024 15:29",
+		"buildRunPollButtonWith:" : "FLST 6/4/2024 11:32",
+		"buildSaveDraftButtonWith:" : "FLST 6/4/2024 11:42",
+		"buildWith:" : "FLST 6/4/2024 11:39",
 		"currentQuestion" : "bn 8/2/2022 16:58",
 		"currentQuestion:" : "bn 6/23/2022 22:15",
 		"frame:fromTop:fromLeft:width:" : "bn 8/2/2022 16:58",
@@ -34,5 +36,7 @@
 		"removeQuestionBuilderAt:" : "vl 5/27/2024 12:39",
 		"removeQuestionButtonFrame" : "vl 5/27/2024 12:39",
 		"runPoll" : "JT 8/5/2022 18:52",
-		"runPollButtonFrame" : "bn 8/2/2022 16:59",
+		"runPollButtonFrame" : "FLST 6/4/2024 11:35",
+		"saveDraft" : "vl 6/5/2024 20:44",
+		"saveDraftButtonFrame" : "FLST 6/4/2024 11:41",
 		"setIndex:" : "bn 6/23/2022 22:17" } }
