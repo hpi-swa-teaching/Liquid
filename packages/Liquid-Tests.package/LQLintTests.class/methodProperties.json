@@ -31,7 +31,7 @@
 		"testNoEqualNotUsed" : "psi 5/26/2021 20:53",
 		"testNoExcessiveInheritanceDepth" : "psi 5/26/2021 20:53",
 		"testNoExcessiveNumberOfArguments" : "psi 5/26/2021 20:53",
-		"testNoExcessiveNumberOfMethods" : "JT 8/4/2022 22:08",
+		"testNoExcessiveNumberOfMethods" : "FLST 6/22/2024 14:18",
 		"testNoExcessiveNumberOfVariables" : "psi 5/26/2021 20:54",
 		"testNoFloatEqualityComparison" : "psi 6/8/2021 10:26",
 		"testNoGodClass" : "psi 5/26/2021 20:54",
