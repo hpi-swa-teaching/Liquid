@@ -1,4 +1,4 @@
 accessing
 updateAnswer
 
-	self answer votedChoiceList: self selectedChoices asOrderedCollection
+	self answer choicesRanking: self selectedChoices asOrderedCollection

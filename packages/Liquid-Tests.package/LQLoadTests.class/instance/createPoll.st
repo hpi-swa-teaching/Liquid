@@ -4,7 +4,7 @@ createPoll
 	| poll pollId |
 	
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
-	poll questionList add: (LQChoicesQuestion new
+	poll questionList add: (LQMultiChoiceQuestion new
 		title: 'Where is the master ball';
 		choiceList: {LQChoice newFrom: 'in Whiscashs throat'. LQChoice newFrom: 'in Kangamas bag'};
 		yourself).

@@ -1,4 +1,4 @@
 validation
-isValidSelection: aSet ForChoiceAt: anIndex
+isValidSelection: anOrderedCollection ForChoiceAt: anIndex
 
-	^ (self isValidSizedSelection: aSet) and: [self choiceIsNotExcluded: anIndex]
+	^ (self isValidSizedSelection: anOrderedCollection) and: [self choiceIsNotExcluded: anIndex]

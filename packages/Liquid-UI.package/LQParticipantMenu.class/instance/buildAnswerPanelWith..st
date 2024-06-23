@@ -1,6 +1,5 @@
 toolbuilder
-buildAnswerPanelWith: aBuilder
-
+buildAnswerPanelWith: aBuilder 
 	| temporaryAnswerPanel |
 	
 	temporaryAnswerPanel := LQAnswerPanel newWith: aBuilder.
