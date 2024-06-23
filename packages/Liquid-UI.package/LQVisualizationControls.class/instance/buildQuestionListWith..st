@@ -1,12 +1,12 @@
 toolbuilder
-buildQuestionListWith: aBuilder
-
-	| listSpec |
-	
-	listSpec := aBuilder pluggableListSpec new.
-	listSpec 
-		model: self;
-		list: #questionList; 
-		getIndex: #questionIndex; 
-		setIndex: #questionIndex:.
-	^ listSpec
+buildQuestionListWith: aBuilder 
+	^ aBuilder pluggableListSpec new model: self;
+		 list: #questionList;
+		 getIndex: #getIndex;
+		 setIndex: #setIndex:;
+		 frame: (LayoutFrame new topFraction: 0;
+			 bottomFraction: 1;
+			 leftFraction: 0;
+			 rightFraction: 0.25;
+			 yourself);
+		 yourself

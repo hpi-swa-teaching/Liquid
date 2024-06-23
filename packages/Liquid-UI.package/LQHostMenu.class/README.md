@@ -1,1 +1,2 @@
-The hub for creators and hosts of Polls. In this menu they can create new polls, see and visualize poll results and close active polls.
+UI-Component to create new polls.
+Encapsulates instances of LQQueastionBuilder which are responsible for creating the questions in the poll.
