@@ -1,11 +1,15 @@
 {
 	"class" : {
-		 },
+		"newWithPoll:" : " 6/23/2024 17:58:45",
+		"openOn:" : " 6/23/2024 17:58:45" },
 	"instance" : {
+		"barChartFrame:" : " 6/23/2024 17:58:45",
+		"bottomOffset" : " 6/23/2024 17:58:45",
 		"buildBarChartWith:" : "Ingmar Vogel 6/20/2024 18:54",
 		"buildQuestionListWith:" : "Ingmar Vogel 6/23/2024 17:07",
 		"buildWith:" : "Ingmar Vogel 6/23/2024 16:20",
 		"currentVisualization:" : "Ingmar Vogel 6/20/2024 18:58",
+		"frame:fromTop:fromLeft:width:" : " 6/23/2024 17:58:45",
 		"getIndex" : "Ingmar Vogel 6/20/2024 19:03",
 		"index" : "Ingmar Vogel 6/20/2024 18:57",
 		"index:" : "Ingmar Vogel 6/20/2024 18:57",
@@ -14,7 +18,10 @@
 		"poll:" : "Ingmar Vogel 6/20/2024 18:57",
 		"polling" : "Ingmar Vogel 6/20/2024 18:58",
 		"polling:" : "Ingmar Vogel 6/20/2024 18:58",
+		"questionIndex" : " 6/23/2024 17:58:45",
+		"questionIndex:" : " 6/23/2024 17:58:45",
 		"questionList" : "Ingmar Vogel 6/20/2024 18:59",
+		"questionListFrame:" : " 6/23/2024 17:58:45",
 		"setIndex:" : "Ingmar Vogel 6/20/2024 19:07",
 		"startRefreshing" : "Ingmar Vogel 6/20/2024 19:04",
 		"stopRefreshing" : "Ingmar Vogel 6/20/2024 19:04",
