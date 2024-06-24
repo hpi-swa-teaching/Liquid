@@ -14,7 +14,11 @@ SmalltalkCISpec {
       #packages : [ #Liquid-Core, #Liquid-Network, #Liquid-UI ]
     },
     #exclude : {
-      #classes : [ #LQLintTests, #LQVisualizationTests, #LQToolbuilderTests, #LQStatisticsWorkbenchIntegrationTests ]
+      #classes : [ #LQLintTests,  #LQToolbuilderTests,  ]
+    }
+  }
+}
+Tests, #LQStatisticsWorkbenchIntegrationTests ]
     }
   }
 }
