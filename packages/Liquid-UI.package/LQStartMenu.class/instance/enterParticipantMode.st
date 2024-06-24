@@ -1,19 +1,18 @@
 modifying
 enterParticipantMode
-
-	| pollId menu url |
-	
+	| pollId menu url connection input |
 	LQPollRepo reset.
-	url := UIManager default request: 'What''s your server''s url and port? format: http://your.server.tld:8000'.
-	LQPollRepo default: (LQPollRepo new url: url).
-	pollId := UIManager default request: 'What''s your Poll ID?'.
-	pollId ifEmpty: [^ self].
-	(LQParticipantMenu answeredPollIds includes: pollId) ifTrue: [
-		UIManager default inform: 'You have already answered this Poll.'.
-		^ self].
+	input := UIManager default request: 'Add your poll id.' , Symbol cr , 'Format: http://your.server.tld:8000/pollId' initialAnswer: 'http://localhost:8000/'.
+	connection := self extractAndValidatePollIdAndURL: input.
+	connection
+		ifNil: [^ self].
+	url := connection first.
+	pollId := connection second.
+	LQPollRepo
+		default: (LQPollRepo new url: url).
 	menu := LQParticipantMenu new.
 	(menu importPollWithId: pollId)
-		ifNotNil: [ToolBuilder open: menu.
-					self destroy]
 		ifNil: [UIManager default inform: 'Please enter a valid Poll ID'.
-					self enterParticipantMode]
+			self enterParticipantMode]
+		ifNotNil: [ToolBuilder open: menu.
+			self destroy]

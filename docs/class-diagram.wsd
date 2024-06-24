@@ -69,26 +69,26 @@ package Core {
     LQPoll "1" <- "*" LQAnswerSet
     LQAnswerSet "1" <- "*" LQAnswer
     interface LQAnswer
-    class LQChoicesAnswer {
+    class LQAnswer {
         votedChoice
     }
-    LQAnswer <|-- LQChoicesAnswer
+    LQAnswer <|-- LQAnswer
 
     interface LQQuestion {
         choiceList
     }
     ' I chose * instead of 1 bcLdatastructure is there'
     LQPollDraft "1" <- "*" LQQuestion
-    class LQChoicesQuestion  {
+    class LQMultiChoiceQuestion  {
         maxNumberOfChoices
     }
-    LQQuestion <|-- LQChoicesQuestion
+    LQQuestion <|-- LQMultiChoiceQuestion
     LQAnswer "*" -- "1" LQQuestion
     class LQChoice {
       description
       excludedGroups
     }
-    LQChoicesQuestion "1" -> "*" LQChoice
+    LQMultiChoiceQuestion "1" -> "*" LQChoice
     class LQUser {
       id
       name
@@ -137,12 +137,12 @@ package UI {
     class LQPollDraftBuilder {
         runPoll()
     }
-    class LQQuestionBuilder{
+    class LQMultiChoiceQuestionBuilder{
     
       }
-    LQPollDraftBuilder "1" <- "*" LQQuestionBuilder
+    LQPollDraftBuilder "1" <- "*" LQMultiChoiceQuestionBuilder
     LQPollDraftBuilder --|> LQModel
-    LQQuestionBuilder --|> LQModel
+    LQMultiChoiceQuestionBuilder --|> LQModel
 
     LQStartMenu -- LQHostMenu
     LQStartMenu -- LQParticipantMenu

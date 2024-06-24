@@ -1,4 +1,3 @@
 accessing
-poll: aPoll
-
-	poll := aPoll
+poll: anObject
+	poll := anObject

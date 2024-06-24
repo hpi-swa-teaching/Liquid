@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pollDraft" ],
+	"name" : "LQSavePollDraftsTest",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

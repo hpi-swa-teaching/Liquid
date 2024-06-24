@@ -3,6 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"PollDraftRepo",
 		"PollRepo",
 		"Server" ],
 	"commentStamp" : "kge 7/16/2022 21:45",

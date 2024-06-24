@@ -1,0 +1,4 @@
+accessing
+questionIndex
+	
+	^ self index

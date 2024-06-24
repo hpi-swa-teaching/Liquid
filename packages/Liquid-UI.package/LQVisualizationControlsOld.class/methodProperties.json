@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"newWithPoll:" : "kge 5/15/2022 15:02",
+		"openOn:" : "kge 5/15/2022 14:27" },
+	"instance" : {
+		"barChartFrame:" : "ms 8/4/2022 21:20",
+		"bottomOffset" : "ms 8/5/2022 21:19",
+		"buildBarChartWith:" : "JT 8/5/2022 19:26",
+		"buildQuestionListWith:" : "JT 8/5/2022 19:26",
+		"buildWith:" : "Ingmar Vogel 6/20/2024 18:39",
+		"currentVisualization:" : "bn 8/2/2022 18:56",
+		"frame:fromTop:fromLeft:width:" : "ms 8/5/2022 21:19",
+		"index" : "kge 5/15/2022 14:20",
+		"index:" : "kge 5/15/2022 14:20",
+		"initialize" : "Ingmar Vogel 6/20/2024 15:40",
+		"poll" : "kge 5/15/2022 14:20",
+		"poll:" : "kge 5/15/2022 14:20",
+		"polling" : "Ingmar Vogel 6/20/2024 15:41",
+		"polling:" : "Ingmar Vogel 6/20/2024 15:41",
+		"questionIndex" : "kge 8/1/2022 19:05",
+		"questionIndex:" : "kge 8/3/2022 20:44",
+		"questionList" : "kge 8/3/2022 20:44",
+		"questionListFrame:" : "ms 8/4/2022 21:19",
+		"startRefreshing" : "Ingmar Vogel 6/20/2024 15:40",
+		"stopRefreshing" : "Ingmar Vogel 6/20/2024 15:46",
+		"wrapperMorph" : "bn 8/2/2022 18:10",
+		"wrapperMorph:" : "bn 8/2/2022 18:10" } }

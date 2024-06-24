@@ -1,14 +1,19 @@
 toolbuilder
-buildWith: aBuilder
-
-	^ aBuilder build: (aBuilder pluggableWindowSpec new
-		model: self;
-		label: 'Liquid - Host';
-		extent: self extent;
-		children: {
-			self buildUserSetButtonWith: aBuilder.
-			self buildPollInteractionButtonWith: aBuilder.
-			self buildShowResultsButtonWith: aBuilder.
-			self buildCreatePollButtonWith: aBuilder.
-			self buildVisualizeResultsButtonWith: aBuilder};
-		yourself)
+buildWith: builder 
+	| windowSpec |
+	windowSpec := self buildWindowWith: builder specs: {self pollListFrame
+					-> [self buildPollListWith: builder]. self idTextBoxFrameFrame
+					-> [self buildIDTextBoxWith: builder]. self visualizationFrame
+					-> [builder pluggablePanelSpec new model: self;
+							 layout: #vertical;
+							 children: #buildVisualization;
+							 yourself]. self deletePollButtonFrame
+					-> [self buildDeletePollButtonWith: builder]. self createPollFromSavedPollsButtonFrame
+					-> [self buildCreatePollFromSavedDraftsButton: builder]. self idCopyButtonFrame
+					-> [self buildIdCopyButtonWith: builder]. self stopServerButtonFrame
+					-> [self buildStopServerButtonWith: builder]. self closePollButtonFrame
+					-> [self buildClosePollButtonWith: builder]. self createAnotherPollButtonFrame
+					-> [self buildCreateAnotherPollButton: builder]. self exportResultsButtonFrame
+					-> [self buildExportResultsButtonWith: builder]}.
+	windowSpec label: 'Liquid - Host'.
+	^ builder build: windowSpec

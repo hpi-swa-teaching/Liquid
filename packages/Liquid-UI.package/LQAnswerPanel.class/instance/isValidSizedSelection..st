@@ -1,4 +1,4 @@
 validation
-isValidSizedSelection: aSet
+isValidSizedSelection: aSelection
 
-	^ aSet size <= self question maxNumberOfChoices
+	^aSelection size <= self question maxNumberOfChoices
