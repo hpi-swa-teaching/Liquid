@@ -15,12 +15,30 @@ Installer ensureRecentMetacello.
 
 Then run this code in your workspace:
 
+#### If you want the latest version
+
+```smalltalk
+Metacello new
+  baseline: 'Liquid';
+  repository: 'github://hpi-swa-teaching/Liquid:develop/packages';
+  load.
+```
+
+#### If you want a more stable version
+
 ```smalltalk
 Metacello new
   baseline: 'Liquid';
   repository: 'github://hpi-swa-teaching/Liquid:main/packages';
   load.
 ```
+
+#### If you want a release version
+
+0. Ensure you have the latest version of the GitBrowser
+1. Download the SAR packages for both StatisticsWorkbench and Liquid
+2. Install the SAR package for StatisticsWorkbench (the order matters)
+3. Install the SAR package for Liquid
 
 ### If you want to use Liquid, here is a quick introduction:
 
