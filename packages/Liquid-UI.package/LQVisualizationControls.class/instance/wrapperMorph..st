@@ -1,4 +1,3 @@
 accessing
-wrapperMorph: aMorph
-
-	wrapperMorph := aMorph
+wrapperMorph: anObject
+	wrapperMorph := anObject

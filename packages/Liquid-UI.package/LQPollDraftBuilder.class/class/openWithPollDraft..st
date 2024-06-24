@@ -8,7 +8,7 @@ openWithPollDraft: aLQPollDraft
 		to: aLQPollDraft questionList size
 		do: [:i | 
 			| question |
-			question := LQQuestionBuilder new.
+			question := LQMultiChoiceQuestionBuilder new.
 			question
 				question: (aLQPollDraft questionList at: i).
 			aPollDraftBuilder questionBuilders add: question].

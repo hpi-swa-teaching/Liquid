@@ -1,0 +1,3 @@
+accessing
+getIndex
+	^ self index
