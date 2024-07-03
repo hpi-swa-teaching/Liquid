@@ -1,14 +1,13 @@
 toolbuilder
 buildWith: aBuilder 
-	"| logo assetLoader logoMorph |
-	assetLoader := GitAssetLoader for: 'Liquid'.
-	logo := assetLoader loadForm: 'liquid_logo.png'.
-	logoMorph := ImageMorph new image: logo;
-				 extent: 200 @ 200."
+	| window logoBasedExtent |
+	logoCanvas := LQLogo new.
+	logoBasedExtent := 1@2.2 * logoCanvas logoMorph extent. "2.2 x allows some padding around the logo"
 	"loads /image.png"
-	^ aBuilder build: (aBuilder pluggableWindowSpec new model: self;
+	window :=  aBuilder build: (aBuilder pluggableWindowSpec new model: self;
 			 label: 'Welcome to Liquid';
-			 extent: self extent;
-			 "add: logoMorph;"
-			 children: {self buildEnterHostButtonWith: aBuilder. self buildEnterParticipantButtonWith: aBuilder};
-			 yourself)
+			 minimumExtent: logoBasedExtent;
+			extent: 0.5 * logoBasedExtent; "The extent is set to double the selected value, therefore it's multiplied with 0.5"
+			 children: {self buildEnterHostButtonWith: aBuilder. self buildEnterParticipantButtonWith: aBuilder. self buildLogoWith: aBuilder.};
+			 yourself).
+	^ window

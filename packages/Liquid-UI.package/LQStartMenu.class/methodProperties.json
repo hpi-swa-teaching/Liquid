@@ -5,11 +5,15 @@
 	"instance" : {
 		"buildEnterHostButtonWith:" : "kge 6/19/2022 18:59",
 		"buildEnterParticipantButtonWith:" : "kge 6/19/2022 19:00",
+		"buildLogoWith:" : "FLST 7/3/2024 15:38",
 		"buildStopServerButtonWith:" : "kge 6/19/2022 19:00",
-		"buildWith:" : "JT 8/4/2022 21:51",
+		"buildWith:" : "FLST 7/3/2024 15:25",
 		"enterHostMode" : "JT 8/5/2022 21:56",
 		"enterParticipantMode" : "FLST 6/22/2024 12:00",
 		"extractAndValidatePollIdAndURL:" : "FLST 6/22/2024 11:58",
 		"getPollIdFrom:with:" : "leli 6/12/2024 14:04",
 		"getUrlFrom:with:" : "leli 6/12/2024 14:05",
+		"logoCanvas" : "FLST 7/3/2024 15:25",
+		"logoCanvas:" : "FLST 7/3/2024 15:26",
+		"logoInCollection" : "FLST 7/2/2024 11:51",
 		"stopServer" : "bn 8/2/2022 17:02" } }

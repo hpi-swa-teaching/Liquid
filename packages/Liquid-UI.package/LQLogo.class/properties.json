@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NM 7/9/2021 14:11",
+	"commentStamp" : "",
 	"instvars" : [
-		"logoCanvas" ],
-	"name" : "LQStartMenu",
+		"logoMorph" ],
+	"name" : "LQLogo",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "LQWidgetToMorph",
 	"type" : "normal" }
