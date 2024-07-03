@@ -10,6 +10,10 @@ baseline: spec
 				baseline: 'SwaLint'
 				with: [spec repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 				
+				baseline: 'Squot'
+				with: [spec repository: 'github://hpi-swa-teaching/Sqout:release/packages'];
+				
+				
 				package: 'Liquid-Core'
 				with: [spec requires: #('libraries')];
 				
