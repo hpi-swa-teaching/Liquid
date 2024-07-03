@@ -1,6 +1,5 @@
 initialize-release
 initialize
-	
 	super initialize.
 	self questionBuilders: OrderedCollection new.
 	self pollDraft: LQPollDraft new.
