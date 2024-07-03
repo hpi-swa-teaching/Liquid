@@ -1,3 +1,3 @@
 validation
 isValidSizedInput: aText 
-	^ aText size <= self question maxNumberOfCharacters
+	^ self getCharactersRemaining > 0

@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"answerText" ],
 	"name" : "LQFreeTextAnswerPanel",
 	"pools" : [
 		 ],

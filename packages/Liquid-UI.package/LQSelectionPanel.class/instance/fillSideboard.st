@@ -1,7 +1,7 @@
 accessing
 fillSideboard
-	(self question type = 'priority')
+	(self question isPriorityQuestion)
 		ifTrue:  [^self getRankingIndices].
-	(self question type = 'multiChoice')
+	(self question isMultiChoiceQuestion)
 		ifTrue: [^self getMarkers].
 	

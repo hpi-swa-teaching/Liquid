@@ -1,7 +1,6 @@
 accessing
 updateText: aText 
-	self getCharactersRemaining > 0
-		ifTrue: [answer answer: aText.
-			answer questionId: self question id].
+	self answerText: (self truncate: aText).
+	self answer answer: self answerText.
 	self changed: #getRemainingCharactersLabel.
 	self changed: #retrieveAnswerText

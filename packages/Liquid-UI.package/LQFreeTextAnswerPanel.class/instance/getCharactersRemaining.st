@@ -1,3 +1,3 @@
 accessing
 getCharactersRemaining
-	^ self question maxNumberOfCharacters - self answer answer string size
+	^ self question maxNumberOfCharacters - self answerText string size

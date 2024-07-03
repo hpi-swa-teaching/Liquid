@@ -8,11 +8,13 @@
 		"id" : "leli 6/17/2024 14:05",
 		"id:" : "leli 6/17/2024 14:05",
 		"initialize" : "leli 6/17/2024 14:16",
+		"isFreeTextQuestion" : "Anton Eichstädt 7/3/2024 17:10",
+		"isMultiChoiceQuestion" : "Anton Eichstädt 7/3/2024 17:09",
+		"isPriorityQuestion" : "Anton Eichstädt 7/3/2024 17:10",
 		"maxNumberOfCharacters" : "leli 6/17/2024 14:03",
 		"maxNumberOfChoices" : "leli 6/17/2024 14:03",
 		"numberOfChoices" : "leli 6/17/2024 14:14",
 		"numberOfChoices:" : "leli 6/19/2024 13:42",
 		"title" : "leli 6/18/2024 15:52",
 		"title:" : "leli 6/17/2024 14:03",
-		"toolTip" : "leli 6/17/2024 14:07",
-		"type" : "leli 6/17/2024 14:04" } }
+		"toolTip" : "leli 6/17/2024 14:07" } }
