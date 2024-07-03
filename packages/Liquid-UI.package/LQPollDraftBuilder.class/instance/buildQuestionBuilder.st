@@ -1,6 +1,6 @@
 toolbuilder
 buildQuestionBuilder
-(self questionBuilders size = 0
+(self questionBuilders isEmpty
 			or: [self currentQuestion= 0])
 		ifTrue: [^ {PluggablePanelSpec new buildWith: ToolBuilder default}].
 	^ {(self questionBuilderAt: self currentQuestion)

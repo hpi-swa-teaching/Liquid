@@ -4,4 +4,4 @@ initialize
 	self questionBuilders: OrderedCollection new.
 	self pollDraft: LQPollDraft new.
 	self pollDraft questionList: OrderedCollection new.
-	self currentQuestion: questionBuilders size.
+	self currentQuestion: self questionBuilders size.
