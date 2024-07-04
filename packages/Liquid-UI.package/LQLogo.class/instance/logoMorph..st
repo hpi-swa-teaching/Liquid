@@ -1,3 +1,3 @@
 accessing
-logoMorph: anImageMorph
+logoMorph: anImageMorph 
 	logoMorph := anImageMorph

@@ -2,7 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "FLST 7/3/2024 15:36",
-		"loadLogoMorph" : "FLST 7/4/2024 12:08",
-		"logoMorph" : "FLST 7/2/2024 15:01",
-		"logoMorph:" : "FLST 7/2/2024 15:02" } }
+		"baseMorph" : "FLST 7/4/2024 12:55",
+		"createLogoMorph:" : "FLST 7/4/2024 12:55",
+		"initialize" : "FLST 7/4/2024 12:55",
+		"loadDefaultLogo" : "FLST 7/4/2024 12:55",
+		"loadLogo:" : "FLST 7/4/2024 12:55",
+		"logoMorph" : "FLST 7/4/2024 12:55",
+		"logoMorph:" : "FLST 7/4/2024 12:55",
+		"minimumLogoSize" : "FLST 7/4/2024 12:55",
+		"setLogoMorph" : "FLST 7/4/2024 12:55" } }

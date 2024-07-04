@@ -1,8 +1,10 @@
 initialize-release
 initialize
 	super initialize.
-	self layoutFrame: (LayoutFrame
+	self
+		layoutFrame: (LayoutFrame
 				fractions: (0 @ 0 rect: 1 @ 1));
 		 beSticky;
 		 setWidgetStyle;
-		 clipSubmorphs: true.
+		 lock;
+		 clipSubmorphs: true

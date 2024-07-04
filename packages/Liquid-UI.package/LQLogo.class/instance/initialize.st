@@ -1,5 +1,4 @@
 initialize-release
 initialize
 	super initialize.
-	self loadLogoMorph;
-		addMorph: self logoMorph
+	self setLogoMorph; addMorph: self logoMorph
