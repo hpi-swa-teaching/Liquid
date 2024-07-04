@@ -11,7 +11,7 @@ baseline: spec
 				with: [spec repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 				
 				baseline: 'Squot'
-				with: [spec repository: 'github://hpi-swa/Squot:latest-release/src'];
+				with: [spec repository: 'github://hpi-swa/Squot:mapper/src'];
 				
 				
 				package: 'Liquid-Core'
