@@ -1,5 +1,5 @@
 testing
 testLoadLogoWithInvalidName
 	| logo |
-	logo := self instance loadLogo: 'INVALID'.
-	self assert: logo isNil
+	self should: [logo := self instance loadLogo: 'INVALID'] raise: FileDoesNotExist.
+	"self assert: logo isNil"

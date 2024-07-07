@@ -10,7 +10,7 @@
 		"testCreateLogoMorphWithValidImage" : "FLST 7/7/2024 10:42",
 		"testCreateLogoMorphWithoutImage" : "FLST 7/7/2024 10:42",
 		"testLoadDefaultLogo" : "FLST 7/7/2024 10:50",
-		"testLoadLogoWithInvalidName" : "FLST 7/7/2024 10:49",
+		"testLoadLogoWithInvalidName" : "FLST 7/7/2024 11:27",
 		"testLoadLogoWithValidName" : "FLST 7/7/2024 10:48",
 		"testMinimumLogoSize" : "FLST 7/7/2024 10:59",
 		"testSetDefaultLogoMorph" : "FLST 7/7/2024 10:57" } }
