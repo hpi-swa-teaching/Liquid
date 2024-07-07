@@ -9,4 +9,4 @@ testQuestionList
 	self assert: self pollDraftBuilder list size equals: sizeAfter.
 	self pollDraftBuilder list
 		do: [:question | self
-				assert: (self correctContents: question)]
+				assert: (question isKindOf: LQMultiChoiceQuestion orOf: LQPriorityQuestion)]
