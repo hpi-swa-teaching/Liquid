@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addDefaultLogo" : "FLST 7/7/2024 10:55",
 		"baseMorph" : "FLST 7/4/2024 12:55",
-		"createLogoMorph:" : "FLST 7/4/2024 12:55",
-		"initialize" : "FLST 7/4/2024 12:55",
+		"createLogoMorph:" : "FLST 7/7/2024 10:22",
 		"loadDefaultLogo" : "FLST 7/4/2024 12:55",
 		"loadLogo:" : "FLST 7/4/2024 12:55",
 		"logoMorph" : "FLST 7/4/2024 12:55",
 		"logoMorph:" : "FLST 7/4/2024 12:55",
 		"minimumLogoSize" : "FLST 7/4/2024 12:55",
-		"setLogoMorph" : "FLST 7/4/2024 12:55" } }
+		"setDefaultLogoMorph" : "FLST 7/7/2024 10:55" } }

@@ -1,10 +1,10 @@
 accessing
-createLogoMorph: anImageMorphOrNil 
+createLogoMorph: anImageOrNil 
 	| baseMorph imageMorph |
 	baseMorph := self baseMorph.
-	anImageMorphOrNil isNil
+	anImageOrNil isNil
 		ifTrue: [^ baseMorph].
-	imageMorph := ImageMorph new image: anImageMorphOrNil.
+	imageMorph := ImageMorph new image: anImageOrNil.
 	baseMorph extent: (imageMorph extent x max: self minimumLogoSize x)
 			@ (imageMorph extent y max: self minimumLogoSize y).
 	baseMorph addMorph: imageMorph.

@@ -1,5 +1,5 @@
 accessing
-setLogoMorph
+setDefaultLogoMorph
 	| imageLogo |
 	imageLogo := self loadDefaultLogo.
 	self
