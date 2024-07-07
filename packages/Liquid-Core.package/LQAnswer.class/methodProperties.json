@@ -2,10 +2,14 @@
 	"class" : {
 		"newWithQuestion:andVotes:" : "Anton Eichstädt 6/5/2024 17:28" },
 	"instance" : {
+		"answer" : "leli 6/17/2024 13:57",
 		"answer:" : "leli 6/17/2024 13:57",
+		"choicesRanking" : "leli 6/17/2024 13:56",
 		"choicesRanking:" : "leli 6/17/2024 13:56",
 		"containsVoteForChoice:" : "leli 6/17/2024 13:58",
 		"id" : "JT 8/2/2022 16:59",
+		"id:" : "JT 8/2/2022 16:59",
 		"initialize" : "leli 6/18/2024 16:06",
 		"printDataOn:" : "leli 6/17/2024 13:51",
+		"questionId" : "JT 8/2/2022 17:01",
 		"questionId:" : "JT 8/2/2022 17:01" } }
