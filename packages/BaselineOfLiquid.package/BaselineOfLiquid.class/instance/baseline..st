@@ -10,6 +10,10 @@ baseline: spec
 				baseline: 'SwaLint'
 				with: [spec repository: 'github://hpi-swa-teaching/SwaLint:release/packages'];
 				
+				baseline: 'Squot'
+				with: [spec repository: 'github://hpi-swa/Squot:mapper/src'];
+				
+				
 				package: 'Liquid-Core'
 				with: [spec requires: #('libraries')];
 				
@@ -22,7 +26,7 @@ baseline: spec
 				package: 'Liquid-Tests'
 				with: [spec requires: #('SwaLint' 'default')];
 				 yourself.
-			spec group: 'libraries' with: #('StatisticsWorkbench');
+			spec group: 'libraries' with: #('StatisticsWorkbench' 'Squot');
 				 group: 'default' with: #('Liquid-Core' 'Liquid-Network' 'Liquid-UI');
 				 group: 'tests' with: #('Liquid-Tests')];
 		 yourself

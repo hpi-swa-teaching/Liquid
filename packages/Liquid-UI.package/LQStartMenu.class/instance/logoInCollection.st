@@ -1,0 +1,3 @@
+accessing
+logoInCollection
+	^ {self logoCanvas}
