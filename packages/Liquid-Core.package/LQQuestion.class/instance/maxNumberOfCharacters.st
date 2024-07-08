@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 maxNumberOfCharacters
 
 	^ 1

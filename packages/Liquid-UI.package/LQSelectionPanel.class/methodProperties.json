@@ -20,7 +20,7 @@
 		"getNumberOfChoices" : "Anton Eichstädt 5/25/2024 16:16",
 		"getRankingIndices" : "Anton Eichstädt 6/2/2024 21:25",
 		"getRemainingVotedChoices" : "Anton Eichstädt 6/4/2024 11:59",
-		"initialize" : "bn 7/14/2022 20:17",
+		"initialize" : "Anton Eichstädt 7/8/2024 17:49",
 		"isEveryChoiceRanked" : "Anton Eichstädt 7/3/2024 17:52",
 		"isValidSelection:ForChoiceAt:" : "Anton Eichstädt 5/25/2024 14:21",
 		"isValidSizedSelection:" : "Anton Eichstädt 6/5/2024 11:38",
@@ -28,5 +28,4 @@
 		"resetUI" : "leli 6/18/2024 16:38",
 		"selectedChoices" : "NM 6/7/2021 18:07",
 		"selectedChoices:" : "Anton Eichstädt 5/24/2024 15:56",
-		"tooltipSymbol" : "bn 5/12/2022 20:27",
 		"updateAnswer" : "Anton Eichstädt 5/24/2024 15:24" } }

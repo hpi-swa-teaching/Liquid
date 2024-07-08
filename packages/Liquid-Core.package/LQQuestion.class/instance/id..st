@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 id: aString
 
 	id := aString

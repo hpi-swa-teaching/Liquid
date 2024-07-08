@@ -2,7 +2,7 @@ testing
 testPollSanitization
 
 	self answerSet1 token: self user1 token.
-	self answerSet1 addAnswer: (LQAnswer new
+	self answerSet1 addAnswer: (LQChoicesAnswer new
 		questionId: (self q1 id);
 		choicesRanking: {(self q1 choiceList second) description};
 		yourself).

@@ -1,3 +1,3 @@
 accessing
 answer: anAnswer 
-	self halt
+	"only for mock answers"

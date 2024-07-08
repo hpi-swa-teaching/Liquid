@@ -1,3 +1,3 @@
 evaluation
 containsVoteForChoice: aChoice 
-	self halt.
+	"only for mock answers"

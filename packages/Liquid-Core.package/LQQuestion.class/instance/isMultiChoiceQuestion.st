@@ -1,3 +1,3 @@
-as yet unclassified
+initialize
 isMultiChoiceQuestion
 	^false
