@@ -1,4 +1,4 @@
 accessing
-choicesRanking: aChoiceList 
-	self halt.
+choicesRanking: aChoiceList
+	"only for mock answers"
 

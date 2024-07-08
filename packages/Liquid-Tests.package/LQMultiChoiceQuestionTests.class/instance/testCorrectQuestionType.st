@@ -1,4 +1,4 @@
 testing
 testCorrectQuestionType
 
-	self assert: self question type equals: 'multiChoice'
+	self assert: self question isMultiChoiceQuestion

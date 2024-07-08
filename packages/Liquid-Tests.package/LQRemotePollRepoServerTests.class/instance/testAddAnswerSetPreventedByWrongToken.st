@@ -8,7 +8,7 @@ testAddAnswerSetPreventedByWrongToken
 		token: self user1 token;
 	 	pollId: (self poll id);
 		yourself.
-	answerSet1 addAnswer: (LQAnswer new
+	answerSet1 addAnswer: (LQChoicesAnswer new
 		questionId: (q1 id);
 		choicesRanking: {(q1 choiceList second) description};
 		yourself).

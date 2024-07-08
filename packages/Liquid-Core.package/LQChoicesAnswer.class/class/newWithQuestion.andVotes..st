@@ -1,7 +1,7 @@
-class initialization
+as yet unclassified
 newWithQuestion: aQuestion andVotes: anOrderedCollection
 
-	^ LQAnswer new
+	^ LQChoicesAnswer new
 			questionId: aQuestion id;
 			choicesRanking: (anOrderedCollection collect: [:each | each description]) ;
 			yourself

@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newWithQuestion:andVotes:" : "Anton Eichstädt 6/5/2024 17:28" },
+		"newWithQuestion:" : "Anton Eichstädt 7/8/2024 16:42" },
 	"instance" : {
 		"answer" : "leli 6/17/2024 13:57",
-		"answer:" : "leli 6/17/2024 13:57",
+		"answer:" : "Anton Eichstädt 7/8/2024 19:01",
 		"choicesRanking" : "leli 6/17/2024 13:56",
-		"choicesRanking:" : "leli 6/17/2024 13:56",
-		"containsVoteForChoice:" : "leli 6/17/2024 13:58",
+		"choicesRanking:" : "Anton Eichstädt 7/8/2024 19:01",
+		"containsVoteForChoice:" : "Anton Eichstädt 7/8/2024 19:01",
 		"id" : "JT 8/2/2022 16:59",
 		"id:" : "JT 8/2/2022 16:59",
 		"initialize" : "leli 6/18/2024 16:06",

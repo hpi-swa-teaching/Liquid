@@ -1,4 +1,4 @@
-as yet unclassified
+mocking
 buildEmptyAnswer
 	^ LQAnswer new
 	

@@ -1,3 +1,3 @@
-as yet unclassified
+mocking
 numberOfChoices: anObject 
-	self halt.
+	"only used for testing"

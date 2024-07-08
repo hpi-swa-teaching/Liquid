@@ -8,7 +8,7 @@ createAnswerSet2With: aQuestion and: anAnswer
 	 	pollId: (self poll id);
 		yourself.
 	
-	temporaryAnswerSet addAnswer: (LQAnswer new
+	temporaryAnswerSet addAnswer: (LQChoicesAnswer new
 		questionId: (aQuestion id);
 		choicesRanking: {anAnswer description};
 		yourself).
