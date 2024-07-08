@@ -1,6 +1,5 @@
 testing
 testRunningPollViewCanBeBuilt
-
 	| runningPollView |
 	
 	runningPollView := LQRunningPollView newWithPoll: self poll.

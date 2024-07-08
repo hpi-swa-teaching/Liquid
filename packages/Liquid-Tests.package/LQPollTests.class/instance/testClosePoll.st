@@ -7,6 +7,5 @@ testClosePoll
 	   ifAbsent: [self fail: 'expected password to exist']); 
 	  addAnswerSet: self as2.
 
-	LQResultsView newWithPoll: self poll.
 	self assert: self poll isOpen equals: false.
 	self assert: self poll answerSets size equals: 1
