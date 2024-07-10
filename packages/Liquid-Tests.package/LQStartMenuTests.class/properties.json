@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"objectInstance" ],
+	"name" : "LQStartMenuTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
