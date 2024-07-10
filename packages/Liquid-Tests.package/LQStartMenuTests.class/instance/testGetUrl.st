@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testGetUrl
 	| url |
 	url:= 'http:/test:1234/12345'.
