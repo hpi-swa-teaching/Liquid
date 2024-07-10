@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testGetPollId
 	| url |
 	url:= 'http:/test:1234/12345'.
