@@ -1,1 +1,0 @@
-Detailed results of a Poll can be viewed in textform here, ordered by AnswerSets.
