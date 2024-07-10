@@ -1,4 +1,4 @@
 running
 setUp
 	super setUp.
-	self question: LQPriorityQuestion new.
+	self question: LQPriorityQuestion new 
