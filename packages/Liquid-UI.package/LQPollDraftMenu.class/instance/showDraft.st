@@ -4,5 +4,5 @@ showDraft
 	self choiceSelected isZero
 		ifTrue: [^ self].
 	selectedDraft := self pollDrafts at: self choiceSelected.
-	LQPollDraftBuilder openWithPollDraft: selectedDraft.
+	ToolBuilder open: (LQPollDraftBuilder newWithPollDraft: selectedDraft).
 	self destroy.
