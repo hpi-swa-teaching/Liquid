@@ -1,3 +1,4 @@
 initialize
 isFreeTextQuestion
-	^false
+
+	^ false

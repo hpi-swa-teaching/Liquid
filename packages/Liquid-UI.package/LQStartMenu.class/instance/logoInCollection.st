@@ -1,3 +1,4 @@
 accessing
 logoInCollection
+
 	^ {self logoCanvas}

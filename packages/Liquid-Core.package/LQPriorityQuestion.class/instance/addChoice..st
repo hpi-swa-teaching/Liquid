@@ -1,4 +1,4 @@
 modifying
-addChoice: aChoice 
+addChoice: aChoice
+
 	self choiceList add: aChoice
-	

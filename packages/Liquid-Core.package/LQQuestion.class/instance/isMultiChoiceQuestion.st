@@ -1,3 +1,4 @@
 initialize
 isMultiChoiceQuestion
-	^false
+
+	^ false

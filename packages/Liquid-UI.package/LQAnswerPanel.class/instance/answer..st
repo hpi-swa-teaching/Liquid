@@ -1,3 +1,4 @@
 accessing
-answer: anAnswer 
+answer: anAnswer
+
 	SubclassResponsibility

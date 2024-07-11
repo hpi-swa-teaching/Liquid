@@ -1,3 +1,4 @@
 printing
-printDataOn: aStream 
-	aStream nextPutAll: self answer.
+printDataOn: aStream
+
+	aStream nextPutAll: self answer

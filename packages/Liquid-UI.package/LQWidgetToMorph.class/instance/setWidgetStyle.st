@@ -1,4 +1,6 @@
 modifying
 setWidgetStyle
-	self color: Color transparent;
-		 borderColor: Color transparent
+
+	self
+		color: Color transparent;
+		borderColor: Color transparent

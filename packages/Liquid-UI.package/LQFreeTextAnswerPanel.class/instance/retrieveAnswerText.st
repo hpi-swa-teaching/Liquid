@@ -1,3 +1,4 @@
 accessing
 retrieveAnswerText
-	^self truncate: self answerText
+
+	^ self truncate: self answerText

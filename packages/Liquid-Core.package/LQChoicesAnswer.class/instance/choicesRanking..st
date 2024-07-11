@@ -1,3 +1,4 @@
 accessing
-choicesRanking: anObject 
+choicesRanking: anObject
+
 	votedChoiceList := anObject

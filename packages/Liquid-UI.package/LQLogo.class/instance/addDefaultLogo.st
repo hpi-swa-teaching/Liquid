@@ -1,3 +1,6 @@
 initialize-release
 addDefaultLogo
-	self setDefaultLogoMorph; addMorph: self logoMorph
+
+	self
+		setDefaultLogoMorph;
+		addMorph: self logoMorph

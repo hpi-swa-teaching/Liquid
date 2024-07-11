@@ -1,10 +1,7 @@
 live-update
-newChoicesViewFor: aQuestionIndex 
+newChoicesViewFor: aQuestionIndex
+
 	| visualizationView |
-	self questionList
-		at: aQuestionIndex
-		ifAbsent: [^ self].
+	self questionList at: aQuestionIndex ifAbsent: [^ self].
 	visualizationView := LQVisualizationView newWithPoll: self poll.
-	self
-		makeNewChoicesVisWith: (visualizationView
-				visualizeChoicesResultsFor: (self poll questionList at: aQuestionIndex)).
+	self makeNewChoicesVisWith: (visualizationView visualizeChoicesResultsFor: (self poll questionList at: aQuestionIndex))

@@ -1,4 +1,4 @@
 accessing
 mailSubject
 
-	^ mailSubject ifNil: [^mailSubject := self class defaultSubject]
+	^ mailSubject ifNil: [^ mailSubject := self class defaultSubject]

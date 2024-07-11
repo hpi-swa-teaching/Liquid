@@ -1,4 +1,4 @@
 accessing
 choiceSelected
-	
+
 	^ choiceSelected

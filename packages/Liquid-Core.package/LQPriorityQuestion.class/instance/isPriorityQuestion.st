@@ -1,3 +1,4 @@
 accessing
 isPriorityQuestion
-	^true
+
+	^ true

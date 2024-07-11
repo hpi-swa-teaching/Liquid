@@ -1,5 +1,6 @@
 initialize-release
 initialize
+
 	super initialize.
 	self selectedChoices: OrderedCollection new.
 	self

@@ -1,3 +1,4 @@
 accessing
 getRemainingCharactersLabel
-	^ 'Remaining Characters: ' , self getCharactersRemaining asString
+
+	^ 'Remaining Characters: ', self getCharactersRemaining asString

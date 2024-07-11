@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addChoice:" : "leli 6/17/2024 14:09",
+		"addChoice:" : "FLST 7/11/2024 20:42",
 		"buildEmptyAnswer" : "leli 6/17/2024 14:09",
 		"choiceDescriptions" : "kge 8/1/2022 18:51",
 		"choiceList" : "JT 8/2/2022 17:01",
 		"choiceList:" : "Anton Eichstädt 6/5/2024 11:46",
-		"initialize" : "leli 6/17/2024 14:10",
-		"isPriorityQuestion" : "Anton Eichstädt 7/3/2024 17:10",
-		"isVotedChoice:ValidFrom:" : "ms 8/4/2022 21:31",
-		"maxNumberOfChoices" : "Anton Eichstädt 6/5/2024 11:33",
-		"numberOfChoices" : "Anton Eichstädt 6/4/2024 11:21",
-		"numberOfChoices:" : "leli 6/19/2024 13:43",
+		"initialize" : "FLST 7/11/2024 20:42",
+		"isPriorityQuestion" : "FLST 7/11/2024 20:42",
+		"isVotedChoice:ValidFrom:" : "FLST 7/11/2024 20:42",
+		"maxNumberOfChoices" : "FLST 7/11/2024 20:42",
+		"numberOfChoices" : "FLST 7/11/2024 20:42",
+		"numberOfChoices:" : "FLST 7/11/2024 20:42",
 		"toolTip" : "Anton Eichstädt 5/24/2024 15:15" } }

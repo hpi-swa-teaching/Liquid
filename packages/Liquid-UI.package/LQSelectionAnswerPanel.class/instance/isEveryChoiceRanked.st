@@ -1,4 +1,4 @@
 validation
 isEveryChoiceRanked
 
-	^(self question isPriorityQuestion) ==> (self selectedChoices size = self question maxNumberOfChoices)
+	^ self question isPriorityQuestion ==> (self selectedChoices size = self question maxNumberOfChoices)

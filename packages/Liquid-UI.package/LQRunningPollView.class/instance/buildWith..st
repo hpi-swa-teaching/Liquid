@@ -5,8 +5,9 @@ buildWith: aBuilder
 		model: self;
 		label: 'Poll running with ID ';
 		extent: self extent;
-		children: {self buildIDTextBoxWith: aBuilder. 
-						self buildIdCopyButtonWith: aBuilder. 
-						self buildPollInteractionButtonWith: aBuilder.
-						self buildOpenMailDialogButtonWith: aBuilder};
+		children: {
+			self buildIDTextBoxWith: aBuilder.
+			self buildIdCopyButtonWith: aBuilder.
+			self buildPollInteractionButtonWith: aBuilder.
+			self buildOpenMailDialogButtonWith: aBuilder};
 		yourself)

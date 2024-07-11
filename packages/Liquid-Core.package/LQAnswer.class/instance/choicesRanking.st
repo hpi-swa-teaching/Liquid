@@ -1,5 +1,4 @@
 accessing
 choicesRanking
 
-	^ OrderedCollection new.
-
+	^ OrderedCollection new

@@ -2,7 +2,6 @@ modifying
 addFreeTextQuestion
 
 	| question builder |
-	
 	question := LQFreeTextQuestion new.
 	builder := LQFreeTextQuestionBuilder new.
 	builder question: question.

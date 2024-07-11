@@ -1,3 +1,4 @@
 accessing
-containsVoteForChoice: aChoice 
+containsVoteForChoice: aChoice
+
 	^ self choicesRanking includes: aChoice description

@@ -1,5 +1,6 @@
 accessing
 resetUI
+
 	self changed: #answer.
 	self changed: #answerText.
 	self changed: #getTitle.

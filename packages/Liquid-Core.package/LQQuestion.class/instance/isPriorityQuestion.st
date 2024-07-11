@@ -1,3 +1,4 @@
 initialize
 isPriorityQuestion
-	^false
+
+	^ false

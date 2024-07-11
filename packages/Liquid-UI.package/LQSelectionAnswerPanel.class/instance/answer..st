@@ -2,4 +2,4 @@ accessing
 answer: aLQChoicesAnswer
 
 	answer := aLQChoicesAnswer.
-	answer questionId: (self question id)
+	answer questionId: self question id

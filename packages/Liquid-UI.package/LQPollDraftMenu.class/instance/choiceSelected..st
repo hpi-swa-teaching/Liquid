@@ -1,3 +1,5 @@
 accessing
-choiceSelected: anIndex 
-	choiceSelected := anIndex. self changed: #choiceSelected
+choiceSelected: anIndex
+
+	choiceSelected := anIndex.
+	self changed: #choiceSelected

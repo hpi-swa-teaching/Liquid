@@ -1,3 +1,4 @@
 initialize-release
 isMultiChoiceQuestion
-	^true
+
+	^ true

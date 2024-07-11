@@ -8,5 +8,5 @@ printDataOn: aStream
 			aStream nextPutAll: ':']
 		from: 1
 		to: self choicesRanking size - 1.
-		
-	aStream nextPutAll: self choicesRanking last	
+	
+	aStream nextPutAll: self choicesRanking last

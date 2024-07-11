@@ -1,4 +1,4 @@
 printing
-printDataOn: aStream 
+printDataOn: aStream
+
 	SubclassResponsibility
-	

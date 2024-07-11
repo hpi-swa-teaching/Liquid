@@ -1,5 +1,6 @@
 accessing
-setIndex: anIndex 
+setIndex: anIndex
+
 	(self questionList at: anIndex) isFreeTextQuestion
 		ifTrue: [self newFreeTextViewFor: anIndex]
 		ifFalse: [self newChoicesViewFor: anIndex].
