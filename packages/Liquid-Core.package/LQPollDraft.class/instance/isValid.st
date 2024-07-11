@@ -4,6 +4,7 @@ isValid
 		ifFalse: [^ false].
 	self questionList
 		do: [:question | (question title isEmptyOrNil not
-					and: [question choiceList notEmpty])
+					and: [question choiceList notEmpty
+							or: [question isFreeTextQuestion]])
 				ifFalse: [^ false]].
 	^ true

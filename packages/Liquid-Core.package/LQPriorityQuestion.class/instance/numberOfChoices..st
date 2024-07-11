@@ -1,3 +1,3 @@
 accessing
-numberOfChoices: anObject
-	numberOfChoices := anObject
+numberOfChoices: anObject 
+	numberOfChoices:= anObject

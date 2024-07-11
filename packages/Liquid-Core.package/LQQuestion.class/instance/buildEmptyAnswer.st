@@ -1,0 +1,4 @@
+mocking
+buildEmptyAnswer
+	^ LQAnswer new
+	

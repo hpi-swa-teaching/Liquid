@@ -1,0 +1,3 @@
+mocking
+maxNumberOfChoices
+	^ 1

@@ -7,8 +7,7 @@
 	"commentStamp" : "Anton Eichstädt 6/5/2024 17:29",
 	"instvars" : [
 		"id",
-		"questionId",
-		"choicesRanking" ],
+		"questionId" ],
 	"name" : "LQAnswer",
 	"pools" : [
 		 ],

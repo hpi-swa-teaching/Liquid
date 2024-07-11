@@ -1,0 +1,4 @@
+initialize
+toolTip
+
+	SubclassResponsibility

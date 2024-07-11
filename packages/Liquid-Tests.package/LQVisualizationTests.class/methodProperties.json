@@ -4,8 +4,8 @@
 	"instance" : {
 		"setUp" : "ms 8/5/2022 20:40",
 		"tearDown" : "kge 6/26/2022 22:13",
-		"testBarChartMorphChangedOnQuestionSelectionChanged" : "bwe 8/5/2022 19:43",
-		"testConvenienceMethodsReturnPropertiesOfFirstQuestion" : "ms 8/5/2022 20:40",
+		"testBarChartMorphChangedOnQuestionSelectionChanged" : "Anton Eichstädt 7/11/2024 15:48",
+		"testConvenienceMethodsReturnPropertiesOfFirstQuestion" : "Anton Eichstädt 7/11/2024 15:27",
 		"testMultipleQuestionsInListView" : "bwe 6/26/2022 17:21",
 		"testVisualizationDisplayedAfterInitialization" : "bwe 6/26/2022 17:22",
 		"visualizationControls" : "JT 8/2/2022 17:38",

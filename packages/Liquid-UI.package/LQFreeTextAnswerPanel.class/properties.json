@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Anton Eichstädt 7/11/2024 18:48",
+	"instvars" : [
+		"answerText" ],
+	"name" : "LQFreeTextAnswerPanel",
+	"pools" : [
+		 ],
+	"super" : "LQAnswerPanel",
+	"type" : "normal" }

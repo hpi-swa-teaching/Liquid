@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"newWith:" : "CG 7/30/2021 19:06" },
+	"instance" : {
+		"answer:" : "Anton Eichstädt 7/3/2024 17:05",
+		"answerText" : "Anton Eichstädt 7/3/2024 16:29",
+		"answerText:" : "Anton Eichstädt 7/3/2024 16:46",
+		"buildRemainingCharactersCounterTextWith:" : "Anton Eichstädt 6/19/2024 15:05",
+		"buildTextInputWith:" : "Anton Eichstädt 7/3/2024 16:37",
+		"defaultRemaining" : "leli 6/11/2024 12:15",
+		"getCharactersRemaining" : "Anton Eichstädt 7/3/2024 16:31",
+		"getChildren" : "leli 6/10/2024 15:12",
+		"getRemainingCharactersLabel" : "Anton Eichstädt 6/19/2024 15:10",
+		"initialize" : "Anton Eichstädt 7/3/2024 17:05",
+		"isValidSizedInput:" : "Anton Eichstädt 7/3/2024 17:05",
+		"question:" : "Anton Eichstädt 7/11/2024 15:18",
+		"resetUI" : "Anton Eichstädt 7/11/2024 15:14",
+		"retrieveAnswerText" : "Anton Eichstädt 7/3/2024 17:06",
+		"truncate:" : "Anton Eichstädt 7/10/2024 11:36",
+		"updateText:" : "Anton Eichstädt 7/3/2024 17:14" } }
