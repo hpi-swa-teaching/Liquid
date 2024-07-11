@@ -4,7 +4,7 @@ buildIdCopyButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Copy Poll-ID to Clipboard';
-		action: #copyPollId;
+		action: #copyPollLink;
 		frame: (LayoutFrame new 
 			topFraction: 0.25; 
 			bottomFraction: 0.5; 
