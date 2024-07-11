@@ -1,4 +1,4 @@
 accessing
-createMaxNumberOfCharactersLabel
+createMaxNumberOfChoicesLabel
 	
 	^ 'Maximum number of choices participants can vote:'
