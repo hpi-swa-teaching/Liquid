@@ -1,4 +1,4 @@
 testing
 testBuildEmptyChoicesAnswer
 
-	self assert: (self question buildEmptyAnswer isKindOf: LQAnswer)
+	self assert: (self question buildEmptyAnswer isKindOf: LQFreeTextAnswer)
