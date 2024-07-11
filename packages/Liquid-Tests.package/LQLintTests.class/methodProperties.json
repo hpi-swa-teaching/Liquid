@@ -34,7 +34,7 @@
 		"testNoExcessiveNumberOfMethods" : "FLST 6/24/2024 09:50",
 		"testNoExcessiveNumberOfVariables" : "psi 5/26/2021 20:54",
 		"testNoFloatEqualityComparison" : "psi 6/8/2021 10:26",
-		"testNoGodClass" : "FLST 6/24/2024 10:00",
+		"testNoGodClass" : "FLST 7/11/2024 17:01",
 		"testNoInstanceVariableCapitalization" : "psi 5/26/2021 20:54",
 		"testNoInstanceVariableNotReadAndWritten" : "psi 5/26/2021 20:55",
 		"testNoLiteralArrayContainsComma" : "psi 5/26/2021 20:55",
