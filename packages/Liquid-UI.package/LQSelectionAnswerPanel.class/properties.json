@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Anton Eichstädt 6/5/2024 17:39",
+	"commentStamp" : "Anton Eichstädt 7/11/2024 18:47",
 	"instvars" : [
 		"selectedChoices",
 		"choiceSelected",
 		"exclusionMarker" ],
-	"name" : "LQSelectionPanel",
+	"name" : "LQSelectionAnswerPanel",
 	"pools" : [
 		 ],
 	"super" : "LQAnswerPanel",

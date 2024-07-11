@@ -7,6 +7,7 @@ newFreeTextViewFor: aQuestionIndex
 	textAnswers := builder
 				build: (self buildTextAnswersWith: builder).
 	textAnswers position: self wrapperMorph position.
-	textAnswers extent: self wrapperMorph owner extent.
+	self wrapperMorph owner ifNil: 
+	[textAnswers extent: (1@1)] ifNotNil: [textAnswers extent: self wrapperMorph owner extent].
 	self wrapperMorph addMorph: textAnswers.
 	^ textAnswers
