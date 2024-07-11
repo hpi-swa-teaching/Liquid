@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"currentPoll" ],
+		"currentPoll",
+		"currentVisualizationControls" ],
 	"name" : "LQHostMenu",
 	"pools" : [
 		 ],
