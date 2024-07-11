@@ -1,5 +1,5 @@
 accessing
-currentVisualization: aMorph 
+makeNewChoicesVisWith: aMorph 
 	self wrapperMorph
 		submorphsDo: [:m | m delete].
 	aMorph position: 0 @ 0.
