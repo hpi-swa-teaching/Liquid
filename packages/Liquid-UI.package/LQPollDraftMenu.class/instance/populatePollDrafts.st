@@ -2,6 +2,5 @@ modifying
 populatePollDrafts
 
 	| draftCollection |
-	draftCollection := OrderedCollection new.
-	LQRemotePollRepoServer pollDraftRepo items do: [:item | draftCollection add: item].
+	draftCollection := LQRemotePollRepoServer pollDraftRepo items collect: [:item | item].
 	self pollDrafts: draftCollection

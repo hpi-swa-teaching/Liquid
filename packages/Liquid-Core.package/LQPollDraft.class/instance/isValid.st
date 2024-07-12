@@ -1,6 +1,6 @@
 accessing
 isValid
 
-	self questionList notEmpty ifFalse: [^ false].
-	self questionList do: [:question | (question title isEmptyOrNil not and: [question choiceList notEmpty or: [question isFreeTextQuestion]]) ifFalse: [^ false]].
+	self questionList ifEmpty: [^ false].
+	(self questionList contains: [:question | (question title isEmptyOrNil not and: [question choiceList notEmpty or: [question isFreeTextQuestion]]) not]) ifTrue: [^ false].
 	^ true

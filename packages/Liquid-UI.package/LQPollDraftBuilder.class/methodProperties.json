@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithPollDraft:" : "FLST 7/11/2024 20:44",
+		"newWithPollDraft:" : "FLST 7/12/2024 09:23",
 		"newWithTitle:" : "ape 7/23/2022 09:58",
 		"newWithTitle:and:" : "Ingmar Vogel 6/7/2024 11:53" },
 	"instance" : {
@@ -29,8 +29,6 @@
 		"frame:fromTop:fromLeft:width:" : "FLST 7/11/2024 20:44",
 		"generateRandomID" : "FLST 7/11/2024 20:44",
 		"getIndex" : "bn 8/2/2022 16:58",
-		"host" : "FLST 7/11/2024 20:44",
-		"host:" : "FLST 7/11/2024 20:44",
 		"initialize" : "FLST 7/11/2024 20:44",
 		"list" : "bn 8/2/2022 16:58",
 		"openManageUserSetsMenu" : "bn 8/2/2022 18:08",
@@ -41,7 +39,7 @@
 		"questionBuilders" : "FLST 7/11/2024 20:44",
 		"questionBuilders:" : "FLST 7/11/2024 20:44",
 		"questionListFrame" : "FLST 7/11/2024 20:44",
-		"removeQuestion" : "FLST 7/11/2024 20:44",
+		"removeQuestion" : "FLST 7/12/2024 08:46",
 		"removeQuestionBuilderAt:" : "FLST 7/11/2024 20:44",
 		"removeQuestionButtonFrame" : "FLST 7/11/2024 20:44",
 		"runPoll" : "FLST 7/11/2024 20:44",
