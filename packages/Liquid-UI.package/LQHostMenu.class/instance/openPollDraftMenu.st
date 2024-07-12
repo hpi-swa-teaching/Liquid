@@ -1,4 +1,4 @@
 modifying
-openPollMenu
+openPollDraftMenu
 
 	ToolBuilder open: LQPollDraftMenu new

@@ -5,5 +5,5 @@ buildCreatePollFromSavedDraftsButton: aBuilder
 		model: self;
 		label: 'Create Poll From Saved Drafts';
 		help: 'Opens a window with saved drafts you can then edit and run.';
-		action: #openPollMenu;
+		action: #openPollDraftMenu;
 		yourself
