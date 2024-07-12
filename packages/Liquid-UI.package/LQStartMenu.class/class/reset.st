@@ -7,4 +7,3 @@ reset
 	LQRemotePollRepoServer startServer.
 	LQParticipantMenu answeredPollIds: nil.
 	LQPasswordManager default: nil
-	

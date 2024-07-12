@@ -1,0 +1,4 @@
+accessing
+logoMorph
+
+	^ logoMorph

@@ -1,4 +1,4 @@
 accessing
 choicesRanking
 
-	^ choicesRanking
+	^ OrderedCollection new

@@ -1,0 +1,4 @@
+mocking
+maxNumberOfCharacters
+
+	^ 1

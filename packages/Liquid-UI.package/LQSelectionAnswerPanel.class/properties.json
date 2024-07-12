@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Anton Eichstädt 7/11/2024 18:47",
+	"instvars" : [
+		"selectedChoices",
+		"choiceSelected",
+		"exclusionMarker" ],
+	"name" : "LQSelectionAnswerPanel",
+	"pools" : [
+		 ],
+	"super" : "LQAnswerPanel",
+	"type" : "normal" }

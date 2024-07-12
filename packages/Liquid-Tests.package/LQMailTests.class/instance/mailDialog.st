@@ -1,4 +1,4 @@
 accessing
 mailDialog
 
-	^ mailDialog ifNil: [^mailDialog := LQMailDialog new]
+	^ mailDialog ifNil: [^ mailDialog := LQMailDialog new]

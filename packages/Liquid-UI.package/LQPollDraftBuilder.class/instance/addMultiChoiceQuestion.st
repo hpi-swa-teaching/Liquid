@@ -2,7 +2,6 @@ modifying
 addMultiChoiceQuestion
 
 	| question builder |
-	
 	question := LQMultiChoiceQuestion new.
 	builder := LQMultiChoiceQuestionBuilder new.
 	builder question: question.

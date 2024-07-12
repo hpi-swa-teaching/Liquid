@@ -1,2 +1,2 @@
-UI-Component responsible for biulding single questions.
+UI-Component responsible for biulding single multiple choice questions.
 Is part of a LQPollDraftBuilder.

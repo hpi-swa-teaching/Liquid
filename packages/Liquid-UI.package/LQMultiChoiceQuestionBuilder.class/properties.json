@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "JT 6/23/2022 22:47",
 	"instvars" : [
-		"question",
-		"questionType" ],
+		 ],
 	"name" : "LQMultiChoiceQuestionBuilder",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "LQQuestionBuilder",
 	"type" : "normal" }

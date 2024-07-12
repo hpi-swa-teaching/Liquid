@@ -1,8 +1,9 @@
 testing
 testRemoveQuestion
+
 	| question1 question2 |
 	self assert: self pollDraft questionList isEmpty.
-	question1 := LQMultiChoiceQuestion new. 
+	question1 := LQMultiChoiceQuestion new.
 	question1 title: 'An interesting first question!'.
 	self pollDraft addQuestion: question1.
 	question2 := LQMultiChoiceQuestion new.

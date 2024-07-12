@@ -1,6 +1,6 @@
 testing
 testmaxChoices
-	
+
 	| numberOfChoices |
 	numberOfChoices := 1234.
 	self question maxNumberOfChoices: numberOfChoices.

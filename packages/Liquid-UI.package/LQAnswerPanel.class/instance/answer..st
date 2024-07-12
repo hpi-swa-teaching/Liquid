@@ -1,5 +1,4 @@
 accessing
-answer: aLiquidAnswer
+answer: anAnswer
 
-	answer := aLiquidAnswer.
-	answer questionId: self question id
+	SubclassResponsibility

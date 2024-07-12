@@ -2,7 +2,6 @@ testing
 testAddTwoUsers
 
 	| userSet |
-	
 	userSet := LQUserSet new
 		addUser: self user1;
 		addUser: self user2;

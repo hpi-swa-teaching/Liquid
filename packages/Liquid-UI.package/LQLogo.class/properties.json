@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"logoMorph" ],
+	"name" : "LQLogo",
+	"pools" : [
+		 ],
+	"super" : "LQWidgetToMorph",
+	"type" : "normal" }

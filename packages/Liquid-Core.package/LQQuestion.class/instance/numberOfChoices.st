@@ -1,0 +1,4 @@
+mocking
+numberOfChoices
+
+	^ 1

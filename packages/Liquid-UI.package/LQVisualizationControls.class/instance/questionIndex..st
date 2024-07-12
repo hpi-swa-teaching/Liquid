@@ -1,10 +1,7 @@
 accessing
-questionIndex: aNumber
-	
-	| visualizationView |
-	
-	self questionList at: aNumber ifAbsent: [^ self].
-	visualizationView := LQVisualizationView newWithPoll: self poll.
-	self currentVisualization: (visualizationView visualizeResultsFor: (self poll questionList at: aNumber)).
-	self index: aNumber.
+questionIndex: anIndex
+
+	(self questionList at: anIndex) isFreeTextQuestion
+		ifTrue: [self newFreeTextViewFor: anIndex]
+		ifFalse: [self newChoicesViewFor: anIndex].
 	self changed: #questionIndex

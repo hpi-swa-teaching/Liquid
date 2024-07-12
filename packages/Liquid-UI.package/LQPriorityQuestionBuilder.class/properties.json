@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"question",
-		"questionType" ],
+		 ],
 	"name" : "LQPriorityQuestionBuilder",
 	"pools" : [
 		 ],
-	"super" : "LQModel",
+	"super" : "LQQuestionBuilder",
 	"type" : "normal" }

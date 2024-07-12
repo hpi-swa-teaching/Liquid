@@ -1,0 +1,4 @@
+modifying
+clear
+
+	self removeAllMorphs

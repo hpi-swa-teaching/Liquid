@@ -1,4 +1,4 @@
 data
 data
 
-	^ self dataFor: (self poll questionList first)
+	^ self dataFor: self poll questionList first

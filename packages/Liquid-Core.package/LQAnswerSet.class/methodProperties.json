@@ -1,15 +1,15 @@
 {
 	"class" : {
-		"newWithAnswers:for:" : "bwe 8/5/2022 18:05" },
+		"newWithAnswers:for:" : "FLST 7/11/2024 20:42" },
 	"instance" : {
 		"addAnswer:" : "CG 7/30/2021 19:06",
 		"answers" : "JT 8/2/2022 16:51",
 		"answers:" : "bn 7/14/2022 22:40",
 		"id" : "JT 8/2/2022 16:52",
 		"id:" : "kge 6/25/2022 16:44",
-		"initialize" : "JT 8/2/2022 16:53",
+		"initialize" : "FLST 7/11/2024 20:42",
 		"pollId" : "JS 5/18/2021 18:38",
 		"pollId:" : "JS 5/18/2021 18:37",
-		"printDataOn:for:with:" : "leli 5/21/2024 11:35",
+		"printDataOn:for:with:" : "FLST 7/11/2024 20:42",
 		"token" : "JT 8/2/2022 16:55",
 		"token:" : "JT 8/2/2022 16:55" } }

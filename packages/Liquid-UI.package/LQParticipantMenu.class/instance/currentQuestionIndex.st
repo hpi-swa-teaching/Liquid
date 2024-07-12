@@ -1,4 +1,4 @@
 accessing
 currentQuestionIndex
 
-	^ currentQuestionIndex ifNil: [^currentQuestionIndex := 1]
+	^ currentQuestionIndex ifNil: [^ currentQuestionIndex := 1]

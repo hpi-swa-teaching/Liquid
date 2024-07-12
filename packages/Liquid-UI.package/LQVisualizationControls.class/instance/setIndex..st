@@ -1,12 +1,10 @@
 accessing
-setIndex: aNumber 
-	| visualizationView |
-	self questionList
-		at: aNumber
-		ifAbsent: [^ self].
-	visualizationView := LQVisualizationView newWithPoll: self poll.
-	self
-		currentVisualization: (visualizationView
-				visualizeResultsFor: (self poll questionList at: aNumber)).
-	self index: aNumber.
+setIndex: anIndex
+
+	anIndex isZero ifTrue: [^ self].
+	"As we always want to have exactly one item selected, we have to ignore the deselection command."
+	(self questionList at: anIndex) isFreeTextQuestion
+		ifTrue: [self newFreeTextViewFor: anIndex]
+		ifFalse: [self newChoicesViewFor: anIndex].
+	self index: anIndex.
 	self changed: #getIndex

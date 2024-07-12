@@ -1,4 +1,4 @@
 accessing
-currentPoll: aNumber 
+currentPoll: aNumber
+
 	currentPoll := aNumber
-	

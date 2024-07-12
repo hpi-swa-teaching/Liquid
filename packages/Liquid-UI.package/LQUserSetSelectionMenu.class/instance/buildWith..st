@@ -8,7 +8,7 @@ buildWith: aBuilder
 		children: {
 			self buildUserSetListViewWith: aBuilder.
 			self buildRemoveUserSetButtonWith: aBuilder.
-			self buildAddUserSetFileButtonWith: aBuilder. 
+			self buildAddUserSetFileButtonWith: aBuilder.
 			self buildSelectUserSetButtonWith: aBuilder.
 			self buildClearUserSetSelectionButtonWith: aBuilder};
 		yourself)

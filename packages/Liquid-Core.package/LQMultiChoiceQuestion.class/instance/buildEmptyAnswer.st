@@ -1,4 +1,4 @@
 initialize-release
 buildEmptyAnswer
 
-	^ LQAnswer new
+	^ LQChoicesAnswer new

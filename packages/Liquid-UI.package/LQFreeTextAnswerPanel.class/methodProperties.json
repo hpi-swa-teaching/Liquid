@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"newWith:" : "CG 7/30/2021 19:06" },
+	"instance" : {
+		"answer:" : "FLST 7/11/2024 20:44",
+		"answerText" : "FLST 7/11/2024 20:44",
+		"answerText:" : "FLST 7/11/2024 20:44",
+		"buildRemainingCharactersCounterTextWith:" : "FLST 7/11/2024 20:44",
+		"buildTextInputWith:" : "FLST 7/11/2024 20:44",
+		"defaultRemaining" : "leli 6/11/2024 12:15",
+		"getCharactersRemaining" : "FLST 7/11/2024 20:44",
+		"getChildren" : "FLST 7/11/2024 20:44",
+		"getRemainingCharactersLabel" : "FLST 7/11/2024 20:44",
+		"initialize" : "FLST 7/11/2024 20:44",
+		"isValidSizedInput:" : "FLST 7/11/2024 20:44",
+		"question:" : "FLST 7/11/2024 20:44",
+		"resetUI" : "FLST 7/11/2024 20:44",
+		"retrieveAnswerText" : "FLST 7/11/2024 20:44",
+		"truncate:" : "FLST 7/11/2024 20:44",
+		"updateText:" : "FLST 7/11/2024 20:44" } }

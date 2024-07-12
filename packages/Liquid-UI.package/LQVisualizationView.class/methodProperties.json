@@ -1,12 +1,11 @@
 {
 	"class" : {
-		"newWithPoll:" : "bwe 6/26/2022 14:41" },
+		"newWithPoll:" : "FLST 7/11/2024 20:44" },
 	"instance" : {
-		"data" : "kge 8/3/2022 20:44",
-		"dataFor:" : "bn 8/2/2022 18:12",
+		"data" : "FLST 7/11/2024 20:44",
+		"dataFor:" : "FLST 7/11/2024 20:44",
 		"poll" : "bn 8/2/2022 17:13",
 		"poll:" : "bwe 6/26/2022 14:38",
-		"sortData" : "kge 8/3/2022 20:43",
-		"sortDataFor:" : "bn 8/2/2022 18:12",
-		"visualizeResults" : "kge 8/3/2022 20:43",
-		"visualizeResultsFor:" : "Ingmar Vogel 6/20/2024 15:43" } }
+		"sortData" : "FLST 7/11/2024 20:44",
+		"sortDataFor:" : "FLST 7/11/2024 20:44",
+		"visualizeChoicesResultsFor:" : "FLST 7/11/2024 20:44" } }

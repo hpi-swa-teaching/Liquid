@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	self token: (UUID new asString)
+	self token: UUID new asString

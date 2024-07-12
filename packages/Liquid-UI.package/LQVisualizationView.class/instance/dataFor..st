@@ -2,7 +2,6 @@ data
 dataFor: aQuestion
 
 	| result sortedData |
-	
 	sortedData := self sortDataFor: aQuestion.
 	result := SWDataLabeled
 		fromXValues: (self poll getChoiceIdentifiersFor: aQuestion)

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addDefaultLogo" : "FLST 7/11/2024 20:44",
+		"baseMorph" : "FLST 7/11/2024 20:44",
+		"createLogoMorph:" : "FLST 7/11/2024 20:44",
+		"loadDefaultLogo" : "FLST 7/11/2024 20:44",
+		"loadLogo:" : "FLST 7/11/2024 20:44",
+		"logoMorph" : "FLST 7/11/2024 20:44",
+		"logoMorph:" : "FLST 7/11/2024 20:44",
+		"minimumLogoSize" : "FLST 7/11/2024 20:44",
+		"setDefaultLogoMorph" : "FLST 7/11/2024 20:44" } }

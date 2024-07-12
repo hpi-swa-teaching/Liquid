@@ -1,0 +1,4 @@
+accessing
+currentVisualizationControls
+
+	^ currentVisualizationControls

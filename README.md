@@ -49,16 +49,21 @@ LQStartMenu open.
 ```
 
 There you should be able to choose between the "Participant" and "Host" View.
-If you want to create a poll and run it, close a poll or show the results of a running poll choose "Host". For creating a poll, click "create poll" then type in your Question in the Header of the window.
-Every newline in the box under the question is a possible answer, so be sure to keep every answer on its own line.
-On the bottom you can run your poll and give it an id. Keep the id, it is used to access the poll and its results.
-If you want to close a poll click "close poll" in the host menu. After entering the poll id of the running poll you want to close, participants will not be able to send new answers.
-For the poll results, press "Show results" and input the respective poll id.
+If you want to create a poll and run it, close a poll or show the results of a running poll choose "Host". For creating a poll, click "create poll" then choose the type of question and type the question and if required possible answers in the according text fields. Alternatively you can create a poll from your saved drafts. When pressing the according button a new window opens showing the saved drafts.
+For MultipleChoice and Priotarization questions every newline in the box under the question represents a possible answer, so be sure to keep every answer on its own line.
+On the bottom you can run your poll and give it an id. The id is required for the participants to enter. To allow participants easy access to your poll press the copy poll link button while having the right poll selected in the host menu. Now you can send that link to participants by pasting it in.
+If you want to close a poll click "close poll" in the host menu. Now participants are not able to enter that poll anymore.
+For the poll results there is a live visualization in the host menu. You can also export the results to the DataExports directory in your squeak folder. The export file is named after your poll id. To minimize clutter press delete poll when a poll is not needed anymore.
+To stop any user from participating in any of your polls press stop server.
 
-Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose one or multiple answers and push the send button.
+Participants can choose the "Participant" button in the Start Menu. Enter the link of the poll you want to participate in. Answer every question by selecting or writing text and press send answers.
 
 ## Tests
 We tested the application via:
 - Integration Tests (can be found in `Liquid-Tests`-package)
 - Unit Tests (can be found in `Liquid-Tests`-package)
 - Use Case Tests (can be found in [Use Case Test Specification](https://github.com/hpi-swa-teaching/Liquid/blob/develop/docs/UseCases.md))
+
+
+Anmerkungen: 
+Fürs Refactoring haben wir PoppyPrint verwendet. Daher werden unter anderem die Klassen LQUserSetMenu, LQUserSetSelectionMenu, LQMailDialog, LQAntiCheat, LQDelayMessageDecorator, LQLocalObjectDummy, LQObjectRepo, LQPollRepo, LQRemoteError, LQUserSetRepo, LiquidNetworkServiceProvider, LQUserSet, LQUser, LQPasswordManager, LQPasswordGuard, LQDuplicateDetector, LQChoiceProcessor, LQChoice als geändert angezeigt. Diese Klassen haben wir allerdings weder manuell refactored noch anderweitig verändert. 

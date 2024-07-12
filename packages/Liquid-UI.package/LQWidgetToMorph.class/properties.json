@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FLST 7/2/2024 11:42",
+	"instvars" : [
+		 ],
+	"name" : "LQWidgetToMorph",
+	"pools" : [
+		 ],
+	"super" : "PasteUpMorph",
+	"type" : "normal" }

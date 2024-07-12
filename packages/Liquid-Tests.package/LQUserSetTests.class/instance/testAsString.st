@@ -5,4 +5,3 @@ testAsString
 	userSet := LQUserSet new.
 	userSet title: 'Lorem ipsum'.
 	self assert: userSet asString equals: 'Lorem ipsum'
-		

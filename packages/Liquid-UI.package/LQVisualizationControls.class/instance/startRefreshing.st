@@ -1,10 +1,9 @@
 live-update
 startRefreshing
-	self polling: [[true]
-			whileTrue: [| visualizationView |
-				visualizationView := LQVisualizationView newWithPoll: self poll.
-				self
-					currentVisualization: (visualizationView
-							visualizeResultsFor: (self poll questionList at: self index)).
-				"Transcript show: 'refreshed'; cr."
-				(Delay forSeconds: 2) wait]] fork
+
+	self polling: [
+		[true] whileTrue: [
+			(self questionList at: self index) isFreeTextQuestion
+				ifTrue: [self newFreeTextViewFor: self index]
+				ifFalse: [self newChoicesViewFor: self index].
+			(Delay forSeconds: 2) wait]] fork

@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"question" ],
+	"name" : "LQQuestionBuilder",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

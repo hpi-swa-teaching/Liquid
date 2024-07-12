@@ -1,4 +1,4 @@
 data
 sortData
 
-	^ self sortDataFor: (self poll questionList first)
+	^ self sortDataFor: self poll questionList first

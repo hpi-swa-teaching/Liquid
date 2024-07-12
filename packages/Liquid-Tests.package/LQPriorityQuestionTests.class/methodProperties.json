@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"question" : "FLST 7/12/2024 15:55",
+		"question:" : "FLST 7/12/2024 15:55",
+		"setUp" : "FLST 7/12/2024 15:55",
+		"testAddChoice" : "FLST 7/12/2024 15:55",
+		"testAsStringNoTitle" : "FLST 7/12/2024 15:55",
+		"testAsStringWithTitle" : "FLST 7/12/2024 15:55",
+		"testBuildEmptyChoicesAnswer" : "FLST 7/12/2024 15:55",
+		"testCorrectQuestionType" : "FLST 7/12/2024 15:55" } }

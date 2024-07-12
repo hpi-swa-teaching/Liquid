@@ -6,4 +6,4 @@ sendMailFor: aUser
 		messageSubject: (self injectUserDataFrom: aUser into: (self injectPollDataInto: self mailSubject));
 		messageSender: self mailSender;
 		messageRecipient: aUser mail;
-	doSendMail
+		doSendMail

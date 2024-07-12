@@ -1,4 +1,4 @@
 accessing
 excludedGroup
 
-	^'group4'
+	^ 'group4'

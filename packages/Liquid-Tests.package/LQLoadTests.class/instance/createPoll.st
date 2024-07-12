@@ -2,7 +2,6 @@ helper methods
 createPoll
 
 	| poll pollId |
-	
 	poll := LQPoll newWithPollDraft: LQPollDraft new.
 	poll questionList add: (LQMultiChoiceQuestion new
 		title: 'Where is the master ball';
@@ -10,7 +9,6 @@ createPoll
 		yourself).
 	
 	pollId := 'gotta-catch-rayquaza'.
-	(LQRemotePollRepoServer pollRepo includesKey: pollId) 
-		ifTrue: [LQRemotePollRepoServer pollRepo removeKey: pollId].
+	(LQRemotePollRepoServer pollRepo includesKey: pollId) ifTrue: [LQRemotePollRepoServer pollRepo removeKey: pollId].
 	poll startWithId: pollId ifTaken: [self fail: 'Poll ID already taken'].
 	^ poll

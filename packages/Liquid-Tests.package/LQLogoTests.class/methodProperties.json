@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"instance" : "FLST 7/12/2024 15:55",
+		"instance:" : "FLST 7/12/2024 15:55",
+		"setUp" : "FLST 7/12/2024 15:55",
+		"testAddDefaultLogo" : "FLST 7/12/2024 15:55",
+		"testBaseMorph" : "FLST 7/12/2024 15:55",
+		"testCreateLogoMorphWithValidImage" : "FLST 7/12/2024 15:55",
+		"testCreateLogoMorphWithoutImage" : "FLST 7/12/2024 15:55",
+		"testLoadDefaultLogo" : "FLST 7/12/2024 15:55",
+		"testLoadLogoWithInvalidName" : "FLST 7/12/2024 15:55",
+		"testLoadLogoWithValidName" : "FLST 7/12/2024 15:55",
+		"testMinimumLogoSize" : "FLST 7/12/2024 15:55",
+		"testSetDefaultLogoMorph" : "FLST 7/12/2024 15:55" } }
