@@ -3,22 +3,23 @@
 		"newWithTitle:" : "ape 7/23/2022 09:58",
 		"open" : "6/23/2024 17:58:45" },
 	"instance" : {
-		"buildClosePollButtonWith:" : "FLST 7/11/2024 20:44",
+		"buildClosePollButtonWith:" : "Ingmar Vogel 7/12/2024 11:01",
 		"buildCreateAnotherPollButton:" : "FLST 7/11/2024 20:44",
 		"buildCreatePollFromSavedDraftsButton:" : "FLST 7/12/2024 10:31",
 		"buildDeletePollButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildExportResultsButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildIDTextBoxWith:" : "FLST 7/11/2024 20:44",
-		"buildIdCopyButtonWith:" : "FLST 7/11/2024 20:44",
+		"buildIdCopyButtonWith:" : "Ingmar Vogel 7/12/2024 11:12",
 		"buildOpenMailDialogButtonWith:" : "Ingmar Vogel 7/12/2024 10:46",
 		"buildPollListWith:" : "FLST 7/11/2024 20:44",
 		"buildStopServerButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildVisualization" : "FLST 7/11/2024 20:44",
 		"buildWith:" : "FLST 7/11/2024 20:44",
 		"clipboardDelay" : "FLST 7/11/2024 20:44",
-		"closePoll" : "FLST 7/11/2024 20:44",
+		"closePoll" : "Ingmar Vogel 7/12/2024 11:19",
+		"closePollButtonEnabled" : "Ingmar Vogel 7/12/2024 11:00",
 		"closePollButtonFrame" : "FLST 7/11/2024 20:44",
-		"copyPollLink" : "FLST 7/11/2024 20:44",
+		"copyPollLink" : "Ingmar Vogel 7/12/2024 11:12",
 		"createAnotherPollButtonFrame" : "FLST 7/11/2024 20:44",
 		"createPoll" : "FLST 7/11/2024 20:44",
 		"createPollFromSavedPollsButtonFrame" : "FLST 7/11/2024 20:44",
@@ -28,9 +29,9 @@
 		"currentPollID" : "FLST 7/11/2024 20:44",
 		"currentVisualizationControls" : "FLST 7/11/2024 20:44",
 		"currentVisualizationControls:" : "FLST 7/11/2024 20:44",
-		"deletePoll" : "FLST 7/11/2024 20:44",
+		"deletePoll" : "Ingmar Vogel 7/12/2024 11:11",
 		"deletePollButtonFrame" : "FLST 7/11/2024 20:44",
-		"exportResults" : "FLST 7/11/2024 20:44",
+		"exportResults" : "Ingmar Vogel 7/12/2024 11:11",
 		"exportResultsButtonFrame" : "FLST 7/11/2024 20:44",
 		"extent" : "6/23/2024 17:58:45",
 		"frame:fromTop:fromLeft:width:" : "FLST 7/11/2024 20:44",
@@ -39,18 +40,27 @@
 		"idTextBoxFrameFrame" : "FLST 7/11/2024 20:44",
 		"initialize" : "FLST 7/11/2024 20:44",
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"openPollDraftMenu" : "FLST 7/12/2024 10:31",
 =======
 		"mailDialogButtonEnabled" : "Ingmar Vogel 7/12/2024 10:50",
+=======
+		"mailDialogButtonEnabled" : "Ingmar Vogel 7/12/2024 10:59",
+>>>>>>> 948175a (greyed out buttons that should not work)
 		"openMailDialog" : "Ingmar Vogel 7/12/2024 10:29",
 		"openMailDialogButtonFrame" : "Ingmar Vogel 7/12/2024 10:26",
 		"openPollMenu" : "FLST 7/11/2024 20:44",
 		"openUserSetMenu" : "6/23/2024 17:58:45",
+<<<<<<< HEAD
 >>>>>>> ea0a703 (added mail button)
 		"pollIDString" : "FLST 7/11/2024 20:44",
+=======
+		"pollIDString" : "Ingmar Vogel 7/12/2024 11:18",
+>>>>>>> 948175a (greyed out buttons that should not work)
 		"pollList" : "FLST 7/11/2024 20:44",
 		"pollListFrame" : "FLST 7/11/2024 20:44",
-		"setIndex:" : "Ingmar Vogel 7/12/2024 10:48",
+		"pollSelected" : "Ingmar Vogel 7/12/2024 10:56",
+		"setIndex:" : "Ingmar Vogel 7/12/2024 11:04",
 		"stopRefreshingVisualization" : "FLST 7/11/2024 20:44",
 		"stopServer" : "FLST 7/11/2024 20:44",
 		"stopServerButtonFrame" : "FLST 7/11/2024 20:44",
