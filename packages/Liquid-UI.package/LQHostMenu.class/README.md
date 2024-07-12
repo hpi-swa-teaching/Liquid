@@ -1,2 +1,2 @@
-UI-Component to create new polls.
-Encapsulates instances of LQQueastionBuilder which are responsible for creating the questions in the poll.
+The central control panel for hosts. 
+Manage and visualize all your polls here.
