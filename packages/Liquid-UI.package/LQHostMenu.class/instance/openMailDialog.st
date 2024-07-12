@@ -1,4 +1,4 @@
 modifying
 openMailDialog
 
-	LQMailDialog openWithPoll: self currentPollID
+	LQMailDialog openWithPoll: (LQRemotePollRepoServer pollRepo at: self currentPollID)
