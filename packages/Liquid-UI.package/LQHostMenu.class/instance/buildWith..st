@@ -11,6 +11,7 @@ buildWith: builder
 				layout: #vertical;
 				children: #buildVisualization;
 				yourself].
+		self openMailDialogButtonFrame -> [self buildOpenMailDialogButtonWith: builder].
 		self deletePollButtonFrame -> [self buildDeletePollButtonWith: builder].
 		self createPollFromSavedPollsButtonFrame -> [self buildCreatePollFromSavedDraftsButton: builder].
 		self idCopyButtonFrame -> [self buildIdCopyButtonWith: builder].
