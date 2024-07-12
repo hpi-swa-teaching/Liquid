@@ -56,7 +56,7 @@ If you want to close a poll click "close poll" in the host menu. Now participant
 For the poll results there is a live visualization in the host menu. You can also export the results to the DataExports directory in your squeak folder. The export file is named after your poll id. To minimize clutter press delete poll when a poll is not needed anymore.
 To stop any user from participating in any of your polls press stop server.
 
-Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Answer every question by selecting or writing text and press send answers.
+Participants can choose the "Participant" button in the Start Menu. Enter the link of the poll you want to participate in. Answer every question by selecting or writing text and press send answers.
 
 ## Tests
 We tested the application via:
