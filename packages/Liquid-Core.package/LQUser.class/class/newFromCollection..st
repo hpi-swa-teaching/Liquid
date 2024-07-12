@@ -3,7 +3,7 @@ newFromCollection: aCollection
 
 	| user |
 	user := self new.
-	aCollection size == self csvRecordSize
+	aCollection size = self csvRecordSize
 		ifTrue: [
 			user firstname: aCollection first.
 			user surname: aCollection second.

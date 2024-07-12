@@ -1,7 +1,7 @@
 modifying
 exportResults
 
-	self currentPoll == 0 ifFalse: [
+	self currentPoll isZero ifFalse: [
 		LQRemotePollRepoServer pollRepo
 			at: self currentPollID
 			ifAbsent: [^ 'This poll does not exist.'].
