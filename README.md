@@ -66,4 +66,4 @@ We tested the application via:
 
 
 Anmerkungen: 
-Fürs Refactoring haben wir PoppyPrint verwendet. Daher werden unter anderem die Klassen LQUserSetMenu, LQUserSetSelectionMenu, LQMailDialog, LQAntiCheat, LQDelayMessageDecorator, LQLocalObjectDummy, LQObjectRepo, LQPollRepo, LQRemoteError, LQUserSetRepo, LiquidNetworkServiceProvider als geändert angezeigt. Diese Klassen haben wir allerdings weder manuell refactored noch anderweitig verändert. 
+Fürs Refactoring haben wir PoppyPrint verwendet. Daher werden unter anderem die Klassen LQUserSetMenu, LQUserSetSelectionMenu, LQMailDialog, LQAntiCheat, LQDelayMessageDecorator, LQLocalObjectDummy, LQObjectRepo, LQPollRepo, LQRemoteError, LQUserSetRepo, LiquidNetworkServiceProvider, LQUserSet, LQUser, LQPasswordManager, LQPasswordGuard, LQDuplicateDetector, LQChoiceProcessor, LQChoice als geändert angezeigt. Diese Klassen haben wir allerdings weder manuell refactored noch anderweitig verändert. 
