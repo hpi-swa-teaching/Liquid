@@ -56,6 +56,7 @@ If you want to close a poll click "close poll" in the host menu. After entering 
 For the poll results, press "Show results" and input the respective poll id.
 
 Participants can choose the "Participant" button in the Start Menu. Enter the Poll id of the poll you want to participate in. Choose one or multiple answers and push the send button.
+Hosts can export poll results to the DataExports folder, which is located within the Ressources folder of the Squeak image.
 
 ## Tests
 We tested the application via:
