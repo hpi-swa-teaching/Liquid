@@ -2,9 +2,9 @@ toolbuilder
 buildWith: aBuilder
 
 	| window logoBasedExtent |
-	logoCanvas := LQLogo new.
-	logoCanvas addDefaultLogo.
-	logoBasedExtent := 1 @ 2.2 * logoCanvas logoMorph extent.
+	self logoCanvas: LQLogo new.
+	self logoCanvas addDefaultLogo.
+	logoBasedExtent := 1 @ 2.2 * self logoCanvas logoMorph extent.
 	"2.2 x allows some padding
 	around the logo"
 	"loads /image.png"

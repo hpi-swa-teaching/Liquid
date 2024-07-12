@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "ms 8/5/2022 21:14",
 	"instvars" : [
-		"pollDraft",
 		"visualizationControls" ],
 	"name" : "LQVisualizationTests",
 	"pools" : [
