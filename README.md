@@ -63,3 +63,7 @@ We tested the application via:
 - Integration Tests (can be found in `Liquid-Tests`-package)
 - Unit Tests (can be found in `Liquid-Tests`-package)
 - Use Case Tests (can be found in [Use Case Test Specification](https://github.com/hpi-swa-teaching/Liquid/blob/develop/docs/UseCases.md))
+
+
+Anmerkungen: 
+Fürs Refactoring haben wir PoppyPrint verwendet. Daher werden unter anderem die Klassen LQUserSetMenu, LQUserSetSelectionMenu, LQMailDialog als geändert angezeigt. Diese Klassen haben wir allerdings weder manuell refactored noch anderweitig verändert. 
