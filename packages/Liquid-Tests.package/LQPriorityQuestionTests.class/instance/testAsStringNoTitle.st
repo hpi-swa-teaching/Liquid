@@ -1,3 +1,4 @@
 testing
 testAsStringNoTitle
-	self assert: self question asString equals: 'Untitled Question'.
+
+	self assert: self question asString equals: 'Untitled Question'

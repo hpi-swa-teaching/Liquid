@@ -1,6 +1,6 @@
 running
 setUp
-	
+
 	super setUp.
 	
 	self participantMenu: (LQParticipantMenu new

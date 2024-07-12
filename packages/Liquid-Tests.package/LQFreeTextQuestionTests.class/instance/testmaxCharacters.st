@@ -1,6 +1,6 @@
 testing
 testmaxCharacters
-	
+
 	| numberOfCharacters |
 	numberOfCharacters := 1234.
 	self question maxNumberOfCharacters: numberOfCharacters.

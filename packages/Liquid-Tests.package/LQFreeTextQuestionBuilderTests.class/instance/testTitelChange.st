@@ -5,6 +5,4 @@ testTitelChange
 	
 	self assert: self questionBuilder title equals: 'Hallo'.
 	
-	self assert: self questionBuilder question title equals: 'Hallo'.
-	
-	
+	self assert: self questionBuilder question title equals: 'Hallo'

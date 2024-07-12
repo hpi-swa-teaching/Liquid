@@ -1,5 +1,6 @@
 testing
 testBaseMorph
+
 	| baseMorph |
 	baseMorph := self instance baseMorph.
 	self assert: baseMorph notNil.

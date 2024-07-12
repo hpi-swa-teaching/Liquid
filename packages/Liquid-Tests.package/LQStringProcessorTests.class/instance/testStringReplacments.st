@@ -2,8 +2,7 @@ testing
 testStringReplacments
 
 	| replacements formatString finalString |
-	
-	replacements := Dictionary new 
+	replacements := Dictionary new
 		at: '{{surname}}' put: 'musterfrau';
 		at: '{{firstname}}' put: 'erika';
 		yourself.

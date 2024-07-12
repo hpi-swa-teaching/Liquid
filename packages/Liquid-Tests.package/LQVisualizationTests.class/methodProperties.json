@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ms 8/5/2022 20:40",
+		"setUp" : "FLST 7/12/2024 15:55",
 		"tearDown" : "kge 6/26/2022 22:13",
-		"testBarChartMorphChangedOnQuestionSelectionChanged" : "Anton Eichstädt 7/11/2024 15:48",
-		"testConvenienceMethodsReturnPropertiesOfFirstQuestion" : "Anton Eichstädt 7/11/2024 15:27",
-		"testMultipleQuestionsInListView" : "bwe 6/26/2022 17:21",
-		"testVisualizationDisplayedAfterInitialization" : "bwe 6/26/2022 17:22",
+		"testBarChartMorphChangedOnQuestionSelectionChanged" : "FLST 7/12/2024 15:55",
+		"testConvenienceMethodsReturnPropertiesOfFirstQuestion" : "FLST 7/12/2024 15:55",
+		"testMultipleQuestionsInListView" : "FLST 7/12/2024 15:55",
+		"testVisualizationDisplayedAfterInitialization" : "FLST 7/12/2024 15:55",
 		"visualizationControls" : "JT 8/2/2022 17:38",
 		"visualizationControls:" : "JT 8/2/2022 17:38" } }

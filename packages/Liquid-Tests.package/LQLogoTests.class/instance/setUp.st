@@ -1,5 +1,6 @@
 running
 setUp
+
 	| instanceProto |
 	super setUp.
 	instanceProto := LQLogo new.

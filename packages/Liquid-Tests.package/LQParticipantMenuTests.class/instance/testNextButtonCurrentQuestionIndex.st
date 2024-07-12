@@ -2,7 +2,6 @@ testing
 testNextButtonCurrentQuestionIndex
 
 	| indexBefore indexAfter |
-	
 	indexBefore := 1.
 	indexAfter := 2.
 	self participantMenu currentQuestionIndex: indexBefore.

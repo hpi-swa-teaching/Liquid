@@ -1,4 +1,5 @@
 testing
 setUp
+
 	super setUp.
-	self createPollDraft.
+	self createPollDraft

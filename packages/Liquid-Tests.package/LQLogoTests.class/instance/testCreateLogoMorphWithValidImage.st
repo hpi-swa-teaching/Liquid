@@ -1,5 +1,6 @@
 testing
 testCreateLogoMorphWithValidImage
+
 	| image logoMorph |
 	image := Form squeakLogo.
 	logoMorph := self instance createLogoMorph: image.

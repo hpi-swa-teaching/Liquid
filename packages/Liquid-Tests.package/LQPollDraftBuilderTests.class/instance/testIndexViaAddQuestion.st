@@ -1,5 +1,6 @@
 testing
 testIndexViaAddQuestion
+
 	| indexBefore indexAfter |
 	indexBefore := 1.
 	indexAfter := 2.

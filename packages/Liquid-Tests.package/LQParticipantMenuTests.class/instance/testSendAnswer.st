@@ -2,7 +2,6 @@ testing
 testSendAnswer
 
 	| startMenu answerSet |
-	
 	startMenu := self participantMenu sendAnswer.
 	
 	answerSet := (LQRemotePollRepoServer pollRepo at: self poll id) answerSets first.

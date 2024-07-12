@@ -1,5 +1,6 @@
 testing
 testAddDefaultLogo
+
 	self instance addDefaultLogo.
 	self assert: self instance submorphs isEmptyOrNil not.
 	self assert: self instance submorphs first class equals: Morph.

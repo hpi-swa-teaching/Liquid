@@ -1,3 +1,4 @@
 testing
 testCorrectQuestionType
-	self assert: self question isPriorityQuestion.
+
+	self assert: self question isPriorityQuestion

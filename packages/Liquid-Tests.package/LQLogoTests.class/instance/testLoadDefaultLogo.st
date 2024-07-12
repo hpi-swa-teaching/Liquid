@@ -1,5 +1,6 @@
 testing
 testLoadDefaultLogo
+
 	| logo |
 	logo := self instance loadDefaultLogo.
 	self assert: logo notNil.

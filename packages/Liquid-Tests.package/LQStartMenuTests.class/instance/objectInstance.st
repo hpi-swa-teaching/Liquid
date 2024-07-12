@@ -1,3 +1,4 @@
 testing
 objectInstance
-	^objectInstance
+
+	^ objectInstance

@@ -7,4 +7,3 @@ setUp
 		createUserSet2;
 		createPoll;
 		createPoll2
-	

@@ -1,4 +1,4 @@
 accessing
 userSetMenu
-	
-	^ userSetMenu ifNil: [^userSetMenu := LQUserSetSelectionMenu new]
+
+	^ userSetMenu ifNil: [^ userSetMenu := LQUserSetSelectionMenu new]

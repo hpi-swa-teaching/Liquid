@@ -2,7 +2,6 @@ testing
 testPasswordGuard
 
 	| someBlock guard |
-	
 	someBlock := [Number one].
 	guard := LQPasswordGuard newWithPassword: 'pikachu'.
 	self assert: (guard isValid: 'pikachu').

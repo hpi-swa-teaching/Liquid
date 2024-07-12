@@ -1,5 +1,6 @@
 testing
 testCreateLogoMorphWithoutImage
+
 	| image logoMorph |
 	image := nil.
 	logoMorph := self instance createLogoMorph: image.

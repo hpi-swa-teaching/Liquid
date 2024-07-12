@@ -1,5 +1,6 @@
 testing
 testAddPrioQuestion
+
 	| question |
 	self assert: self pollDraft questionList isEmpty.
 	question := LQPriorityQuestion new.

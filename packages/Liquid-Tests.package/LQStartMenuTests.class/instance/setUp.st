@@ -1,3 +1,4 @@
 testing
 setUp
-	objectInstance := LQStartMenu new.
+
+	objectInstance := LQStartMenu new

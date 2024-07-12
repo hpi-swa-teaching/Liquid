@@ -2,8 +2,7 @@ testing
 testRequiresAuthenticationTrue
 
 	| userSet |
-	
-	userSet :=  self createUserSet.
+	userSet := self createUserSet.
 	userSet addToRepo.
 	
 	self poll userSetID: userSet id.

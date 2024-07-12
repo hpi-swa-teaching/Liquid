@@ -2,15 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"instance" : "FLST 7/7/2024 10:41",
-		"instance:" : "FLST 7/7/2024 10:41",
-		"setUp" : "FLST 7/7/2024 10:54",
-		"testAddDefaultLogo" : "FLST 7/7/2024 11:07",
-		"testBaseMorph" : "FLST 7/7/2024 11:01",
-		"testCreateLogoMorphWithValidImage" : "FLST 7/7/2024 10:42",
-		"testCreateLogoMorphWithoutImage" : "FLST 7/7/2024 10:42",
-		"testLoadDefaultLogo" : "FLST 7/7/2024 10:50",
-		"testLoadLogoWithInvalidName" : "FLST 7/7/2024 11:27",
-		"testLoadLogoWithValidName" : "FLST 7/7/2024 10:48",
-		"testMinimumLogoSize" : "FLST 7/7/2024 10:59",
-		"testSetDefaultLogoMorph" : "FLST 7/7/2024 10:57" } }
+		"instance" : "FLST 7/12/2024 15:55",
+		"instance:" : "FLST 7/12/2024 15:55",
+		"setUp" : "FLST 7/12/2024 15:55",
+		"testAddDefaultLogo" : "FLST 7/12/2024 15:55",
+		"testBaseMorph" : "FLST 7/12/2024 15:55",
+		"testCreateLogoMorphWithValidImage" : "FLST 7/12/2024 15:55",
+		"testCreateLogoMorphWithoutImage" : "FLST 7/12/2024 15:55",
+		"testLoadDefaultLogo" : "FLST 7/12/2024 15:55",
+		"testLoadLogoWithInvalidName" : "FLST 7/12/2024 15:55",
+		"testLoadLogoWithValidName" : "FLST 7/12/2024 15:55",
+		"testMinimumLogoSize" : "FLST 7/12/2024 15:55",
+		"testSetDefaultLogoMorph" : "FLST 7/12/2024 15:55" } }
