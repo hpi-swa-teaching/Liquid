@@ -5,4 +5,5 @@ setIndex: index
 	self stopRefreshingVisualization.
 	self changed: #buildVisualization.
 	self changed: #pollIDString.
-	self changed: #getIndex
+	self changed: #getIndex.
+	self changed: #mailDialogButtonEnabled

@@ -10,6 +10,7 @@
 		"buildExportResultsButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildIDTextBoxWith:" : "FLST 7/11/2024 20:44",
 		"buildIdCopyButtonWith:" : "FLST 7/11/2024 20:44",
+		"buildOpenMailDialogButtonWith:" : "Ingmar Vogel 7/12/2024 10:46",
 		"buildPollListWith:" : "FLST 7/11/2024 20:44",
 		"buildStopServerButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildVisualization" : "FLST 7/11/2024 20:44",
@@ -37,11 +38,19 @@
 		"idCopyButtonFrame" : "FLST 7/11/2024 20:44",
 		"idTextBoxFrameFrame" : "FLST 7/11/2024 20:44",
 		"initialize" : "FLST 7/11/2024 20:44",
+<<<<<<< HEAD
 		"openPollDraftMenu" : "FLST 7/12/2024 10:31",
+=======
+		"mailDialogButtonEnabled" : "Ingmar Vogel 7/12/2024 10:50",
+		"openMailDialog" : "Ingmar Vogel 7/12/2024 10:29",
+		"openMailDialogButtonFrame" : "Ingmar Vogel 7/12/2024 10:26",
+		"openPollMenu" : "FLST 7/11/2024 20:44",
+		"openUserSetMenu" : "6/23/2024 17:58:45",
+>>>>>>> ea0a703 (added mail button)
 		"pollIDString" : "FLST 7/11/2024 20:44",
 		"pollList" : "FLST 7/11/2024 20:44",
 		"pollListFrame" : "FLST 7/11/2024 20:44",
-		"setIndex:" : "FLST 7/11/2024 20:44",
+		"setIndex:" : "Ingmar Vogel 7/12/2024 10:48",
 		"stopRefreshingVisualization" : "FLST 7/11/2024 20:44",
 		"stopServer" : "FLST 7/11/2024 20:44",
 		"stopServerButtonFrame" : "FLST 7/11/2024 20:44",
