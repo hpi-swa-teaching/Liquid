@@ -39,24 +39,12 @@
 		"idCopyButtonFrame" : "FLST 7/11/2024 20:44",
 		"idTextBoxFrameFrame" : "FLST 7/11/2024 20:44",
 		"initialize" : "FLST 7/11/2024 20:44",
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"openPollDraftMenu" : "FLST 7/12/2024 10:31",
-=======
 		"mailDialogButtonEnabled" : "Ingmar Vogel 7/12/2024 10:50",
-=======
-		"mailDialogButtonEnabled" : "Ingmar Vogel 7/12/2024 10:59",
->>>>>>> 948175a (greyed out buttons that should not work)
 		"openMailDialog" : "Ingmar Vogel 7/12/2024 10:29",
 		"openMailDialogButtonFrame" : "Ingmar Vogel 7/12/2024 10:26",
-		"openPollMenu" : "FLST 7/11/2024 20:44",
 		"openUserSetMenu" : "6/23/2024 17:58:45",
-<<<<<<< HEAD
->>>>>>> ea0a703 (added mail button)
-		"pollIDString" : "FLST 7/11/2024 20:44",
-=======
 		"pollIDString" : "Ingmar Vogel 7/12/2024 11:18",
->>>>>>> 948175a (greyed out buttons that should not work)
 		"pollList" : "FLST 7/11/2024 20:44",
 		"pollListFrame" : "FLST 7/11/2024 20:44",
 		"pollSelected" : "Ingmar Vogel 7/12/2024 10:56",
