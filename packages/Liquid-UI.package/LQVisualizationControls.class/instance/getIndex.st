@@ -1,3 +1,4 @@
 accessing
 getIndex
+
 	^ self index

@@ -3,6 +3,6 @@ initialize
 
 	super initialize.
 	
-	self 
+	self
 		description: '';
 		excludedGroups: OrderedCollection new

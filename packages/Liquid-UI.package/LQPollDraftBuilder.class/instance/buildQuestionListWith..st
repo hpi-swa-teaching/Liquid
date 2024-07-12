@@ -2,11 +2,10 @@ toolbuilder
 buildQuestionListWith: aBuilder
 
 	| listSpec |
-	
 	listSpec := aBuilder pluggableListSpec new.
-	listSpec 
+	listSpec
 		model: self;
 		list: #list;
-		getIndex: #getIndex; 
+		getIndex: #getIndex;
 		setIndex: #setIndex:.
 	^ listSpec

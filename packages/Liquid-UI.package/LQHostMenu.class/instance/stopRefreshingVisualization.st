@@ -1,4 +1,4 @@
 modifying
 stopRefreshingVisualization
-	
-	self currentVisualizationControls ifNotNil: [self currentVisualizationControls stopRefreshing.]
+
+	self currentVisualizationControls ifNotNil: [self currentVisualizationControls stopRefreshing]

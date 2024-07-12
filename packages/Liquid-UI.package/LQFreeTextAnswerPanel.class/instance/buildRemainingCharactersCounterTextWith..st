@@ -6,5 +6,5 @@ buildRemainingCharactersCounterTextWith: aBuilder
 		getText: #getRemainingCharactersLabel;
 		indicateUnacceptedChanges: false;
 		readOnly: true;
-		frame: (self layoutFrame);
+		frame: self layoutFrame;
 		yourself

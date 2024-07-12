@@ -1,5 +1,6 @@
 accessing
-setIndex: index 
+setIndex: index
+
 	self currentPoll: index.
 	self stopRefreshingVisualization.
 	self changed: #buildVisualization.

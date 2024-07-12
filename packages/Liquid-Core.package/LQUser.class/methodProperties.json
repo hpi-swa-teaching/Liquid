@@ -1,16 +1,16 @@
 {
 	"class" : {
 		"csvRecordSize" : "ms 8/4/2022 21:18",
-		"newFromCollection:" : "JT 8/5/2022 19:18" },
+		"newFromCollection:" : "FLST 7/11/2024 20:42" },
 	"instance" : {
 		"firstname" : "kge 7/21/2022 21:50",
 		"firstname:" : "kge 7/21/2022 21:50",
 		"group" : "JT 8/2/2022 17:22",
 		"group:" : "bn 7/14/2022 22:39",
-		"initialize" : "ms 8/1/2022 16:12",
+		"initialize" : "FLST 7/11/2024 20:42",
 		"mail" : "JT 8/2/2022 17:22",
 		"mail:" : "bn 7/14/2022 22:38",
-		"mailMapping" : "ms 8/1/2022 16:12",
+		"mailMapping" : "FLST 7/11/2024 20:42",
 		"surname" : "JT 8/2/2022 17:22",
 		"surname:" : "bn 7/14/2022 22:37",
 		"token" : "JT 8/2/2022 17:22",

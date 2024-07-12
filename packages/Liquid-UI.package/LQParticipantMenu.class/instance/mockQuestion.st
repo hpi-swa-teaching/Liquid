@@ -1,7 +1,7 @@
 toolbuilder
 mockQuestion
+
 	| mockQuestion |
-	mockQuestion :=LQQuestion new.
+	mockQuestion := LQQuestion new.
 	mockQuestion title: ''.
-	^mockQuestion
-	
+	^ mockQuestion

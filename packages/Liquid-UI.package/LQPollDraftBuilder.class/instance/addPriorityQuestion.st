@@ -2,7 +2,6 @@ modifying
 addPriorityQuestion
 
 	| question builder |
-	
 	question := LQPriorityQuestion new.
 	builder := LQPriorityQuestionBuilder new.
 	builder question: question.

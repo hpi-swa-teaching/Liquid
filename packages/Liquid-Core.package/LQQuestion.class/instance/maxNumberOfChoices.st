@@ -1,3 +1,4 @@
 mocking
 maxNumberOfChoices
+
 	^ 1

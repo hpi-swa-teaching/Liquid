@@ -1,5 +1,7 @@
 initialize-release
 initialize
+
 	super initialize.
-	self choiceSelected: 0;
-	populatePollDrafts
+	self
+		choiceSelected: 0;
+		populatePollDrafts

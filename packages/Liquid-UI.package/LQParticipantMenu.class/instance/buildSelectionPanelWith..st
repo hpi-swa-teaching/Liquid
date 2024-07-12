@@ -1,5 +1,6 @@
 toolbuilder
-buildSelectionPanelWith: aBuilder 
+buildSelectionPanelWith: aBuilder
+
 	| temporaryPanel |
 	temporaryPanel := LQSelectionAnswerPanel newWith: aBuilder.
 	temporaryPanel name: #selection.

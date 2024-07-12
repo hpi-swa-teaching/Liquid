@@ -1,3 +1,4 @@
 validation
-isValidSizedInput: aText 
+isValidSizedInput: aText
+
 	^ self getCharactersRemaining > 0

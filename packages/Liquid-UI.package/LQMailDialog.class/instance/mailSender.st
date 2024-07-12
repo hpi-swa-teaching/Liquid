@@ -1,4 +1,4 @@
 accessing
 mailSender
 
-	^ mailSender ifNil: [^mailSender := self class defaultSender]
+	^ mailSender ifNil: [^ mailSender := self class defaultSender]

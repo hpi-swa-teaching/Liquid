@@ -1,4 +1,5 @@
 accessing
 initialize
+
 	super initialize.
-	self choiceList: OrderedCollection new.
+	self choiceList: OrderedCollection new

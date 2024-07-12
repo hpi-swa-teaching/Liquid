@@ -1,3 +1,5 @@
 accessing
-pollDrafts: anOrderedCollection 
-	pollDrafts := anOrderedCollection. self changed: #pollDrafts
+pollDrafts: anOrderedCollection
+
+	pollDrafts := anOrderedCollection.
+	self changed: #pollDrafts

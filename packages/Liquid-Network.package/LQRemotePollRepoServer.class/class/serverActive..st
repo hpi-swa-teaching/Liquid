@@ -1,7 +1,4 @@
 accessing
 serverActive: aBoolean
 
-	aBoolean
-		ifTrue: [self startServer]
-		ifFalse: [self stopServer]
-	
+	aBoolean ifTrue: [self startServer] ifFalse: [self stopServer]

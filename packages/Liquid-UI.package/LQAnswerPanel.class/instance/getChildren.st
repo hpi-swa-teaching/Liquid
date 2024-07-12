@@ -1,3 +1,4 @@
 initialize-release
 getChildren
-SubclassResponsibility
+
+	SubclassResponsibility

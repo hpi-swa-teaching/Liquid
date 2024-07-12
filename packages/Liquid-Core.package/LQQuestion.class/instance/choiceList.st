@@ -1,3 +1,4 @@
 mocking
 choiceList
-	^ OrderedCollection new.
+
+	^ OrderedCollection new

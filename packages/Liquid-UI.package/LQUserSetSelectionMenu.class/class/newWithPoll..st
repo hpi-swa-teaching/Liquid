@@ -1,5 +1,4 @@
 instance creation
 newWithPoll: aLQPollDraft
 
-	ToolBuilder open: 
-		(self new pollDraft: aLQPollDraft)
+	ToolBuilder open: (self new pollDraft: aLQPollDraft)

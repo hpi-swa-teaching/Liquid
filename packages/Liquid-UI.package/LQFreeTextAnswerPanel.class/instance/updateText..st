@@ -1,5 +1,6 @@
 accessing
-updateText: aText 
+updateText: aText
+
 	self answerText: (self truncate: aText).
 	self answer answer: self answerText.
 	self changed: #getRemainingCharactersLabel.

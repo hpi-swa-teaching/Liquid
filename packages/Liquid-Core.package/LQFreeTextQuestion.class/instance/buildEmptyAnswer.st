@@ -1,3 +1,4 @@
 initialize-release
 buildEmptyAnswer
-	^ LQFreeTextAnswer new.
+
+	^ LQFreeTextAnswer new

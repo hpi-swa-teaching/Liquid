@@ -1,4 +1,4 @@
 mocking
 buildEmptyAnswer
+
 	^ LQAnswer new
-	

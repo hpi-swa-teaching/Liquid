@@ -1,7 +1,7 @@
 communication
 doesNotUnderstand: aMessage
-	
-	|delay|
+
+	| delay |
 	delay := 80.
 	Delay forMilliseconds: delay.
 	^ aMessage sendTo: self object
