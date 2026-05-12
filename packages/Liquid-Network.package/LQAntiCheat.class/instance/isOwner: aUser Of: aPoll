@@ -1,0 +1,3 @@
+isOwner: aUser Of: aPoll
+
+    ^ aPoll pollDraft ownerId = aUser token
