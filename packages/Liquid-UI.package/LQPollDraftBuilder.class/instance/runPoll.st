@@ -8,6 +8,7 @@ runPoll
 				request: 'Enter a poll id'
 				initialAnswer: self generateRandomID.
 			givenPollID = '' ifTrue: [^ self].
+			self pollDraft ensureSavedInRepository.
 			poll := LQPoll newWithPollDraft: self pollDraft.
 			poll startWithId: givenPollID ifTaken: [^ UIManager default inform: 'This ID is already taken'].
 			self destroy]
