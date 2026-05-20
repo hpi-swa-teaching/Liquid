@@ -14,6 +14,7 @@ buildWith: builder
 		self openMailDialogButtonFrame -> [self buildOpenMailDialogButtonWith: builder].
 		self deletePollButtonFrame -> [self buildDeletePollButtonWith: builder].
 		self createPollFromSavedPollsButtonFrame -> [self buildCreatePollFromSavedDraftsButton: builder].
+		self wordCloudToggleButtonFrame -> [self buildWordCloudToggleButtonWith: builder].
 		self idCopyButtonFrame -> [self buildIdCopyButtonWith: builder].
 		self stopServerButtonFrame -> [self buildStopServerButtonWith: builder].
 		self closePollButtonFrame -> [self buildClosePollButtonWith: builder].
