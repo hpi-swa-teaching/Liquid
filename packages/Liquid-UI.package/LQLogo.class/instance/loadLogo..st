@@ -6,4 +6,5 @@ loadLogo: aStringAsName
 	[imageLogo := assetLoader loadForm: aStringAsName]
 		on: AssertionFailure
 		do: [imageLogo := nil].
+	imageLogo ifNil: [FileDoesNotExist signal: 'Logo not found: ', aStringAsName].
 	^ imageLogo
