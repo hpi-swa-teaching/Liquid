@@ -3,5 +3,5 @@ isVotedChoice: votedChoice ValidFrom: aUser
 
     ^ self choiceList noneSatisfy: [:choice |
         choice description = votedChoice and: [
-            (choice excludesGroup: aUser group)
+            (self isSelfVoteByGroup: choice from: aUser)
             or: [self isSelfVote: choice from: aUser]]]
