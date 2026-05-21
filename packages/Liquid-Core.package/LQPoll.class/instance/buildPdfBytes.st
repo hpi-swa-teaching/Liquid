@@ -10,4 +10,5 @@ buildPdfBytes
     self writePdfContentOn: stream offsets: offsets.
     self writePdfObject: 5 with: self pdfFontBody on: stream offsets: offsets.
     self writePdfTailOn: stream offsets: offsets.
+    self writeLine: '%%EOF' on: stream.
     ^ stream contents
