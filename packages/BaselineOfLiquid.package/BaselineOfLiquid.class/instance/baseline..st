@@ -10,7 +10,7 @@ baseline: spec
 				baseline: 'SwaLint'
 				with: [spec repository: 'github://hpi-swa-teaching/SwaLint:main/packages'];
 				
-				baseline: 'GitS-Core'
+				baseline: 'GitS'
 				with: [spec repository: 'github://hpi-swa/git-s:latest-release/src'];				
 				
 				package: 'Liquid-Core'
@@ -20,7 +20,7 @@ baseline: spec
 				with: [spec requires: #('libraries')];
 				
 				package: 'Liquid-UI'
-				with: [spec requires: #('libraries' 'GitS-Core')];
+				with: [spec requires: #('libraries' 'GitS')];
 				
 				package: 'Liquid-Tests'
 				with: [spec requires: #('SwaLint' 'default')];
