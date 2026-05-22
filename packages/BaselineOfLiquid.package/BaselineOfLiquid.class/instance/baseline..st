@@ -8,7 +8,10 @@ baseline: spec
 				with: [spec repository: 'github://hpi-swa-teaching/StatisticsWorkbench:11245259c9fa9e0be1254a79ee744f28e56894d8/packages'];
 				
 				baseline: 'SwaLint'
-				with: [spec repository: 'github://hpi-swa-teaching/SwaLint:main/packages'];				
+				with: [spec repository: 'github://hpi-swa-teaching/SwaLint:main/packages'];
+				
+				baseline: 'GitS-Core'
+				with: [spec repository: 'github://hpi-swa/git-s:latest-release/src'];				
 				
 				package: 'Liquid-Core'
 				with: [spec requires: #('libraries')];
@@ -17,7 +20,7 @@ baseline: spec
 				with: [spec requires: #('libraries')];
 				
 				package: 'Liquid-UI'
-				with: [spec requires: #('libraries')];
+				with: [spec requires: #('libraries' 'GitS-Core')];
 				
 				package: 'Liquid-Tests'
 				with: [spec requires: #('SwaLint' 'default')];
