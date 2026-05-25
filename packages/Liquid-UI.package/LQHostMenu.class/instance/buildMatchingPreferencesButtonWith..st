@@ -5,6 +5,7 @@ buildMatchingPreferencesButtonWith: aBuilder
 		model: self;
 		enabled: #pollSelected;
 		label: 'Matching Preferences';
-		help: 'Calculate the Matching between the users and their preferences.';
+		help: 'Open the matching preferences dialog. Only available when the selected poll contains preference (priority) questions.';
 		action: #openMatchingPreferences;
+		enabled: #matchingPreferencesButtonEnabled;
 		yourself

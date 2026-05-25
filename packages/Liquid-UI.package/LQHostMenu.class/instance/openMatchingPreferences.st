@@ -1,10 +1,9 @@
 modifying
 openMatchingPreferences
+	"Öffnet den Matching-Preferences-Dialog für den aktuell gewählten Poll.
+	 Sicherheits-Guard: macht nichts, wenn keine Priority-Fragen existieren."
 
-	self pollSelected ifFalse: [^ self].
-	LQRemotePollRepoServer pollRepo
-		at: self currentPollID
-		ifAbsent: [^ UIManager default inform: 'This poll does not exist.'].
-	"Placeholder, until the real matching algorithm exists:
-	 ToolBuilder open: (LQMatchingPreferencesMenu newWithPollID: self currentPollID)"
-	UIManager default inform: 'Matching Preferences for poll ', self currentPollID asString
+	self matchingPreferencesButtonEnabled ifFalse: [
+		^ UIManager default inform: 'This poll has no preference questions.'].
+	"TODO: hier den eigentlichen Dialog öffnen, sobald LQMatchingPreferencesDialog existiert."
+	UIManager default inform: 'Algorithm is not yet implemented'
