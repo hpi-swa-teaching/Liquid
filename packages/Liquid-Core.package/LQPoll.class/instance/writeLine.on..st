@@ -1,3 +1,4 @@
 printing
 writeLine: aString on: aStream
-    aStream nextPutAll: aString; nextPut: Character lf
+
+	aStream nextPutAll: aString; nextPutAll: String lf.
