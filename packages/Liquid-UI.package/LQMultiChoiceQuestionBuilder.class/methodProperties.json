@@ -2,10 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildChoicesInputWith:" : "leli 6/7/2024 11:21",
-		"buildMaxNumberOfChoicesInputWith:" : "FLST 7/11/2024 20:44",
-		"buildMaxNumberOfChoicesLabelWith:" : "FLST 7/11/2024 20:44",
-		"buildWith:" : "FLST 7/11/2024 20:44",
+		"buildChoicesInputWith:" : "mwo 5/12/2026 14:08",
+		"buildMaxNumberOfChoicesInputWith:" : "mwo 5/12/2026 14:17",
+		"buildMaxNumberOfChoicesLabelWith:" : "mwo 5/12/2026 14:17",
+		"buildSelfVotingButtonWith:" : "mwo 5/12/2026 14:23",
+		"buildWith:" : "mwo 5/12/2026 14:13",
 		"choiceDescriptions" : "bn 8/2/2022 16:59",
 		"choiceList:" : "FLST 7/11/2024 20:44",
 		"createMaxNumberOfChoicesLabel" : "FLST 7/11/2024 20:44",
@@ -13,4 +14,6 @@
 		"determineMaxNumberOfChoicesFrom:" : "FLST 7/11/2024 20:44",
 		"maxNumberOfChoices" : "FLST 7/11/2024 20:24",
 		"maxNumberOfChoices:" : "leli 6/7/2024 11:48",
-		"orderedLinesFor:" : "kge 8/3/2022 22:31" } }
+		"orderedLinesFor:" : "kge 8/3/2022 22:31",
+		"selfVotingButtonLabel" : "mwo 5/12/2026 14:12",
+		"toggleAllowSelfVoting" : "mwo 5/12/2026 14:12" } }
