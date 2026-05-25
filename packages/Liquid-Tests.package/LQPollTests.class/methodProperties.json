@@ -8,6 +8,8 @@
 		"testIDsAreUUIDsToPreventCollisions" : "FLST 7/12/2024 15:55",
 		"testMyUserSet" : "FLST 7/12/2024 15:55",
 		"testMyUserSetWithUserSetNotInRepo" : "FLST 7/12/2024 15:55",
+		"testPDFEscapeUmlauts" : "Johannes Herzog 5/22/2026 15:43",
+		"testPDFExport" : "Johannes Herzog 5/22/2026 15:26",
 		"testRequiresAuthenticationFalse" : "FLST 7/12/2024 15:55",
 		"testRequiresAuthenticationTrue" : "FLST 7/12/2024 15:55",
 		"testStartTime" : "FLST 7/12/2024 15:55",
