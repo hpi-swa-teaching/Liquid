@@ -1,4 +1,11 @@
 answerExclusion
 excludes: anIndex
+    | excluded |
 
-    ^ self isChoiceExcluded: (self choiceList at: anIndex)
+    excluded := self isChoiceExcluded: (self choiceList at: anIndex).
+
+    excluded ifTrue: [
+        UIManager default
+            inform: LQParticipantMenu new messageOwnVote ].
+
+    ^ excluded
