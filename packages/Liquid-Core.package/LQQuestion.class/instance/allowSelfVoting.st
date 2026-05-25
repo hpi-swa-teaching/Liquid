@@ -1,0 +1,4 @@
+mocking
+allowSelfVoting
+
+    ^ false
