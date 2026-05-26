@@ -9,7 +9,7 @@
 		"title",
 		"questionList",
 		"userSetID",
-		"pollDraftId" ],
+		"pollDraftId"],
 	"name" : "LQPollDraft",
 	"pools" : [
 		 ],
