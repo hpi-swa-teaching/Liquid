@@ -1,10 +1,15 @@
 accessing
 getTextAnswers
 
-	| answersWithSeparations separation |
+	| answersWithSeparations separation question |
 	separation := '
 -----------------------
 	'.
 	answersWithSeparations := ''.
-	self poll answerSets do: [:answerSet | answersWithSeparations := answersWithSeparations, (answerSet answers at: (self poll pollDraft questionList at: self index) id) answer, separation].
+	question := self poll pollDraft questionList at: self index ifAbsent: [^ ''].
+	self poll answerSets do: [:answerSet |
+		| ans |
+		ans := answerSet answers at: question id ifAbsent: [nil].
+		ans ifNotNil: [
+			answersWithSeparations := answersWithSeparations , ans answer , separation]].
 	^ answersWithSeparations
