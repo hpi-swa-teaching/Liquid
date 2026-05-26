@@ -2,6 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
+	self isInLiveEditMode: false.
 	self questionBuilders: OrderedCollection new.
 	self pollDraft: LQPollDraft new.
 	self pollDraft questionList: OrderedCollection new.
