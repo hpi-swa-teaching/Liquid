@@ -19,6 +19,7 @@ buildWith: builder
 		self stopServerButtonFrame -> [self buildStopServerButtonWith: builder].
 		self closePollButtonFrame -> [self buildClosePollButtonWith: builder].
 		self createAnotherPollButtonFrame -> [self buildCreateAnotherPollButton: builder].
+		self createKahootButtonFrame -> [self buildCreateKahootButton: builder].
 		self exportResultsButtonFrame -> [self buildExportResultsButtonWith: builder].
 		self editPollButtonFrame -> [self buildEditPollButtonWith: builder]}.
 	windowSpec label: 'Liquid - Host'.

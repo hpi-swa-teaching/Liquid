@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LQKahootQuestionBuilder",
+	"pools" : [
+		 ],
+	"super" : "LQQuestionBuilder",
+	"type" : "normal" }
