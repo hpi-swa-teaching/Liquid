@@ -3,6 +3,7 @@ initialize
 
 	super initialize.
 	self questionBuilders: OrderedCollection new.
+	self isInLiveEditMode: false.
 	self pollDraft: LQPollDraft new.
 	self pollDraft questionList: OrderedCollection new.
 	self currentQuestion: (self questionBuilders size min: 1)

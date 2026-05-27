@@ -1,8 +1,11 @@
 modifying
 editPoll
 
-	| poll |
+	| poll builder |
 	poll := LQRemotePollRepoServer pollRepo
 		at: self currentPollID
 		ifAbsent: [^ UIManager default inform: 'This poll does not exist.'].
-	ToolBuilder open: (LQPollDraftBuilder newWithPollDraft: poll pollDraft)
+		
+	builder := LQPollDraftBuilder newWithPollDraft: poll pollDraft.
+	builder isInLiveEditMode: true.
+	ToolBuilder open: builder

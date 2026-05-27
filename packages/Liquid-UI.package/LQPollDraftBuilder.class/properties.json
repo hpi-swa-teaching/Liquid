@@ -8,7 +8,8 @@
 	"instvars" : [
 		"pollDraft",
 		"questionBuilders",
-		"currentQuestion" ],
+		"currentQuestion",
+		"isInLiveEditMode" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],
