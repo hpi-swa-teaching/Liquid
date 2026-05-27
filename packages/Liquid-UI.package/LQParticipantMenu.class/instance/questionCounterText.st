@@ -4,6 +4,6 @@ questionCounterText
 	| editedString |
 	editedString := ''.
 	(self currentQuestion wasEdited) ifTrue: [
-		editedString := '(edited)'
+		editedString := ' (edited)'
 		].
-	^ 'Question', editedString,  ': ', self currentQuestionIndex, ' / ', self poll questionList size
+	^ 'Question', ': ', self currentQuestionIndex, ' / ', self poll questionList size,  editedString

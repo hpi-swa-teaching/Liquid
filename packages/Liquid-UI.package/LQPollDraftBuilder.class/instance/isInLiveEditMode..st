@@ -1,3 +1,4 @@
 accessing
-isInLiveEditMode: anObject
-	isInLiveEditMode := anObject
+isInLiveEditMode: aBoolean
+	isInLiveEditMode := aBoolean.
+	self questionBuilders do: [:qb | qb isInLiveEditMode: aBoolean]
