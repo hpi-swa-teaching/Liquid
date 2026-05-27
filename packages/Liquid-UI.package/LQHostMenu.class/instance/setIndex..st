@@ -9,4 +9,4 @@ setIndex: index
 	self changed: #mailDialogButtonEnabled.
 	self changed: #closePollButtonEnabled.
 	self changed: #pollSelected.
-	self changed: #editPollButtonEnabled
+	self changed: #wordCloudToggleEnabled

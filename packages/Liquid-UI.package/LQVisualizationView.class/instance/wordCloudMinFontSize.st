@@ -1,0 +1,4 @@
+constants
+wordCloudMinFontSize
+
+	^ 14

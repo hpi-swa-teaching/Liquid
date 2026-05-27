@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ShowWordCloud" ],
 	"commentStamp" : "Anton Eichstädt 7/10/2024 18:16",
 	"instvars" : [
 		"poll",
