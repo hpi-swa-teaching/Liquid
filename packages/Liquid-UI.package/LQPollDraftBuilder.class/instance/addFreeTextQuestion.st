@@ -2,7 +2,7 @@ modifying
 addFreeTextQuestion
 
 	| question builder |
-	(self liveEditingGuardWithMessage: 'Can´t add questions when poll is already live!') ifTrue: [^false].
+	(self liveEditingGuardWithMessage: 'Can´t add questions when poll is already live!') ifTrue: [^ self].
 	question := LQFreeTextQuestion new.
 	builder := LQFreeTextQuestionBuilder new.
 	builder question: question.

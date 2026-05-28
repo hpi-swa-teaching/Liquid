@@ -4,10 +4,10 @@
 		"newWithPoll:" : "FLST 7/11/2024 20:44" },
 	"instance" : {
 		"answerFrequenciesFor:" : "mm 5/19/2026 12:00",
-		"collectAnswerFrequenciesFrom:forQuestion:into:displayLabels:" : "5/28/2026 17:15:59",
+		"collectAnswerFrequenciesFrom:forQuestion:into:displayLabels:" : "JLBlk 5/28/2026 17:16",
 		"data" : "FLST 7/11/2024 20:44",
 		"dataFor:" : "FLST 7/11/2024 20:44",
-		"displayFrequenciesFrom:labels:" : "5/28/2026 17:15:59",
+		"displayFrequenciesFrom:labels:" : "JLBlk 5/28/2026 17:16",
 		"poll" : "bn 8/2/2022 17:13",
 		"poll:" : "bwe 6/26/2022 14:38",
 		"populateWordCloud:withData:" : "mm 5/19/2026 12:00",
