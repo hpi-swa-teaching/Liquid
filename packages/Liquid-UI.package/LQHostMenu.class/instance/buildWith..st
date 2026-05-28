@@ -20,7 +20,8 @@ buildWith: builder
 		self closePollButtonFrame -> [self buildClosePollButtonWith: builder].
 		self createAnotherPollButtonFrame -> [self buildCreateAnotherPollButton: builder].
 		self exportResultsButtonFrame -> [self buildExportResultsButtonWith: builder].
-		self editPollButtonFrame -> [self buildEditPollButtonWith: builder]}.
+		self editPollButtonFrame -> [self buildEditPollButtonWith: builder].
+		self savePollAsDraftButtonFrame -> [self buildSavePollAsDraftButtonWith: builder]}.
 	windowSpec label: 'Liquid - Host'.
 	windowSpec closeAction: #stopRefreshingVisualization.
 	^ builder build: windowSpec
