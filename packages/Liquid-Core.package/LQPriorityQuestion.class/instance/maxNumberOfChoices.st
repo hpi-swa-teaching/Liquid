@@ -1,4 +1,4 @@
 accessing
 maxNumberOfChoices
 
-	^ self choiceList size
+	^ maxNumberOfChoices

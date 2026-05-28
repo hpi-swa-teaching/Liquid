@@ -2,5 +2,5 @@ initialize-release
 initialize
 
 	super initialize.
-	self choiceList: OrderedCollection new.
-	self numberOfChoices: self choiceList size
+	self maxNumberOfChoices: 1.
+	self choiceList: OrderedCollection new
