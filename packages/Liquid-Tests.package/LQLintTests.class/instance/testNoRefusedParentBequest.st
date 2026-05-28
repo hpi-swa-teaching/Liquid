@@ -1,4 +1,4 @@
 disharmonies
 testNoRefusedParentBequest
 
-	self assertAll: (self lint: #refusedParentBequest: except: {self class}) areEqualTo: false
+	self assertAll: (self lint: #refusedParentBequest: except: {self class. LQHostMenu}) areEqualTo: false

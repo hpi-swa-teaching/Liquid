@@ -2,6 +2,7 @@ request handlers
 httpPostAddAnswerSet: req
 
 	| poll answerSet user |
+	(req fields includesKey: 'id') ifFalse: [^ req send404Response].
 	poll := self class pollRepo
 		at: (req fields at: 'id')
 		ifAbsent: [^ req send404Response].
