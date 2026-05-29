@@ -16,6 +16,9 @@ buildWith: builder
 		self addPriorityQuestionButtonFrame -> [self buildAddPriorityQuestionButtonWith: builder].
 		self addManageUserSetsFrame -> [self buildManageUserSetsButton: builder].
 		self removeQuestionButtonFrame -> [self buildRemoveQuestionButtonWith: builder].
-		self saveDraftButtonFrame -> [self buildSaveDraftButtonWith: builder]}.
+		self saveDraftButtonFrame -> [self buildSaveDraftButtonWith: builder].
+		self deadlineLabelFrame -> [self buildDeadlineLabelWith: builder].
+		self deadlineInputFrame -> [self buildDeadlineInputWith: builder].}.
+		
 	windowSpec label: 'Liquid - Create a Poll'.
 	^ builder build: windowSpec
