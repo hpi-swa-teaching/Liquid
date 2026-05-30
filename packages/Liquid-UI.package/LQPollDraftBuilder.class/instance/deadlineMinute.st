@@ -1,4 +1,4 @@
-deadline
+accessing
 deadlineMinute
 
-	^ deadlineMinute ifNil: [1]
+	^ deadlineMinute ifNil: [0]

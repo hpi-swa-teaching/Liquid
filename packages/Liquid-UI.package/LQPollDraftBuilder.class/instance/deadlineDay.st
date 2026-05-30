@@ -1,4 +1,4 @@
-deadline
+accessing
 deadlineDay
  
-	^ deadlineDay ifNil: [1]
+	^ deadlineDay ifNil: [0]
