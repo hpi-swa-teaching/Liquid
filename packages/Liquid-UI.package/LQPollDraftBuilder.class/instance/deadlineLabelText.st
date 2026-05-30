@@ -1,4 +1,0 @@
-deadline
-deadlineLabelText
- 
-	^ 'Deadline:'
