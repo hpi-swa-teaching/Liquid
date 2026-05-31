@@ -7,10 +7,8 @@
 	"commentStamp" : "JT 7/17/2022 18:49",
 	"instvars" : [
 		"choiceList",
-		"group",
-		"fullName",
-		"question" ],
-	"name" : "LQExclusionMarker",
+		"group" ],
+	"name" : "LQGroupExclusionMarker",
 	"pools" : [
 		 ],
 	"super" : "Object",
