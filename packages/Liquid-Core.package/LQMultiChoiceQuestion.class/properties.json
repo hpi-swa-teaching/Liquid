@@ -7,8 +7,7 @@
 	"commentStamp" : "bwe 8/5/2022 16:10",
 	"instvars" : [
 		"maxNumberOfChoices",
-		"choiceList",
-		"allowSelfVoting" ],
+		"choiceList" ],
 	"name" : "LQMultiChoiceQuestion",
 	"pools" : [
 		 ],

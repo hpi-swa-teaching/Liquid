@@ -3,17 +3,13 @@
 		 },
 	"instance" : {
 		"addChoice:" : "bwe 6/5/2022 22:20",
-		"allowSelfVoting" : "mwo 5/12/2026 14:05",
-		"allowSelfVoting:" : "mwo 5/12/2026 14:06",
 		"buildEmptyAnswer" : "leli 6/17/2024 14:09",
 		"choiceDescriptions" : "kge 8/1/2022 18:51",
 		"choiceList" : "JT 8/2/2022 17:01",
 		"choiceList:" : "CG 7/30/2021 19:06",
 		"initialize" : "FLST 7/11/2024 20:42",
 		"isMultiChoiceQuestion" : "FLST 7/11/2024 20:42",
-		"isSelfVote:from:" : "mwo 5/19/2026 14:18",
-		"isSelfVoteByGroup:from:" : "mwo 5/20/2026 19:23",
-		"isVotedChoice:ValidFrom:" : "mwo 5/20/2026 19:23",
+		"isVotedChoice:ValidFrom:" : "FLST 7/11/2024 20:42",
 		"maxNumberOfChoices" : "CG 7/30/2021 19:06",
 		"maxNumberOfChoices:" : "FLST 7/11/2024 20:42",
 		"toolTip" : "bn 5/12/2022 22:11" } }
