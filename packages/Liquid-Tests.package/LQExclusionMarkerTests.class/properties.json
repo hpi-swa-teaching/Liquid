@@ -7,7 +7,7 @@
 	"commentStamp" : "bwe 8/5/2022 15:27",
 	"instvars" : [
 		"exclusionMarker" ],
-	"name" : "LQGroupExclusionMarkerTests",
+	"name" : "LQExclusionMarkerTests",
 	"pools" : [
 		 ],
 	"super" : "LQTestCase",
