@@ -6,6 +6,5 @@ buildWith: aBuilder
 		children: {
 			self buildTitleInputWith: aBuilder.
 			self buildChoicesInputWith: aBuilder.
-			self buildMaxNumberOfChoicesInputWith: aBuilder.
-			self buildMaxNumberOfChoicesLabelWith: aBuilder};
+			self buildPriorityExplanationLabelWith: aBuilder};
 		yourself)
