@@ -9,7 +9,8 @@
 		"title",
 		"questionList",
 		"userSetID",
-		"pollDraftId"],
+		"pollDraftId",
+		"ownerId"],
 	"name" : "LQPollDraft",
 	"pools" : [
 		 ],
