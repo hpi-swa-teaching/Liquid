@@ -1,2 +1,4 @@
+accessing
 messageOwnVote
-	^ 'You cannot vote for yourself.'
+
+		^ 'You cannot vote for yourself.'
