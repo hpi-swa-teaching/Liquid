@@ -5,10 +5,15 @@
 		"buildChoicesInputWith:" : "mm 5/26/2026 12:00",
 		"buildCorrectChoiceInputWith:" : "mm 5/26/2026 12:00",
 		"buildCorrectChoiceLabelWith:" : "mm 5/26/2026 12:00",
+		"buildTimeLimitInputWith:" : "mm 5/26/2026 12:00",
+		"buildTimeLimitLabelWith:" : "mm 5/26/2026 12:00",
 		"buildWith:" : "mm 5/26/2026 12:00",
 		"choiceDescriptions" : "mm 5/26/2026 12:00",
 		"choices:" : "mm 5/26/2026 12:00",
 		"correctChoiceIndexString" : "mm 5/26/2026 12:00",
 		"correctChoiceIndexString:" : "mm 5/26/2026 12:00",
 		"correctChoiceLabelText" : "mm 5/26/2026 12:00",
-		"orderedLinesFor:" : "mm 5/26/2026 12:00" } }
+		"orderedLinesFor:" : "mm 5/26/2026 12:00",
+		"timeLimitLabelText" : "mm 5/26/2026 12:00",
+		"timeLimitString" : "mm 5/26/2026 12:00",
+		"timeLimitString:" : "mm 5/26/2026 12:00" } }

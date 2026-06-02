@@ -6,7 +6,6 @@
 	"instance": {
 		"buildClosePollButtonWith:": "Ingmar Vogel 7/12/2024 11:01",
 		"buildCreateAnotherPollButton:": "FLST 7/11/2024 20:44",
-		"buildCreateKahootButton:": "mm 5/26/2026 12:00",
 		"buildCreatePollFromSavedDraftsButton:": "FLST 7/12/2024 10:31",
 		"buildDeletePollButtonWith:": "FLST 7/11/2024 20:44",
 		"buildExportResultsButtonWith:": "FLST 7/11/2024 20:44",
@@ -24,7 +23,6 @@
 		"copyPollLink": "FLST 7/12/2024 15:55",
 		"createAnotherPollButtonFrame": "FLST 7/11/2024 20:44",
 		"createKahoot": "mm 5/26/2026 12:00",
-		"createKahootButtonFrame": "mm 5/26/2026 12:00",
 		"createPoll": "FLST 7/11/2024 20:44",
 		"createPollFromSavedPollsButtonFrame": "FLST 7/11/2024 20:44",
 		"currentLink": "FLST 7/11/2024 20:44",

@@ -13,6 +13,7 @@ buildWith: builder
 		self addQuestionButtonFrame -> [self buildAddQuestionButtonWith: builder].
 		self removeQuestionButtonFrame -> [self buildRemoveQuestionButtonWith: builder].
 		self publishButtonFrame -> [self buildPublishKahootButtonWith: builder].
+		self startKahootButtonFrame -> [self buildStartKahootButtonWith: builder].
 		self kahootLobbyCodeFrame -> [self buildKahootLobbyCodeWith: builder].
 		self copyKahootLinkButtonFrame -> [self buildCopyKahootLinkButtonWith: builder].
 		self participantsTitleFrame -> [self buildParticipantsTitleWith: builder].

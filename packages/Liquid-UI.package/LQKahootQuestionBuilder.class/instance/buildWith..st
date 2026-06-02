@@ -7,5 +7,7 @@ buildWith: aBuilder
 			self buildTitleInputWith: aBuilder.
 			self buildChoicesInputWith: aBuilder.
 			self buildCorrectChoiceLabelWith: aBuilder.
-			self buildCorrectChoiceInputWith: aBuilder};
+			self buildCorrectChoiceInputWith: aBuilder.
+			self buildTimeLimitLabelWith: aBuilder.
+			self buildTimeLimitInputWith: aBuilder};
 		yourself)

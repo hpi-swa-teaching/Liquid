@@ -9,4 +9,5 @@ setIndex: index
 	self changed: #mailDialogButtonEnabled.
 	self changed: #closePollButtonEnabled.
 	self changed: #pollSelected.
+	self changed: #isStartKahootButtonEnabled.
 	self changed: #wordCloudToggleEnabled

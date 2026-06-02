@@ -9,7 +9,8 @@
 		"id",
 		"title",
 		"choices",
-		"correctChoiceIndex" ],
+		"correctChoiceIndex",
+		"timeLimit" ],
 	"name" : "LQKahootQuestion",
 	"pools" : [
 		 ],

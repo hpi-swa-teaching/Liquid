@@ -6,5 +6,5 @@ buildCorrectChoiceLabelWith: aBuilder
 		getText: #correctChoiceLabelText;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		frame: (LayoutFrame fractions: (0 @ 0.85 extent: 0.8 @ 0.1) offsets: (0 @ 0 extent: 0 @ 0));
+		frame: (LayoutFrame fractions: (0 @ 0.7 extent: 0.8 @ 0.1) offsets: (0 @ 0 extent: 0 @ 0));
 		yourself

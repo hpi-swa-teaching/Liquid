@@ -1,4 +1,4 @@
 toolbuilder
 questionTitle
 
-	^ self currentQuestion title
+	^ self currentQuestion ifNil: ['Waiting for Kahoot to start...'] ifNotNil: [:q | q title]

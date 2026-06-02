@@ -9,4 +9,5 @@ publishKahoot
 		UIManager default inform: 'This Kahoot is already published.'.
 		^ self].
 	repo items at: id put: self kahootQuiz.
-	self kahootQuiz addDependent: self
+	self kahootQuiz addDependent: self.
+	self changed: #isStartButtonEnabled

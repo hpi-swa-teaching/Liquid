@@ -1,4 +1,4 @@
 toolbuilder
 choiceList
 
-	^ self currentQuestion choices
+	^ self currentQuestion ifNil: [#()] ifNotNil: [:q | q choices]

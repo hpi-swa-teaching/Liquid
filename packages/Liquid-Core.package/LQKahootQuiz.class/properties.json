@@ -9,7 +9,9 @@
 		"quizId",
 		"title",
 		"questionList",
-		"participants" ],
+		"participants",
+		"currentQuestionIndex",
+		"isStarted" ],
 	"name" : "LQKahootQuiz",
 	"pools" : [
 		 ],
