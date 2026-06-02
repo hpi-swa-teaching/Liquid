@@ -11,6 +11,7 @@
 		"userSetID",
 		"pollDraftId",
 		"deadline" ],
+		"pollDraftId"],
 	"name" : "LQPollDraft",
 	"pools" : [
 		 ],
