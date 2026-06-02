@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	self questionList: OrderedCollection new.
-	self quizId: UUID new asString
+	self quizId: ((Random new nextInt: 900000) + 99999) printString

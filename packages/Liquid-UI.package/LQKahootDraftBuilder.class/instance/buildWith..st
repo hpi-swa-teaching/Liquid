@@ -11,6 +11,7 @@ buildWith: builder
 				children: #buildQuestionBuilder;
 				yourself].
 		self addQuestionButtonFrame -> [self buildAddQuestionButtonWith: builder].
-		self removeQuestionButtonFrame -> [self buildRemoveQuestionButtonWith: builder]}.
+		self removeQuestionButtonFrame -> [self buildRemoveQuestionButtonWith: builder].
+		self publishButtonFrame -> [self buildPublishKahootButtonWith: builder]}.
 	windowSpec label: 'Liquid - Create a Kahoot'.
 	^ builder build: windowSpec

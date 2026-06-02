@@ -1,7 +1,7 @@
 modifying
 enterParticipantMode
 
-	| pollId menu url connection input |
+	| pollId url connection input fetched menu |
 	LQPollRepo reset.
 	input := UIManager default
 		request: 'Add your poll id.', Symbol cr, 'Format: http://your.server.tld:8000/pollId'
@@ -11,6 +11,12 @@ enterParticipantMode
 	url := connection first.
 	pollId := connection second.
 	LQPollRepo default: (LQPollRepo new url: url).
+	fetched := LQPollRepo default at: pollId ifAbsent: [
+		UIManager default inform: 'Please enter a valid Poll ID'.
+		^ self].
+	(fetched isKindOf: LQKahootQuiz) ifTrue: [
+		ToolBuilder open: (LQKahootParticipantMenu new quiz: fetched).
+		^ self destroy].
 	menu := LQParticipantMenu new.
 	(menu importPollWithId: pollId)
 		ifNil: [

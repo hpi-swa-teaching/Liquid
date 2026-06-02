@@ -2,8 +2,7 @@ accessing
 correctChoiceIndexString: aString
 
 	| index |
-	index := aString asInteger.
+	index := aString asString asInteger.
 	index ifNil: [^ self].
 	(self question choices includesIndex: index)
-		ifTrue: [self question correctChoiceIndex: index].
-	self changed: #correctChoiceIndexString
+		ifTrue: [self question correctChoiceIndex: index]

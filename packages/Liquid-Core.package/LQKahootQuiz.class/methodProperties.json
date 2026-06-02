@@ -2,13 +2,18 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addAnswerSet:" : "el 5/27/2026 12:00",
 		"addQuestion:" : "mm 5/26/2026 12:00",
 		"asString" : "mm 5/26/2026 12:00",
+		"id" : "el 5/27/2026 12:00",
 		"initialize" : "mm 5/26/2026 12:00",
+		"isOpen" : "el 5/27/2026 12:00",
 		"questionList" : "mm 5/26/2026 12:00",
 		"questionList:" : "mm 5/26/2026 12:00",
 		"quizId" : "mm 5/26/2026 12:00",
 		"quizId:" : "mm 5/26/2026 12:00",
 		"removeQuestionAt:" : "mm 5/26/2026 12:00",
+		"requiresAuthentication" : "el 5/27/2026 12:00",
+		"sanitized" : "el 5/27/2026 12:00",
 		"title" : "mm 5/26/2026 12:00",
 		"title:" : "mm 5/26/2026 12:00" } }
