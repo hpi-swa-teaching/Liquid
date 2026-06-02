@@ -8,7 +8,9 @@
 	"instvars" : [
 		"quiz",
 		"currentQuestionIndex",
-		"selectedChoiceIndex" ],
+		"selectedChoiceIndex",
+		"participantName",
+		"registered" ],
 	"name" : "LQKahootParticipantMenu",
 	"pools" : [
 		 ],

@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"buildChoiceListWith:" : "el 5/27/2026 12:00",
+		"participantName" : "el 6/2/2026 12:00",
+		"participantName:" : "el 6/2/2026 12:00",
+		"registerParticipant" : "el 6/2/2026 12:00",
 		"buildNextButtonWith:" : "el 5/27/2026 12:00",
 		"buildPreviousButtonWith:" : "el 5/27/2026 12:00",
 		"buildQuestionCounterWith:" : "el 5/27/2026 12:00",

@@ -1,10 +1,12 @@
 modifying
 publishKahoot
 
-	| id |
+	| id repo |
 	id := self kahootQuiz quizId.
-	LQRemotePollRepoServer pollRepo
-		at: id
-		ifPresent: [UIManager default inform: 'This Kahoot is already published.']
-		ifAbsentPut: self kahootQuiz.
-	UIManager default inform: 'Kahoot published! ID: ' , id
+	LQRemotePollRepoServer isServerActive ifFalse: [LQRemotePollRepoServer startServer].
+	repo := LQRemotePollRepoServer pollRepo.
+	(repo includesKey: id) ifTrue: [
+		UIManager default inform: 'This Kahoot is already published.'.
+		^ self].
+	repo items at: id put: self kahootQuiz.
+	self kahootQuiz addDependent: self

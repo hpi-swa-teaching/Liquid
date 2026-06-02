@@ -12,6 +12,10 @@ buildWith: builder
 				yourself].
 		self addQuestionButtonFrame -> [self buildAddQuestionButtonWith: builder].
 		self removeQuestionButtonFrame -> [self buildRemoveQuestionButtonWith: builder].
-		self publishButtonFrame -> [self buildPublishKahootButtonWith: builder]}.
+		self publishButtonFrame -> [self buildPublishKahootButtonWith: builder].
+		self kahootLobbyCodeFrame -> [self buildKahootLobbyCodeWith: builder].
+		self copyKahootLinkButtonFrame -> [self buildCopyKahootLinkButtonWith: builder].
+		self participantsTitleFrame -> [self buildParticipantsTitleWith: builder].
+		self participantsListFrame -> [self buildParticipantsListWith: builder]}.
 	windowSpec label: 'Liquid - Create a Kahoot'.
 	^ builder build: windowSpec
