@@ -12,6 +12,7 @@
 		"pollDraftId",
 		"deadline" ],
 		"pollDraftId"],
+		"pollDraftId" ],
 	"name" : "LQPollDraft",
 	"pools" : [
 		 ],
