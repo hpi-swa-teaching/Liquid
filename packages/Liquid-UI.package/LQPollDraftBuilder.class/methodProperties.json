@@ -6,6 +6,7 @@
 	"instance" : {
 		"addFreeTextQuestion" : "FLST 7/11/2024 20:44",
 		"addFreeTextQuestionButtonFrame" : "FLST 7/11/2024 20:44",
+		"addGroupExclusion" : "Johannes Herzog 6/4/2026 16:28",
 		"addManageUserSetsFrame" : "FLST 7/11/2024 20:44",
 		"addMultiChoiceQuestion" : "FLST 7/11/2024 20:44",
 		"addMultiChoiceQuestionButtonFrame" : "FLST 7/11/2024 20:44",
@@ -23,7 +24,7 @@
 		"buildRemoveQuestionButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildRunPollButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildSaveDraftButtonWith:" : "FLST 7/11/2024 20:44",
-		"buildShowAvailableGroupsButtonWith:" : "Johannes Herzog 5/31/2026 17:14",
+		"buildShowAvailableGroupsButtonWith:" : "Johannes Herzog 6/4/2026 15:53",
 		"buildWith:" : "Johannes Herzog 5/31/2026 17:14",
 		"currentQuestion" : "bn 8/2/2022 16:58",
 		"currentQuestion:" : "bn 6/23/2022 22:15",
@@ -33,6 +34,8 @@
 		"initialize" : "FLST 7/11/2024 20:44",
 		"list" : "bn 8/2/2022 16:58",
 		"openManageUserSetsMenu" : "bn 8/2/2022 18:08",
+		"pickChoiceFromCurrentQuestion" : "Johannes Herzog 6/4/2026 16:13",
+		"pickGroupsFrom:" : "Johannes Herzog 6/4/2026 16:33",
 		"pollDraft" : "bn 6/20/2022 19:55",
 		"pollDraft:" : "bwe 6/26/2022 15:29",
 		"questionBuilderAt:" : "kge 8/1/2022 19:04",
@@ -48,5 +51,4 @@
 		"saveDraft" : "FLST 7/11/2024 20:44",
 		"saveDraftButtonFrame" : "FLST 7/11/2024 20:44",
 		"setIndex:" : "FLST 7/11/2024 20:44",
-		"showAvailableGroups" : "Johannes Herzog 5/31/2026 17:13",
 		"showAvailableGroupsFrame" : "Johannes Herzog 5/31/2026 17:14" } }
