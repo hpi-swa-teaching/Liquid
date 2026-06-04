@@ -6,14 +6,17 @@ sendAnswer
 		UIManager default inform: self messageAlreadyAnswered.
 		self destroy.
 		^ ToolBuilder open: LQStartMenu new].
+	self answerSet addAnswer: self currentAnswerPanel model answer.
 	stored := LQPollRepo default addAnswerSet: self answerSet ToPoll: self poll id.
-	stored 
-		ifNil: [UIManager default inform: self messageSubmissionFailed] 
-		ifNotNil: [
-			stored
-				ifTrue: [
-					self class ifAbsentAddToAnsweredPollIds: self poll id.
-					UIManager default inform: self messageAnswerSubmitted]
-				ifFalse: [UIManager default inform: self messageSubmissionRejected]].
-	self destroy.
-	^ ToolBuilder open: LQStartMenu new
+	stored ifNil: [
+		UIManager default inform: self messageSubmissionFailed.
+		^ self].
+	stored
+		ifTrue: [
+			self class ifAbsentAddToAnsweredPollIds: self poll id.
+			UIManager default inform: self messageAnswerSubmitted.
+			self destroy.
+			^ ToolBuilder open: LQStartMenu new] 
+		ifFalse: [
+			UIManager default inform: self messageSubmissionRejected.
+			^ self]
