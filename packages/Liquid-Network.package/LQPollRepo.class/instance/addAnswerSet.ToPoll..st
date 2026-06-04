@@ -11,5 +11,5 @@ addAnswerSet: anAnswerSet ToPoll: aPollId
 		do: [:ex | ^ nil].
 	resp isSuccess ifFalse: [^ nil].
 	result := [STON fromString: resp content] on: Error do: [:ex | ^ nil].
-	(result isKindOf: Boolean) ifTrue: [^ result].
+	(result isBoolean) ifTrue: [^ result].
 	^ nil
