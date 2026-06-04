@@ -2,7 +2,7 @@ modifying
 addPriorityQuestion
 
 	| question builder |
-	(self liveEditingGuardWithMessage: 'Can´t add questions when poll is already live!') ifTrue: [^ self].
+	(self liveEditingGuardWithMessage: 'Can´t add questions to a live poll!') ifTrue: [^ self].
 	question := LQPriorityQuestion new.
 	builder := LQPriorityQuestionBuilder new.
 	builder question: question.
