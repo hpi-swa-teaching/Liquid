@@ -2,12 +2,14 @@ accessing
 addAnswerSet: anAnswerSet ToPoll: aPollId
 
 	| resp result |
-	resp := [WebClient
-		httpPost: (self urlForPostingAnswerSet: anAnswerSet ToPoll: aPollId)
-		content: (STON toString: anAnswerSet)
-		type: 'text/plain'] on: Error do: [:ex | ^ nil].
+	resp := [
+		WebClient
+			httpPost: (self urlForPostingAnswerSet: anAnswerSet ToPoll: aPollId)
+			content: (STON toString: anAnswerSet)
+			type: 'text/plain']
+		on: Error
+		do: [:ex | ^ nil].
 	resp isSuccess ifFalse: [^ nil].
 	result := [STON fromString: resp content] on: Error do: [:ex | ^ nil].
-	result == true ifTrue: [^ true].
-	result == false ifTrue: [^ false].
+	(result isKindOf: Boolean) ifTrue: [^ result].
 	^ nil
