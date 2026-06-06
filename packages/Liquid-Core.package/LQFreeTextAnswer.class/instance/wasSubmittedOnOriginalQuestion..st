@@ -1,0 +1,3 @@
+accessing
+wasSubmittedOnOriginalQuestion: anObject
+	wasSubmittedOnOriginalQuestion := anObject

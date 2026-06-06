@@ -2,4 +2,5 @@ accessing
 initialize
 
 	super initialize.
-	self answer: String new
+	self answer: String new.
+	self wasSubmittedOnOriginalQuestion: true.
