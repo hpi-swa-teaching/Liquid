@@ -1,4 +1,4 @@
-as yet unclassified
+deadline
 deadlineMonthList
  
 	^ #('--' 'Jan' 'Feb' 'Mär' 'Apr' 'Mai' 'Jun'

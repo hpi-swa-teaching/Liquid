@@ -9,7 +9,11 @@
 		"pollDraft",
 		"questionBuilders",
 		"currentQuestion",
-		"deadlineModel" ],
+		"deadlineDay",
+		"deadlineMonth",
+		"deadlineYear",
+		"deadlineHour",
+		"deadlineMinute" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],
