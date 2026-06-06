@@ -1,13 +1,13 @@
-deadline
+accessing
 parsedDeadlineValues
 
     | dayIndex monthIndex yearIndex hourIndex minuteIndex |
 
-    dayIndex := deadlineDay.
-    monthIndex := deadlineMonth.
-    yearIndex := deadlineYear.
-    hourIndex := deadlineHour.
-    minuteIndex := deadlineMinute.
+      dayIndex := deadlineModel deadlineDay.
+    monthIndex := deadlineModel deadlineMonth.
+    yearIndex := deadlineModel deadlineYear.
+    hourIndex := deadlineModel deadlineHour.
+    minuteIndex := deadlineModel deadlineMinute.
 
     (dayIndex isNil
         or: [monthIndex isNil

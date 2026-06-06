@@ -1,7 +1,7 @@
 toolbuilder
 buildDeadlineDayWith: aBuilder
 	^ aBuilder pluggableListSpec new
-		model: self;
+		model: deadlineModel;
 		list: #deadlineDayList;
 		getIndex: #deadlineDay;
 		setIndex: #deadlineDay:;

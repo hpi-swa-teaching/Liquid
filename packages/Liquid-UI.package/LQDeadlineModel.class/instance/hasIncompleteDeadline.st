@@ -1,4 +1,4 @@
-deadline
+as yet unclassified
 hasIncompleteDeadline
     ^ (deadlineDay ifNil: [1]) = 1
         or: [(deadlineMonth ifNil: [1]) = 1
