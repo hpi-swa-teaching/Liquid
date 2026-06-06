@@ -1,11 +1,10 @@
-deadline
+accessing
 applyDeadlineValues: values
-    | day month year hour minute |
-
-    day := values first.
-    month := values second.
-    year := values third.
-    hour := values fourth.
-    minute := values fifth.
-
-    self setDeadlineSafelyYear: year month: month day: day hour: hour minute: minute
+	self pollDraft deadline:
+    (DateAndTime
+        year: values third
+        month: values second
+        day: values first
+        hour: values fourth
+        minute: values fifth
+        second: 0)

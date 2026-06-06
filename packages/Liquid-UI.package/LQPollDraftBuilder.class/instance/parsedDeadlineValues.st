@@ -1,20 +1,25 @@
 deadline
 parsedDeadlineValues
-    | di mi yi hi mni |
 
-    di  := deadlineDay.
-    mi  := deadlineMonth.
-    yi  := deadlineYear.
-    hi  := deadlineHour.
-    mni := deadlineMinute.
+    | dayIndex monthIndex yearIndex hourIndex minuteIndex |
 
-    (di isNil or: [mi isNil or: [yi isNil or: [hi isNil or: [mni isNil]]]])
-        ifTrue: [ ^ nil ].
+    dayIndex := deadlineDay.
+    monthIndex := deadlineMonth.
+    yearIndex := deadlineYear.
+    hourIndex := deadlineHour.
+    minuteIndex := deadlineMinute.
+
+    (dayIndex isNil
+        or: [monthIndex isNil
+        or: [yearIndex isNil
+        or: [hourIndex isNil
+        or: [minuteIndex isNil]]]])
+        ifTrue: [^ nil].
 
     ^ {
-        di - 1.
-        mi - 1.
-        (self deadlineYearList at: yi) asInteger.
-        hi - 2.
-        (self deadlineMinuteList at: mni) asInteger
+        dayIndex - 1.
+        monthIndex - 1.
+        (self deadlineYearList at: yearIndex) asInteger.
+        hourIndex - 2.
+        (self deadlineMinuteList at: minuteIndex) asInteger
     }
