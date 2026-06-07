@@ -13,7 +13,8 @@
 		"deadlineMonth",
 		"deadlineYear",
 		"deadlineHour",
-		"deadlineMinute" ],
+		"deadlineMinute",
+		"deadlineSelection" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],
