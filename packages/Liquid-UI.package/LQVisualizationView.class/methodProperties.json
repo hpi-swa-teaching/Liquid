@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"newWithPoll:" : "FLST 7/11/2024 20:44" },
+		"newWithPoll:" : "FLST 7/11/2024 20:44",
+		"newWithPoll:chartType:" : "mwo 6/9/2026 13:02" },
 	"instance" : {
+		"chartType" : "mwo 6/9/2026 12:59",
+		"chartType:" : "mwo 6/9/2026 12:59",
 		"data" : "FLST 7/11/2024 20:44",
 		"dataFor:" : "FLST 7/11/2024 20:44",
 		"poll" : "bn 8/2/2022 17:13",
 		"poll:" : "bwe 6/26/2022 14:38",
 		"sortData" : "FLST 7/11/2024 20:44",
 		"sortDataFor:" : "FLST 7/11/2024 20:44",
-		"visualizeChoicesResultsFor:" : "FLST 7/11/2024 20:44" } }
+		"visualizeChoicesResultsFor:" : "mwo 6/9/2026 12:59" } }
