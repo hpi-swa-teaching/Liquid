@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"poll:chart:" : "Salina 6/9/2026 18:02" },
+	"instance" : {
+		"buildPdfBytes" : "Salina 6/9/2026 18:33",
+		"pdfCatalogBody" : "Salina 6/9/2026 18:34",
+		"pdfContentBody" : "Salina 6/9/2026 18:35",
+		"pdfContentStream" : "Salina 6/9/2026 18:39",
+		"pdfEscape:" : "Salina 6/9/2026 18:39",
+		"pdfFontBody" : "Salina 6/9/2026 18:34",
+		"pdfImageBody" : "Salina 6/9/2026 23:55",
+		"pdfImageDataFrom:" : "Salina 6/9/2026 23:41",
+		"pdfPageBody" : "Salina 6/9/2026 18:34",
+		"pdfPagesBody" : "Salina 6/9/2026 18:34",
+		"pdfReportLines" : "Salina 6/9/2026 18:39",
+		"setPoll:chart:" : "Salina 6/9/2026 18:08",
+		"writeLine:on:" : "Salina 6/9/2026 18:40",
+		"writePdfObject:with:on:offsets:" : "Salina 6/9/2026 18:41",
+		"writePdfTailOn:offsets:" : "Salina 6/9/2026 18:41",
+		"writePdfXrefOn:offsets:" : "Salina 6/9/2026 18:41" } }

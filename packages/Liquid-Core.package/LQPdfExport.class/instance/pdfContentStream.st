@@ -1,7 +1,7 @@
 printing
 pdfContentStream
 
-	| stream |
+	| stream imageWidth imageHeight |
 	stream := WriteStream on: String new.
 	stream
 		nextPutAll: 'BT'; nextPutAll: String lf;
@@ -13,4 +13,11 @@ pdfContentStream
 			nextPutAll: '(', (self pdfEscape: line), ') Tj'; nextPutAll: String lf;
 			nextPutAll: 'T*'; nextPutAll: String lf].
 	stream nextPutAll: 'ET'; nextPutAll: String lf.
+	imageWidth := 450.
+	imageHeight := (imageWidth * chart height / chart width) rounded.
+	stream
+		nextPutAll: 'q'; nextPutAll: String lf;
+		nextPutAll: imageWidth asString, ' 0 0 ', imageHeight asString, ' 72 350 cm'; nextPutAll: String lf;
+		nextPutAll: '/Im1 Do'; nextPutAll: String lf;
+		nextPutAll: 'Q'; nextPutAll: String lf.
 	^ stream contents

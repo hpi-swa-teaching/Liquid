@@ -1,6 +1,6 @@
 printing
 buildPdfBytes
-"builds the PDF in a specific necessary manner with specific objects"
+	"builds the PDF in a specific necessary manner with specific objects"
 
 	| stream offsets |
 	stream := WriteStream on: String new.
@@ -11,6 +11,7 @@ buildPdfBytes
 	self writePdfObject: 3 with: self pdfPageBody on: stream offsets: offsets.
 	self writePdfObject: 4 with: self pdfContentBody on: stream offsets: offsets.
 	self writePdfObject: 5 with: self pdfFontBody on: stream offsets: offsets.
+	self writePdfObject: 6 with: self pdfImageBody on: stream offsets: offsets.
 	self writePdfTailOn: stream offsets: offsets.
 	self writeLine: '%%EOF' on: stream.
 	^ stream contents
