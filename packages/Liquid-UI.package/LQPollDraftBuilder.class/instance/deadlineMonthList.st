@@ -1,5 +1,5 @@
 deadline
 deadlineMonthList
  
-	^ #('--' 'Jan' 'Feb' 'Mär' 'Apr' 'Mai' 'Jun'
-		'Jul' 'Aug' 'Sep' 'Okt' 'Nov' 'Dez')
+	^ #('--' 'jan' 'feb' 'mar' 'apr' 'may' 'june'
+		'july' 'aug' 'sep' 'oct' 'nov' 'dez')
