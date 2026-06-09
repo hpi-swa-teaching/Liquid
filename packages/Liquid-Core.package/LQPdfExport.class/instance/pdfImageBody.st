@@ -1,6 +1,6 @@
 printing
 pdfImageBody
-	"Build the XObject as a dictionary describing the picture and using the red,green, blute bytes."
+	"Build the XObject as a dictionary describing the picture and using the red,green, blue bytes."
 
 	| form image |
 	form := chart asFormOfDepth: 32.

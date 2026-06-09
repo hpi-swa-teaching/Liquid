@@ -6,6 +6,7 @@ pdfImageDataFrom: aForm
 	| form stream |
 	form := aForm.
 	stream := WriteStream on: String new.
+	
 	0 to: form height - 1 do: [:y |
 		0 to: form width - 1 do: [:x | | c |
 			c := form colorAt: x @ y.
