@@ -11,6 +11,6 @@ pdfContentStream
 	self pdfReportLines do: [:line |
 		stream
 			nextPutAll: '(', (self pdfEscape: line), ') Tj'; nextPutAll: String lf;
-			nextPutAll: 'T*'; nextPutAll: String lf];
-			nextPutAll: 'ET'; nextPutAll: String lf.
+			nextPutAll: 'T*'; nextPutAll: String lf].
+	stream nextPutAll: 'ET'; nextPutAll: String lf.
 	^ stream contents
