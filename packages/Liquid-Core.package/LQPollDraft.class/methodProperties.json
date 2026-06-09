@@ -4,6 +4,9 @@
 	"instance" : {
 		"addQuestion:" : "CG 7/30/2021 19:06",
 		"asString" : "FLST 7/11/2024 20:42",
+		"assertTitleAvailable:excluding:" : "Erik Eicke 6/9/2026 23:29",
+		"copyForNewPoll" : "Erik Eicke 6/9/2026 23:30",
+		"copyTitleForNewPoll" : "Erik Eicke 6/9/2026 23:30",
 		"ensureSavedInRepository" : "Leander Steffan 5/16/2026 10:34",
 		"getChoiceIdentifiersFor:" : "FLST 7/11/2024 20:42",
 		"getChoiceNamesFor:" : "bwe 5/22/2022 20:26",
@@ -15,7 +18,7 @@
 		"questionList:" : "CG 7/30/2021 19:06",
 		"removeQuestionAt:" : "FLST 7/11/2024 20:42",
 		"saveCopyToRepository" : "Leander Steffan 5/16/2026 10:34",
-		"saveToRepository" : "Leander Steffan 5/16/2026 10:34",
+		"saveToRepository" : "Erik Eicke 6/9/2026 23:31",
 		"title" : "frc 4/23/2021 12:50",
 		"title:" : "frc 4/23/2021 12:51",
 		"userSetID" : "JT 8/2/2022 17:13",
