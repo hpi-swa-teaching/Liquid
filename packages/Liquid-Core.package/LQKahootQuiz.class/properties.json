@@ -11,7 +11,8 @@
 		"questionList",
 		"participants",
 		"currentQuestionIndex",
-		"isStarted" ],
+		"isStarted",
+		"scores" ],
 	"name" : "LQKahootQuiz",
 	"pools" : [
 		 ],

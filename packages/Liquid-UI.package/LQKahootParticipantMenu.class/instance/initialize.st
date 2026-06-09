@@ -4,4 +4,5 @@ initialize
 	super initialize.
 	currentQuestionIndex := 1.
 	selectedChoiceIndex := 0.
-	registered := false
+	registered := false.
+	hasSubmitted := false

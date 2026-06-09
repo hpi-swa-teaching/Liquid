@@ -8,8 +8,7 @@ buildWith: aBuilder
 		children: {
 			self buildQuestionTitleWith: aBuilder.
 			self buildChoiceListWith: aBuilder.
-			self buildPreviousButtonWith: aBuilder.
-			self buildNextButtonWith: aBuilder.
+			self buildSubmitButtonWith: aBuilder.
 			self buildQuestionCounterWith: aBuilder};
 		yourself).
 	self currentQuestionIndex: 1.

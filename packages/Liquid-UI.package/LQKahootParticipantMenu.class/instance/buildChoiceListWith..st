@@ -6,5 +6,5 @@ buildChoiceListWith: aBuilder
 		list: #choiceList;
 		getIndex: #selectedChoiceIndex;
 		setIndex: #selectedChoiceIndex:;
-		frame: (LayoutFrame fractions: (0.05 @ 0.28 extent: 0.9 @ 0.5));
+		frame: (LayoutFrame fractions: (0.05 @ 0.28 extent: 0.9 @ 0.40));
 		yourself

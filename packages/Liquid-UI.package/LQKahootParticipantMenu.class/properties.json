@@ -10,7 +10,8 @@
 		"currentQuestionIndex",
 		"selectedChoiceIndex",
 		"participantName",
-		"registered" ],
+		"registered",
+		"hasSubmitted" ],
 	"name" : "LQKahootParticipantMenu",
 	"pools" : [
 		 ],
