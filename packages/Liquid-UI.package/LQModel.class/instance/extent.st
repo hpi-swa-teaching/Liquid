@@ -1,4 +1,4 @@
 toolbuilder
 extent
 
-	^ 500 @ 400
+	^ 550 @ 400

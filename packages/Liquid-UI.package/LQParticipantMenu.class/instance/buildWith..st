@@ -15,5 +15,7 @@ buildWith: aBuilder
 		yourself).
 	self freeTextPanel: (aBuilder widgetAt: #freeText).
 	self selectionPanel: (aBuilder widgetAt: #selection).
+	self freeTextPanel borderWidth: 0.
+	self selectionPanel borderWidth: 0.
 	self currentQuestionIndex: 1.
 	^ window
