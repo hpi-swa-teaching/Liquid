@@ -1,8 +1,8 @@
 toolbuilder
 buildWith: builder
-
 	| windowSpec |
 	windowSpec := self buildWindowWith: builder specs: {
+		self pollDraftTitleBarFrame -> [self buildPollDraftTitleBarWith: builder].
 		self questionListFrame -> [self buildQuestionListWith: builder].
 		self questionBuilderFrame -> [
 			builder pluggablePanelSpec new
