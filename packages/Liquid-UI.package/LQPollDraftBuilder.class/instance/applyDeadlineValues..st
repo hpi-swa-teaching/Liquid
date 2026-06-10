@@ -7,4 +7,4 @@ applyDeadlineValues: values
         day: values first
         hour: values fourth
         minute: values fifth
-        second: 0)
+        second: 0) printString

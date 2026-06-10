@@ -1,4 +1,4 @@
 deadline
-deadline: aDateAndTimeOrNil
- 
-	deadline := aDateAndTimeOrNil
+deadline: aDateAndTime
+
+		deadline := aDateAndTime.

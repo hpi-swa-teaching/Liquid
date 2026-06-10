@@ -1,11 +1,14 @@
 deadline
 updateDeadline
-
     | values |
 
-    values := self parsedDeadlineValues.
-    values ifNil: [
+    self hasIncompleteDeadline ifTrue: [
         self pollDraft deadline: nil.
-        ^ self ].
+        ^ self
+    ].
 
-    self applyDeadlineValues: values
+    values := self parsedDeadlineValues.
+    
+    [ self applyDeadlineValues: values ]
+        on: Error 
+        do: [ :err | self pollDraft deadline: nil ]
