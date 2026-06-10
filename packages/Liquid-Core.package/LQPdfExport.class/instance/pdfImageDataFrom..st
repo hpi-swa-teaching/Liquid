@@ -14,4 +14,5 @@ pdfImageDataFrom: aForm
 			stream nextPut: (Character value: (c red * 255) truncated).
 			stream nextPut: (Character value: (c green * 255) truncated).
 			stream nextPut: (Character value: (c blue * 255) truncated)]].
+	
 	^ stream contents
