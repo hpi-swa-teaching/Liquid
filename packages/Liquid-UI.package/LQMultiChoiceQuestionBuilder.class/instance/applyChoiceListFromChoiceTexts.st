@@ -7,4 +7,5 @@ applyChoiceListFromChoiceTexts
 		maxChoices := max min: choices size.
 		maxChoices = 0
 			ifTrue: [self question maxNumberOfChoices: nil]
-			ifFalse: [self question maxNumberOfChoices: maxChoices]]
+			ifFalse: [self question maxNumberOfChoices: maxChoices]].
+	self refreshChoiceFieldTexts

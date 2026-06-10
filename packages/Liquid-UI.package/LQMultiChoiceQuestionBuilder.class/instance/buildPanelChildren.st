@@ -1,6 +1,7 @@
 toolbuilder
 buildPanelChildren
 	| builder children |
+	self clearChoiceFieldModels.
 	builder := ToolBuilder default.
 	children := OrderedCollection new.
 	children add: (builder build: (self buildTitleInputWith: builder)).

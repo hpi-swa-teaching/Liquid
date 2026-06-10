@@ -1,3 +1,3 @@
 accessing
 text
-	^ builder choiceTexts at: index ifAbsent: ''
+	^ builder choiceTextAt: index
