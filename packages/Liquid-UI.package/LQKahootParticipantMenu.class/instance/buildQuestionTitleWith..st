@@ -6,5 +6,5 @@ buildQuestionTitleWith: aBuilder
 		getText: #questionTitle;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		frame: (LayoutFrame fractions: (0.05 @ 0.05 extent: 0.9 @ 0.2));
+		frame: (LayoutFrame fractions: (0.05 @ 0.05 extent: 0.55 @ 0.2));
 		yourself

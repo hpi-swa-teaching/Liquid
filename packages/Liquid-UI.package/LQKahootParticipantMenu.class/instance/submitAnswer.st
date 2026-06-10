@@ -9,6 +9,7 @@ submitAnswer
 	answerSet token: (self participantName ifNil: ['Anonymous']).
 	
 	answer := LQChoicesAnswer new.
+	answer questionId: self currentQuestion id.
 	answer choicesRanking: {self selectedChoiceIndex}.
 	answerSet addAnswer: answer.
 	

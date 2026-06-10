@@ -9,7 +9,9 @@ buildWith: aBuilder
 			self buildQuestionTitleWith: aBuilder.
 			self buildChoiceListWith: aBuilder.
 			self buildSubmitButtonWith: aBuilder.
-			self buildQuestionCounterWith: aBuilder};
+			self buildQuestionCounterWith: aBuilder.
+			self buildLeaderboardTitleWith: aBuilder.
+			self buildLeaderboardWith: aBuilder};
 		yourself).
 	self currentQuestionIndex: 1.
 	^ window

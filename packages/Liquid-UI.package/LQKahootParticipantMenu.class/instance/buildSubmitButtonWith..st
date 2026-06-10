@@ -6,5 +6,5 @@ buildSubmitButtonWith: aBuilder
 		label: 'Submit Answer';
 		action: #submitAnswer;
 		enabled: #submitEnabled;
-		frame: (LayoutFrame fractions: (0.3 @ 0.72 extent: 0.4 @ 0.1));
+		frame: (LayoutFrame fractions: (0.13 @ 0.72 extent: 0.4 @ 0.1));
 		yourself

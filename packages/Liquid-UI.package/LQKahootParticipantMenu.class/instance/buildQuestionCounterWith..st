@@ -6,5 +6,5 @@ buildQuestionCounterWith: aBuilder
 		getText: #questionCounterText;
 		readOnly: true;
 		indicateUnacceptedChanges: false;
-		frame: (LayoutFrame fractions: (0.38 @ 0.86 extent: 0.24 @ 0.1));
+		frame: (LayoutFrame fractions: (0.18 @ 0.86 extent: 0.24 @ 0.1));
 		yourself
