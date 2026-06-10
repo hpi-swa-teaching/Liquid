@@ -3,8 +3,8 @@ buildShowAvailableGroupsButtonWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		label: 'Show Groups';
-		action: #showAvailableGroups;
+		label: 'Add Group Exclusion';
+		action: #addGroupExclusion;
 		frame: (LayoutFrame new
 			topFraction: 0;
 			leftFraction: 0;

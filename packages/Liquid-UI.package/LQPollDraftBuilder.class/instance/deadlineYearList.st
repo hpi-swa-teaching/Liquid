@@ -1,8 +1,11 @@
 deadline
-deadlineYearList
- 
-	| years |
+deadlineYearList 
+	| years currentYear |
+	
 	years := OrderedCollection new.
 	years add: '--'.
-	2025 to: 2035 do: [:y | years add: y printString].
+	
+	currentYear := Date today year.
+	currentYear to: currentYear + 10 do: [:y | years add: y printString].
+	
 	^ years asArray
