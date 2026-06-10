@@ -14,12 +14,15 @@ buildWith: builder
 		self openMailDialogButtonFrame -> [self buildOpenMailDialogButtonWith: builder].
 		self deletePollButtonFrame -> [self buildDeletePollButtonWith: builder].
 		self createPollFromSavedPollsButtonFrame -> [self buildCreatePollFromSavedDraftsButton: builder].
+		self wordCloudToggleButtonFrame -> [self buildWordCloudToggleButtonWith: builder].
 		self idCopyButtonFrame -> [self buildIdCopyButtonWith: builder].
 		self stopServerButtonFrame -> [self buildStopServerButtonWith: builder].
 		self closePollButtonFrame -> [self buildClosePollButtonWith: builder].
 		self createAnotherPollButtonFrame -> [self buildCreateAnotherPollButton: builder].
 		self exportResultsButtonFrame -> [self buildExportResultsButtonWith: builder].
 		self matchingPreferencesButtonFrame -> [self buildMatchingPreferencesButtonWith: builder]}.
+		self editPollButtonFrame -> [self buildEditPollButtonWith: builder].
+		self savePollAsDraftButtonFrame -> [self buildSavePollAsDraftButtonWith: builder]}.
 	windowSpec label: 'Liquid - Host'.
 	windowSpec closeAction: #stopRefreshingVisualization.
 	^ builder build: windowSpec

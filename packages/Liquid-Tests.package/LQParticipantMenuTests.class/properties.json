@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "ms 8/5/2022 21:15",
 	"instvars" : [
-		"participantMenu" ],
+		"participantMenu",
+		"originalInformMethod" ],
 	"name" : "LQParticipantMenuTests",
 	"pools" : [
 		 ],

@@ -2,4 +2,5 @@ accessing
 fillSideboard
 
 	self question isPriorityQuestion ifTrue: [^ self getRankingIndices].
-	self question isMultiChoiceQuestion ifTrue: [^ self getMarkers]
+	self question isMultiChoiceQuestion ifTrue: [^ self getMarkers].
+	^ OrderedCollection new

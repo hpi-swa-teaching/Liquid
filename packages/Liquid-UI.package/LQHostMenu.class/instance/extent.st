@@ -1,4 +1,6 @@
 toolbuilder
 extent
 
-	^ 400 @ 100
+	| defaultExtent |
+	defaultExtent := super extent.
+	^ (defaultExtent x - 100) @ (defaultExtent y - 300)

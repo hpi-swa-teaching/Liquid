@@ -2,9 +2,7 @@ testing
 testRemovePollDrafts
 
 	| size |
-	LQRemotePollRepoServer pollDraftRepo items
-		at: self pollDraft pollDraftId
-		put: self pollDraft.
+	self pollDraft saveToRepository.
 	size := LQRemotePollRepoServer pollDraftRepo items size.
 	LQRemotePollRepoServer pollDraftRepo items
 		removeKey: self pollDraft pollDraftId
