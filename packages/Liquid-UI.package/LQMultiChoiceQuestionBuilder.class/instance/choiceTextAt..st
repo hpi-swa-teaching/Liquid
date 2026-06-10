@@ -1,12 +1,13 @@
 accessing
 choiceTextAt: anIndex
-	| text trimmed descriptions duplicates |
+	| text trimmed descriptions duplicates description |
 	text := self choiceTexts at: anIndex ifAbsent: [''].
 	trimmed := text withBlanksTrimmed.
 	trimmed isEmpty ifTrue: [^ text asText].
-	descriptions := self choiceTexts collect: [:each | each withBlanksTrimmed].
+	descriptions := (self choiceTexts select: [:each | each withBlanksTrimmed notEmpty]) collect: [:each | (LQChoice newFrom: each) description].
 	duplicates := LQDuplicateDetector new identifyDuplicates: descriptions.
-	(duplicates includes: trimmed)
+	description := (LQChoice newFrom: text) description.
+	(duplicates includes: description)
 		ifTrue: [
 			| stream |
 			stream := TextStream on: Text new.
