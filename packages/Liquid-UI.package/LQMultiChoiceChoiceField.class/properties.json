@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JT 6/23/2022 22:47",
+	"commentStamp" : "",
 	"instvars" : [
-		"choiceTexts" ],
-	"name" : "LQMultiChoiceQuestionBuilder",
+		"builder",
+		"index" ],
+	"name" : "LQMultiChoiceChoiceField",
 	"pools" : [
 		 ],
-	"super" : "LQQuestionBuilder",
+	"super" : "Object",
 	"type" : "normal" }

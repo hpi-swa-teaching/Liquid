@@ -8,11 +8,14 @@
 		"questionBuilder" : "JT 8/2/2022 17:57",
 		"questionBuilder:" : "bwe 6/26/2022 15:02",
 		"setUp" : "FLST 7/12/2024 15:55",
+		"testAddChoiceIncreasesFieldCount" : "Erik Eicke 6/10/2026 10:37",
+		"testAddChoiceRespectsMaximum" : "Erik Eicke 6/10/2026 10:38",
 		"testBuildWithReturnsPannelMorph" : "FLST 7/12/2024 15:55",
-		"testDuplicateMarkingInChoiceList" : "FLST 7/12/2024 15:55",
+		"testDuplicateMarkingInChoiceList" : "Erik Eicke 6/10/2026 10:36",
 		"testLabelCreation" : "FLST 7/12/2024 15:55",
 		"testMaxNumberOfChoicesBadInput" : "FLST 7/12/2024 15:55",
 		"testMaxNumberOfChoicesCorrectInput" : "FLST 7/12/2024 15:55",
 		"testMaxNumberOfChoicesToHighInput" : "FLST 7/12/2024 15:55",
+		"testRemoveChoiceAtRespectsMinimum" : "Erik Eicke 6/10/2026 10:38",
 		"testTitelChange" : "FLST 7/12/2024 15:55",
-		"testToolbuilderMethodsReturnSpecs" : "JLBlk 7/2/2026 13:44" } }
+		"testToolbuilderMethodsReturnSpecs" : "JLBlk 7/2/2026 15:54" } }

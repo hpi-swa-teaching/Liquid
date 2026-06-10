@@ -1,0 +1,3 @@
+accessing
+deleteEnabled
+	^ builder deleteChoiceButtonEnabled

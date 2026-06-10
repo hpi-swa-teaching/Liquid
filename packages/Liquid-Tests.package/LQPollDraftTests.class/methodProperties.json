@@ -13,6 +13,7 @@
 		"setUp" : "CG 7/30/2021 19:06",
 		"testAddPrioQuestion" : "FLST 7/12/2024 15:55",
 		"testAddQuestion" : "Ingmar Vogel 5/20/2024 11:07",
+		"testIsValidWithDuplicateChoices" : "Erik Eicke 6/10/2026 10:59",
 		"testIsValidWithValidPollDraft" : "FLST 7/12/2024 15:55",
 		"testIsValidWithoutChoiceList" : "FLST 7/12/2024 15:55",
 		"testIsValidWithoutQuestionList" : "FLST 7/12/2024 15:55",
