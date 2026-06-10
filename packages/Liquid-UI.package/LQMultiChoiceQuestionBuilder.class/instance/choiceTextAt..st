@@ -1,9 +1,9 @@
 accessing
 choiceTextAt: anIndex
-	| text choice choices duplicates |
+	| text mappedIndex |
 	text := self choiceTexts at: anIndex ifAbsent: [''].
 	(text withBlanksTrimmed isEmpty) ifTrue: [^ text asText].
-	choice := self choiceForTextAt: anIndex.
-	choices := self question choiceList.
-	duplicates := LQDuplicateDetector new identifyDuplicates: (choices collect: [:each | each description]).
-	^ (LQDuplicateDetector new mark: duplicates in: {choice} with: (TextColor color: Color red))
+	mappedIndex := 0.
+	1 to: anIndex do: [:i |
+		((self choiceTexts at: i) withBlanksTrimmed notEmpty) ifTrue: [mappedIndex := mappedIndex + 1]].
+	^ self attributedLineAt: mappedIndex in: self choiceDescriptions
