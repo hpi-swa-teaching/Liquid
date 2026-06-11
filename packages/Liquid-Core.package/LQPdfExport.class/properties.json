@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "Salina 6/10/2026 01:20",
 	"instvars" : [
-		"poll",
 		"chart" ],
 	"name" : "LQPdfExport",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LQExport",
 	"type" : "normal" }
