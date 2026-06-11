@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Salina 6/10/2026 01:20",
+	"instvars" : [
+		"poll",
+		"chart" ],
+	"name" : "LQPdfExport",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

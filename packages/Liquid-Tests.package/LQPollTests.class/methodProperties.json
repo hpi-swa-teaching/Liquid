@@ -9,6 +9,8 @@
 		"testIDsAreUUIDsToPreventCollisions" : "FLST 7/12/2024 15:55",
 		"testMyUserSet" : "FLST 7/12/2024 15:55",
 		"testMyUserSetWithUserSetNotInRepo" : "FLST 7/12/2024 15:55",
+		"testPDFEscapeUmlauts" : "Salina 6/10/2026 00:29",
+		"testPDFExport" : "Salina 6/10/2026 00:42",
 		"testRequiresAuthenticationFalse" : "FLST 7/12/2024 15:55",
 		"testRequiresAuthenticationTrue" : "FLST 7/12/2024 15:55",
 		"testStartTime" : "FLST 7/12/2024 15:55",
