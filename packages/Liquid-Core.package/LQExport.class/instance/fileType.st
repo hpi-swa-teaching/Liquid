@@ -1,0 +1,4 @@
+printing
+fileType
+
+	^ self subclassResponsibility

@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testFormatFieldQuotesValueWithComma" : "Salina 6/11/2026 19:24" } }
+		"testFormatFieldLeavesNormalTextUnquoted" : "Salina 6/11/2026 21:40",
+		"testFormatFieldQuotesValueWithComma" : "Salina 6/11/2026 19:24",
+		"testFormatRowJoinsFieldsWithDelimiter" : "Salina 6/11/2026 21:40",
+		"testFormatRowsJoinsRowsWithSeparator" : "Salina 6/11/2026 21:41" } }

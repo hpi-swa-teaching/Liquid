@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"poll:" : "Salina 6/11/2026 21:56" },
+	"instance" : {
+		"confirmOverwrite:" : "Salina 6/11/2026 22:20",
+		"ensureDirectory" : "Salina 6/11/2026 22:23",
+		"export" : "Salina 6/11/2026 22:26",
+		"filePath" : "Salina 6/11/2026 22:19",
+		"fileType" : "Salina 6/11/2026 22:19",
+		"setPoll:" : "Salina 6/11/2026 21:57",
+		"writeContentsOn:" : "Salina 6/11/2026 22:20" } }
