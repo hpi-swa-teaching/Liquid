@@ -1,7 +1,8 @@
 initialize-release
 initialize
 
-	super initialize.
-	self
-		questionList: OrderedCollection new;
-		pollDraftId: UUID new asString
+    super initialize.
+    self
+        questionList: OrderedCollection new;
+        conditions: OrderedCollection new;
+        pollDraftId: UUID new asString

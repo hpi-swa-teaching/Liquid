@@ -1,3 +1,4 @@
 temporary
 hasConditionForTarget: aTargetQuestionId
-    ^ false
+
+    ^ self conditions anySatisfy: [ :c | c targetQuestionId = aTargetQuestionId ]
