@@ -3,5 +3,7 @@
 		 },
 	"instance" : {
 		"testCsvExport" : "Salina 6/12/2026 14:45",
+		"testJsonExportEscapesQuotesAndBackslashes" : "Salina 6/12/2026 16:39",
+		"testJsonValue" : "Salina 6/12/2026 16:53",
 		"testPdfExport" : "Salina 6/12/2026 14:47",
 		"testPdfExportEscapesUmlauts" : "Salina 6/12/2026 14:48" } }

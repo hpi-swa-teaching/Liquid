@@ -1,0 +1,4 @@
+printing
+exportValue    
+	
+	^ self choicesRanking
