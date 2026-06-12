@@ -1,6 +1,6 @@
 temporary
-isSatisfiedBy: anAnswerSet
-"The method is temporarily here and will be used in the subsequent logic"
-    | triggerAnswer |
+isSatisfiedBy: anAnsweSLCategoryTestObject
+	"will be used later in the subsequent logic"
+    | triggerAnswer anAnswerSet |
     triggerAnswer := anAnswerSet answers at: triggerQuestionId ifAbsent: [ ^ false ].
     ^ triggerAnswer containsVoteForChoice: triggerChoiceDescription
