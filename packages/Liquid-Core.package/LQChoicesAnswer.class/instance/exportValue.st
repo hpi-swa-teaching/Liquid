@@ -1,4 +1,4 @@
 printing
 exportValue    
 	
-	^ self choicesRanking
+	^ self choicesRanking collect: [:choice | choice asString]

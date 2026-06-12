@@ -1,4 +1,4 @@
 printing
 exportValue   
 
-	^ self answer
+	^ self answer asString
