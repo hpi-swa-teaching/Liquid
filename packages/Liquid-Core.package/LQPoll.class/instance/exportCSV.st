@@ -1,4 +1,4 @@
 printing
 exportCSV
 
-	^ (LQExportCSV poll: self) export
+	^ (LQCsvExport poll: self) export

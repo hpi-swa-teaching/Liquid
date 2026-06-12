@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testExportCSV" : "Salina 6/11/2026 22:03" } }
+		"testCsvExport" : "Salina 6/12/2026 14:45",
+		"testPdfExport" : "Salina 6/12/2026 14:47",
+		"testPdfExportEscapesUmlauts" : "Salina 6/12/2026 14:48" } }
