@@ -1,6 +1,6 @@
 printing
 jsonValue: aValue
-	"Answer aValue as JSON: a String gets quotes and a Collection becomes an array (recursing 	on its elements). Other types are not supported yet."
+	"Answer aValue as JSON: a String gets quotes and a Collection becomes an array (recursing on its elements). Other types are not supported yet."
 
 
 	| stream |
