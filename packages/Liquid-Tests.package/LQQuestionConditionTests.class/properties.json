@@ -1,0 +1,19 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"draft",
+		"q1",
+		"q2",
+		"q3",
+		"q1a1",
+		"q1a2" ],
+	"name" : "LQQuestionConditionTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

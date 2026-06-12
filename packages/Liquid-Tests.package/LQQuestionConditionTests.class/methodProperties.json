@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "Katha 6/12/2026 10:32",
+		"testAddCondition" : "Katha 6/12/2026 10:33",
+		"testAddMultipleConditionsForSameTarget" : "Katha 6/12/2026 10:33",
+		"testConditionStoresCorrectData" : "Katha 6/12/2026 10:34",
+		"testHasConditionForTarget" : "Katha 6/12/2026 10:34",
+		"testNewDraftHasNoConditions" : "Katha 6/12/2026 10:33",
+		"testRemoveAllConditionsForSameTarget" : "Katha 6/12/2026 10:34",
+		"testRemoveConditionsForTarget" : "Katha 6/12/2026 10:34" } }

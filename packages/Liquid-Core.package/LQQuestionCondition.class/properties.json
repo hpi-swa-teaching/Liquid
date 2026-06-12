@@ -4,15 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bwe 8/5/2022 16:35",
+	"commentStamp" : "",
 	"instvars" : [
-		"title",
-		"questionList",
-		"userSetID",
-		"pollDraftId",
-		"deadline",
-		"conditions" ],
-	"name" : "LQPollDraft",
+		"triggerQuestionId",
+		"triggerChoiceDescription",
+		"targetQuestionId" ],
+	"name" : "LQQuestionCondition",
 	"pools" : [
 		 ],
 	"super" : "Object",
