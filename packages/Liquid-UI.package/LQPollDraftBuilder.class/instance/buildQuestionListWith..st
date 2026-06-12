@@ -7,6 +7,5 @@ buildQuestionListWith: aBuilder
         model: self;
         list: #list;
         getIndex: #getIndex;
-        setIndex: #setIndex:;
-        format: #listEntryFor:.
+        setIndex: #setIndex:.
     ^ listSpec

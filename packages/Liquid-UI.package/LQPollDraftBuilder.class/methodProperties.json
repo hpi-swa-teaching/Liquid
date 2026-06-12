@@ -28,7 +28,7 @@
 		"buildMaxNumberOfChoicesInputWith:" : "kge 8/1/2022 20:46",
 		"buildMaxNumberOfChoicesLabelWith:" : "kge 8/1/2022 20:46",
 		"buildQuestionBuilder" : "FLST 7/11/2024 20:44",
-		"buildQuestionListWith:" : "Katha 6/12/2026 11:00",
+		"buildQuestionListWith:" : "Katha 6/12/2026 11:13",
 		"buildRemoveConditionButtonWith:" : "Katha 6/11/2026 16:30",
 		"buildRemoveQuestionButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildRunPollButtonWith:" : "Katha 5/30/2026 19:55",
@@ -67,7 +67,6 @@
 		"hasIncompleteDeadline" : "Katha 6/7/2026 15:06",
 		"initialize" : "Katha 5/30/2026 19:37",
 		"list" : "Katha 6/12/2026 10:59",
-		"listEntryFor:" : "Katha 6/12/2026 11:00",
 		"openAddConditionDialog" : "Katha 6/11/2026 12:09",
 		"openManageUserSetsMenu" : "bn 8/2/2022 18:08",
 		"parsedDeadlineValues" : "Katha 6/7/2026 15:06",
@@ -94,4 +93,4 @@
 		"setIndex:" : "FLST 7/11/2024 20:44",
 		"showAvailableGroupsFrame" : "Katha 6/11/2026 16:32",
 		"updateDeadline" : "RW 6/9/2026 13:55",
-		"validateConditionTarget" : "Katha 6/11/2026 12:15" } }
+		"validateConditionTarget" : "Katha 6/12/2026 11:12" } }

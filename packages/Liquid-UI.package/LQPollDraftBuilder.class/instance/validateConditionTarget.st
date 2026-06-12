@@ -1,11 +1,10 @@
 supporting
 validateConditionTarget
 
-    | currentQ previousQuestions |
+    | previousQuestions |
     (self currentQuestion isNil or: [ self currentQuestion = 0 ]) ifTrue: [
         UIManager default inform: 'Please select a question first.'.
         ^ false ].
-    currentQ := self pollDraft questionList at: self currentQuestion.
     previousQuestions := self pollDraft questionList
         copyFrom: 1
         to: self currentQuestion - 1.
