@@ -1,4 +1,4 @@
 testing
 testConditionalQuestionHiddenWhenConditionNotMet
 
-    self deny: (poll isQuestionVisible: q2 givenAnswers: answerSetNo)
+    self deny: (evaluator isQuestionVisible: q2 givenAnswers: (self answerSetWith: q1a2))

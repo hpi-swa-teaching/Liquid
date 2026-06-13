@@ -2,5 +2,5 @@ testing
 testNextVisibleQuestionSkipsHiddenQuestion
 
     | nextIndex |
-    nextIndex := poll nextVisibleQuestionIndexAfter: 1 givenAnswers: answerSetNo.
+    nextIndex := evaluator nextVisibleQuestionIndexAfter: 1 givenAnswers: (self answerSetWith: q1a2).
     self assert: nextIndex equals: 3

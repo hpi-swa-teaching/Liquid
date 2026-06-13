@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"for:" : "Katha 6/13/2026 17:43" },
+	"instance" : {
+		"conditions:" : "Katha 6/13/2026 12:09",
+		"conditionsForTarget:" : "Katha 6/13/2026 17:43",
+		"hasConditionForTarget:" : "Katha 6/13/2026 17:43",
+		"isQuestionVisible:givenAnswers:" : "Katha 6/13/2026 17:44",
+		"nextVisibleQuestionIndexAfter:givenAnswers:" : "Katha 6/13/2026 17:44",
+		"previousVisibleQuestionIndexBefore:givenAnswers:" : "Katha 6/13/2026 17:44",
+		"questionList:" : "Katha 6/13/2026 17:43" } }

@@ -8,16 +8,14 @@
 	"instvars" : [
 		"poll",
 		"draft",
+		"evaluator",
 		"q1",
 		"q2",
 		"q3",
 		"q1a1",
-		"q1a2",
-		"answerSetYes",
-		"answerSetNo",
-		"answerSetEmpty" ],
+		"q1a2" ],
 	"name" : "LQPollConditionTests",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "LQTestCase",
 	"type" : "normal" }

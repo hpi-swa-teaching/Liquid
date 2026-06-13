@@ -1,4 +1,4 @@
 testing
 testConditionalQuestionVisibleWhenConditionMet
 
-    self assert: (poll isQuestionVisible: q2 givenAnswers: answerSetYes)
+    self assert: (evaluator isQuestionVisible: q2 givenAnswers: (self answerSetWith: q1a1))

@@ -2,5 +2,5 @@ testing
 testPreviousVisibleQuestionShowsConditionalQuestion
 
     | prevIndex |
-    prevIndex := poll previousVisibleQuestionIndexBefore: 3 givenAnswers: answerSetYes.
+    prevIndex := evaluator previousVisibleQuestionIndexBefore: 3 givenAnswers: (self answerSetWith: q1a1).
     self assert: prevIndex equals: 2
