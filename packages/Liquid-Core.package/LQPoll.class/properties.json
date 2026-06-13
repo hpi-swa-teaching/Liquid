@@ -11,7 +11,8 @@
 		"startTime",
 		"answerSets",
 		"isOpen",
-		"guard" ],
+		"guard",
+		"conditions" ],
 	"name" : "LQPoll",
 	"pools" : [
 		 ],
