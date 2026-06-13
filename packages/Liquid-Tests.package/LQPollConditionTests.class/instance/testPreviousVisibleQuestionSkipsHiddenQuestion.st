@@ -2,5 +2,5 @@ testing
 testPreviousVisibleQuestionSkipsHiddenQuestion
 
     | prevIndex |
-    prevIndex := poll previousVisibleQuestionIndexBefore: 3 givenAnswers: answerSetNo.
+    prevIndex := evaluator previousVisibleQuestionIndexBefore: 3 givenAnswers: (self answerSetWith: q1a2).
     self assert: prevIndex equals: 1

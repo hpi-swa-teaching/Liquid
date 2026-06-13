@@ -2,5 +2,5 @@ testing
 testNextVisibleQuestionShowsConditionalQuestion
 
     | nextIndex |
-    nextIndex := poll nextVisibleQuestionIndexAfter: 1 givenAnswers: answerSetYes.
+    nextIndex := evaluator nextVisibleQuestionIndexAfter: 1 givenAnswers: (self answerSetWith: q1a1).
     self assert: nextIndex equals: 2
