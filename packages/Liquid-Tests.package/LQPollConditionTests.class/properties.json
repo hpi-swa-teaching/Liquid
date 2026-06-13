@@ -1,0 +1,23 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poll",
+		"draft",
+		"q1",
+		"q2",
+		"q3",
+		"q1a1",
+		"q1a2",
+		"answerSetYes",
+		"answerSetNo",
+		"answerSetEmpty" ],
+	"name" : "LQPollConditionTests",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
