@@ -1,6 +1,7 @@
 accessing
 setUp
 
+    | poll |
     super setUp.
     q1a1 := LQChoice newFrom: 'Yes'.
     q1a2 := LQChoice newFrom: 'No'.
@@ -26,4 +27,6 @@ setUp
         target: q2 id).
 
     poll := LQPoll newWithPollDraft: draft.
-    evaluator := LQConditionEvaluator for: poll
+    evaluator := LQConditionEvaluator
+        forConditions: draft conditions
+        questionList: draft questionList

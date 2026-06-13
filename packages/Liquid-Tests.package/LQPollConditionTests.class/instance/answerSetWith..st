@@ -3,4 +3,4 @@ answerSetWith: aChoice
 
     ^ LQAnswerSet
         newWithAnswers: { LQChoicesAnswer newWithQuestion: q1 andVotes: {aChoice} }
-        for: poll
+        for: (LQPoll newWithPollDraft: draft)

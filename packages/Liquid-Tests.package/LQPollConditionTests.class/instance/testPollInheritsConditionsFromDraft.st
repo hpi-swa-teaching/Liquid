@@ -1,4 +1,4 @@
 testing
 testPollInheritsConditionsFromDraft
 
-    self assert: poll conditions size equals: 1
+    self assert: draft conditions size equals: 1

@@ -1,4 +1,4 @@
 helpers
 emptyAnswerSet
 
-    ^ LQAnswerSet newWithAnswers: {} for: poll
+    ^ LQAnswerSet newWithAnswers: {} for: (LQPoll newWithPollDraft: draft)
