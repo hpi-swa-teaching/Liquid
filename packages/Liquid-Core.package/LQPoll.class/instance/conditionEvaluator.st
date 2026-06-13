@@ -1,4 +1,6 @@
 accessing
 conditionEvaluator
 
-    ^ LQConditionEvaluator for: self
+    ^ LQConditionEvaluator
+        forConditions: self pollDraft conditions
+        questionList: self questionList
