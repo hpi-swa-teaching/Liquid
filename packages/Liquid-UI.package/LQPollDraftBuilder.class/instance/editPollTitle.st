@@ -9,6 +9,4 @@ editPollTitle
 	(self pollDraft assertTitleAvailable: newTitle excluding: self pollDraft) ifFalse: [
 		^ UIManager default inform: 'This title is already in use.'].
 	self pollDraft title: newTitle.
-	(LQRemotePollRepoServer pollDraftRepo includesKey: self pollDraft pollDraftId) ifTrue: [
-		self pollDraft saveToRepository].
 	self changed: #pollDraftTitle
