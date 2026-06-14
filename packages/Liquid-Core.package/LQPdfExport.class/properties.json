@@ -4,9 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Salina 6/12/2026 15:18",
+	"commentStamp" : "Salina 6/14/2026 23:32",
 	"instvars" : [
-		"chart" ],
+		"charts" ],
 	"name" : "LQPdfExport",
 	"pools" : [
 		 ],
