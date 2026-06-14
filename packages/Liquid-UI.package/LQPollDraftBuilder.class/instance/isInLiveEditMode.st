@@ -1,3 +1,3 @@
 accessing
 isInLiveEditMode
-	^ isInLiveEditMode
+	^ isInLiveEditMode ifNil: [false]

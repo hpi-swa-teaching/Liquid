@@ -4,6 +4,8 @@ runPoll
 	| poll givenPollID |
 	self pollDraft isValid
 		ifTrue: [
+			(self pollDraft assertTitleAvailable: self pollDraft title excluding: self pollDraft) ifFalse: [
+				^ UIManager default inform: 'This title is already in use.'].
 			givenPollID := UIManager default
 				request: 'Enter a poll id'
 				initialAnswer: self generateRandomID.
