@@ -12,6 +12,8 @@ testAssertTitleAvailable
 	runningDraft := LQPollDraft new title: 'RunningPollTitleTest'.
 	poll := LQPoll newWithPollDraft: runningDraft.
 	LQRemotePollRepoServer pollRepo items at: 'title-availability-running-poll' put: poll.
-	self assert: (self pollDraft assertTitleAvailable: 'RunningPollTitleTest' excluding: nil) not.
+	[
+		self assert: (self pollDraft assertTitleAvailable: 'RunningPollTitleTest' excluding: nil) not.
+	] ensure: [
 	(LQRemotePollRepoServer pollRepo includesKey: 'title-availability-running-poll')
-		ifTrue: [LQRemotePollRepoServer pollRepo removeKey: 'title-availability-running-poll']
+		ifTrue: [LQRemotePollRepoServer pollRepo removeKey: 'title-availability-running-poll']]
