@@ -6,6 +6,7 @@ buildChartTypeToggleWith: aBuilder
 		label: #chartTypeToggleLabel;
 		help: 'Switch between the available result visualizations';
 		action: #toggleChartType;
+		enabled: #chartTypeToggleEnabled;
 		frame: (LayoutFrame new
 			topFraction: 0;
 			bottomFraction: 0 offset: 30;

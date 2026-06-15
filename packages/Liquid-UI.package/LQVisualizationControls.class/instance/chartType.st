@@ -1,4 +1,4 @@
 accessing
 chartType
 
-	^ chartType ifNil: [chartType := SWBarChart]
+	^ chartType ifNil: [chartType := LQVisualizationView defaultChartType]

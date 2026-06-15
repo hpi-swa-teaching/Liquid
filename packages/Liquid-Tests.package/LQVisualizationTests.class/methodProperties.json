@@ -5,8 +5,11 @@
 		"setUp" : "FLST 7/12/2024 15:55",
 		"tearDown" : "kge 6/26/2022 22:13",
 		"testBarChartMorphChangedOnQuestionSelectionChanged" : "FLST 7/12/2024 15:55",
+		"testChartTypeToggleDisabledForFreeTextQuestion" : "mwo 6/15/2026 10:22",
 		"testConvenienceMethodsReturnPropertiesOfFirstQuestion" : "FLST 7/12/2024 15:55",
 		"testMultipleQuestionsInListView" : "FLST 7/12/2024 15:55",
+		"testToggleChartTypeCyclesBackToStart" : "mwo 6/15/2026 10:21",
 		"testVisualizationDisplayedAfterInitialization" : "FLST 7/12/2024 15:55",
+		"testVisualizationViewUsesConfiguredChartType" : "mwo 6/15/2026 10:21",
 		"visualizationControls" : "JT 8/2/2022 17:38",
 		"visualizationControls:" : "JT 8/2/2022 17:38" } }
