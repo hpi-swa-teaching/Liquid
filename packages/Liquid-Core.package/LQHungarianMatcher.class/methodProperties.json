@@ -2,7 +2,7 @@
 	"class" : {
 		"onCostMatrix:" : "Albert Lepenies 6/1/2026 15:54" },
 	"instance" : {
+		"bestFreeOptionFor:excluding:" : "Albert Lepenies 6/15/2026 15:50",
 		"costMatrix" : "Albert Lepenies 6/1/2026 15:51",
 		"costMatrix:" : "Albert Lepenies 6/1/2026 15:53",
-		"solve" : "Albert Lepenies 6/1/2026 15:59",
-		"solveSquare" : "Albert Lepenies 6/1/2026 15:56" } }
+		"solve" : "Albert Lepenies 6/15/2026 15:50" } }

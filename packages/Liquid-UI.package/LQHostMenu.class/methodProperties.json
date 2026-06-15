@@ -17,8 +17,7 @@
 		"buildSavePollAsDraftButtonWith:" : "Leander Steffan 5/16/2026 10:35",
 		"buildStopServerButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildVisualization" : "FLST 7/11/2024 20:44",
-
-		"buildWith:" : "Albert Lepenies 5/20/2026 13:47",
+		"buildWith:" : "Albert Lepenies 6/15/2026 16:03",
 		"buildWordCloudToggleButtonWith:" : "5/27/2026 16:09:24",
 		"clipboardDelay" : "FLST 7/11/2024 20:44",
 		"closePoll" : "Albert Lepenies 6/8/2026 17:49",
@@ -35,7 +34,6 @@
 		"currentVisualizationControls" : "FLST 7/11/2024 20:44",
 		"currentVisualizationControls:" : "FLST 7/11/2024 20:44",
 		"deletePoll" : "FLST 7/12/2024 15:55",
-
 		"deletePollButtonFrame" : "Albert Lepenies 5/20/2026 13:47",
 		"editPoll" : "JLBlk 5/28/2026 17:16",
 		"editPollButtonEnabled" : "JLBlk 5/28/2026 17:16",
@@ -59,9 +57,9 @@
 		"pollList" : "FLST 7/11/2024 20:44",
 		"pollListFrame" : "FLST 7/11/2024 20:44",
 		"pollSelected" : "Ingmar Vogel 7/12/2024 10:56",
-		"setIndex:" : "Albert Lepenies 5/25/2026 12:17",
 		"savePollAsDraft" : "Leander Steffan 5/16/2026 10:35",
 		"savePollAsDraftButtonFrame" : "Leander Steffan 5/16/2026 10:35",
+		"setIndex:" : "Albert Lepenies 5/25/2026 12:17",
 		"stopRefreshingVisualization" : "FLST 7/11/2024 20:44",
 		"stopServer" : "FLST 7/11/2024 20:44",
 		"stopServerButtonFrame" : "FLST 7/11/2024 20:44",

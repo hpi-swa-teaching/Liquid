@@ -1,24 +1,15 @@
 solving
 solve
-    "Öffentliche Methode. Padded die Matrix auf quadratisch (falls nötig)
-     mit hohen Dummy-Kosten und liefert für jeden echten User die Option zurück
-     (oder nil, falls auf Dummy-Spalte gematcht)."
+    "Gibt ein Array zurück: result at: userIndex = optionIndex (oder nil)."
 
-    | n padded paddingCost rawResult result |
+    | result usedOptions |
     numRows = 0 ifTrue: [^ Array new: 0].
-    n := numRows max: numCols.
-    paddingCost := 1000000.
-    padded := (1 to: n) collect: [:i |
-        (1 to: n) collect: [:j |
-            (i <= numRows and: [j <= numCols])
-                ifTrue: [(costMatrix at: i) at: j]
-                ifFalse: [paddingCost]]].
-    rawResult := (self class new
-        costMatrix: (padded collect: [:row | row asArray]) asArray;
-        yourself) solveSquare.
     result := Array new: numRows withAll: nil.
+    usedOptions := Set new.
     1 to: numRows do: [:i |
-        | j |
-        j := rawResult at: i.
-        (j > 0 and: [j <= numCols]) ifTrue: [result at: i put: j]].
+        | best |
+        best := self bestFreeOptionFor: i excluding: usedOptions.
+        best ifNotNil: [
+            result at: i put: best.
+            usedOptions add: best]].
     ^ result
