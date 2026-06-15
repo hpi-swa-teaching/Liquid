@@ -2,9 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"tearDown" : "Salina 6/15/2026 02:16",
 		"testCsvExport" : "Salina 6/12/2026 14:45",
 		"testJsonExport" : "Salina 6/12/2026 17:43",
 		"testJsonExportEscapesQuotesAndBackslashes" : "Salina 6/12/2026 16:39",
 		"testJsonValue" : "Salina 6/12/2026 18:20",
 		"testPdfExport" : "Salina 6/12/2026 14:47",
-		"testPdfExportEscapesUmlauts" : "Salina 6/12/2026 14:48" } }
+		"testPdfExportContainsOneImagePerQuestion" : "Salina 6/15/2026 02:05",
+		"testPdfExportEscapesUmlauts" : "Salina 6/12/2026 14:48",
+		"testPdfExportHandlesFreeTextQuestion" : "Salina 6/15/2026 01:56" } }
