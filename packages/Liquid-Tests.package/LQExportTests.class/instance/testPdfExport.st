@@ -1,5 +1,5 @@
 testing
-testPDFExport
+testPdfExport
 
 	| filePath fileStream buffer |
 	self poll addAnswerSet: self as1.
