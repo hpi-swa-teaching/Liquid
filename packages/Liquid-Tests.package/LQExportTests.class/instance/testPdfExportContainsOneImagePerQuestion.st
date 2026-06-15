@@ -1,5 +1,5 @@
 testing
-testPdfExportContainsOnemagePerQuestion
+testPdfExportContainsOneImagePerQuestion
 
 	| filePath fileStream buffer questionCount |
 	self poll addAnswerSet: self as1.
