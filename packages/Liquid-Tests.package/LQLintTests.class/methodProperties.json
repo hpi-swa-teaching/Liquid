@@ -54,7 +54,7 @@
 		"testNoPlatformDependentUserInteraction" : "CG 7/30/2021 19:06",
 		"testNoPossibleThreeElementPoint" : "psi 5/26/2021 20:59",
 		"testNoRedundantClassNameInSelector" : "psi 5/26/2021 20:59",
-		"testNoRefusedParentBequest" : "Katha 6/7/2026 13:05",
+		"testNoRefusedParentBequest" : "RW 6/16/2026 23:31",
 		"testNoReturnsBooleanAndNonBoolean" : "psi 5/26/2021 21:00",
 		"testNoReturnsIfTrue" : "psi 5/26/2021 21:00",
 		"testNoSameStatementsAtEndOfIfTrueOrIfFalseBlocks" : "psi 5/26/2021 21:00",

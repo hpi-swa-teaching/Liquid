@@ -1,0 +1,4 @@
+accessing
+minSampleSize
+
+	^ 3
