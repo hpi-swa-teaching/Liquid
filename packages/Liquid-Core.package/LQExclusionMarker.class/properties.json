@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JT 7/17/2022 18:49",
+	"instvars" : [
+		"choiceList",
+		"group",
+		"fullName",
+		"question" ],
+	"name" : "LQExclusionMarker",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

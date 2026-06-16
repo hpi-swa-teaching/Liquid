@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"allowSelfVoting" : "mwo 5/12/2026 14:04",
 		"asString" : "FLST 7/11/2024 20:42",
 		"buildEmptyAnswer" : "FLST 7/11/2024 20:42",
 		"choiceList" : "FLST 7/11/2024 20:42",

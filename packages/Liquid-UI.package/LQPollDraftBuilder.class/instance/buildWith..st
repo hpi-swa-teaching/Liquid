@@ -15,7 +15,15 @@ buildWith: builder
 		self addFreeTextQuestionButtonFrame -> [self buildAddFreeTextQuestionButtonWith: builder].
 		self addPriorityQuestionButtonFrame -> [self buildAddPriorityQuestionButtonWith: builder].
 		self addManageUserSetsFrame -> [self buildManageUserSetsButton: builder].
+		self showAvailableGroupsFrame -> [self buildShowAvailableGroupsButtonWith: builder].
 		self removeQuestionButtonFrame -> [self buildRemoveQuestionButtonWith: builder].
 		self saveDraftButtonFrame -> [self isInLiveEditMode ifFalse: [self buildSaveDraftButtonWith: builder]]}.
+		self deadlineDayFrame -> [self buildDeadlineDayWith: builder].
+		self deadlineMonthFrame -> [self buildDeadlineMonthWith: builder].
+		self deadlineYearFrame -> [self buildDeadlineYearWith: builder].
+		self deadlineHourFrame -> [self buildDeadlineHourWith: builder].
+		self deadlineMinuteFrame -> [self buildDeadlineMinuteWith: builder].
+		}.
 	windowSpec label: 'Liquid - Create a Poll'.
+	windowSpec extent: self extent. 
 	^ builder build: windowSpec
