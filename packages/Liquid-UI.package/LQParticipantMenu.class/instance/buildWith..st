@@ -11,7 +11,8 @@ buildWith: aBuilder
 			self buildFreeTextPanelWith: aBuilder.
 			self buildNextQuestionButtonWith: aBuilder.
 			self buildPreviousQuestionButtonWith: aBuilder.
-			self buildQuestionCounterWith: aBuilder};
+			self buildQuestionCounterWith: aBuilder.
+			self buildDeadlineDisplayWith: aBuilder};
 		yourself).
 	self freeTextPanel: (aBuilder widgetAt: #freeText).
 	self selectionPanel: (aBuilder widgetAt: #selection).

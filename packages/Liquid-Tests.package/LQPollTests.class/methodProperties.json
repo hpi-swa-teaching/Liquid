@@ -3,8 +3,12 @@
 		 },
 	"instance" : {
 		"testAnswerSetPollID" : "FLST 7/12/2024 15:55",
-		"testCSVExport" : "FLST 7/12/2024 15:55",
+		"testChoicesAnswerExportValueIsItsChoices" : "Salina 6/12/2026 19:38",
 		"testClosePoll" : "FLST 7/12/2024 15:55",
+		"testDeadline" : "RW 6/9/2026 12:14",
+		"testExportRowsAddsOneRowPerAnswerSet" : "Salina 6/11/2026 21:54",
+		"testExportRowsStartsWithQuestionTitle" : "Salina 6/12/2026 14:56",
+		"testFreeTextAnswerExportValueIsItsText" : "Salina 6/12/2026 19:37",
 		"testIDsAreUUIDsToPreventCollisions" : "FLST 7/12/2024 15:55",
 		"testMyUserSet" : "FLST 7/12/2024 15:55",
 		"testMyUserSetWithUserSetNotInRepo" : "FLST 7/12/2024 15:55",

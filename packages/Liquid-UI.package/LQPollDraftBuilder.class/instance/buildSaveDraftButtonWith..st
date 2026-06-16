@@ -7,9 +7,9 @@ buildSaveDraftButtonWith: aBuilder
 		help: 'Save the poll for later.';
 		action: #saveDraft;
 		frame: (LayoutFrame new
-			topFraction: 0.92;
-			leftFraction: 0.33;
-			rightFraction: 0.66;
+			topFraction: 0.925;
+			leftFraction: 0.72;
+			rightFraction: 0.86;
 			bottomFraction: 1;
 			yourself);
 		yourself

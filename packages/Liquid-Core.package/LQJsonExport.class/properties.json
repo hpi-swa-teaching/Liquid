@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Salina 6/12/2026 18:05",
+	"instvars" : [
+		 ],
+	"name" : "LQJsonExport",
+	"pools" : [
+		 ],
+	"super" : "LQExport",
+	"type" : "normal" }

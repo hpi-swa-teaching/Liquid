@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"csv" : "Salina 6/11/2026 19:30",
+		"plainWithDelimiter:" : "Salina 6/11/2026 21:37" },
+	"instance" : {
+		"formatField:" : "Salina 6/11/2026 21:37",
+		"formatRow:" : "Salina 6/11/2026 21:38",
+		"formatRows:" : "Salina 6/11/2026 21:39",
+		"needsQuoting:" : "Salina 6/11/2026 21:38",
+		"setDelimiter:rowSeparator:shouldQuote:" : "Salina 6/11/2026 19:33" } }
