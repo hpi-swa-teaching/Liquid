@@ -1,11 +1,9 @@
 toolbuilder
 buildQuestionCounterWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableLabelSpec new
 		model: self;
-		getText: #questionCounterText;
-		readOnly: true;
-		indicateUnacceptedChanges: false;
+		label: #questionCounterText;
 		frame: (LayoutFrame new
 			topFraction: 0.85;
 			leftFraction: 0.45;

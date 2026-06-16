@@ -1,10 +1,8 @@
 toolbuilder
 buildRemainingVotedChoicesCounterTextWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableLabelSpec new
 		model: self;
-		getText: #getRemainingVotedChoices;
-		indicateUnacceptedChanges: false;
-		readOnly: true;
+		label: #getRemainingVotedChoices;
 		frame: self layoutFrame;
 		yourself
