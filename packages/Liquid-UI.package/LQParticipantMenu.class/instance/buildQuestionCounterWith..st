@@ -5,8 +5,8 @@ buildQuestionCounterWith: aBuilder
 		model: self;
 		label: #questionCounterText;
 		frame: (LayoutFrame new
-			topFraction: 0.85;
-			leftFraction: 0.45;
+			topFraction: 0.89;
+			leftFraction: 0.153;
 			rightFraction: 0.65;
 			bottomFraction: 0.95;
 			yourself);

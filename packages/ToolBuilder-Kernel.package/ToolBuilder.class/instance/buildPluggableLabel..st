@@ -1,12 +1,16 @@
 widgets required
 buildPluggableLabel: aSpec
     | widget theLabel |
-    widget := StringMorph new.
-    self register: widget id: aSpec name.
     theLabel := aSpec label.
     theLabel isSymbol
-        ifTrue:  [widget contents: (aSpec model perform: theLabel) asString]
-        ifFalse: [widget contents: theLabel asString].
+        ifTrue:  [widget := UpdatingStringMorph new
+                    target: aSpec model;
+                    getSelector: theLabel;
+                    useStringFormat;
+                    yourself.
+                  widget contents: (aSpec model perform: theLabel) asString]
+        ifFalse: [widget := StringMorph new contents: theLabel asString].
+    self register: widget id: aSpec name.
     self setFrame: aSpec frame in: widget.
     self buildHelpFor: widget spec: aSpec.
     parent ifNotNil: [self add: widget to: parent].
