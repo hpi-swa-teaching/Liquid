@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"extent" ],
+	"name" : "PluggableSpacerSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

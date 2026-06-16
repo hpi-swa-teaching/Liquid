@@ -1,0 +1,17 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"itemAlignments",
+		"itemPaddings",
+		"columnResizings",
+		"columnSpaceFillWeights" ],
+	"name" : "PluggableMultiColumnListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableListSpec",
+	"type" : "normal" }

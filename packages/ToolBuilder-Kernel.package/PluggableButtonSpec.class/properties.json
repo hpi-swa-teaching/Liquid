@@ -1,0 +1,19 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 21:57",
+	"instvars" : [
+		"action",
+		"label",
+		"state",
+		"enabled",
+		"style",
+		"changeLabelWhen" ],
+	"name" : "PluggableButtonSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

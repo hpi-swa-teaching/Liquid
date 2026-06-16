@@ -1,0 +1,3 @@
+accessing
+beCheckable
+	checkable := true.

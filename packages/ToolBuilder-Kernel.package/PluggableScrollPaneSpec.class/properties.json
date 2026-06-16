@@ -1,0 +1,18 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph",
+		"morphClass",
+		"borderWidth",
+		"vScrollBarPolicy",
+		"hScrollBarPolicy" ],
+	"name" : "PluggableScrollPaneSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableCompositeSpec",
+	"type" : "normal" }

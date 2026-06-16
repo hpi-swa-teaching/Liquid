@@ -1,0 +1,20 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"action",
+		"checked",
+		"enabled",
+		"separator",
+		"subMenu",
+		"checkable" ],
+	"name" : "PluggableMenuItemSpec",
+	"pools" : [
+		 ],
+	"super" : "ToolBuilderSpec",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+PluggableInputField is intended as a HINT for the builder that this widget will be used as a single line input field. Unless explicitly supported it will be automatically substituted by PluggableText.

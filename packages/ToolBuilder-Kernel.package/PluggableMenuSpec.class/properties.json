@@ -1,0 +1,16 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label",
+		"model",
+		"items" ],
+	"name" : "PluggableMenuSpec",
+	"pools" : [
+		 ],
+	"super" : "ToolBuilderSpec",
+	"type" : "normal" }

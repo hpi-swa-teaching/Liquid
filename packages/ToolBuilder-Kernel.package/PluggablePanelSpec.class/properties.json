@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 15:01",
+	"instvars" : [
+		 ],
+	"name" : "PluggablePanelSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableCompositeSpec",
+	"type" : "normal" }

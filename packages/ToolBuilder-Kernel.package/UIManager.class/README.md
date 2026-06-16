@@ -1,0 +1,1 @@
+UIManager is a dispatcher for various user interface requests, such as menu and dialog interactions. An instance of UIManager is associated with each Project to implement the appropriate functions for Morphic, MVC or other user interfaces.

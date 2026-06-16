@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"label" ],
+	"name" : "PluggableLabelSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

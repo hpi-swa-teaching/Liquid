@@ -1,0 +1,3 @@
+layout hints
+horizontalResizing
+	^ #rigid

@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/12/2005 23:13",
+	"instvars" : [
+		 ],
+	"name" : "PluggableCheckBoxSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableButtonSpec",
+	"type" : "normal" }

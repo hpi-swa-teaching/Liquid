@@ -1,0 +1,3 @@
+defaults
+pluggableMenuSpec
+	^ PluggableMenuSpec

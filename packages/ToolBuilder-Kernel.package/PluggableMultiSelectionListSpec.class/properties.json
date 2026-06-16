@@ -1,0 +1,15 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/12/2005 13:31",
+	"instvars" : [
+		"getSelectionList",
+		"setSelectionList" ],
+	"name" : "PluggableMultiSelectionListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableListSpec",
+	"type" : "normal" }

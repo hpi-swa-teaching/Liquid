@@ -1,0 +1,15 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 2/11/2005 14:59",
+	"instvars" : [
+		"name",
+		"help" ],
+	"name" : "ToolBuilderSpec",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

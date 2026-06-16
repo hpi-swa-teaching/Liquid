@@ -1,0 +1,3 @@
+accessing
+exclusive
+	^ exclusive

@@ -1,0 +1,16 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"listSelector",
+		"selectionSelector",
+		"selectionSetter" ],
+	"name" : "PluggableDropDownListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

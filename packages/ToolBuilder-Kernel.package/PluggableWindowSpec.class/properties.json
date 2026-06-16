@@ -1,0 +1,18 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"label",
+		"extent",
+		"closeAction",
+		"multiWindowStyle",
+		"defaultFocus" ],
+	"name" : "PluggableWindowSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableCompositeSpec",
+	"type" : "normal" }

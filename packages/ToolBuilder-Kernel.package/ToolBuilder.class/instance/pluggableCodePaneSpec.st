@@ -1,0 +1,3 @@
+defaults
+pluggableCodePaneSpec
+	^PluggableCodePaneSpec

@@ -1,0 +1,18 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"PreferredProgressBarPosition" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"workBlock",
+		"maxVal",
+		"minVal",
+		"aPoint",
+		"progressTitle" ],
+	"name" : "ProgressInitiationException",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

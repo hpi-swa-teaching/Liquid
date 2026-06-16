@@ -1,0 +1,4 @@
+layout hints
+horizontalResizing
+
+	^ horizontalResizing

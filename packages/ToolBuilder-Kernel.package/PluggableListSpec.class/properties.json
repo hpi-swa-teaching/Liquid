@@ -1,0 +1,38 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 7/15/2005 11:54",
+	"instvars" : [
+		"list",
+		"getIndex",
+		"setIndex",
+		"getSelected",
+		"setSelected",
+		"menu",
+		"keyPress",
+		"autoDeselect",
+		"dragItem",
+		"dragType",
+		"dropItem",
+		"dropAccept",
+		"doubleClick",
+		"listSize",
+		"listItem",
+		"keystrokePreview",
+		"icon",
+		"vScrollBarPolicy",
+		"hScrollBarPolicy",
+		"dragStarted",
+		"helpItem",
+		"filterableList",
+		"clearFilterAutomatically",
+		"itemAlignment",
+		"itemPadding" ],
+	"name" : "PluggableListSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableWidgetSpec",
+	"type" : "normal" }

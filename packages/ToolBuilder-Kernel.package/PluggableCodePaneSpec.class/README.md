@@ -1,0 +1,1 @@
+A PluggableTextSpec specifically intended to edit code. Uses Syntax-Highlighting.

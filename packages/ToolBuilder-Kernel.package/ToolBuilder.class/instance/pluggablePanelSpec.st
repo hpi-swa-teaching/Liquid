@@ -1,0 +1,3 @@
+defaults
+pluggablePanelSpec
+	^PluggablePanelSpec

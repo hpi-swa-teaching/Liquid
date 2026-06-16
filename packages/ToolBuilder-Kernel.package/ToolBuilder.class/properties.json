@@ -1,0 +1,14 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"parent" ],
+	"name" : "ToolBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

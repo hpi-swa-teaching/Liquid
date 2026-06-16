@@ -1,0 +1,20 @@
+{
+	"category" : "ToolBuilder-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"title",
+		"message",
+		"extent",
+		"buttons",
+		"closeAction",
+		"exclusive",
+		"autoCancel" ],
+	"name" : "PluggableDialogSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableCompositeSpec",
+	"type" : "normal" }
