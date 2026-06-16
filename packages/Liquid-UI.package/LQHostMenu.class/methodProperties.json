@@ -17,7 +17,8 @@
 		"buildSavePollAsDraftButtonWith:" : "Leander Steffan 5/16/2026 10:35",
 		"buildStopServerButtonWith:" : "FLST 7/11/2024 20:44",
 		"buildVisualization" : "FLST 7/11/2024 20:44",
-		"buildWith:" : "Albert Lepenies 6/15/2026 16:03",
+		"buildVisualizationPanelWith:" : "Albert Lepenies 6/16/2026 22:14",
+		"buildWith:" : "Albert Lepenies 6/16/2026 22:15",
 		"buildWordCloudToggleButtonWith:" : "5/27/2026 16:09:24",
 		"clipboardDelay" : "FLST 7/11/2024 20:44",
 		"closePoll" : "Albert Lepenies 6/8/2026 17:49",
@@ -67,6 +68,7 @@
 		"update:" : "Ingmar Vogel 6/18/2024 16:55",
 		"visualizationFrame" : "FLST 7/11/2024 20:44",
 		"visualizeResults" : "FLST 7/11/2024 20:44",
+		"windowSpecsWith:" : "Albert Lepenies 6/16/2026 22:15",
 		"wordCloudToggleButtonFrame" : "5/27/2026 16:09:24",
 		"wordCloudToggleEnabled" : "5/27/2026 16:09:24",
 		"wordCloudToggleLabel" : "5/27/2026 16:09:24" } }
