@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"poll",
+		"assignments" ],
+	"name" : "LQMatchingPreferencesDialog",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }
