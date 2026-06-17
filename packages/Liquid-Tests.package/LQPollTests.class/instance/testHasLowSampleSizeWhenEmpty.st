@@ -3,4 +3,4 @@ testHasLowSampleSizeWhenEmpty
 
 	| poll |
 	poll := LQPoll new.
-	self assert: poll hasLowSampleSize
+	self assert: (LQPollStatistics poll: poll) hasLowSampleSize

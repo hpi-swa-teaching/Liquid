@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Salina 6/17/2026 23:01",
+	"instvars" : [
+		"poll" ],
+	"name" : "LQPollStatistics",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

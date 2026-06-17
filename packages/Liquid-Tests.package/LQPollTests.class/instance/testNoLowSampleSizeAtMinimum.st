@@ -1,7 +1,8 @@
 testing
 testNoLowSampleSizeAtMinimum
 
-	| poll |
+	| poll pollWithStats |
 	poll := LQPoll new.
-	1 to: poll minSampleSize do: [:index | poll addAnswerSet: LQAnswerSet new].
-	self deny: poll hasLowSampleSize
+	pollWithStats := LQPollStatistics poll: poll.
+	1 to: pollWithStats minSampleSize do: [:index | poll addAnswerSet: LQAnswerSet new].
+	self deny: pollWithStats hasLowSampleSize

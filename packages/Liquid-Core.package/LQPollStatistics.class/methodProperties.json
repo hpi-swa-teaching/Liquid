@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"poll:" : "Salina 6/17/2026 22:14" },
+	"instance" : {
+		"answeredByUser:" : "Salina 6/17/2026 22:59",
+		"countNumberOfAnswersWithChoice:ForQuestion:" : "Salina 6/17/2026 22:25",
+		"getVotedChoicesPerChoiceFor:" : "Salina 6/17/2026 22:25",
+		"hasLowSampleSize" : "Salina 6/17/2026 22:59",
+		"hasVotesForQuestion:" : "Salina 6/17/2026 22:25",
+		"minSampleSize" : "Salina 6/17/2026 23:00",
+		"setPoll:" : "Salina 6/17/2026 22:15" } }

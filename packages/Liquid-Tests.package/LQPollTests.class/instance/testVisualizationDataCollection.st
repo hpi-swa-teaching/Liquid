@@ -5,7 +5,7 @@ testVisualizationDataCollection
 		addAnswerSet: self as1;
 		addAnswerSet: self as2.
 	
-	self assert: (self poll getVotedChoicesPerChoiceFor: self q1) equals: {2. 1} asArray.
+	self assert: ((LQPollStatistics poll: self poll) getVotedChoicesPerChoiceFor: self q1) equals: {2. 1} asArray.
 	self assert: (self poll getChoiceIdentifiersFor: self q1) equals: {1. 2} asArray.
 	self
 		assert: (self poll getChoiceNamesFor: self q1)
