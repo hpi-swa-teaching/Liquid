@@ -7,8 +7,8 @@ computeAssignments
     users isEmpty ifTrue: [^ OrderedCollection new].
     matcher := LQHungarianMatcher onCostMatrix: self costMatrix.
     result := matcher solve.
-    ^ (1 to: users size) asOrderedCollection collect: [:i |
-        | optIdx opt |
-        optIdx := result at: i.
-        opt := optIdx ifNil: [nil] ifNotNil: [options at: optIdx].
-        (users at: i) -> opt]
+    ^ (1 to: users size) asOrderedCollection collect: [:index |
+        | optionIndex option |
+        optionIndex := result at: index.
+        option := optionIndex ifNil: [nil] ifNotNil: [options at: optionIndex].
+        (users at: index) -> option]

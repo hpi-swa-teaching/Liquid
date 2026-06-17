@@ -11,7 +11,7 @@ costMatrix
         ranking := userAnswer
             ifNil: [#()]
             ifNotNil: [userAnswer choicesRanking asArray].
-        options collect: [:opt |
-            | idx |
-            idx := ranking indexOf: opt description.
-            idx = 0 ifTrue: [defaultCost] ifFalse: [idx]]]
+        options collect: [:option |
+            | index |
+            index := ranking indexOf: option description.
+            index = 0 ifTrue: [defaultCost] ifFalse: [index]]]
