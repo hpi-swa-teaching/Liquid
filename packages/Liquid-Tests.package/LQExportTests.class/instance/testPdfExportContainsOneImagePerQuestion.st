@@ -5,7 +5,7 @@ testPdfExportContainsOneImagePerQuestion
 	self poll addAnswerSet: self as1.
 	self poll addAnswerSet: self as2.
 	questionCount := self poll questionList size.
-	filePath := LQPoll pathToExport, FileDirectory default pathNameDelimiter, self poll id, '.pdf'.
+	filePath := LQExport pathToExport, FileDirectory default pathNameDelimiter, self poll id, '.pdf'.
 	FileDirectory default deleteFileNamed: filePath ifAbsent: [].
 	self poll exportPDF.
 	fileStream := FileStream readOnlyFileNamed: filePath.

@@ -3,7 +3,7 @@ testJsonExport
 
 	| filePath fileStream buffer |
 	self poll addAnswerSet: self as1.
-	filePath := LQPoll pathToExport, FileDirectory default pathNameDelimiter, self poll id, '.json'.
+	filePath := LQExport pathToExport, FileDirectory default pathNameDelimiter, self poll id, '.json'.
 	FileDirectory default deleteFileNamed: filePath ifAbsent: [].
 	(LQJsonExport poll: self poll) export.
 	fileStream := FileStream fileNamed: filePath.

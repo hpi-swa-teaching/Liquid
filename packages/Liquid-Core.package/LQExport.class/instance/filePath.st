@@ -1,4 +1,4 @@
 printing
 filePath
 
-	^ LQPoll pathToExport, FileDirectory default pathNameDelimiter, poll id, '.', self fileType
+	^ self class pathToExport, FileDirectory default pathNameDelimiter, poll id, '.', self fileType

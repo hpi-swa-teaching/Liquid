@@ -7,8 +7,6 @@
 		"testClosePoll" : "FLST 7/12/2024 15:55",
 		"testCountNumberOfAnswersWithChoiceForQuestion" : "Salina 6/17/2026 23:22",
 		"testDeadline" : "RW 6/9/2026 12:14",
-		"testExportRowsAddsOneRowPerAnswerSet" : "Salina 6/11/2026 21:54",
-		"testExportRowsStartsWithQuestionTitle" : "Salina 6/12/2026 14:56",
 		"testFreeTextAnswerExportValueIsItsText" : "Salina 6/12/2026 19:37",
 		"testHasLowSampleSizeBelowMinimum" : "Salina 6/17/2026 23:06",
 		"testHasLowSampleSizeWhenEmpty" : "Salina 6/17/2026 23:06",
