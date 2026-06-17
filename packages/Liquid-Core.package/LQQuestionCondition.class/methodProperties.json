@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"triggerQuestion:triggerChoice:target:" : "Katha 6/11/2026 17:11" },
+	"instance" : {
+		"isSatisfiedBy:" : "Katha 6/12/2026 11:40",
+		"isTriggeredBy:" : "Katha 6/12/2026 11:26",
+		"targetQuestionId" : "Katha 6/11/2026 16:44",
+		"targetQuestionId:" : "Katha 6/11/2026 16:44",
+		"triggerChoiceDescription" : "Katha 6/11/2026 16:44",
+		"triggerChoiceDescription:" : "Katha 6/11/2026 16:44",
+		"triggerQuestionId" : "Katha 6/11/2026 16:43",
+		"triggerQuestionId:" : "Katha 6/11/2026 16:43" } }
