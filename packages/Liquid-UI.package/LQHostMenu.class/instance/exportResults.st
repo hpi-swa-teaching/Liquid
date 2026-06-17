@@ -9,5 +9,5 @@ exportResults
 		chooseFrom: #('CSV' 'PDF' 'JSON')
 		title: 'Choose export format'.
 	choice = 1 ifTrue: [^ poll exportCSV].
-	choice = 2 ifTrue: [^ poll exportPDF].
+	choice = 2 ifTrue: [^ poll exportPDF: self currentChartType].
 	choice = 3 ifTrue: [^ poll exportJSON].
