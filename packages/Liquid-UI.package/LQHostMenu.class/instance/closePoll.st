@@ -8,3 +8,4 @@ closePoll
 		
 	self changed: #closePollButtonEnabled.
 	self changed: #lowParticipationWarningText.
+	self changed: #matchingPreferencesButtonEnabled
