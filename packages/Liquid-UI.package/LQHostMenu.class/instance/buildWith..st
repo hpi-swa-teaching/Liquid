@@ -5,6 +5,7 @@ buildWith: builder
 	windowSpec := self buildWindowWith: builder specs: {
 		self pollListFrame -> [self buildPollListWith: builder].
 		self idTextBoxFrameFrame -> [self buildIDTextBoxWith: builder].
+		self warningTextBoxFrame -> [self buildWarningTextBoxWith: builder].
 		self visualizationFrame -> [
 			builder pluggablePanelSpec new
 				model: self;

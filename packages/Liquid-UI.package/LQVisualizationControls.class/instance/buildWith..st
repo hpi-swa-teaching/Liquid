@@ -3,5 +3,8 @@ buildWith: aBuilder
 
 	^ aBuilder build: (aBuilder pluggablePanelSpec new
 		model: self;
-		children: {self buildBarChartWith: aBuilder. self buildQuestionListWith: aBuilder};
+		children: {
+			self buildChartTypeToggleWith: aBuilder.
+			self buildChartAreaWith: aBuilder. 
+			self buildQuestionListWith: aBuilder};
 		yourself)
