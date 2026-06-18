@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "RW 6/17/2026 00:44",
+		"testWarningIsEmptyForClosedPollWithManyParticipants" : "RW 6/17/2026 00:45",
+		"testWarningIsEmptyForOpenPoll" : "RW 6/17/2026 00:44",
+		"testWarningIsShownForClosedPollWithFewParticipants" : "RW 6/17/2026 00:49" } }

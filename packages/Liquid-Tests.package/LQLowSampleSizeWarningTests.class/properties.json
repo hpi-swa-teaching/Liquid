@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hostMenu",
+		"poll" ],
+	"name" : "LQLowSampleSizeWarningTests",
+	"pools" : [
+		 ],
+	"super" : "LQHostMenuTests",
+	"type" : "normal" }

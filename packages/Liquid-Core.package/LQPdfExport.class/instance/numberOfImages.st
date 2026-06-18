@@ -1,0 +1,4 @@
+accessing
+numberOfImages
+
+	^ charts size

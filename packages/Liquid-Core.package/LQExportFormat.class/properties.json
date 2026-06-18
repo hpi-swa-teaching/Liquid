@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "Salina 6/12/2026 15:23",
+	"instvars" : [
+		"delimiter",
+		"rowSeparator",
+		"shouldQuote" ],
+	"name" : "LQExportFormat",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

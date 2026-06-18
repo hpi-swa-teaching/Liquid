@@ -1,0 +1,4 @@
+accessing
+imageWidth     
+
+	^ 250
