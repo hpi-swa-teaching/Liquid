@@ -5,6 +5,7 @@ buildWith: aBuilder
 		model: self;
 		children: {
 			self buildChartTypeToggleWith: aBuilder.
-			self buildChartAreaWith: aBuilder. 
-			self buildQuestionListWith: aBuilder};
+			self buildChartAreaWith: aBuilder.
+			self buildQuestionListWith: aBuilder.
+			self buildGroupFilterWith: aBuilder};
 		yourself)
