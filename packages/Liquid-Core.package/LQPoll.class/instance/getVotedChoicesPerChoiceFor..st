@@ -1,4 +1,9 @@
 accessing - visualization
 getVotedChoicesPerChoiceFor: aQuestion
 
-	^ aQuestion choiceList collect: [:aChoice | self countNumberOfAnswersWithChoice: aChoice ForQuestion: aQuestion]
+	| sets |
+	sets := self answerSets reject: [:anAnswerSet |
+		self excludedGroups includes: (self groupOfAnswerSet: anAnswerSet)].
+	^ aQuestion choiceList collect: [:aChoice |
+		sets count: [:anAnswerSet |
+			(anAnswerSet answers at: aQuestion id) containsVoteForChoice: aChoice]]
