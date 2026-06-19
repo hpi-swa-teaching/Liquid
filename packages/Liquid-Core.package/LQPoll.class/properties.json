@@ -12,7 +12,7 @@
 		"answerSets",
 		"isOpen",
 		"guard",
-		"conditions" ],
+		"conditions",
 		"excludedGroups" ],
 	"name" : "LQPoll",
 	"pools" : [
