@@ -8,7 +8,7 @@ buildQuestionListWith: aBuilder
 		setIndex: #setIndex:;
 		frame: (LayoutFrame new
 			topFraction: 0;
-			bottomFraction: 1;
+			bottomFraction: 0.7;
 			leftFraction: 0;
 			rightFraction: 0.25;
 			yourself);
