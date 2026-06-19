@@ -5,7 +5,7 @@ computeAssignments
     | matcher result |
     priorityQuestion ifNil: [^ OrderedCollection new].
     users isEmpty ifTrue: [^ OrderedCollection new].
-    matcher := LQHungarianMatcher onCostMatrix: self costMatrix.
+    matcher := self matcherClass onCostMatrix: self costMatrix.
     result := matcher solve.
     ^ (1 to: users size) asOrderedCollection collect: [:index |
         | optionIndex option |
