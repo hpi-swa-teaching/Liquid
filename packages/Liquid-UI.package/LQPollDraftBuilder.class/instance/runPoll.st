@@ -3,11 +3,9 @@ runPoll
     | poll givenPollId |
     self pollDraft isValid
         ifTrue: [
-            self hasIncompleteDeadline not ifTrue: [
-                self pollDraft deadline isNil
-                    ifTrue: [ ^ UIManager default inform: 'Date invalid' ].
-                self pollDraft deadline < DateAndTime now
-                    ifTrue: [ ^ UIManager default inform: 'Caution: Deadline is in the past!!' ]].
+		self pollDraft deadline notNil ifTrue: [
+				self pollDraft deadline < DateAndTime now
+					ifTrue: [ ^ UIManager default inform: 'Caution: Deadline is in the past!!!!' ]].
             givenPollId := UIManager default
                 request: 'Enter a poll id'
                 initialAnswer: self generateRandomID.

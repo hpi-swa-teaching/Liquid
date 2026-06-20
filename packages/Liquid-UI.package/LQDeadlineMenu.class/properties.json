@@ -4,12 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "JT 6/23/2022 22:47",
+	"commentStamp" : "",
 	"instvars" : [
-		"pollDraft",
-		"questionBuilders",
-		"currentQuestion" ],
-	"name" : "LQPollDraftBuilder",
+		"day",
+		"month",
+		"year",
+		"hour",
+		"minute",
+		"pollDraft" ],
+	"name" : "LQDeadlineMenu",
 	"pools" : [
 		 ],
 	"super" : "LQModel",
