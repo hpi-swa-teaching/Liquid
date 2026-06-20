@@ -1,5 +1,6 @@
 accessing - visualization
 calculatePointsForChoice: aChoice ForQuestion: aQuestion
+
 	| points |
 	points := 0.
 	self includedAnswerSets do: [:anAnswerSet |

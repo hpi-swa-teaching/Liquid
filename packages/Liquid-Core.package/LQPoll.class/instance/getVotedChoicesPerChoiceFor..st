@@ -1,5 +1,6 @@
 accessing - visualization
 getVotedChoicesPerChoiceFor: aQuestion
+
 	aQuestion isPriorityQuestion ifTrue: [
 		^ aQuestion choiceList collect: [:aChoice | 
 			self calculatePointsForChoice: aChoice ForQuestion: aQuestion]

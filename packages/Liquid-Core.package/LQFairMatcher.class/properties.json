@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"poll",
-		"priorityQuestion",
-		"users",
-		"options",
-		"matcherClass" ],
-	"name" : "LQPreferenceMatcher",
+		"costMatrix",
+		"numRows",
+		"numCols" ],
+	"name" : "LQFairMatcher",
 	"pools" : [
 		 ],
 	"super" : "Object",
