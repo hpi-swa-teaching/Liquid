@@ -1,0 +1,4 @@
+accessing
+fixedPdfObjectCount   
+
+	^ 5

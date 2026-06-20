@@ -1,9 +1,14 @@
 modifying
 openMatchingPreferences
-	"Öffnet den Matching-Preferences-Dialog für den aktuell gewählten Poll.
-	 Sicherheits-Guard: macht nichts, wenn keine Priority-Fragen existieren."
+    "Fragt zuerst nach dem Algorithmus, öffnet dann den Matching-Dialog."
 
-	self matchingPreferencesButtonEnabled ifFalse: [
-		^ UIManager default inform: 'This poll has no preference questions.'].
-	"TODO: hier den eigentlichen Dialog öffnen, sobald LQMatchingPreferencesDialog existiert."
-	UIManager default inform: 'Algorithm is not yet implemented'
+    | choice strategy poll |
+    self matchingPreferencesButtonEnabled ifFalse: [
+        ^ UIManager default inform: 'This poll has no preference questions.'].
+    choice := UIManager default
+        chooseFrom: #('Greedy' 'Fair')
+        title: 'Choose matching algorithm'.
+    choice = 0 ifTrue: [^ self].
+    strategy := choice = 1 ifTrue: [LQHungarianMatcher] ifFalse: [LQFairMatcher].
+    poll := LQRemotePollRepoServer pollRepo at: self currentPollID.
+    LQMatchingPreferencesDialog openWithPoll: poll strategy: strategy

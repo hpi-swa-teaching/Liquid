@@ -1,13 +1,11 @@
 printing
 writeTextOn: aStream
 
-	aStream
-		nextPutAll: 'BT'; nextPutAll: String lf;
-		nextPutAll: '/F1 12 Tf'; nextPutAll: String lf;
-		nextPutAll: '14 TL'; nextPutAll: String lf;
-		nextPutAll: '72 800 Td'; nextPutAll: String lf.
+	self writeLine: 'BT' on: aStream.
+	self writeLine: ('/F1 ', self fontSize asString, ' Tf') on: aStream.
+	self writeLine: (self lineHeight asString, ' TL') on: aStream.
+	self writeLine: (self leftMargin asString, ' ', self textStart asString, ' Td') on: aStream.
 	self pdfReportLines do: [:line |
-		aStream
-			nextPutAll: '(', (self pdfEscape: line), ') Tj'; nextPutAll: String lf;
-			nextPutAll: 'T*'; nextPutAll: String lf].
-	aStream nextPutAll: 'ET'; nextPutAll: String lf
+		self writeLine: ('(', (self pdfEscape: line), ') Tj') on: aStream.
+		self writeLine: 'T*' on: aStream].
+	self writeLine: 'ET' on: aStream
