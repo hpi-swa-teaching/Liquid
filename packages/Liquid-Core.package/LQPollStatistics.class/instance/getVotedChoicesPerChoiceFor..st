@@ -3,7 +3,7 @@ getVotedChoicesPerChoiceFor: aQuestion
 
 	aQuestion isPriorityQuestion ifTrue: [
 		^ aQuestion choiceList collect: [:aChoice | 
-			poll calculatePointsForChoice: aChoice ForQuestion: aQuestion]
+			self calculatePointsForChoice: aChoice ForQuestion: aQuestion]
 	].
 
 	^ aQuestion choiceList collect: [:aChoice | 
