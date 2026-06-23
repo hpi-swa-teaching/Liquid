@@ -2,11 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createPollDraft" : "FLST 7/12/2024 15:55",
+		"createPollDraft" : "Leander Steffan 5/16/2026 10:46",
 		"pollDraft" : "FLST 7/12/2024 15:55",
 		"pollDraft:" : "FLST 7/12/2024 15:55",
 		"setUp" : "FLST 7/12/2024 15:55",
 		"tearDown" : "FLST 7/12/2024 15:55",
+		"testAssertTitleAvailable" : "JLBlk 6/14/2026 17:57",
+		"testEnsureSavedInRepository" : "Leander Steffan 5/16/2026 10:35",
 		"testNewWithPollDraft" : "FLST 7/12/2024 15:55",
-		"testRemovePollDrafts" : "FLST 7/12/2024 15:55",
-		"testSavePollDrafts" : "FLST 7/12/2024 15:55" } }
+		"testRemovePollDrafts" : "Leander Steffan 5/16/2026 10:35",
+		"testSaveCopyToRepository" : "Leander Steffan 5/16/2026 10:50",
+		"testSavePollDraftFromRunningPoll" : "Leander Steffan 5/16/2026 10:49",
+		"testSavePollDrafts" : "Leander Steffan 5/16/2026 10:35",
+		"testSaveToRepository" : "Leander Steffan 5/16/2026 10:35" } }

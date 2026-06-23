@@ -6,4 +6,4 @@ buildTextInputWith: aBuilder
 		getText: #retrieveAnswerText;
 		editText: #updateText:;
 		indicateUnacceptedChanges: false;
-		frame: (0.15 @ 0.2 corner: 0.9 @ 0.8) yourself
+		frame: (0.15 @ 0.2 corner: 0.95 @ 0.85) yourself

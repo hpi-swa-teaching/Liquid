@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"id",
-		"title" ],
+		"title",
+		"maxEditedSymbols",
+		"wasEdited" ],
 	"name" : "LQQuestion",
 	"pools" : [
 		 ],
