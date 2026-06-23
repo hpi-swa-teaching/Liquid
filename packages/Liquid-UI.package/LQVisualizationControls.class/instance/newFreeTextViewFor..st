@@ -18,6 +18,7 @@ newFreeTextViewFor: aQuestionIndex
 					self wrapperMorph owner
 						ifNil: [wordCloud extent: 400 @ 300]
 						ifNotNil: [wordCloud extent: self wrapperMorph owner extent].
+					visualizationView updateWordCloud: wordCloud for: question.
 					self wrapperMorph submorphsDo: [:m | m delete].
 					self wrapperMorph addMorph: wordCloud]]
 		ifFalse: [

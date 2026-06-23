@@ -1,4 +1,4 @@
 constants
 wordCloudMinFontSize
 
-	^ 14
+	^ 7.5
