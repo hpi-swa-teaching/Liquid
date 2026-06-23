@@ -2,16 +2,13 @@ accessing
 getTextAnswers
 
 	| answersWithSeparations separation question |
-	separation := '
-----------------------------
-	'.
+	separation := '<n>----------------------------<n>' expandMacros.
 	answersWithSeparations := ''.
 	question := self poll pollDraft questionList at: self index ifAbsent: [^ ''].
-	self poll answerSets do: [:answerSet | | ans |
-		ans := answerSet answers at: question id ifAbsent: [nil].
-		ans ifNotNil: [
-			answersWithSeparations := answersWithSeparations, (self
-				formatAnswer: ans
-				forQuestion: question
-				seperation: separation)]].
+	(self groupAnwerFor: question) do: [:group |
+		answersWithSeparations := answersWithSeparations, (self
+			formatAnswer: group first
+			forQuestion: question
+			seperation: separation
+			count: group second)].
 	^ answersWithSeparations
