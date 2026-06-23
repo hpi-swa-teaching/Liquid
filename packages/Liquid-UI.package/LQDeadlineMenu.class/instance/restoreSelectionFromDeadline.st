@@ -7,6 +7,7 @@ restoreSelectionFromDeadline
 		ifTrue: [DateAndTime fromString: stored]
 		ifFalse: [stored]]
 		on: Error do: [:err | ^ self].
+	parsed ifNil: [^ self].
 	day := parsed dayOfMonth + 1.
 	month := parsed month + 1.
 	hour := parsed hour + 2.
