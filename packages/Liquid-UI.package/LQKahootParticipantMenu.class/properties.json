@@ -11,7 +11,9 @@
 		"selectedChoiceIndex",
 		"participantName",
 		"registered",
-		"hasSubmitted" ],
+		"hasSubmitted",
+		"isMuted",
+		"currentSound" ],
 	"name" : "LQKahootParticipantMenu",
 	"pools" : [
 		 ],

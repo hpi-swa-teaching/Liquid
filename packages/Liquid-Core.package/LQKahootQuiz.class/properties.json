@@ -12,7 +12,8 @@
 		"participants",
 		"currentQuestionIndex",
 		"isStarted",
-		"scores" ],
+		"scores",
+		"currentQuestionStartTime" ],
 	"name" : "LQKahootQuiz",
 	"pools" : [
 		 ],

@@ -1,0 +1,4 @@
+accessing
+currentSound
+
+	^ currentSound

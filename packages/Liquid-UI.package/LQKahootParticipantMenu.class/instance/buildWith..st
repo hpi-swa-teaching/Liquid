@@ -7,8 +7,9 @@ buildWith: aBuilder
 		label: 'Liquid - Kahoot';
 		children: {
 			self buildQuestionTitleWith: aBuilder.
-			self buildChoiceListWith: aBuilder.
-			self buildSubmitButtonWith: aBuilder.
+			self buildCountdownBarWith: aBuilder.
+			self buildMuteButtonWith: aBuilder.
+			self buildChoiceButtonsWith: aBuilder.
 			self buildQuestionCounterWith: aBuilder.
 			self buildLeaderboardTitleWith: aBuilder.
 			self buildLeaderboardWith: aBuilder};
