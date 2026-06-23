@@ -6,5 +6,7 @@ buildQuestionTitleTextWith: aBuilder
 		getText: #getTitle;
 		indicateUnacceptedChanges: false;
 		readOnly: true;
-		frame: (LayoutFrame fractions: (0.15 @ 0.05 extent: 0.8 @ 0) offsets: (0 @ 0 extent: 0 @ 30));
+		frame: (LayoutFrame
+			fractions: (0.15 @ 0.05 extent: 0.8 @ 0)
+			offsets: (0 @ 0 extent: 0 @ (TextStyle defaultFont height * 1.8) rounded));
 		yourself

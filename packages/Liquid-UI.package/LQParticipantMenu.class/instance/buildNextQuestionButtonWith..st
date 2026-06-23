@@ -7,9 +7,9 @@ buildNextQuestionButtonWith: aBuilder
 		help: 'Answer the next question of the poll';
 		action: #nextQuestionOrSend;
 		frame: (LayoutFrame new
-			topFraction: 0.81;
-			leftFraction: 0.7;
-			rightFraction: 0.9;
-			bottomFraction: 0.91;
+			topFraction: 0.85;
+			leftFraction: 0.80;
+			rightFraction: 0.95;
+			bottomFraction: 0.95;
 			yourself);
 		yourself
