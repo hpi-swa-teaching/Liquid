@@ -6,4 +6,4 @@ testHasLowSampleSizeBelowMinimum
 	poll addAnswerSet: LQAnswerSet new.
 	poll addAnswerSet: LQAnswerSet new.
 	self assert: poll answerSets size equals: 2.
-	self assert: poll hasLowSampleSize
+	self assert: (LQPollStatistics poll: poll) hasLowSampleSize
