@@ -1,0 +1,4 @@
+*Liquid-UI
+pluggableLabelSpec
+
+	^ PluggableLabelSpec
