@@ -1,3 +1,0 @@
-defaults
-pluggableRadioButtonSpec
-	^PluggableRadioButtonSpec

@@ -1,3 +1,0 @@
-accessing
-beCheckable
-	checkable := true.

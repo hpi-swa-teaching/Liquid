@@ -207,15 +207,6 @@ GSMetadata {
 				'ci.yml'
 			],
 			#encoding : 'TXT'
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'ToolBuilder-Kernel'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
 		}
 	],
 	#name : 'Liquid'

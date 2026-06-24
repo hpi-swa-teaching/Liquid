@@ -1,4 +1,0 @@
-layout hints
-verticalResizing
-
-	^ verticalResizing

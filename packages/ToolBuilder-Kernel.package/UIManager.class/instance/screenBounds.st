@@ -1,3 +1,0 @@
-accessing
-screenBounds
-	^ Display boundingBox

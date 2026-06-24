@@ -1,1 +1,0 @@
-A panel with a (possibly changing) set of child elements. Expects to see change/update notifications when the childrens change.

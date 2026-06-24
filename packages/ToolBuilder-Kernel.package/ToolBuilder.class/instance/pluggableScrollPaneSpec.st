@@ -1,3 +1,0 @@
-defaults
-pluggableScrollPaneSpec
-	^ PluggableScrollPaneSpec

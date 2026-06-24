@@ -1,3 +1,0 @@
-widgets required
-buildPluggableMultiColumnList: aSpec
-	^self subclassResponsibility

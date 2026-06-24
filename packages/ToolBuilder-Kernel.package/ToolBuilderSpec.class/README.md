@@ -1,1 +1,0 @@
-I am an abstract widget specification. I can be rendered using many different UI frameworks.

@@ -1,4 +1,0 @@
-compatibility
-contents
-
-	^ self label

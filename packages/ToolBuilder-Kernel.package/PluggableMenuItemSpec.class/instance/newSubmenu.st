@@ -1,4 +1,0 @@
-private
-newSubmenu
-
-	^ PluggableMenuSpec new

@@ -1,3 +1,0 @@
-accessing - list
-clearFilterAutomatically
-	^ clearFilterAutomatically
