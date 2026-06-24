@@ -1,3 +1,3 @@
 accessing
 wasEdited
-	^ wasEdited
+	^ wasEdited ifNil: [false]
