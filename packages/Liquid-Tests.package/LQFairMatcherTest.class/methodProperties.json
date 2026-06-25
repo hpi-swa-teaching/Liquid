@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEmptyMatrix" : "Albert Lepenies 6/18/2026 15:39",
+		"testGreedyPicksGlobalMinimumFirst" : "Albert Lepenies 6/18/2026 15:46",
+		"testMoreUsersThanOptions" : "Albert Lepenies 6/18/2026 15:39",
+		"testNoOptionAssignedTwice" : "Albert Lepenies 6/18/2026 15:46",
+		"testSimpleTwoByTwo" : "Albert Lepenies 6/18/2026 15:38" } }

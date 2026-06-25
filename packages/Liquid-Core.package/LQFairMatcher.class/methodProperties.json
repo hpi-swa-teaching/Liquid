@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"onCostMatrix:" : "Albert Lepenies 6/18/2026 15:31" },
+	"instance" : {
+		"allPairs" : "Albert Lepenies 6/18/2026 16:10",
+		"assign:into:usedUsers:usedOptions:" : "Albert Lepenies 6/18/2026 16:10",
+		"assignAllInto:" : "Albert Lepenies 6/18/2026 16:16",
+		"costMatrix" : "Albert Lepenies 6/18/2026 16:09",
+		"costMatrix:" : "Albert Lepenies 6/18/2026 16:09",
+		"pairsForRow:" : "Albert Lepenies 6/18/2026 16:10",
+		"solve" : "Albert Lepenies 6/18/2026 16:16",
+		"sortedPairs" : "Albert Lepenies 6/18/2026 16:10" } }
