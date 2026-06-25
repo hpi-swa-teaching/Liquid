@@ -1,11 +1,13 @@
 {
 	"class" : {
+		"pathToExport" : "Salina 6/17/2026 23:44",
 		"poll:" : "Salina 6/11/2026 21:56" },
 	"instance" : {
 		"confirmOverwrite:" : "Salina 6/12/2026 18:30",
-		"ensureDirectory" : "Salina 6/11/2026 22:23",
+		"ensureDirectory" : "Salina 6/17/2026 23:45",
 		"export" : "Salina 6/11/2026 22:26",
-		"filePath" : "Salina 6/11/2026 22:19",
+		"exportRows" : "Salina 6/17/2026 23:31",
+		"filePath" : "Salina 6/17/2026 23:44",
 		"fileType" : "Salina 6/11/2026 22:19",
 		"setPoll:" : "Salina 6/11/2026 21:57",
 		"writeContentsOn:" : "Salina 6/11/2026 22:20" } }

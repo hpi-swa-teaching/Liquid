@@ -1,4 +1,4 @@
 testing
 testUserAnsweredPollFalse
 
-	self deny: (self poll answeredByUser: self user1)
+	self deny: ((LQPollStatistics poll: self poll) answeredByUser: self user1)

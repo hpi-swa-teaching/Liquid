@@ -27,8 +27,8 @@ testPriorityQuestionPointsCalculation
     
     poll addAnswerSet: answerSet.
     
-    points1 := poll calculatePointsForChoice: choice1 ForQuestion: question.
-    points2 := poll calculatePointsForChoice: choice2 ForQuestion: question.
+    points1 := (LQPollStatistics poll: poll) calculatePointsForChoice: choice1 ForQuestion: question.
+    points2 := (LQPollStatistics poll: poll) calculatePointsForChoice: choice2 ForQuestion: question.
     
     self assert: 2 equals: points1.
     self assert: 1 equals: points2.

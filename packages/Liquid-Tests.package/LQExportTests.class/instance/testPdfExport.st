@@ -3,7 +3,7 @@ testPdfExport
 
 	| filePath fileStream buffer |
 	self poll addAnswerSet: self as1.
-	filePath := LQPoll pathToExport, FileDirectory default pathNameDelimiter, self poll id, '.pdf'.
+	filePath := LQExport pathToExport, FileDirectory default pathNameDelimiter, self poll id, '.pdf'.
 	FileDirectory default deleteFileNamed: filePath ifAbsent: [].
 	self poll exportPDF.
 	fileStream := FileStream readOnlyFileNamed: filePath.
