@@ -1,14 +1,12 @@
 modifying
 openMatchingPreferences
-    "Fragt zuerst nach dem Algorithmus, öffnet dann den Matching-Dialog."
+    "Oeffnet den Matching-Dialog, wenn alle Guards erfuellt sind."
 
-    | choice strategy poll |
-    self matchingPreferencesButtonEnabled ifFalse: [
-        ^ UIManager default inform: 'This poll has no preference questions.'].
-    choice := UIManager default
-        chooseFrom: #('Greedy' 'Fair')
-        title: 'Choose matching algorithm'.
-    choice = 0 ifTrue: [^ self].
-    strategy := choice = 1 ifTrue: [LQGreedyMatcher] ifFalse: [LQFairMatcher].
+    | poll strategy |
+    (self guardMatchingPreferencesAvailable) ifFalse: [^ self].
     poll := LQRemotePollRepoServer pollRepo at: self currentPollID.
+    (self guardUserSetFor: poll) ifFalse: [^ self].
+    (self guardAllUsersVotedFor: poll) ifFalse: [^ self].
+    strategy := self askForMatchingStrategy.
+    strategy ifNil: [^ self].
     LQMatchingPreferencesDialog openWithPoll: poll strategy: strategy
