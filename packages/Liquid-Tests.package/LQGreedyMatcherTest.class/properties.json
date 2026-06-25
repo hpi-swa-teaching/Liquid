@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LQHungarianMatcherTest",
+	"name" : "LQGreedyMatcherTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -1,3 +1,3 @@
 accessing
 matcherClass
-    ^ matcherClass ifNil: [matcherClass := LQHungarianMatcher]
+    ^ matcherClass ifNil: [matcherClass := LQGreedyMatcher]

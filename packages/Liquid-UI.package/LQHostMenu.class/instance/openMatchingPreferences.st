@@ -9,6 +9,6 @@ openMatchingPreferences
         chooseFrom: #('Greedy' 'Fair')
         title: 'Choose matching algorithm'.
     choice = 0 ifTrue: [^ self].
-    strategy := choice = 1 ifTrue: [LQHungarianMatcher] ifFalse: [LQFairMatcher].
+    strategy := choice = 1 ifTrue: [LQGreedyMatcher] ifFalse: [LQFairMatcher].
     poll := LQRemotePollRepoServer pollRepo at: self currentPollID.
     LQMatchingPreferencesDialog openWithPoll: poll strategy: strategy

@@ -6,4 +6,4 @@ assignmentRows
         optionLabel := assoc value
             ifNil: ['— no assignment —']
             ifNotNil: [:opt | opt displayString].
-        userLabel , '   →   ' , optionLabel]
+        userLabel , '   ->  ' , optionLabel]
