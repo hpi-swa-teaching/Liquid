@@ -5,10 +5,15 @@
 		"setUp" : "Katha 6/12/2026 10:32",
 		"testAddCondition" : "Katha 6/12/2026 10:33",
 		"testAddMultipleConditionsForSameTarget" : "Katha 6/12/2026 10:33",
+		"testConditionIsNotSatisfiedWhenAnswerDoesNotMatch" : "Katha 6/13/2026 12:25",
+		"testConditionIsNotSatisfiedWhenQuestionNotAnswered" : "Katha 6/13/2026 12:25",
+		"testConditionIsSatisfiedWhenAnswerMatches" : "Katha 6/13/2026 12:25",
 		"testConditionStoresCorrectData" : "Katha 6/12/2026 10:34",
 		"testHasConditionForTarget" : "Katha 6/12/2026 10:34",
 		"testIsTriggeredBy" : "Katha 6/13/2026 11:50",
 		"testNewDraftHasNoConditions" : "Katha 6/12/2026 10:33",
 		"testOnlyMultiChoiceQuestionCanBeTrigger" : "Katha 6/12/2026 11:03",
 		"testRemoveAllConditionsForSameTarget" : "Katha 6/12/2026 10:34",
-		"testRemoveConditionsForTarget" : "Katha 6/12/2026 10:34" } }
+		"testRemoveConditionRemovesOnlyExactInstance" : "Katha 6/13/2026 17:04",
+		"testRemoveConditionsForTarget" : "Katha 6/12/2026 10:34",
+		"testRemoveSpecificCondition" : "Katha 6/13/2026 17:04" } }

@@ -1,5 +1,7 @@
 temporary
 isSatisfiedBy: anAnswerSet
-	"will be used later in the subsequent logic"
-    ^ (anAnswerSet answers at: triggerQuestionId ifAbsent: [ ^ false ])
-        containsVoteForChoice: triggerChoiceDescription
+
+    | ranking |
+    ranking := (anAnswerSet answers at: triggerQuestionId ifAbsent: [ ^ false ]) choicesRanking.
+    ranking isNil ifTrue: [ ^ false ].
+    ^ ranking includes: triggerChoiceDescription

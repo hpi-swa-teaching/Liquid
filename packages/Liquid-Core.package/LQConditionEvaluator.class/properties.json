@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "Katha 6/17/2026 10:17",
+	"commentStamp" : "",
 	"instvars" : [
-		"triggerQuestionId",
-		"triggerChoiceDescription",
-		"targetQuestionId" ],
-	"name" : "LQQuestionCondition",
+		"conditions",
+		"questionList" ],
+	"name" : "LQConditionEvaluator",
 	"pools" : [
 		 ],
 	"super" : "Object",
