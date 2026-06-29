@@ -1,11 +1,11 @@
-supporting
-pickChoiceFromCurrentQuestion
+private
+pickChoiceFrom: aQuestionBuilder
 
-	| builder choices pick |
-	builder := self questionBuilders at: self currentQuestion ifAbsent: [
+	| choices pick |
+	aQuestionBuilder ifNil: [
 		UIManager default inform: 'Add a question first'.
 		^ nil].
-	choices := builder question choiceList.
+	choices := aQuestionBuilder question choiceList.
 	choices isEmpty ifTrue: [
 		UIManager default inform: 'Add a choice first'.
 		^ nil].

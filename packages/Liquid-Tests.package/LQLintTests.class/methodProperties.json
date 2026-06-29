@@ -34,7 +34,7 @@
 		"testNoExcessiveNumberOfMethods" : "RW 6/17/2026 00:12",
 		"testNoExcessiveNumberOfVariables" : "psi 5/26/2021 20:54",
 		"testNoFloatEqualityComparison" : "psi 6/8/2021 10:26",
-		"testNoGodClass" : "mwo 6/23/2026 13:00",
+		"testNoGodClass" : "mwo 6/27/2026 21:51",
 		"testNoInstanceVariableCapitalization" : "psi 5/26/2021 20:54",
 		"testNoInstanceVariableNotReadAndWritten" : "psi 5/26/2021 20:55",
 		"testNoLiteralArrayContainsComma" : "psi 5/26/2021 20:55",

@@ -1,4 +1,4 @@
-supporting
+private
 pickGroupsFrom: aGroupCollection
 
 	| remaining selected options pick |

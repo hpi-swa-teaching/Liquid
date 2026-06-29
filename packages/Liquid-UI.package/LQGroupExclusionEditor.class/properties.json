@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mwo 6/27/2026 21:47",
+	"instvars" : [
+		 ],
+	"name" : "LQGroupExclusionEditor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

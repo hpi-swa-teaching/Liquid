@@ -1,0 +1,14 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mwo 6/27/2026 21:45",
+	"instvars" : [
+		 ],
+	"name" : "LQConditionEditor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
