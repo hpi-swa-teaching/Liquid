@@ -9,7 +9,7 @@
 		"costMatrix",
 		"numRows",
 		"numCols" ],
-	"name" : "LQHungarianMatcher",
+	"name" : "LQGreedyMatcher",
 	"pools" : [
 		 ],
 	"super" : "Object",
