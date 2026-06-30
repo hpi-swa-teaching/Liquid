@@ -10,6 +10,8 @@
 		"testBuildWithReturnsWindowMorph" : "bn 6/25/2022 21:32",
 		"testIndexSetNormally" : "FLST 7/12/2024 15:55",
 		"testIndexViaAddQuestion" : "FLST 7/12/2024 15:55",
+		"testLiveEditModeConstraints" : "JLBlk 7/1/2026 00:09",
+		"testLiveEditPoll" : "JLBlk 7/1/2026 00:29",
 		"testPollTitle" : "ape 7/23/2022 10:03",
 		"testQuestionBuilderList" : "FLST 7/12/2024 15:55",
 		"testQuestionList" : "FLST 7/12/2024 15:55",
