@@ -3,7 +3,7 @@ testSimpleTwoByTwo
     "User 1 will Option A am liebsten, User 2 will Option B am liebsten.
      Erwartung: jeder bekommt seine erste Wahl."
     | matcher result |
-    matcher := LQHungarianMatcher onCostMatrix: #(
+    matcher := LQGreedyMatcher onCostMatrix: #(
         #(1 2)
         #(2 1)).
     result := matcher solve.

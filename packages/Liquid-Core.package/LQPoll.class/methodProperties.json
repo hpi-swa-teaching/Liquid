@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithPollDraft:" : "CG 7/30/2021 19:06" },
+		"newWithPollDraft:" : "Katha 6/13/2026 12:16" },
 	"instance" : {
 		"addAnswerSet:" : "kge 8/1/2022 19:01",
 		"answerSets" : "JS 5/25/2021 15:32",
@@ -8,6 +8,9 @@
 		"asString" : "FLST 7/11/2024 20:42",
 		"availableGroups" : "Johannes Herzog 6/18/2026 12:43",
 		"closeWithPassword:" : "kge 8/1/2022 19:17",
+		"conditionEvaluator" : "Katha 6/13/2026 18:16",
+		"conditions" : "Katha 6/13/2026 12:09",
+		"conditions:" : "Katha 6/13/2026 17:55",
 		"excludedGroups" : "Johannes Herzog 6/18/2026 12:43",
 		"exportCSV" : "Salina 6/11/2026 23:31",
 		"exportJSON" : "Salina 6/12/2026 17:49",
@@ -25,12 +28,15 @@
 		"isGroupExcluded:" : "Johannes Herzog 6/18/2026 13:21",
 		"isOpen" : "RW 6/7/2026 17:15",
 		"isOpen:" : "JT 8/2/2022 17:10",
+		"isQuestionVisible:givenAnswers:" : "Katha 6/13/2026 17:46",
 		"mailMapping" : "FLST 7/11/2024 20:42",
 		"myUserGroupWithToken:" : "FLST 7/11/2024 20:42",
 		"myUserSet" : "FLST 7/11/2024 20:42",
 		"myUserWithToken:" : "kge 8/3/2022 20:51",
+		"nextVisibleQuestionIndexAfter:givenAnswers:" : "Katha 6/13/2026 17:46",
 		"pollDraft" : "JS 5/25/2021 15:33",
 		"pollDraft:" : "JS 5/25/2021 15:33",
+		"previousVisibleQuestionIndexBefore:givenAnswers:" : "6/18/2026 14:14:56",
 		"questionList" : "kge 8/3/2022 20:48",
 		"requiresAuthentication" : "kge 6/25/2022 16:46",
 		"sanitized" : "FLST 7/11/2024 20:42",

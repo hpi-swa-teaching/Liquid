@@ -1,5 +1,9 @@
 toolbuilder
 nextButtonLabel
 
-	self currentQuestionIndex >= self poll questionList size ifTrue: [^ 'Send Answers'].
-	^ 'Next'
+    | nextIndex |
+    nextIndex := self poll
+        nextVisibleQuestionIndexAfter: self currentQuestionIndex
+        givenAnswers: self answerSet.
+    nextIndex isNil ifTrue: [ ^ 'Send Answers' ].
+    ^ 'Next'
