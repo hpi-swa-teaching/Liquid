@@ -83,6 +83,7 @@
 		"questionBuilders:" : "FLST 7/11/2024 20:44",
 		"questionListFrame" : "FLST 7/11/2024 20:44",
 		"removeConditionButtonFrame" : "Katha 6/19/2026 09:42",
+		"removeConditionByIndexFor:conditions:" : "7/1/2026 14:04:25",
 		"removeConditionFromCurrentQuestion" : "Katha 6/11/2026 16:45",
 		"removeQuestion" : "FLST 7/12/2024 08:46",
 		"removeQuestionBuilderAt:" : "FLST 7/11/2024 20:44",
@@ -94,5 +95,6 @@
 		"setIndex:" : "FLST 7/11/2024 20:44",
 		"showAvailableGroupsFrame" : "Katha 6/19/2026 09:43",
 		"showConditionsButtonFrame" : "Katha 6/19/2026 09:42",
+		"showConditionsForCurrentQuestion" : "7/1/2026 14:04:25",
 		"updateDeadline" : "RW 6/9/2026 13:55",
 		"validateConditionTarget" : "Katha 6/12/2026 11:12" } }

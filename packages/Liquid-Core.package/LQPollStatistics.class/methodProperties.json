@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"poll:" : "Salina 6/17/2026 22:14" },
+		"poll:" : "Salina 6/17/2026 22:14",
+		"poll:answerSets:" : "Johannes Herzog 7/1/2026 14:18" },
 	"instance" : {
+		"answerSets" : "Johannes Herzog 7/1/2026 14:19",
 		"answeredByUser:" : "Salina 6/17/2026 22:59",
-		"calculatePointsForChoice:ForQuestion:" : "Salina 6/22/2026 23:37",
-		"countNumberOfAnswersWithChoice:ForQuestion:" : "Salina 6/22/2026 23:16",
+		"calculatePointsForChoice:ForQuestion:" : "Johannes Herzog 7/1/2026 14:19",
+		"countNumberOfAnswersWithChoice:ForQuestion:" : "Johannes Herzog 7/1/2026 14:19",
 		"getVotedChoicesPerChoiceFor:" : "Salina 6/22/2026 23:38",
 		"hasLowSampleSize" : "Salina 6/17/2026 22:59",
 		"hasVotesForQuestion:" : "Salina 6/17/2026 22:25",
 		"minSampleSize" : "Salina 6/17/2026 23:00",
+		"setAnswerSets:" : "Johannes Herzog 7/1/2026 14:19",
 		"setPoll:" : "Salina 6/17/2026 22:15" } }

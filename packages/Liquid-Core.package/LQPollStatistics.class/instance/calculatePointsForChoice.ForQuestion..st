@@ -3,7 +3,7 @@ calculatePointsForChoice: aChoice ForQuestion: aQuestion
 
 	| points |
 	points := 0.
-	poll includedAnswerSets do: [:anAnswerSet |
+	self answerSets do: [:anAnswerSet |
 		(anAnswerSet answers at: aQuestion id ifAbsent: [nil]) ifNotNil: [:answer |
 			| ranking index |
 			ranking := answer choicesRanking.
