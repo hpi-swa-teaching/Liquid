@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"label" ],
-	"name" : "PluggableLableSpec",
+	"name" : "PluggableLabelSpec",
 	"pools" : [
 		 ],
 	"super" : "PluggableWidgetSpec",
