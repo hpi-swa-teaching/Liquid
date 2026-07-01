@@ -1,24 +1,12 @@
 toolbuilder
 questionButtonFrameForIndex: anInteger
-	| safeTotal maxPerRow zeroBasedIndex col row actualCols totalRows buttonWidth rowHeight blockTop rowTop rowBottom leftStart |
-	
-	safeTotal := self numberOfQuestionButtons max: 1.
-	maxPerRow := self maxButtonsPerRow max: 1.
-	
+	| zeroBasedIndex col row rowTop rowBottom leftStart |
 	zeroBasedIndex := anInteger - 1.
-	col := zeroBasedIndex \\ maxPerRow.
-	row := zeroBasedIndex // maxPerRow.
+	col := zeroBasedIndex \\ (self maxButtonsPerRow max: 1).
+	row := zeroBasedIndex // (self maxButtonsPerRow max: 1).
 	
-	actualCols := safeTotal min: maxPerRow.
-	totalRows := ((safeTotal - 1) // maxPerRow) + 1.
+	rowTop := self questionButtonBlockTop + (row * self questionButtonRowHeight).
+	rowBottom := rowTop + self questionButtonRowHeight.
+	leftStart := 0.25 + (col * self questionButtonWidth).
 	
-	buttonWidth := 0.75 / actualCols.
-	rowHeight := 0.075.
-	
-	blockTop := 0.925 - (totalRows * rowHeight).
-	rowTop := blockTop + (row * rowHeight).
-	rowBottom := rowTop + rowHeight.
-	
-	leftStart := 0.25 + (col * buttonWidth).
-	
-	^ self frame: rowBottom fromTop: rowTop fromLeft: leftStart width: buttonWidth
+	^ self frame: rowBottom fromTop: rowTop fromLeft: leftStart width: self questionButtonWidth
