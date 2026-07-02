@@ -1,14 +1,14 @@
 toolbuilder
 buildPanelChildren
-	| builder children |
+
+	| children |
 	self clearChoiceFieldModels.
-	builder := ToolBuilder default.
 	children := OrderedCollection new.
-	children add: (builder build: (self buildTitleInputWith: builder)).
+	children add: (self builder build: (self buildTitleInputWith: self builder)).
 	1 to: self choiceTexts size do: [:index |
-		children add: (builder build: (self buildChoiceTextAt: index with: builder)).
-		children add: (builder build: (self buildDeleteChoiceButtonAt: index with: builder))].
-	children add: (builder build: (self buildAddChoiceButtonWith: builder)).
-	children add: (builder build: (self buildMaxNumberOfChoicesInputWith: builder)).
-	children add: (builder build: (self buildMaxNumberOfChoicesLabelWith: builder)).
+		children add: (self builder build: (self buildChoiceTextAt: index with: self builder)).
+		children add: (self builder build: (self buildDeleteChoiceButtonAt: index with: self builder))].
+	children add: (self builder build: (self buildAddChoiceButtonWith: self builder)).
+	children add: (self builder build: (self buildMaxNumberOfChoicesInputWith: self builder)).
+	children add: (self builder build: (self buildMaxNumberOfChoicesLabelWith: self builder)).
 	^ children asArray

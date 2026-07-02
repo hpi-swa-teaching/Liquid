@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "JT 6/23/2022 22:47",
 	"instvars" : [
-		"choiceTexts" ],
+		"choiceTexts",
+		"builder" ],
 	"name" : "LQMultiChoiceQuestionBuilder",
 	"pools" : [
 		 ],
