@@ -1,8 +1,15 @@
 supporting
 confirmCondition: aTriggerQuestion choice: aTriggerChoice
 
-    | currentQ condition |
+    | currentQ condition alreadyExists |
     currentQ := self pollDraft questionList at: self currentQuestion.
+    alreadyExists := (self pollDraft conditionsForTarget: currentQ id)
+        anySatisfy: [ :c |
+            c triggerQuestionId = aTriggerQuestion id and: [
+                c triggerChoiceDescription = aTriggerChoice description ] ].
+    alreadyExists ifTrue: [
+        UIManager default inform: 'This condition already exists.'.
+        ^ self ].
     condition := LQQuestionCondition
         triggerQuestion: aTriggerQuestion id
         triggerChoice: aTriggerChoice description

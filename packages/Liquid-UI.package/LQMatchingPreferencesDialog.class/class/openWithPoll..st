@@ -1,3 +1,3 @@
 instance creation
 openWithPoll: aPoll
-    ^ self openWithPoll: aPoll strategy: LQHungarianMatcher
+    ^ self openWithPoll: aPoll strategy: LQGreedyMatcher

@@ -25,6 +25,7 @@ buildWith: builder
         self deadlineYearFrame -> [self buildDeadlineYearWith: builder].
         self deadlineHourFrame -> [self buildDeadlineHourWith: builder].
         self deadlineMinuteFrame -> [self buildDeadlineMinuteWith: builder].
+	self showConditionsButtonFrame -> [self buildShowConditionsButtonWith: builder].
         }.
     windowSpec label: 'Liquid - Create a Poll'.
     windowSpec extent: self extent.

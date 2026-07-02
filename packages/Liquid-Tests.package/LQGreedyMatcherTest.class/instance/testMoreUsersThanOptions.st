@@ -2,7 +2,7 @@ tests
 testMoreUsersThanOptions
     "3 User, 2 Optionen — einer bekommt nil."
     | matcher result assignedCount |
-    matcher := LQHungarianMatcher onCostMatrix: #(
+    matcher := LQGreedyMatcher onCostMatrix: #(
         #(1 2)
         #(2 1)
         #(1 2)).
