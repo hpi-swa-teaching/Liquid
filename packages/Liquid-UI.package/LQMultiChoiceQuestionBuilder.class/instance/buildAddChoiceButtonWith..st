@@ -1,10 +1,21 @@
 toolbuilder
 buildAddChoiceButtonWith: aBuilder
+
+
+	| topOffset |
+	topOffset := self choiceTexts size * (self rowHeight + self choiceFieldSpacing) + self choiceFieldSpacing.
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Add';
-		help: 'Add another choice option (maximum 12).';
+		help: 'Add another choice option (max. 20).';
 		action: #addChoice;
 		enabled: #addChoiceButtonEnabled;
-		frame: (LayoutFrame fractions: (0 @ self addChoiceButtonTopFraction extent: 0.2 @ 0.05) offsets: (0 @ 0 extent: 0 @ 0));
+		frame: (LayoutFrame new
+			leftFraction: 0;
+			rightFraction: 0.2;
+			topFraction: 0;
+			topOffset: topOffset;
+			bottomFraction: 0;
+			bottomOffset: topOffset + self rowHeight;
+			yourself);
 		yourself
