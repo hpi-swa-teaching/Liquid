@@ -1,10 +1,8 @@
 toolbuilder
 buildMaxNumberOfCharactersLabelWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableLabelSpec new
 		model: self;
-		getText: #createMaxNumberOfCharactersLabel;
-		readOnly: true;
-		indicateUnacceptedChanges: false;
+		label: #createMaxNumberOfCharactersLabel;
 		frame: (LayoutFrame fractions: (0 @ 0.9 extent: 0.8 @ 0.1) offsets: (0 @ 0 extent: 0 @ 0));
 		yourself
