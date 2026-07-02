@@ -4,6 +4,6 @@ buildRemoveConditionButtonWith: aBuilder
 		model: self;
 		label: 'Remove Condition';
 		help: 'Remove the condition from the selected question.';
-		action: #removeCondition;
+		action: #removeConditionFromCurrentQuestion;
 		frame: self removeConditionButtonFrame;
 		yourself

@@ -3,7 +3,7 @@ buildAddConditionButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Add Condition';
-		help: 'Only show this question if a previous question was answered a certain way.';
-		action: #addCondition;
+		action: #openAddConditionDialog;
 		frame: self addConditionButtonFrame;
+		help: 'Only show this question if...';
 		yourself
