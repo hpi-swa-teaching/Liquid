@@ -5,7 +5,7 @@ runPoll
     self pollDraft isValid
         ifTrue: [
             self pollDraft deadline notNil ifTrue: [
-                self pollDraft deadline < DateAndTime now
+                (DateAndTime fromString: self pollDraft deadline) < DateAndTime now
                     ifTrue: [ ^ UIManager default inform: 'Caution: Deadline is in the past!!' ]].
             givenPollId := UIManager default
                 request: 'Enter a poll id'

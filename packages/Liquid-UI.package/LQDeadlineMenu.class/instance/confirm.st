@@ -9,5 +9,5 @@ confirm
 		^ UIManager default inform: 'This date is invalid. Please pick a valid date.'].
 	deadline < DateAndTime now ifTrue: [
 		^ UIManager default inform: 'The deadline is in the past. Please pick a future date.'].
-	self pollDraft deadline: deadline.
+	self pollDraft deadline: deadline printString.
 	self destroy
