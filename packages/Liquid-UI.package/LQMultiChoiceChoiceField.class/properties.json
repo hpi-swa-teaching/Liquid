@@ -1,0 +1,15 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder",
+		"index" ],
+	"name" : "LQMultiChoiceChoiceField",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

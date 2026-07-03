@@ -1,0 +1,3 @@
+accessing
+maxChoiceFieldCount
+	^ 20
