@@ -95,6 +95,9 @@
 		"questionListFrame" : "Dustin Dreßler 7/3/2026 12:40",
 		"removeConditionButtonFrame" : "Dustin Dreßler 7/3/2026 12:40",
 		"removeConditionByIndexFor:conditions:" : "7/2/2026 17:41:14",
+		"questionListFrame" : "FLST 7/11/2024 20:44",
+		"removeConditionButtonFrame" : "Katha 6/19/2026 09:42",
+		"removeConditionByIndexFor:conditions:" : "7/1/2026 14:04:25",
 		"removeConditionFromCurrentQuestion" : "Katha 6/11/2026 16:45",
 		"removeQuestion" : "FLST 7/12/2024 08:46",
 		"removeQuestionBuilderAt:" : "FLST 7/11/2024 20:44",
@@ -107,5 +110,8 @@
 		"showAvailableGroupsFrame" : "Dustin Dreßler 7/3/2026 12:40",
 		"showConditionsButtonFrame" : "Dustin Dreßler 7/3/2026 12:45",
 		"showConditionsForCurrentQuestion" : "7/2/2026 17:41:14",
+		"showAvailableGroupsFrame" : "Katha 6/19/2026 09:43",
+		"showConditionsButtonFrame" : "Katha 6/19/2026 09:42",
+		"showConditionsForCurrentQuestion" : "7/1/2026 14:04:25",
 		"updateDeadline" : "RW 6/9/2026 13:55",
 		"validateConditionTarget" : "Katha 6/12/2026 11:12" } }
