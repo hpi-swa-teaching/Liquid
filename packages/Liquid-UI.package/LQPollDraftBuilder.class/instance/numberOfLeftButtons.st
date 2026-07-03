@@ -1,4 +1,4 @@
 toolbuilder
 numberOfLeftButtons
 	
-	^ 3
+	^ 5
