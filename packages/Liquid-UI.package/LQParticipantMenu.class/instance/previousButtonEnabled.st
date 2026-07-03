@@ -1,4 +1,9 @@
 toolbuilder
 previousButtonEnabled
 
-	^ (self currentQuestionIndex = 1) not
+    | prevIndex |
+    self currentQuestionIndex = 1 ifTrue: [ ^ false ].
+    prevIndex := self poll
+        previousVisibleQuestionIndexBefore: self currentQuestionIndex
+        givenAnswers: self answerSet.
+    ^ prevIndex < self currentQuestionIndex

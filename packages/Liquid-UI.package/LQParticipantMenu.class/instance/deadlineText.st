@@ -6,5 +6,5 @@ deadlineText
 	self poll pollDraft isNil ifTrue: [ ^ '' ].
 	deadline := self poll pollDraft deadline.
 	deadline isNil ifTrue: [ ^ '' ].
-	deadlineText := DateAndTime fromString: deadline.
+	deadlineText := deadline.
 	^ 'Deadline: ' , deadlineText dayOfMonth printString , '. ' , deadlineText monthName , ' ' , deadlineText year printString , ' - ' , (deadlineText hour printString copyReplaceAll: '' with: '') , ':' , (deadlineText minute printString padded: #left to: 2 with: $0) , ' Uhr'

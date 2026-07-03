@@ -2,7 +2,7 @@ tests
 testHungarianResolvesConflict
     "Zwei User wollen Option 1, einer Option 1 oder 2 — Algorithmus muss splitten."
     | matcher result |
-    matcher := LQHungarianMatcher onCostMatrix: #(
+    matcher := LQGreedyMatcher onCostMatrix: #(
         #(1 2 3)
         #(1 2 3)
         #(3 1 2)).

@@ -1,0 +1,4 @@
+toolbuilder
+numberOfQuestionButtons
+
+	^ 4

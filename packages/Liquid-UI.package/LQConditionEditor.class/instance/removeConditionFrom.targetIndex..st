@@ -1,14 +1,13 @@
 editing
 removeConditionFrom: aPollDraft targetIndex: anIndex
 
-	| currentQ |
+	| currentQ conditions |
 	(anIndex isNil or: [anIndex = 0]) ifTrue: [
 		UIManager default inform: 'Please select a question first.'.
 		^ false].
 	currentQ := aPollDraft questionList at: anIndex.
-	(aPollDraft hasConditionForTarget: currentQ id) ifFalse: [
+	conditions := aPollDraft conditionsForTarget: currentQ id.
+	conditions isEmpty ifTrue: [
 		UIManager default inform: 'The selected question has no condition to remove.'.
 		^ false].
-	aPollDraft removeConditionsForTarget: currentQ id.
-	UIManager default inform: 'All conditions removed from "' , currentQ title , '"'.
-	^ true
+	^ self removeConditionByIndexFrom: aPollDraft for: currentQ conditions: conditions

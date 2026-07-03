@@ -1,5 +1,9 @@
 modifying
 nextQuestion
 
-	self currentQuestionIndex >= self poll questionList size ifTrue: [^ self].
-	self currentQuestionIndex: self currentQuestionIndex + 1
+    | nextIndex |
+    nextIndex := self poll
+        nextVisibleQuestionIndexAfter: self currentQuestionIndex
+        givenAnswers: self answerSet.
+    nextIndex isNil ifTrue: [ ^ self ].
+    self currentQuestionIndex: nextIndex

@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addConditionTo:targetIndex:" : "mwo 6/27/2026 21:46",
-		"confirmConditionIn:target:trigger:choice:" : "mwo 6/27/2026 21:47",
+		"addConditionTo:targetIndex:" : "mwo 7/3/2026 20:00",
+		"confirmConditionIn:target:trigger:choice:" : "mwo 7/3/2026 20:00",
 		"pickTriggerChoice:" : "mwo 6/27/2026 21:47",
 		"pickTriggerQuestionIn:targetIndex:" : "mwo 6/27/2026 21:47",
-		"removeConditionFrom:targetIndex:" : "mwo 6/27/2026 21:46",
+		"removeConditionByIndexFrom:for:conditions:" : "mwo 7/3/2026 20:00",
+		"removeConditionFrom:targetIndex:" : "mwo 7/3/2026 20:00",
 		"validateTargetIn:index:" : "mwo 6/27/2026 21:46" } }

@@ -9,7 +9,8 @@
 		"poll",
 		"priorityQuestion",
 		"users",
-		"options" ],
+		"options",
+		"matcherClass" ],
 	"name" : "LQPreferenceMatcher",
 	"pools" : [
 		 ],

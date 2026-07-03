@@ -1,9 +1,12 @@
 modifying
 openMatchingPreferences
-	"Öffnet den Matching-Preferences-Dialog für den aktuell gewählten Poll.
-	 Sicherheits-Guard: macht nichts, wenn keine Priority-Fragen existieren."
+    "Oeffnet den Matching-Dialog, wenn alle Guards erfuellt sind."
 
-    self matchingPreferencesButtonEnabled ifFalse: [
-        ^ UIManager default inform: 'This poll has no preference questions.'].
-    LQMatchingPreferencesDialog openWithPoll:
-        (LQRemotePollRepoServer pollRepo at: self currentPollID)
+    | poll strategy |
+    (self guardMatchingPreferencesAvailable) ifFalse: [^ self].
+    poll := LQRemotePollRepoServer pollRepo at: self currentPollID.
+    (self guardUserSetFor: poll) ifFalse: [^ self].
+    (self guardAllUsersVotedFor: poll) ifFalse: [^ self].
+    strategy := self askForMatchingStrategy.
+    strategy ifNil: [^ self].
+    LQMatchingPreferencesDialog openWithPoll: poll strategy: strategy
