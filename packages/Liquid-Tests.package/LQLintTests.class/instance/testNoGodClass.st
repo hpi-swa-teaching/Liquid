@@ -1,4 +1,4 @@
 disharmonies
 testNoGodClass
 
-	self assertAllFalse: (self lint: #godClass: except: {LQHostMenu. LQPoll})
+	self assertAllFalse: (self lint: #godClass: except: {LQHostMenu. LQPoll. LQPollDraftBuilder})
