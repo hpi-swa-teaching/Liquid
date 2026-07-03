@@ -7,7 +7,8 @@
 	"commentStamp" : "bwe 6/26/2022 14:37",
 	"instvars" : [
 		"poll",
-		"chartType" ],
+		"chartType",
+		"answerSets" ],
 	"name" : "LQVisualizationView",
 	"pools" : [
 		 ],

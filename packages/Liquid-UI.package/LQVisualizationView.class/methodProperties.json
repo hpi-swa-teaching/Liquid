@@ -2,8 +2,11 @@
 	"class" : {
 		"defaultChartType" : "mwo 6/15/2026 09:56",
 		"newWithPoll:" : "FLST 7/11/2024 20:44",
-		"newWithPoll:chartType:" : "mwo 6/9/2026 13:02" },
+		"newWithPoll:chartType:" : "mwo 6/9/2026 13:02",
+		"newWithPoll:chartType:answerSets:" : "Johannes Herzog 7/1/2026 14:21" },
 	"instance" : {
+		"answerSets" : "Johannes Herzog 7/1/2026 14:20",
+		"answerSets:" : "Johannes Herzog 7/1/2026 14:20",
 		"chartType" : "mwo 6/15/2026 09:56",
 		"chartType:" : "mwo 6/9/2026 12:59",
 		"data" : "FLST 7/11/2024 20:44",
@@ -12,5 +15,6 @@
 		"poll:" : "bwe 6/26/2022 14:38",
 		"renderPictureFrom:" : "Salina 6/15/2026 01:58",
 		"sortData" : "FLST 7/11/2024 20:44",
-		"sortDataFor:" : "Salina 6/17/2026 22:32",
-		"visualizeChoicesResultsFor:" : "Salina 6/17/2026 22:33" } }
+		"sortDataFor:" : "Johannes Herzog 7/1/2026 17:11",
+		"statistics" : "Johannes Herzog 7/1/2026 14:20",
+		"visualizeChoicesResultsFor:" : "Johannes Herzog 7/1/2026 17:11" } }

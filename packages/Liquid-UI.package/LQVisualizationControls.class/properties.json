@@ -10,7 +10,8 @@
 		"index",
 		"wrapperMorph",
 		"polling",
-		"chartType" ],
+		"chartType",
+		"groupFilter" ],
 	"name" : "LQVisualizationControls",
 	"pools" : [
 		 ],
