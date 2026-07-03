@@ -1,5 +1,6 @@
 toolbuilder
 matchingPreferencesButtonEnabled
+	"Active if a poll is selected and contains a Priority/preference Questio "
 
 	| poll |
 	self pollSelected ifFalse: [^ false].

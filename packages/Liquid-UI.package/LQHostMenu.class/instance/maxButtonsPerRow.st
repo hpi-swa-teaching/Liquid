@@ -1,4 +1,0 @@
-toolbuilder
-maxButtonsPerRow
-	
-	^ 4

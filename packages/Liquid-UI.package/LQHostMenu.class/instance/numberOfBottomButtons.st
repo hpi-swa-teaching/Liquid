@@ -1,4 +1,0 @@
-toolbuilder
-numberOfBottomButtons
-	
-	^ 8

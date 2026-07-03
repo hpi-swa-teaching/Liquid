@@ -1,4 +1,0 @@
-toolbuilder
-numberOfHostButtons
-
-	^ 4
