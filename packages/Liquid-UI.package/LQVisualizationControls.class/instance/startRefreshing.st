@@ -1,6 +1,7 @@
 live-update
 startRefreshing
 
+	self stopRefreshing.
 	self polling: [
 		[true] whileTrue: [
 			(self questionList at: self index) isFreeTextQuestion

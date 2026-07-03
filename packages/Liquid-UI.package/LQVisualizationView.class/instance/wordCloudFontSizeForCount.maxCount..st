@@ -2,5 +2,5 @@ visualization
 wordCloudFontSizeForCount: aCount maxCount: aMaxCount
 
 	| ratio |
-	ratio := aCount asFloat / aMaxCount asFloat.
-	^ (self wordCloudMinFontSize + (ratio * (self wordCloudMaxFontSize - self wordCloudMinFontSize))) rounded
+	ratio := (aCount - 1) / (aMaxCount - 1 max: 1).
+	^ (ratio squared * (self wordCloudMaxFontSize - self wordCloudMinFontSize) + self wordCloudMinFontSize) rounded

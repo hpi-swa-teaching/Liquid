@@ -1,4 +1,4 @@
 toolbuilder
 createPriorityExplanationLabel
 
-	^ 'participants have to rank every choice'
+	^ 'Participants will have to rank every choice.'

@@ -1,5 +1,6 @@
 running
 setUp
+
 	super setUp.
 	
 	self participantMenu: (LQParticipantMenu new
@@ -9,6 +10,9 @@ setUp
 	
 	self originalInformMethod: (MorphicUIManager methodDict at: #inform: ifAbsent: [nil]).
 	self originalInformMethod ifNotNil: [
-		MorphicUIManager compile: 'inform: aString ^ self' classified: 'ui requests' notifying: nil].
+		MorphicUIManager
+			compile: 'inform: aString LQParticipantMenu answeredPollIds add: aString. ^ self'
+			classified: 'ui requests'
+			notifying: nil].
 	
 	ToolBuilder open: self participantMenu

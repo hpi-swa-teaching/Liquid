@@ -1,10 +1,8 @@
 toolbuilder
 buildRemainingCharactersCounterTextWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableLabelSpec new
 		model: self;
-		getText: #getRemainingCharactersLabel;
-		indicateUnacceptedChanges: false;
-		readOnly: true;
+		label: #getRemainingCharactersLabel;
 		frame: self layoutFrame;
 		yourself
