@@ -7,7 +7,7 @@ buildChoicesScrollMorph
 		model: self;
 		morph: subPanel;
 		yourself).
-	scrollPane layoutFrame: (LayoutFrame fractions: (0 @ 0.1 extent: 1 @ 0.8)).
+	scrollPane layoutFrame: (LayoutFrame fractions: (0 @ 0.1 extent: 1 @ 0.695)).
 	scrollPane
 		color: Color transparent;
 		borderWidth: 0.
