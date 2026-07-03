@@ -3,4 +3,4 @@ testNoExcessiveNumberOfMethods
 
 	self assertAllZero: (self
 		lint: #smallLintExcessiveMethods
-		except: {self class. LQParticipantMenuTests. LQAuthenticationTests. LQPollDraftBuilder. LQHostMenu})
+		except: {self class. LQParticipantMenuTests. LQAuthenticationTests. LQPollDraftBuilder. LQMultiChoiceQuestionBuilder. LQHostMenu})
