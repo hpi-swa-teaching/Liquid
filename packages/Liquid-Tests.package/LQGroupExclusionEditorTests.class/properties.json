@@ -1,0 +1,17 @@
+{
+	"category" : "Liquid-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mwo 7/3/2026 21:00",
+	"instvars" : [
+		"editor",
+		"pollDraft",
+		"userSet",
+		"questionBuilder" ],
+	"name" : "LQGroupExclusionEditorTests",
+	"pools" : [
+		 ],
+	"super" : "LQTestCase",
+	"type" : "normal" }

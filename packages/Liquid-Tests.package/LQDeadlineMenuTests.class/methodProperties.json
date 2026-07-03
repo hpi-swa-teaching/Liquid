@@ -11,6 +11,7 @@
 		"testClearDeadlineRemovesDeadline" : "mwo 6/23/2026 12:58",
 		"testConfirmWritesDeadlineForFutureDate" : "mwo 6/23/2026 12:57",
 		"testIncompleteSelectionProducesNoDeadline" : "mwo 6/23/2026 12:57",
+		"testNewWithPollDraftOpensMenu" : "mwo 7/3/2026 20:01",
 		"testParsedValuesMapsIndicesToValues" : "mwo 6/23/2026 12:57",
 		"testPastSelectionIsRecognizedAsPast" : "mwo 6/23/2026 12:57",
 		"testReopeningRestoresPreviousSelection" : "mwo 6/23/2026 12:58",
