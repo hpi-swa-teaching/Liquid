@@ -1,3 +1,4 @@
 toolbuilder
-showAvailableGroupsFrame
-^ self leftButtonFrameForIndex: 5
+showAvailableGroupsFrame	
+	
+	^ self leftButtonFrameForIndex: 5

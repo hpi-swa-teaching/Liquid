@@ -1,3 +1,4 @@
 toolbuilder
 createPollFromSavedPollsButtonFrame
+
 	^ self bottomButtonFrameForIndex: 7

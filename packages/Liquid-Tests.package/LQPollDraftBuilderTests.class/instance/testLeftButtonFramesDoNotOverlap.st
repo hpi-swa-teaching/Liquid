@@ -7,6 +7,5 @@ testLeftButtonFramesDoNotOverlap
 		builder leftButtonFrameForIndex: index ].
 	
 	1 to: frames size - 1 do: [:i |
-		self assert: (frames at: i) bottomFraction <= (frames at: i + 1) topFraction
-			description: 'Button frames should not overlap in the left column'.
+		self assert: (frames at: i) bottomFraction <= (frames at: i + 1) topFraction.
 	].

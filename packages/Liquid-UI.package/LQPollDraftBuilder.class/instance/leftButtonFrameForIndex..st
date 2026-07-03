@@ -1,5 +1,6 @@
 toolbuilder
 leftButtonFrameForIndex: anInteger
+
 	| buttonTop buttonBottom |
 	buttonTop := self leftButtonBlockTop + ((anInteger - 1) * self leftButtonRowHeight).
 	buttonBottom := buttonTop + self leftButtonRowHeight.

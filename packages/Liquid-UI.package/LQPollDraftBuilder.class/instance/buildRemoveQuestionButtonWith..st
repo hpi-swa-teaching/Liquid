@@ -1,5 +1,6 @@
 toolbuilder
 buildRemoveQuestionButtonWith: aBuilder
+
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: 'Remove Question';
