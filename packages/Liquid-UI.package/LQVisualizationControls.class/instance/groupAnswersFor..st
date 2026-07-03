@@ -1,5 +1,5 @@
 accessing
-groupAnwerFor: aQuestion
+groupAnswersFor: aQuestion
 
 	| groups |
 	groups := OrderedCollection new.
