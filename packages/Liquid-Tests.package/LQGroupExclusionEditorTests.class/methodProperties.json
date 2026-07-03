@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"editor" : "mwo 7/3/2026 19:57",
+		"editor:" : "mwo 7/3/2026 19:57",
+		"pollDraft" : "mwo 7/3/2026 19:58",
+		"pollDraft:" : "mwo 7/3/2026 19:58",
+		"questionBuilder" : "mwo 7/3/2026 19:58",
+		"questionBuilder:" : "mwo 7/3/2026 19:58",
+		"setUp" : "mwo 7/3/2026 19:58",
+		"testAddExclusionAppliesGroupsToChoice" : "mwo 7/3/2026 19:58",
+		"testAddExclusionRejectsEmptyGroupSelection" : "mwo 7/3/2026 19:58",
+		"testAddExclusionRejectsMissingUserSet" : "mwo 7/3/2026 19:58",
+		"testPickChoiceRejectsEmptyChoiceList" : "mwo 7/3/2026 19:58",
+		"testPickChoiceRejectsMissingBuilder" : "mwo 7/3/2026 19:58",
+		"testPickChoiceReturnsChosenChoice" : "mwo 7/3/2026 19:58",
+		"testPickGroupsCollectsUntilDone" : "mwo 7/3/2026 19:58",
+		"testPickGroupsReturnsEmptyWhenDoneImmediately" : "mwo 7/3/2026 19:58",
+		"userSet" : "mwo 7/3/2026 19:58",
+		"userSet:" : "mwo 7/3/2026 19:58",
+		"userWithGroup:" : "mwo 7/3/2026 19:58" } }

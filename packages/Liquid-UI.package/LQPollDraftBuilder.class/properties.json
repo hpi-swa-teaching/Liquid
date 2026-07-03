@@ -8,13 +8,7 @@
 	"instvars" : [
 		"pollDraft",
 		"questionBuilders",
-		"currentQuestion",
-		"deadlineDay",
-		"deadlineMonth",
-		"deadlineYear",
-		"deadlineHour",
-		"deadlineMinute",
-		"deadlineSelection" ],
+		"currentQuestion" ],
 	"name" : "LQPollDraftBuilder",
 	"pools" : [
 		 ],

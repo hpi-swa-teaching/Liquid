@@ -1,0 +1,19 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"day",
+		"month",
+		"year",
+		"hour",
+		"minute",
+		"pollDraft" ],
+	"name" : "LQDeadlineMenu",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"builder" : "mwo 6/23/2026 12:55",
+		"builder:" : "mwo 6/23/2026 12:55",
+		"deadlineMenu" : "mwo 6/23/2026 12:55",
+		"deadlineMenu:" : "mwo 6/23/2026 12:55",
+		"setUp" : "mwo 6/23/2026 12:55",
+		"testBuildWithReturnsWindow" : "mwo 6/23/2026 12:59",
+		"testClearDeadlineRemovesDeadline" : "mwo 6/23/2026 12:58",
+		"testConfirmWritesDeadlineForFutureDate" : "mwo 6/23/2026 12:57",
+		"testIncompleteSelectionProducesNoDeadline" : "mwo 6/23/2026 12:57",
+		"testNewWithPollDraftOpensMenu" : "mwo 7/3/2026 20:01",
+		"testParsedValuesMapsIndicesToValues" : "mwo 6/23/2026 12:57",
+		"testPastSelectionIsRecognizedAsPast" : "mwo 6/23/2026 12:57",
+		"testReopeningRestoresPreviousSelection" : "mwo 6/23/2026 12:58",
+		"testReopeningWithoutDeadlineStaysEmpty" : "mwo 6/23/2026 12:59",
+		"testToolbuilderMethodsReturnSpecs" : "mwo 6/23/2026 12:59",
+		"testValidSelectionProducesDateAndTime" : "mwo 6/23/2026 12:56" } }

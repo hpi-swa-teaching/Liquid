@@ -20,12 +20,8 @@ buildWith: builder
         self saveDraftButtonFrame -> [self buildSaveDraftButtonWith: builder].
         self addConditionButtonFrame -> [self buildAddConditionButtonWith: builder].
         self removeConditionButtonFrame -> [self buildRemoveConditionButtonWith: builder].
-        self deadlineDayFrame -> [self buildDeadlineDayWith: builder].
-        self deadlineMonthFrame -> [self buildDeadlineMonthWith: builder].
-        self deadlineYearFrame -> [self buildDeadlineYearWith: builder].
-        self deadlineHourFrame -> [self buildDeadlineHourWith: builder].
-        self deadlineMinuteFrame -> [self buildDeadlineMinuteWith: builder].
-	self showConditionsButtonFrame -> [self buildShowConditionsButtonWith: builder].
+        self setDeadlineButtonFrame -> [self buildSetDeadlineButtonWith: builder].
+        self showConditionsButtonFrame -> [self buildShowConditionsButtonWith: builder].
         }.
     windowSpec label: 'Liquid - Create a Poll'.
     windowSpec extent: self extent.
