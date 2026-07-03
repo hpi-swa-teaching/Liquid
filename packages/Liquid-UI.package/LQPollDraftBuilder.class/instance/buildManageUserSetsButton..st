@@ -5,10 +5,5 @@ buildManageUserSetsButton: aBuilder
 		model: self;
 		label: 'Manage User Sets';
 		action: #openManageUserSetsMenu;
-		frame: (LayoutFrame new
-			topFraction: 0.85; 
-			leftFraction: 0; 
-			rightFraction: 0.25; 
-			bottomFraction: 0.925;
-    			yourself);
+		frame: self addManageUserSetsFrame;
 		yourself

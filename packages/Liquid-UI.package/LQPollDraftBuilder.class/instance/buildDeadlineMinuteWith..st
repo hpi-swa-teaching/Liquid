@@ -1,5 +1,6 @@
 toolbuilder
 buildDeadlineMinuteWith: aBuilder
+
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #deadlineMinuteList;
