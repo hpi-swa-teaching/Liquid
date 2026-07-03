@@ -14,7 +14,7 @@ buildAddChoiceButtonWith: aBuilder
 			leftFraction: 0;
 			rightFraction: 0.2;
 			topFraction: 0;
-			topOffset: topOffset;
+			topOffset: topOffset - self choiceFieldSpacing;
 			bottomFraction: 0;
 			bottomOffset: topOffset + self rowHeight;
 			yourself);
