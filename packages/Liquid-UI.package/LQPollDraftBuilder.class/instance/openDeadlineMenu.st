@@ -1,3 +1,3 @@
 toolbuilder
 openDeadlineMenu
-	LQDeadlineMenu newWithPollDraft: self pollDraft
+	^LQDeadlineMenu newWithPollDraft: self pollDraft
