@@ -1,4 +1,4 @@
 accessing
 correctChoiceLabelText
 
-	^ 'Correct answer (line number)'
+	^ 'Correct answer (line number):'

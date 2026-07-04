@@ -7,5 +7,5 @@ buildChoicesInputWith: aBuilder
 		editText: #choices:;
 		help: 'Each line is one answer option (up to four choices).';
 		indicateUnacceptedChanges: false;
-		frame: (LayoutFrame fractions: (0 @ 0.1 extent: 1 @ 0.6) offsets: (0 @ 0 extent: 0 @ 0));
+		frame: (LayoutFrame fractions: (0 @ 0.1 extent: 1 @ 0.7) offsets: (0 @ 0 extent: 0 @ 0));
 		yourself
