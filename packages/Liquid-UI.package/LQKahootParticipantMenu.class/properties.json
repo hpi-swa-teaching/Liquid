@@ -1,0 +1,22 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"quiz",
+		"currentQuestionIndex",
+		"selectedChoiceIndex",
+		"participantName",
+		"registered",
+		"hasSubmitted",
+		"isMuted",
+		"currentSound",
+		"pollingProcess" ],
+	"name" : "LQKahootParticipantMenu",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

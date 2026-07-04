@@ -9,4 +9,5 @@
 		"testAsStringWithTitle" : "bn 6/25/2022 20:48",
 		"testBuildEmptyChoicesAnswer" : "leli 7/11/2024 14:22",
 		"testType" : "FLST 7/12/2024 15:55",
+		"testWasEditedDefaultsToFalseWhenUninitialized" : "el 6/24/2026 12:00",
 		"testmaxCharacters" : "FLST 7/12/2024 15:55" } }

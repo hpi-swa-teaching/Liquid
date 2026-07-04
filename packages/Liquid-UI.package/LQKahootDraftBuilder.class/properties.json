@@ -1,0 +1,16 @@
+{
+	"category" : "Liquid-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"kahootQuiz",
+		"questionBuilders",
+		"currentQuestion" ],
+	"name" : "LQKahootDraftBuilder",
+	"pools" : [
+		 ],
+	"super" : "LQModel",
+	"type" : "normal" }

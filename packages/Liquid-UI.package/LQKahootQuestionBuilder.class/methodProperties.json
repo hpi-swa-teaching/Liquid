@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildChoicesInputWith:" : "JLBlk 7/4/2026 11:16",
+		"buildCorrectChoiceInputWith:" : "JLBlk 7/4/2026 11:06",
+		"buildCorrectChoiceLabelWith:" : "JLBlk 7/4/2026 11:06",
+		"buildTimeLimitInputWith:" : "JLBlk 7/4/2026 11:06",
+		"buildTimeLimitLabelWith:" : "JLBlk 7/4/2026 11:06",
+		"buildWith:" : "mm 5/26/2026 12:00",
+		"choiceDescriptions" : "mm 5/26/2026 12:00",
+		"choices:" : "mm 5/26/2026 12:00",
+		"correctChoiceIndexString" : "mm 5/26/2026 12:00",
+		"correctChoiceIndexString:" : "JLBlk 7/4/2026 12:15",
+		"correctChoiceLabelText" : "JLBlk 7/4/2026 11:03",
+		"orderedLinesFor:" : "mm 5/26/2026 12:00",
+		"timeLimitLabelText" : "mm 5/26/2026 12:00",
+		"timeLimitString" : "mm 5/26/2026 12:00",
+		"timeLimitString:" : "mm 5/26/2026 12:00" } }

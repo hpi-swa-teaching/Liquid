@@ -1,0 +1,4 @@
+accessing
+participantsTitleString
+
+	^ 'Joined Players'
