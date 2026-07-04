@@ -5,7 +5,7 @@ timeRemaining
 	self quiz ifNil: [^ ''].
 	self quiz currentQuestionStartTime ifNil: [^ ''].
 	self currentQuestion ifNil: [^ ''].
-	elapsed := Time millisecondClockValue - self quiz currentQuestionStartTime.
+	elapsed := Time totalSeconds - self quiz currentQuestionStartTime.
 	elapsed < 0 ifTrue: [elapsed := 0].
-	remaining := ((self currentQuestion timeLimit * 1000 - elapsed) max: 0) // 1000.
-	^ remaining asString , ' s'
+	remaining := (self currentQuestion timeLimit - elapsed) max: 0.
+	^ remaining asString, ' s'
