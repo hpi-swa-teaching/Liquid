@@ -7,6 +7,6 @@ done
 		stream nextPutAll: 'You have completed the Kahoot!'; cr; cr.
 		stream nextPutAll: 'Final standings:'; cr.
 		self leaderboard do: [:line | stream nextPutAll: line; cr]].
-	UIManager default inform: message.
 	self destroy.
+	UIManager default inform: message.
 	ToolBuilder open: LQStartMenu new

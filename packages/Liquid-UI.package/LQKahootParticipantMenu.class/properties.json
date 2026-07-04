@@ -13,7 +13,8 @@
 		"registered",
 		"hasSubmitted",
 		"isMuted",
-		"currentSound" ],
+		"currentSound",
+		"pollingProcess" ],
 	"name" : "LQKahootParticipantMenu",
 	"pools" : [
 		 ],

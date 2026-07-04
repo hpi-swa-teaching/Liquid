@@ -15,15 +15,14 @@ enterParticipantMode
 		UIManager default inform: 'Please enter a valid Poll ID'.
 		^ self].
 	(fetched isKindOf: LQKahootQuiz) ifTrue: [
-		name := UIManager default
-			request: 'Enter your name to join the Kahoot:'
-			initialAnswer: ''.
+		name := UIManager default request: 'Enter your name to join the Kahoot:' initialAnswer: ''.
 		name ifNil: [^ self].
 		participantMenu := LQKahootParticipantMenu new.
 		participantMenu quiz: fetched.
 		participantMenu participantName: name.
 		participantMenu registerParticipant.
 		ToolBuilder open: participantMenu.
+		participantMenu startPolling.
 		^ self destroy].
 	menu := LQParticipantMenu new.
 	(menu importPollWithId: pollId)
