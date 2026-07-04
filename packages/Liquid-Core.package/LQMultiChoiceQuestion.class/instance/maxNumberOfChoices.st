@@ -1,4 +1,4 @@
-accessing
+mocking
 maxNumberOfChoices
 
 	^ maxNumberOfChoices

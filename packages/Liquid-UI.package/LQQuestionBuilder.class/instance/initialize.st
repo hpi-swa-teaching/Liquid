@@ -1,4 +1,5 @@
-accessing
+initialize-release
 initialize
-    super initialize.
-    isInLiveEditMode := false
+
+	super initialize.
+	self isInLiveEditMode: false

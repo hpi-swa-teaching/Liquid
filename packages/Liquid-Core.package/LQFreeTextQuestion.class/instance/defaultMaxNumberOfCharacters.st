@@ -1,0 +1,4 @@
+accessing
+defaultMaxNumberOfCharacters
+
+	^ 100

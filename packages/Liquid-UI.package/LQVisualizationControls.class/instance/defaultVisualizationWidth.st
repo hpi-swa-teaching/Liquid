@@ -1,0 +1,4 @@
+accessing
+defaultVisualizationWidth
+
+	^ 400

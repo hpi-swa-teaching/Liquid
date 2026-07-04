@@ -1,4 +1,4 @@
-modifying
+accessing
 resetUI
 
 	self changed: #choiceDescriptions.

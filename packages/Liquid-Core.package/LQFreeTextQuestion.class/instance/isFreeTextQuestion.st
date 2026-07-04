@@ -1,4 +1,4 @@
-initialize-release
+initialize
 isFreeTextQuestion
 
 	^ true

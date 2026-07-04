@@ -1,4 +1,4 @@
-initialize-release
+removal
 destroy
 
 	self stopRefreshing.

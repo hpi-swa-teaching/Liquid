@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self id: UUID new asString.
-	self maxEditedSymbols: 20.
+	self maxEditedSymbols: self defaultMaxEditedSymbols.
 	self wasEdited: false

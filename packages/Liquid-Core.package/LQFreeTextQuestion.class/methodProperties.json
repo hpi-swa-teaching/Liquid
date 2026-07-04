@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"buildEmptyAnswer" : "FLST 7/11/2024 20:42",
+		"defaultMaxNumberOfCharacters" : "MZ 7/2/2026 14:15",
 		"initialize" : "leli 6/17/2024 14:04",
 		"isFreeTextQuestion" : "FLST 7/11/2024 20:42",
 		"maxNumberOfCharacters" : "leli 6/7/2024 11:54",

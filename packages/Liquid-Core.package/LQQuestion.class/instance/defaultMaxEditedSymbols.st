@@ -1,0 +1,4 @@
+accessing
+defaultMaxEditedSymbols
+
+	^ 20

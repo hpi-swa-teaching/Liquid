@@ -1,5 +1,5 @@
-initialize-release
+initialize
 initialize
 
 	super initialize.
-	self maxNumberOfCharacters: 100
+	self maxNumberOfCharacters: self defaultMaxNumberOfCharacters

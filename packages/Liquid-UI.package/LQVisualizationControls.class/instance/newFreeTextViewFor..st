@@ -16,8 +16,8 @@ newFreeTextViewFor: aQuestionIndex
 					wordCloud := visualizationView visualizeFreeTextResultsFor: question.
 					wordCloud position: 0 @ 0.
 					self wrapperMorph owner
-						ifNil: [wordCloud extent: 400 @ 300]
-						ifNotNil: [wordCloud extent: self wrapperMorph owner extent].
+						ifNil: [wordCloud extent: self defaultVisualizationWidth @ self defaultVisualizationHeight]
+						ifNotNil: [:owner | wordCloud extent: owner extent].
 					visualizationView updateWordCloud: wordCloud for: question.
 					self wrapperMorph submorphsDo: [:m | m delete].
 					self wrapperMorph addMorph: wordCloud]]
@@ -28,9 +28,4 @@ newFreeTextViewFor: aQuestionIndex
 					builder := ToolBuilder default.
 					textAnswers := builder build: (self buildTextAnswersWith: builder).
 					textAnswers setProperty: #isLiquidTextList toValue: true.
-					textAnswers position: 0 @ 0.
-					self wrapperMorph owner
-						ifNil: [textAnswers extent: 400 @ 300]
-						ifNotNil: [textAnswers extent: self wrapperMorph owner extent].
-					self wrapperMorph submorphsDo: [:m | m delete].
-					self wrapperMorph addMorph: textAnswers]]
+					self replaceWrapperContentsWith: textAnswers]]

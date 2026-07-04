@@ -1,0 +1,4 @@
+accessing
+defaultVisualizationHeight
+
+	^ 300
