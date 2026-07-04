@@ -1,6 +1,12 @@
 misc
 testNoExcessiveNumberOfMethods
 
-	self assertAllZero: (self
-		lint: #smallLintExcessiveMethods
-		except: {self class. LQParticipantMenuTests. LQAuthenticationTests. LQPollDraftBuilder. LQMultiChoiceQuestionBuilder. LQHostMenu})
+	self assertAllZero: (self lint: #smallLintExcessiveMethods except: {
+		self class.
+		LQParticipantMenuTests.
+		LQAuthenticationTests.
+		LQPollDraftBuilder.
+		LQMultiChoiceQuestionBuilder.
+		LQHostMenu.
+		LQKahootParticipantMenu.
+		LQKahootDraftBuilder})
