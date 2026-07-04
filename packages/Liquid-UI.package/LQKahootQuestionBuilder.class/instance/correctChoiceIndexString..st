@@ -4,5 +4,4 @@ correctChoiceIndexString: aString
 	| index |
 	index := aString asString asInteger.
 	index ifNil: [^ self].
-	(self question choices includesIndex: index)
-		ifTrue: [self question correctChoiceIndex: index]
+	(index between: 1 and: self question choices size) ifTrue: [self question correctChoiceIndex: index]
