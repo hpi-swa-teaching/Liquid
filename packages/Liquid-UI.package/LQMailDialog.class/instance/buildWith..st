@@ -3,7 +3,7 @@ buildWith: aBuilder
 
 	^ aBuilder build: (aBuilder pluggableWindowSpec new
 		model: self;
-		label: 'Liquid - User Sets';
+		label: (self isResultMail ifTrue: ['Liquid - Send Results'] ifFalse: ['Liquid - User Sets']);
 		extent: self extent;
 		children: {
 			self buildMailTextInputWith: aBuilder.

@@ -10,7 +10,8 @@
 		"mailSender",
 		"mailSubject",
 		"rawMailText",
-		"progressBar" ],
+		"progressBar",
+		"isResultMail" ],
 	"name" : "LQMailDialog",
 	"pools" : [
 		 ],

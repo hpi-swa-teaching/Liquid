@@ -1,4 +1,4 @@
-accessing
+accessing - visualization
 addAnswer: anAnswer toGroups: aCollection
 
 	| group |

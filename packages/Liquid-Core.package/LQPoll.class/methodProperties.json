@@ -3,6 +3,7 @@
 		"newWithPollDraft:" : "CG 7/30/2021 19:06",
 		"pathToExport" : "FLST 7/11/2024 20:42" },
 	"instance" : {
+		"addAnswer:toGroups:" : "EvG 6/16/2026 13:21",
 		"addAnswerSet:" : "Leander Steffan 5/23/2026 12:38",
 		"answerSets" : "JS 5/25/2021 15:32",
 		"answerSets:" : "JT 8/2/2022 17:07",
@@ -14,6 +15,7 @@
 		"getChoiceIdentifiersFor:" : "kge 5/15/2022 13:02",
 		"getChoiceNamesFor:" : "kge 5/15/2022 13:02",
 		"getVotedChoicesPerChoiceFor:" : "kge 8/3/2022 22:04",
+		"groupAnswersFor:" : "EvG 6/16/2026 13:21",
 		"guard" : "JT 8/2/2022 17:09",
 		"guard:" : "JT 8/2/2022 17:09",
 		"id" : "JS 5/25/2021 15:27",
@@ -21,7 +23,7 @@
 		"initialize" : "kge 8/1/2022 19:03",
 		"isOpen" : "CG 7/30/2021 19:06",
 		"isOpen:" : "JT 8/2/2022 17:10",
-		"mailMapping" : "FLST 7/11/2024 20:42",
+		"mailMapping" : "EvG 6/16/2026 13:21",
 		"myUserGroupWithToken:" : "FLST 7/11/2024 20:42",
 		"myUserSet" : "FLST 7/11/2024 20:42",
 		"myUserWithToken:" : "kge 8/3/2022 20:51",
@@ -31,6 +33,7 @@
 		"printDataOn:withDelimiter:" : "FLST 7/11/2024 20:42",
 		"questionList" : "kge 8/3/2022 20:48",
 		"requiresAuthentication" : "kge 6/25/2022 16:46",
+		"resultsSummary" : "EvG 6/16/2026 13:21",
 		"returnDataWithDelimiter:" : "FLST 7/11/2024 20:42",
 		"sanitized" : "FLST 7/11/2024 20:42",
 		"startTime" : "JS 5/25/2021 15:55",
@@ -39,4 +42,6 @@
 		"startWithId:ifTaken:" : "CG 7/30/2021 19:06",
 		"userEntries" : "kge 8/3/2022 20:48",
 		"userSetID" : "ms 6/19/2022 21:00",
-		"userSetID:" : "JT 8/2/2022 18:11" } }
+		"userSetID:" : "JT 8/2/2022 18:11",
+		"writeChoiceSummaryFor:on:" : "EvG 6/16/2026 13:21",
+		"writeFreeTextSummaryFor:on:" : "EvG 6/16/2026 13:21" } }

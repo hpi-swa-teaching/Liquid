@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createPollWithMultiChoiceQuestion" : "EvG 6/16/2026 15:31",
+		"testMailMappingIncludesResults" : "EvG 6/16/2026 15:31",
+		"testResultsSummaryForMultiChoiceQuestion" : "EvG 6/16/2026 15:31",
+		"testResultsSummaryWithNoAnswers" : "EvG 6/16/2026 15:31" } }
